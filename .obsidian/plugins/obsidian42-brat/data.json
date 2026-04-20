@@ -1,0 +1,24 @@
+{
+  "pluginList": [
+    "liuyixin-louis/obsidian-vault-agent"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "liuyixin-louis/obsidian-vault-agent",
+      "version": ""
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}

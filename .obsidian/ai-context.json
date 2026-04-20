@@ -1,0 +1,40 @@
+{
+	"activeHeadingPath": [
+		"Active Work",
+		"Research Notes"
+	],
+	"cursorCh": 3,
+	"cursorLine": 15,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\templates\\dashboard.md.md",
+	"activeFileVaultPath": "templates/dashboard.md.md",
+	"activeFolderBreadcrumb": [
+		{
+			"name": "",
+			"vaultPath": "/"
+		},
+		{
+			"name": "templates",
+			"vaultPath": "templates"
+		}
+	],
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\templates",
+	"activeFolderTree": {
+		"limits": {
+			"maxDepth": 2,
+			"maxNodes": 200
+		},
+		"truncated": false,
+		"name": "templates",
+		"type": "folder",
+		"vaultPath": "templates",
+		"children": [
+			{
+				"name": "Untitled.md",
+				"type": "file",
+				"vaultPath": "templates/Untitled.md"
+			}
+		]
+	},
+	"activeFolderVaultPath": "templates",
+	"updatedAt": "2026-04-20T23:49:39.888Z"
+}
