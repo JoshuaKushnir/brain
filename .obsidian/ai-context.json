@@ -1,10 +1,7 @@
 {
-	"activeHeadingPath": [
-		"Active Work",
-		"Research Notes"
-	],
-	"cursorCh": 3,
-	"cursorLine": 15,
+	"activeHeadingPath": null,
+	"cursorCh": null,
+	"cursorLine": null,
 	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\templates\\dashboard.md.md",
 	"activeFileVaultPath": "templates/dashboard.md.md",
 	"activeFolderBreadcrumb": [
@@ -36,5 +33,5 @@
 		]
 	},
 	"activeFolderVaultPath": "templates",
-	"updatedAt": "2026-04-21T00:09:37.164Z"
+	"updatedAt": "2026-04-21T00:19:37.165Z"
 }
