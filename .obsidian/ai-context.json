@@ -1,9 +1,7 @@
 {
-	"activeHeadingPath": [
-		"Architecture - ORBO Trading Bot"
-	],
-	"cursorCh": 0,
-	"cursorLine": 0,
+	"activeHeadingPath": null,
+	"cursorCh": null,
+	"cursorLine": null,
 	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\architecture.md",
 	"activeFileVaultPath": "orbo-trading-bot/architecture.md",
 	"activeFolderBreadcrumb": [
@@ -74,5 +72,5 @@
 		]
 	},
 	"activeFolderVaultPath": "orbo-trading-bot",
-	"updatedAt": "2026-04-21T18:37:40.398Z"
+	"updatedAt": "2026-04-21T19:00:03.138Z"
 }
