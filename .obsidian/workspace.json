@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "orbo-trading-bot/decisions.md",
+                "file": "orbo-trading-bot/dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "decisions"
+              "title": "dashboard"
             }
           }
         ]
@@ -200,13 +200,13 @@
       "terminal-ai:Open terminal": false
     }
   },
-  "active": "4cd957c1c6593dce",
+  "active": "a17f9191dc5a49ee",
   "lastOpenFiles": [
-    "orbo-trading-bot/dashboard.md",
     "orbo-trading-bot/architecture.md",
     "orbo-trading-bot/session-logs/latest.md",
-    "orbo-trading-bot/decisions/daily-ema-trend-filter.md",
     "orbo-trading-bot/decisions.md",
+    "orbo-trading-bot/dashboard.md",
+    "orbo-trading-bot/decisions/daily-ema-trend-filter.md",
     "orbo-trading-bot/decisions/multi-strategy-pipeline.md",
     "orbo-trading-bot/decisions",
     "templates/decision.md.md",
