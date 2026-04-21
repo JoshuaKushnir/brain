@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f988b6bd5ead827c",
+        "id": "23f2ee946437727f",
         "type": "tabs",
         "children": [
           {
-            "id": "ead26d1a81fd38ee",
+            "id": "d43a48efb3904e95",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -206,11 +206,11 @@
       "terminal-ai:Open terminal": false
     }
   },
-  "active": "ead26d1a81fd38ee",
+  "active": "d43a48efb3904e95",
   "lastOpenFiles": [
+    "orbo-trading-bot/session-logs/latest.md",
     "orbo-trading-bot/architecture.md",
     "Untitled.base",
-    "orbo-trading-bot/session-logs/latest.md",
     "orbo-trading-bot/dashboard.md",
     "orbo-trading-bot/decisions.md",
     "orbo-trading-bot/decisions/daily-ema-trend-filter.md",

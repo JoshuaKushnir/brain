@@ -32,3 +32,7 @@ Debt introduced: none
 ## [2026-04-20] — [IWM-Paper-Start] — Started IWM paper trading session.
 Files touched: config.py
 Debt introduced: none
+
+## [2026-04-20] — [Extended-Hours] — Enabled 24/5 trading support with limit orders and expanded scheduler.
+Files touched: config.py, broker/alpaca_client.py, main.py
+Debt introduced: Limit orders use entry_price which may cause partial fills/slippage in thin extended markets.
