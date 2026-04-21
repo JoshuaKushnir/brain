@@ -202,8 +202,9 @@
   },
   "active": "a17f9191dc5a49ee",
   "lastOpenFiles": [
-    "templates/session-log.md.md",
+    "orbo-trading-bot/session-logs",
     "templates/dashboard.md.md",
+    "templates/session-log.md.md",
     "templates/decision.md.md",
     "AI Testing Context.md",
     "templates",
