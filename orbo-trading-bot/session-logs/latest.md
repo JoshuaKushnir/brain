@@ -28,3 +28,7 @@ project: orbo-trading-bot
 ## [2026-04-20] — [ORBO-Tune] — Relaxed signal gate, tuned filters for SPY/QQQ, and added walk-forward backtesting.
 Files touched: config.py, strategy/orbo.py, backtest/orbo_backtest.py
 Debt introduced: none
+
+## [2026-04-20] — [IWM-Paper-Start] — Started IWM paper trading session.
+Files touched: config.py
+Debt introduced: none
