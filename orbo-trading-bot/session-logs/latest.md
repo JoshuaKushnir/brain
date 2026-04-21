@@ -1,7 +1,12 @@
-# Session Logs - ORBO Trading Bot
+---
+date: 2026-04-20
+project: orbo-trading-bot
+---
+## Session — 2026-04-20 20:54
 
-## 2026-04-20 — Refactor and Multi-Strategy Pipeline — Integrated multi-strategy pipeline (ORBO, Pullback, VWAP, PowerHour) into the new TradingEngine architecture and hardened risk logic.
-Files touched: 
+**Issue worked:** #multi-strategy-refactor
+**Status:** complete
+**Files touched:**
 - config.py
 - strategy/orbo.py
 - strategy/orbo_pullback.py
@@ -13,6 +18,9 @@ Files touched:
 - engine/strategy_adapter.py
 - backtest/orbo_backtest.py
 - backtest/multi_strategy_backtest.py
-Debt introduced: 
-- StrategyAdapter transition layer is currently required to bridge evaluate() to generate_order().
-- Pullback strategy stop logic is currently a fixed offset rather than ATR-based (intentional for tight structure).
+**Debt introduced:** 
+- StrategyAdapter transition layer remains as a bridge.
+- Pullback strategy stop logic is fixed-offset rather than ATR-based.
+**Next session should:**
+- Verify strategy pipeline stability in live paper trading.
+- Port strategies to implement IStrategy directly to remove the adapter layer.
