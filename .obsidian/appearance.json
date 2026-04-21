@@ -1,5 +1,6 @@
 {
   "cssTheme": "Primary",
   "accentColor": "",
-  "showRibbon": true
+  "showRibbon": true,
+  "theme": "obsidian"
 }

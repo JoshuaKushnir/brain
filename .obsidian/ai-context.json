@@ -1,26 +1,78 @@
 {
-	"activeHeadingPath": null,
-	"cursorCh": null,
-	"cursorLine": null,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\Untitled.base",
-	"activeFileVaultPath": "Untitled.base",
+	"activeHeadingPath": [
+		"Architecture - ORBO Trading Bot"
+	],
+	"cursorCh": 0,
+	"cursorLine": 0,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\architecture.md",
+	"activeFileVaultPath": "orbo-trading-bot/architecture.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
 			"vaultPath": "/"
+		},
+		{
+			"name": "orbo-trading-bot",
+			"vaultPath": "orbo-trading-bot"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "",
+		"name": "orbo-trading-bot",
 		"type": "folder",
-		"vaultPath": "/"
+		"vaultPath": "orbo-trading-bot",
+		"children": [
+			{
+				"name": "session-logs",
+				"type": "folder",
+				"vaultPath": "orbo-trading-bot/session-logs",
+				"children": [
+					{
+						"name": "latest.md",
+						"type": "file",
+						"vaultPath": "orbo-trading-bot/session-logs/latest.md"
+					}
+				]
+			},
+			{
+				"name": "architecture.md",
+				"type": "file",
+				"vaultPath": "orbo-trading-bot/architecture.md"
+			},
+			{
+				"name": "decisions.md",
+				"type": "file",
+				"vaultPath": "orbo-trading-bot/decisions.md"
+			},
+			{
+				"name": "decisions",
+				"type": "folder",
+				"vaultPath": "orbo-trading-bot/decisions",
+				"children": [
+					{
+						"name": "multi-strategy-pipeline.md",
+						"type": "file",
+						"vaultPath": "orbo-trading-bot/decisions/multi-strategy-pipeline.md"
+					},
+					{
+						"name": "daily-ema-trend-filter.md",
+						"type": "file",
+						"vaultPath": "orbo-trading-bot/decisions/daily-ema-trend-filter.md"
+					}
+				]
+			},
+			{
+				"name": "dashboard.md",
+				"type": "file",
+				"vaultPath": "orbo-trading-bot/dashboard.md"
+			}
+		]
 	},
-	"activeFolderVaultPath": "/",
-	"updatedAt": "2026-04-21T02:31:05.885Z"
+	"activeFolderVaultPath": "orbo-trading-bot",
+	"updatedAt": "2026-04-21T02:33:58.894Z"
 }
