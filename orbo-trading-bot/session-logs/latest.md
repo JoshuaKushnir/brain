@@ -24,3 +24,7 @@ project: orbo-trading-bot
 **Next session should:**
 - Verify strategy pipeline stability in live paper trading.
 - Port strategies to implement IStrategy directly to remove the adapter layer.
+
+## [2026-04-20] — [ORBO-Tune] — Relaxed signal gate, tuned filters for SPY/QQQ, and added walk-forward backtesting.
+Files touched: config.py, strategy/orbo.py, backtest/orbo_backtest.py
+Debt introduced: none
