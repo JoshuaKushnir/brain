@@ -1,11 +1,11 @@
 {
 	"activeHeadingPath": [
 		"Architecture - ORBO Trading Bot",
-		"Strategy-Agnostic Engine (v4)",
+		"Strategy-Acoupled architecture where the `TradingEngine` coordinates between a `MarketDataFeed`, `RiskManager`, and multiple `IStrategy` implementations via a `StrategyAdapter`.",
 		"Components"
 	],
-	"cursorCh": 0,
-	"cursorLine": 10,
+	"cursorCh": 81,
+	"cursorLine": 8,
 	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\architecture.md",
 	"activeFileVaultPath": "orbo-trading-bot/architecture.md",
 	"activeFolderBreadcrumb": [
@@ -88,5 +88,5 @@
 		]
 	},
 	"activeFolderVaultPath": "orbo-trading-bot",
-	"updatedAt": "2026-04-22T15:13:34.736Z"
+	"updatedAt": "2026-04-22T15:27:30.731Z"
 }

@@ -1,7 +1,6 @@
 # Architecture - ORBO Trading Bot
 
-## Strategy-Agnostic Engine (v4)
-The bot uses a decoupled architecture where the `TradingEngine` coordinates between a `MarketDataFeed`, `RiskManager`, and multiple `IStrategy` implementations via a `StrategyAdapter`.
+## Strategy-Acoupled architecture where the `TradingEngine` coordinates between a `MarketDataFeed`, `RiskManager`, and multiple `IStrategy` implementations via a `StrategyAdapter`.
 
 ### Components
 - **TradingEngine**: Core loop and pipeline coordinator.
