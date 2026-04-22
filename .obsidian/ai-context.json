@@ -1,7 +1,11 @@
 {
-	"activeHeadingPath": null,
-	"cursorCh": null,
-	"cursorLine": null,
+	"activeHeadingPath": [
+		"Architecture - ORBO Trading Bot",
+		"Strategy-Agnostic Engine (v4)",
+		"Components"
+	],
+	"cursorCh": 0,
+	"cursorLine": 10,
 	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\architecture.md",
 	"activeFileVaultPath": "orbo-trading-bot/architecture.md",
 	"activeFolderBreadcrumb": [
@@ -68,9 +72,21 @@
 				"name": "dashboard.md",
 				"type": "file",
 				"vaultPath": "orbo-trading-bot/dashboard.md"
+			},
+			{
+				"name": "research",
+				"type": "folder",
+				"vaultPath": "orbo-trading-bot/research",
+				"children": [
+					{
+						"name": "IWM Day Trading  Strategies to Boost Win Rate & Trade Frequency.md",
+						"type": "file",
+						"vaultPath": "orbo-trading-bot/research/IWM Day Trading  Strategies to Boost Win Rate & Trade Frequency.md"
+					}
+				]
 			}
 		]
 	},
 	"activeFolderVaultPath": "orbo-trading-bot",
-	"updatedAt": "2026-04-22T15:07:08.734Z"
+	"updatedAt": "2026-04-22T15:13:34.736Z"
 }
