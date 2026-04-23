@@ -1,13 +1,11 @@
 {
 	"activeHeadingPath": [
-		"Architecture - ORBO Trading Bot",
-		"Strategy-Acoupled architecture where the `TradingEngine` coordinates between a `MarketDataFeed`, `RiskManager`, and multiple `IStrategy` implementations via a `StrategyAdapter`.",
-		"Components"
+		"Session — 2026-04-20 20:54"
 	],
 	"cursorCh": 0,
-	"cursorLine": 9,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\architecture.md",
-	"activeFileVaultPath": "orbo-trading-bot/architecture.md",
+	"cursorLine": 4,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\session-logs\\latest.md",
+	"activeFileVaultPath": "orbo-trading-bot/session-logs/latest.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
@@ -16,77 +14,30 @@
 		{
 			"name": "orbo-trading-bot",
 			"vaultPath": "orbo-trading-bot"
+		},
+		{
+			"name": "session-logs",
+			"vaultPath": "orbo-trading-bot/session-logs"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\session-logs",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "orbo-trading-bot",
+		"name": "session-logs",
 		"type": "folder",
-		"vaultPath": "orbo-trading-bot",
+		"vaultPath": "orbo-trading-bot/session-logs",
 		"children": [
 			{
-				"name": "session-logs",
-				"type": "folder",
-				"vaultPath": "orbo-trading-bot/session-logs",
-				"children": [
-					{
-						"name": "latest.md",
-						"type": "file",
-						"vaultPath": "orbo-trading-bot/session-logs/latest.md"
-					}
-				]
-			},
-			{
-				"name": "architecture.md",
+				"name": "latest.md",
 				"type": "file",
-				"vaultPath": "orbo-trading-bot/architecture.md"
-			},
-			{
-				"name": "decisions.md",
-				"type": "file",
-				"vaultPath": "orbo-trading-bot/decisions.md"
-			},
-			{
-				"name": "decisions",
-				"type": "folder",
-				"vaultPath": "orbo-trading-bot/decisions",
-				"children": [
-					{
-						"name": "multi-strategy-pipeline.md",
-						"type": "file",
-						"vaultPath": "orbo-trading-bot/decisions/multi-strategy-pipeline.md"
-					},
-					{
-						"name": "daily-ema-trend-filter.md",
-						"type": "file",
-						"vaultPath": "orbo-trading-bot/decisions/daily-ema-trend-filter.md"
-					}
-				]
-			},
-			{
-				"name": "dashboard.md",
-				"type": "file",
-				"vaultPath": "orbo-trading-bot/dashboard.md"
-			},
-			{
-				"name": "research",
-				"type": "folder",
-				"vaultPath": "orbo-trading-bot/research",
-				"children": [
-					{
-						"name": "IWM Day Trading  Strategies to Boost Win Rate & Trade Frequency.md",
-						"type": "file",
-						"vaultPath": "orbo-trading-bot/research/IWM Day Trading  Strategies to Boost Win Rate & Trade Frequency.md"
-					}
-				]
+				"vaultPath": "orbo-trading-bot/session-logs/latest.md"
 			}
 		]
 	},
-	"activeFolderVaultPath": "orbo-trading-bot",
-	"updatedAt": "2026-04-23T17:52:52.731Z"
+	"activeFolderVaultPath": "orbo-trading-bot/session-logs",
+	"updatedAt": "2026-04-23T18:03:17.739Z"
 }
