@@ -1,26 +1,37 @@
 {
-	"activeHeadingPath": [],
-	"cursorCh": 0,
-	"cursorLine": 5,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\YouTubeContent Ideas — 2026-04-24.md",
-	"activeFileVaultPath": "YouTubeContent Ideas — 2026-04-24.md",
+	"activeHeadingPath": null,
+	"cursorCh": null,
+	"cursorLine": null,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\Youtube\\YouTubeContent Ideas — 2026-04-24.md",
+	"activeFileVaultPath": "Youtube/YouTubeContent Ideas — 2026-04-24.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
 			"vaultPath": "/"
+		},
+		{
+			"name": "Youtube",
+			"vaultPath": "Youtube"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\Youtube",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "",
+		"name": "Youtube",
 		"type": "folder",
-		"vaultPath": "/"
+		"vaultPath": "Youtube",
+		"children": [
+			{
+				"name": "YouTubeContent Ideas — 2026-04-24.md",
+				"type": "file",
+				"vaultPath": "Youtube/YouTubeContent Ideas — 2026-04-24.md"
+			}
+		]
 	},
-	"activeFolderVaultPath": "/",
-	"updatedAt": "2026-04-24T22:23:50.731Z"
+	"activeFolderVaultPath": "Youtube",
+	"updatedAt": "2026-04-24T22:34:01.731Z"
 }
