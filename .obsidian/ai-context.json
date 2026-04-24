@@ -1,43 +1,49 @@
 {
 	"activeHeadingPath": [
-		"Session — 2026-04-20 20:54"
+		"Session — <% tp.date.now(\"YYYY-MM-DD HH:mm\") %>"
 	],
 	"cursorCh": 0,
 	"cursorLine": 4,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\session-logs\\latest.md",
-	"activeFileVaultPath": "orbo-trading-bot/session-logs/latest.md",
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\templates\\session-log.md.md",
+	"activeFileVaultPath": "templates/session-log.md.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
 			"vaultPath": "/"
 		},
 		{
-			"name": "orbo-trading-bot",
-			"vaultPath": "orbo-trading-bot"
-		},
-		{
-			"name": "session-logs",
-			"vaultPath": "orbo-trading-bot/session-logs"
+			"name": "templates",
+			"vaultPath": "templates"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\orbo-trading-bot\\session-logs",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\templates",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "session-logs",
+		"name": "templates",
 		"type": "folder",
-		"vaultPath": "orbo-trading-bot/session-logs",
+		"vaultPath": "templates",
 		"children": [
 			{
-				"name": "latest.md",
+				"name": "session-log.md.md",
 				"type": "file",
-				"vaultPath": "orbo-trading-bot/session-logs/latest.md"
+				"vaultPath": "templates/session-log.md.md"
+			},
+			{
+				"name": "decision.md.md",
+				"type": "file",
+				"vaultPath": "templates/decision.md.md"
+			},
+			{
+				"name": "dashboard.md.md",
+				"type": "file",
+				"vaultPath": "templates/dashboard.md.md"
 			}
 		]
 	},
-	"activeFolderVaultPath": "orbo-trading-bot/session-logs",
-	"updatedAt": "2026-04-24T20:30:37.014Z"
+	"activeFolderVaultPath": "templates",
+	"updatedAt": "2026-04-24T20:41:38.737Z"
 }
