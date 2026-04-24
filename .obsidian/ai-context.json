@@ -1,49 +1,26 @@
 {
-	"activeHeadingPath": [
-		"Session — <% tp.date.now(\"YYYY-MM-DD HH:mm\") %>"
-	],
+	"activeHeadingPath": [],
 	"cursorCh": 0,
-	"cursorLine": 4,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\templates\\session-log.md.md",
-	"activeFileVaultPath": "templates/session-log.md.md",
+	"cursorLine": 5,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\YouTubeContent Ideas — 2026-04-24.md",
+	"activeFileVaultPath": "YouTubeContent Ideas — 2026-04-24.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
 			"vaultPath": "/"
-		},
-		{
-			"name": "templates",
-			"vaultPath": "templates"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\templates",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "templates",
+		"name": "",
 		"type": "folder",
-		"vaultPath": "templates",
-		"children": [
-			{
-				"name": "session-log.md.md",
-				"type": "file",
-				"vaultPath": "templates/session-log.md.md"
-			},
-			{
-				"name": "decision.md.md",
-				"type": "file",
-				"vaultPath": "templates/decision.md.md"
-			},
-			{
-				"name": "dashboard.md.md",
-				"type": "file",
-				"vaultPath": "templates/dashboard.md.md"
-			}
-		]
+		"vaultPath": "/"
 	},
-	"activeFolderVaultPath": "templates",
-	"updatedAt": "2026-04-24T22:03:26.730Z"
+	"activeFolderVaultPath": "/",
+	"updatedAt": "2026-04-24T22:13:39.733Z"
 }
