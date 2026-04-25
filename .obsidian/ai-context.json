@@ -1,7 +1,7 @@
 {
-	"activeHeadingPath": null,
-	"cursorCh": null,
-	"cursorLine": null,
+	"activeHeadingPath": [],
+	"cursorCh": 0,
+	"cursorLine": 5,
 	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\Youtube\\YouTubeContent Ideas — 2026-04-24.md",
 	"activeFileVaultPath": "Youtube/YouTubeContent Ideas — 2026-04-24.md",
 	"activeFolderBreadcrumb": [
@@ -29,9 +29,19 @@
 				"name": "YouTubeContent Ideas — 2026-04-24.md",
 				"type": "file",
 				"vaultPath": "Youtube/YouTubeContent Ideas — 2026-04-24.md"
+			},
+			{
+				"name": "YouTubeChannel Analytics — 2026-04-24.md",
+				"type": "file",
+				"vaultPath": "Youtube/YouTubeChannel Analytics — 2026-04-24.md"
+			},
+			{
+				"name": "Channel Analytics — 2026-04-24.md",
+				"type": "file",
+				"vaultPath": "Youtube/Channel Analytics — 2026-04-24.md"
 			}
 		]
 	},
 	"activeFolderVaultPath": "Youtube",
-	"updatedAt": "2026-04-25T00:36:37.012Z"
+	"updatedAt": "2026-04-25T00:47:10.733Z"
 }
