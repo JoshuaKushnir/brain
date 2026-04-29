@@ -26,9 +26,9 @@
 		"vaultPath": "Youtube",
 		"children": [
 			{
-				"name": "YouTubeContent Ideas — 2026-04-24.md",
+				"name": "Channel Analytics — 2026-04-24.md",
 				"type": "file",
-				"vaultPath": "Youtube/YouTubeContent Ideas — 2026-04-24.md"
+				"vaultPath": "Youtube/Channel Analytics — 2026-04-24.md"
 			},
 			{
 				"name": "YouTubeChannel Analytics — 2026-04-24.md",
@@ -36,12 +36,12 @@
 				"vaultPath": "Youtube/YouTubeChannel Analytics — 2026-04-24.md"
 			},
 			{
-				"name": "Channel Analytics — 2026-04-24.md",
+				"name": "YouTubeContent Ideas — 2026-04-24.md",
 				"type": "file",
-				"vaultPath": "Youtube/Channel Analytics — 2026-04-24.md"
+				"vaultPath": "Youtube/YouTubeContent Ideas — 2026-04-24.md"
 			}
 		]
 	},
 	"activeFolderVaultPath": "Youtube",
-	"updatedAt": "2026-04-26T23:41:37.018Z"
+	"updatedAt": "2026-04-29T16:24:28.483Z"
 }
