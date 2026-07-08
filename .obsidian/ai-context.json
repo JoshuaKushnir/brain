@@ -1,26 +1,55 @@
 {
 	"activeHeadingPath": [],
 	"cursorCh": 0,
-	"cursorLine": 7,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\Home.md",
-	"activeFileVaultPath": "Home.md",
+	"cursorLine": 10,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\30-projects\\orbo-trading-bot\\decisions\\daily-ema-trend-filter.md",
+	"activeFileVaultPath": "30-projects/orbo-trading-bot/decisions/daily-ema-trend-filter.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
 			"vaultPath": "/"
+		},
+		{
+			"name": "30-projects",
+			"vaultPath": "30-projects"
+		},
+		{
+			"name": "orbo-trading-bot",
+			"vaultPath": "30-projects/orbo-trading-bot"
+		},
+		{
+			"name": "decisions",
+			"vaultPath": "30-projects/orbo-trading-bot/decisions"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\30-projects\\orbo-trading-bot\\decisions",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "",
+		"name": "decisions",
 		"type": "folder",
-		"vaultPath": "/"
+		"vaultPath": "30-projects/orbo-trading-bot/decisions",
+		"children": [
+			{
+				"name": ".md",
+				"type": "file",
+				"vaultPath": "30-projects/orbo-trading-bot/decisions/.md"
+			},
+			{
+				"name": "daily-ema-trend-filter.md",
+				"type": "file",
+				"vaultPath": "30-projects/orbo-trading-bot/decisions/daily-ema-trend-filter.md"
+			},
+			{
+				"name": "multi-strategy-pipeline.md",
+				"type": "file",
+				"vaultPath": "30-projects/orbo-trading-bot/decisions/multi-strategy-pipeline.md"
+			}
+		]
 	},
-	"activeFolderVaultPath": "/",
-	"updatedAt": "2026-07-08T16:14:57.166Z"
+	"activeFolderVaultPath": "30-projects/orbo-trading-bot/decisions",
+	"updatedAt": "2026-07-08T16:16:45.138Z"
 }
