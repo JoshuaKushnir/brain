@@ -246,6 +246,16 @@
   },
   "active": "8081de26c3f04935",
   "lastOpenFiles": [
+    "templates/channel-analytics.md",
+    "templates/youtube-content.md",
+    "templates/session-log.md",
+    "templates/decision.md",
+    "templates/note.md",
+    "90-assets",
+    "40-youtube",
+    "30-projects",
+    "20-mocs",
+    "00-inbox",
     "Youtube/YouTubeContent Ideas — 2026-04-24.md",
     "Youtube/Channel Analytics — 2026-04-24.md",
     "orbo-trading-bot/decisions/daily-ema-trend-filter.md",
@@ -264,11 +274,7 @@
     "orbo-trading-bot/decisions",
     "templates/decision.md.md",
     "templates/dashboard.md.md",
-    "orbo-trading-bot/session-logs",
     "AI Testing Context.md",
-    "templates",
-    "orbo-trading-bot",
-    "Nightfall",
     "README.md",
     "Welcome.md"
   ]
