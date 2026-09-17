@@ -1,11 +1,11 @@
 {
 	"activeHeadingPath": [
-		"Timeline"
+		"Death"
 	],
 	"cursorCh": 0,
 	"cursorLine": 0,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\07-History\\Timeline.md",
-	"activeFileVaultPath": "03-projects/Nightfall/07-History/Timeline.md",
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\06-Death\\Death.md",
+	"activeFileVaultPath": "03-projects/Nightfall/06-Death/Death.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
@@ -20,28 +20,48 @@
 			"vaultPath": "03-projects/Nightfall"
 		},
 		{
-			"name": "07-History",
-			"vaultPath": "03-projects/Nightfall/07-History"
+			"name": "06-Death",
+			"vaultPath": "03-projects/Nightfall/06-Death"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\07-History",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\06-Death",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "07-History",
+		"name": "06-Death",
 		"type": "folder",
-		"vaultPath": "03-projects/Nightfall/07-History",
+		"vaultPath": "03-projects/Nightfall/06-Death",
 		"children": [
 			{
-				"name": "Timeline.md",
+				"name": "Death.md",
 				"type": "file",
-				"vaultPath": "03-projects/Nightfall/07-History/Timeline.md"
+				"vaultPath": "03-projects/Nightfall/06-Death/Death.md"
+			},
+			{
+				"name": "Downed and Holdfast.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/06-Death/Downed and Holdfast.md"
+			},
+			{
+				"name": "Execution.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/06-Death/Execution.md"
+			},
+			{
+				"name": "Return.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/06-Death/Return.md"
+			},
+			{
+				"name": "PvP Knock Flow.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/06-Death/PvP Knock Flow.md"
 			}
 		]
 	},
-	"activeFolderVaultPath": "03-projects/Nightfall/07-History",
-	"updatedAt": "2026-09-17T02:49:27.008Z"
+	"activeFolderVaultPath": "03-projects/Nightfall/06-Death",
+	"updatedAt": "2026-09-17T02:59:34.008Z"
 }
