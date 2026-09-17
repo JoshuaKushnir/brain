@@ -1,9 +1,11 @@
 {
-	"activeHeadingPath": null,
-	"cursorCh": null,
-	"cursorLine": null,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\02-World\\Hearth.md",
-	"activeFileVaultPath": "03-projects/Nightfall/02-World/Hearth.md",
+	"activeHeadingPath": [
+		"Vigil"
+	],
+	"cursorCh": 0,
+	"cursorLine": 0,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\02-World\\Vigil.md",
+	"activeFileVaultPath": "03-projects/Nightfall/02-World/Vigil.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
@@ -91,5 +93,5 @@
 		]
 	},
 	"activeFolderVaultPath": "03-projects/Nightfall/02-World",
-	"updatedAt": "2026-09-17T16:06:17.499Z"
+	"updatedAt": "2026-09-17T16:11:39.001Z"
 }

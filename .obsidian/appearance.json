@@ -1,6 +1,6 @@
 {
-  "cssTheme": "Primary",
-  "accentColor": "",
+  "cssTheme": "Typewriter",
+  "accentColor": "#d60000",
   "showRibbon": true,
   "theme": "obsidian"
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-projects/Nightfall/02-World/Hearth.md",
+                "file": "03-projects/Nightfall/02-World/Vigil.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Hearth"
+              "title": "Vigil"
             }
           },
           {
@@ -245,10 +245,11 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "a17f9191dc5a49ee",
+  "active": "40a8f262642a5b6e",
   "lastOpenFiles": [
-    "03-projects/Nightfall/02-World/Murk.md",
     "03-projects/Nightfall/02-World/Hearth.md",
+    "03-projects/Nightfall/02-World/Murk.md",
+    "03-projects/Nightfall/02-World/The Dark.md",
     "03-projects/Nightfall/00-MOC/Nightfall Home.md",
     "03-projects/Nightfall/05-Systems/Luminance.md",
     "03-projects/Nightfall/05-Systems/Multi-Aspect Attunement.md",
@@ -276,7 +277,6 @@
     "03-projects/Nightfall/05-Systems/Darkness.md",
     "03-projects/Nightfall/05-Systems/Dark Tolerance.md",
     "03-projects/Nightfall/05-Systems/Combat Resources.md",
-    "03-projects/Nightfall/05-Systems/Attunement.md",
     "03-projects/Nightfall/05-Systems",
     "03-projects/Nightfall/04-Magic",
     "03-projects/Nightfall/02-World",
