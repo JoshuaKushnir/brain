@@ -1,55 +1,47 @@
 {
-	"activeHeadingPath": [],
+	"activeHeadingPath": [
+		"Timeline"
+	],
 	"cursorCh": 0,
-	"cursorLine": 10,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\30-projects\\orbo-trading-bot\\decisions\\daily-ema-trend-filter.md",
-	"activeFileVaultPath": "30-projects/orbo-trading-bot/decisions/daily-ema-trend-filter.md",
+	"cursorLine": 0,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\07-History\\Timeline.md",
+	"activeFileVaultPath": "03-projects/Nightfall/07-History/Timeline.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
 			"vaultPath": "/"
 		},
 		{
-			"name": "30-projects",
-			"vaultPath": "30-projects"
+			"name": "03-projects",
+			"vaultPath": "03-projects"
 		},
 		{
-			"name": "orbo-trading-bot",
-			"vaultPath": "30-projects/orbo-trading-bot"
+			"name": "Nightfall",
+			"vaultPath": "03-projects/Nightfall"
 		},
 		{
-			"name": "decisions",
-			"vaultPath": "30-projects/orbo-trading-bot/decisions"
+			"name": "07-History",
+			"vaultPath": "03-projects/Nightfall/07-History"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\30-projects\\orbo-trading-bot\\decisions",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\07-History",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "decisions",
+		"name": "07-History",
 		"type": "folder",
-		"vaultPath": "30-projects/orbo-trading-bot/decisions",
+		"vaultPath": "03-projects/Nightfall/07-History",
 		"children": [
 			{
-				"name": ".md",
+				"name": "Timeline.md",
 				"type": "file",
-				"vaultPath": "30-projects/orbo-trading-bot/decisions/.md"
-			},
-			{
-				"name": "daily-ema-trend-filter.md",
-				"type": "file",
-				"vaultPath": "30-projects/orbo-trading-bot/decisions/daily-ema-trend-filter.md"
-			},
-			{
-				"name": "multi-strategy-pipeline.md",
-				"type": "file",
-				"vaultPath": "30-projects/orbo-trading-bot/decisions/multi-strategy-pipeline.md"
+				"vaultPath": "03-projects/Nightfall/07-History/Timeline.md"
 			}
 		]
 	},
-	"activeFolderVaultPath": "30-projects/orbo-trading-bot/decisions",
-	"updatedAt": "2026-07-08T16:16:45.138Z"
+	"activeFolderVaultPath": "03-projects/Nightfall/07-History",
+	"updatedAt": "2026-09-17T02:39:15.016Z"
 }
