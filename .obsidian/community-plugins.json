@@ -1,8 +1,7 @@
 [
-  "obsidian-git",
-  "obsidian-local-rest-api",
   "theme-picker",
-  "obsidian42-brat",
   "terminal-ai",
-  "obsidian-related-notes-finder"
+  "project-browser",
+  "youtube-iframe-timestamps",
+  "obsidian-git"
 ]

@@ -1,11 +1,9 @@
 {
-	"activeHeadingPath": [
-		"Implementation Matrix"
-	],
-	"cursorCh": 0,
-	"cursorLine": 0,
-	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\99-Design\\Implementation Matrix.md",
-	"activeFileVaultPath": "03-projects/Nightfall/99-Design/Implementation Matrix.md",
+	"activeHeadingPath": null,
+	"cursorCh": null,
+	"cursorLine": null,
+	"activeFileSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\02-World\\Hearth.md",
+	"activeFileVaultPath": "03-projects/Nightfall/02-World/Hearth.md",
 	"activeFolderBreadcrumb": [
 		{
 			"name": "",
@@ -20,40 +18,78 @@
 			"vaultPath": "03-projects/Nightfall"
 		},
 		{
-			"name": "99-Design",
-			"vaultPath": "03-projects/Nightfall/99-Design"
+			"name": "02-World",
+			"vaultPath": "03-projects/Nightfall/02-World"
 		}
 	],
-	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\99-Design",
+	"activeFolderSystemPath": "E:\\Josh\\Documents\\brain\\03-projects\\Nightfall\\02-World",
 	"activeFolderTree": {
 		"limits": {
 			"maxDepth": 2,
 			"maxNodes": 200
 		},
 		"truncated": false,
-		"name": "99-Design",
+		"name": "02-World",
 		"type": "folder",
-		"vaultPath": "03-projects/Nightfall/99-Design",
+		"vaultPath": "03-projects/Nightfall/02-World",
 		"children": [
 			{
-				"name": "Implementation Matrix.md",
+				"name": "Gloam.md",
 				"type": "file",
-				"vaultPath": "03-projects/Nightfall/99-Design/Implementation Matrix.md"
+				"vaultPath": "03-projects/Nightfall/02-World/Gloam.md"
 			},
 			{
-				"name": "Templates",
-				"type": "folder",
-				"vaultPath": "03-projects/Nightfall/99-Design/Templates",
-				"children": [
-					{
-						"name": "New Note Template.md",
-						"type": "file",
-						"vaultPath": "03-projects/Nightfall/99-Design/Templates/New Note Template.md"
-					}
-				]
+				"name": "Hearth.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/Hearth.md"
+			},
+			{
+				"name": "Murk.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/Murk.md"
+			},
+			{
+				"name": "Night.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/Night.md"
+			},
+			{
+				"name": "The Dark.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/The Dark.md"
+			},
+			{
+				"name": "The Rim.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/The Rim.md"
+			},
+			{
+				"name": "The Rise.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/The Rise.md"
+			},
+			{
+				"name": "The Rings.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/The Rings.md"
+			},
+			{
+				"name": "Vigil.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/Vigil.md"
+			},
+			{
+				"name": "Undertide.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/Undertide.md"
+			},
+			{
+				"name": "World Shape.md",
+				"type": "file",
+				"vaultPath": "03-projects/Nightfall/02-World/World Shape.md"
 			}
 		]
 	},
-	"activeFolderVaultPath": "03-projects/Nightfall/99-Design",
-	"updatedAt": "2026-09-17T15:54:25.304Z"
+	"activeFolderVaultPath": "03-projects/Nightfall/02-World",
+	"updatedAt": "2026-09-17T16:06:17.499Z"
 }

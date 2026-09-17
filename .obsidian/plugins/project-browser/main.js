@@ -458,7 +458,7 @@ var require_react_development = __commonJS({
           }
           return element;
         };
-        function createElement29(type, config, children) {
+        function createElement43(type, config, children) {
           var propName;
           var props = {};
           var key = null;
@@ -994,7 +994,7 @@ var require_react_development = __commonJS({
           }
           return dispatcher;
         }
-        function useContext5(Context) {
+        function useContext6(Context) {
           var dispatcher = resolveDispatcher();
           {
             if (Context._context !== void 0) {
@@ -1008,7 +1008,7 @@ var require_react_development = __commonJS({
           }
           return dispatcher.useContext(Context);
         }
-        function useState10(initialState) {
+        function useState23(initialState) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useState(initialState);
         }
@@ -1016,11 +1016,11 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useReducer(reducer, initialArg, init);
         }
-        function useRef12(initialValue) {
+        function useRef18(initialValue) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useRef(initialValue);
         }
-        function useEffect11(create, deps) {
+        function useEffect22(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useEffect(create, deps);
         }
@@ -1028,15 +1028,15 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useInsertionEffect(create, deps);
         }
-        function useLayoutEffect2(create, deps) {
+        function useLayoutEffect3(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useLayoutEffect(create, deps);
         }
-        function useCallback2(callback, deps) {
+        function useCallback4(callback, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useCallback(callback, deps);
         }
-        function useMemo4(create, deps) {
+        function useMemo9(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useMemo(create, deps);
         }
@@ -1531,7 +1531,7 @@ var require_react_development = __commonJS({
               error2("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", typeString, info);
             }
           }
-          var element = createElement29.apply(this, arguments);
+          var element = createElement43.apply(this, arguments);
           if (element == null) {
             return element;
           }
@@ -1796,19 +1796,19 @@ var require_react_development = __commonJS({
         exports.memo = memo;
         exports.startTransition = startTransition;
         exports.unstable_act = act;
-        exports.useCallback = useCallback2;
-        exports.useContext = useContext5;
+        exports.useCallback = useCallback4;
+        exports.useContext = useContext6;
         exports.useDebugValue = useDebugValue2;
         exports.useDeferredValue = useDeferredValue;
-        exports.useEffect = useEffect11;
+        exports.useEffect = useEffect22;
         exports.useId = useId;
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
-        exports.useLayoutEffect = useLayoutEffect2;
-        exports.useMemo = useMemo4;
+        exports.useLayoutEffect = useLayoutEffect3;
+        exports.useMemo = useMemo9;
         exports.useReducer = useReducer2;
-        exports.useRef = useRef12;
-        exports.useState = useState10;
+        exports.useRef = useRef18;
+        exports.useState = useState23;
         exports.useSyncExternalStore = useSyncExternalStore;
         exports.useTransition = useTransition;
         exports.version = ReactVersion;
@@ -2304,9 +2304,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React28 = require_react();
+        var React42 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React28.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React42.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -2355,7 +2355,7 @@ var require_react_dom_development = __commonJS({
         var HostPortal = 4;
         var HostComponent = 5;
         var HostText = 6;
-        var Fragment24 = 7;
+        var Fragment27 = 7;
         var Mode = 8;
         var ContextConsumer = 9;
         var ContextProvider = 10;
@@ -3312,7 +3312,7 @@ var require_react_dom_development = __commonJS({
               return "DehydratedFragment";
             case ForwardRef:
               return getWrappedName$1(type, type.render, "ForwardRef");
-            case Fragment24:
+            case Fragment27:
               return "Fragment";
             case HostComponent:
               return type;
@@ -3707,7 +3707,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React28.Children.forEach(props.children, function(child) {
+                React42.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -8836,7 +8836,7 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function createElement29(type, props, rootContainerElement, parentNamespace) {
+        function createElement43(type, props, rootContainerElement, parentNamespace) {
           var isCustomComponentTag;
           var ownerDocument = getOwnerDocumentFromRootContainer(rootContainerElement);
           var domElement;
@@ -9688,7 +9688,7 @@ var require_react_dom_development = __commonJS({
             }
             parentNamespace = hostContextDev.namespace;
           }
-          var domElement = createElement29(type, props, rootContainerInstance, parentNamespace);
+          var domElement = createElement43(type, props, rootContainerInstance, parentNamespace);
           precacheFiberNode(internalInstanceHandle, domElement);
           updateFiberProps(domElement, props);
           return domElement;
@@ -11833,7 +11833,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React28.Component().refs;
+        var emptyRefsObject = new React42.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -12642,7 +12642,7 @@ var require_react_dom_development = __commonJS({
             }
           }
           function updateFragment2(returnFiber, current2, fragment, lanes, key) {
-            if (current2 === null || current2.tag !== Fragment24) {
+            if (current2 === null || current2.tag !== Fragment27) {
               var created = createFiberFromFragment(fragment, returnFiber.mode, lanes, key);
               created.return = returnFiber;
               return created;
@@ -13044,7 +13044,7 @@ var require_react_dom_development = __commonJS({
               if (child.key === key) {
                 var elementType = element.type;
                 if (elementType === REACT_FRAGMENT_TYPE) {
-                  if (child.tag === Fragment24) {
+                  if (child.tag === Fragment27) {
                     deleteRemainingChildren(returnFiber, child.sibling);
                     var existing = useFiber(child, element.props.children);
                     existing.return = returnFiber;
@@ -17086,7 +17086,7 @@ var require_react_dom_development = __commonJS({
               var _resolvedProps2 = workInProgress2.elementType === type ? _unresolvedProps2 : resolveDefaultProps(type, _unresolvedProps2);
               return updateForwardRef(current2, workInProgress2, type, _resolvedProps2, renderLanes2);
             }
-            case Fragment24:
+            case Fragment27:
               return updateFragment(current2, workInProgress2, renderLanes2);
             case Mode:
               return updateMode(current2, workInProgress2, renderLanes2);
@@ -17353,7 +17353,7 @@ var require_react_dom_development = __commonJS({
             case SimpleMemoComponent:
             case FunctionComponent:
             case ForwardRef:
-            case Fragment24:
+            case Fragment27:
             case Mode:
             case Profiler:
             case ContextConsumer:
@@ -21563,7 +21563,7 @@ var require_react_dom_development = __commonJS({
           return fiber;
         }
         function createFiberFromFragment(elements, mode, lanes, key) {
-          var fiber = createFiber(Fragment24, elements, key, mode);
+          var fiber = createFiber(Fragment27, elements, key, mode);
           fiber.lanes = lanes;
           return fiber;
         }
@@ -22214,7 +22214,7 @@ var require_react_dom_development = __commonJS({
             unmarkContainerAsRoot(container);
           }
         };
-        function createRoot4(container, options2) {
+        function createRoot7(container, options2) {
           if (!isValidContainer(container)) {
             throw new Error("createRoot(...): Target container is not a DOM element.");
           }
@@ -22555,7 +22555,7 @@ var require_react_dom_development = __commonJS({
               error2('You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".');
             }
           }
-          return createRoot4(container, options2);
+          return createRoot7(container, options2);
         }
         function hydrateRoot$1(container, initialChildren, options2) {
           {
@@ -22659,7 +22659,7 @@ var require_classnames = __commonJS({
     (function() {
       "use strict";
       var hasOwn = {}.hasOwnProperty;
-      function classNames13() {
+      function classNames19() {
         var classes = "";
         for (var i = 0; i < arguments.length; i++) {
           var arg = arguments[i];
@@ -22677,7 +22677,7 @@ var require_classnames = __commonJS({
           return "";
         }
         if (Array.isArray(arg)) {
-          return classNames13.apply(null, arg);
+          return classNames19.apply(null, arg);
         }
         if (arg.toString !== Object.prototype.toString && !arg.toString.toString().includes("[native code]")) {
           return arg.toString();
@@ -22700,14 +22700,14 @@ var require_classnames = __commonJS({
         return value + newClass;
       }
       if (typeof module2 !== "undefined" && module2.exports) {
-        classNames13.default = classNames13;
-        module2.exports = classNames13;
+        classNames19.default = classNames19;
+        module2.exports = classNames19;
       } else if (typeof define === "function" && typeof define.amd === "object" && define.amd) {
         define("classnames", [], function() {
-          return classNames13;
+          return classNames19;
         });
       } else {
-        window.classNames = classNames13;
+        window.classNames = classNames19;
       }
     })();
   }
@@ -25110,7 +25110,7 @@ var require_classnames2 = __commonJS({
     (function() {
       "use strict";
       var hasOwn = {}.hasOwnProperty;
-      function classNames13() {
+      function classNames19() {
         var classes = [];
         for (var i = 0; i < arguments.length; i++) {
           var arg = arguments[i];
@@ -25121,7 +25121,7 @@ var require_classnames2 = __commonJS({
             classes.push(arg);
           } else if (Array.isArray(arg)) {
             if (arg.length) {
-              var inner = classNames13.apply(null, arg);
+              var inner = classNames19.apply(null, arg);
               if (inner) {
                 classes.push(inner);
               }
@@ -25141,14 +25141,14 @@ var require_classnames2 = __commonJS({
         return classes.join(" ");
       }
       if (typeof module2 !== "undefined" && module2.exports) {
-        classNames13.default = classNames13;
-        module2.exports = classNames13;
+        classNames19.default = classNames19;
+        module2.exports = classNames19;
       } else if (typeof define === "function" && typeof define.amd === "object" && define.amd) {
         define("classnames", [], function() {
-          return classNames13;
+          return classNames19;
         });
       } else {
-        window.classNames = classNames13;
+        window.classNames = classNames19;
       }
     })();
   }
@@ -25584,6 +25584,7 @@ Please read the updated README.md at https://github.com/SortableJS/react-sortabl
 // node_modules/semver/internal/constants.js
 var require_constants = __commonJS({
   "node_modules/semver/internal/constants.js"(exports, module2) {
+    "use strict";
     var SEMVER_SPEC_VERSION = "2.0.0";
     var MAX_LENGTH = 256;
     var MAX_SAFE_INTEGER = Number.MAX_SAFE_INTEGER || 9007199254740991;
@@ -25614,6 +25615,7 @@ var require_constants = __commonJS({
 // node_modules/semver/internal/debug.js
 var require_debug = __commonJS({
   "node_modules/semver/internal/debug.js"(exports, module2) {
+    "use strict";
     var debug = typeof process === "object" && process.env && process.env.NODE_DEBUG && /\bsemver\b/i.test(process.env.NODE_DEBUG) ? (...args) => console.error("SEMVER", ...args) : () => {
     };
     module2.exports = debug;
@@ -25623,6 +25625,7 @@ var require_debug = __commonJS({
 // node_modules/semver/internal/re.js
 var require_re = __commonJS({
   "node_modules/semver/internal/re.js"(exports, module2) {
+    "use strict";
     var {
       MAX_SAFE_COMPONENT_LENGTH,
       MAX_SAFE_BUILD_LENGTH,
@@ -25633,6 +25636,7 @@ var require_re = __commonJS({
     var re = exports.re = [];
     var safeRe = exports.safeRe = [];
     var src = exports.src = [];
+    var safeSrc = exports.safeSrc = [];
     var t = exports.t = {};
     var R = 0;
     var LETTERDASHNUMBER = "[a-zA-Z0-9-]";
@@ -25653,6 +25657,7 @@ var require_re = __commonJS({
       debug(name, index2, value);
       t[name] = index2;
       src[index2] = value;
+      safeSrc[index2] = safe;
       re[index2] = new RegExp(value, isGlobal ? "g" : void 0);
       safeRe[index2] = new RegExp(safe, isGlobal ? "g" : void 0);
     };
@@ -25661,8 +25666,8 @@ var require_re = __commonJS({
     createToken("NONNUMERICIDENTIFIER", `\\d*[a-zA-Z-]${LETTERDASHNUMBER}*`);
     createToken("MAINVERSION", `(${src[t.NUMERICIDENTIFIER]})\\.(${src[t.NUMERICIDENTIFIER]})\\.(${src[t.NUMERICIDENTIFIER]})`);
     createToken("MAINVERSIONLOOSE", `(${src[t.NUMERICIDENTIFIERLOOSE]})\\.(${src[t.NUMERICIDENTIFIERLOOSE]})\\.(${src[t.NUMERICIDENTIFIERLOOSE]})`);
-    createToken("PRERELEASEIDENTIFIER", `(?:${src[t.NUMERICIDENTIFIER]}|${src[t.NONNUMERICIDENTIFIER]})`);
-    createToken("PRERELEASEIDENTIFIERLOOSE", `(?:${src[t.NUMERICIDENTIFIERLOOSE]}|${src[t.NONNUMERICIDENTIFIER]})`);
+    createToken("PRERELEASEIDENTIFIER", `(?:${src[t.NONNUMERICIDENTIFIER]}|${src[t.NUMERICIDENTIFIER]})`);
+    createToken("PRERELEASEIDENTIFIERLOOSE", `(?:${src[t.NONNUMERICIDENTIFIER]}|${src[t.NUMERICIDENTIFIERLOOSE]})`);
     createToken("PRERELEASE", `(?:-(${src[t.PRERELEASEIDENTIFIER]}(?:\\.${src[t.PRERELEASEIDENTIFIER]})*))`);
     createToken("PRERELEASELOOSE", `(?:-?(${src[t.PRERELEASEIDENTIFIERLOOSE]}(?:\\.${src[t.PRERELEASEIDENTIFIERLOOSE]})*))`);
     createToken("BUILDIDENTIFIER", `${LETTERDASHNUMBER}+`);
@@ -25708,6 +25713,7 @@ var require_re = __commonJS({
 // node_modules/semver/internal/parse-options.js
 var require_parse_options = __commonJS({
   "node_modules/semver/internal/parse-options.js"(exports, module2) {
+    "use strict";
     var looseOption = Object.freeze({ loose: true });
     var emptyOpts = Object.freeze({});
     var parseOptions = (options) => {
@@ -25726,8 +25732,12 @@ var require_parse_options = __commonJS({
 // node_modules/semver/internal/identifiers.js
 var require_identifiers = __commonJS({
   "node_modules/semver/internal/identifiers.js"(exports, module2) {
+    "use strict";
     var numeric = /^[0-9]+$/;
     var compareIdentifiers = (a, b) => {
+      if (typeof a === "number" && typeof b === "number") {
+        return a === b ? 0 : a < b ? -1 : 1;
+      }
       const anum = numeric.test(a);
       const bnum = numeric.test(b);
       if (anum && bnum) {
@@ -25747,6 +25757,7 @@ var require_identifiers = __commonJS({
 // node_modules/semver/classes/semver.js
 var require_semver = __commonJS({
   "node_modules/semver/classes/semver.js"(exports, module2) {
+    "use strict";
     var debug = require_debug();
     var { MAX_LENGTH, MAX_SAFE_INTEGER } = require_constants();
     var { safeRe: re, t } = require_re();
@@ -25831,7 +25842,25 @@ var require_semver = __commonJS({
         if (!(other instanceof SemVer)) {
           other = new SemVer(other, this.options);
         }
-        return compareIdentifiers(this.major, other.major) || compareIdentifiers(this.minor, other.minor) || compareIdentifiers(this.patch, other.patch);
+        if (this.major < other.major) {
+          return -1;
+        }
+        if (this.major > other.major) {
+          return 1;
+        }
+        if (this.minor < other.minor) {
+          return -1;
+        }
+        if (this.minor > other.minor) {
+          return 1;
+        }
+        if (this.patch < other.patch) {
+          return -1;
+        }
+        if (this.patch > other.patch) {
+          return 1;
+        }
+        return 0;
       }
       comparePre(other) {
         if (!(other instanceof SemVer)) {
@@ -25885,6 +25914,17 @@ var require_semver = __commonJS({
         } while (++i);
       }
       inc(release, identifier, identifierBase) {
+        if (release.startsWith("pre")) {
+          if (!identifier && identifierBase === false) {
+            throw new Error("invalid increment argument: identifier is empty");
+          }
+          if (identifier) {
+            const match = `-${identifier}`.match(this.options.loose ? re[t.PRERELEASELOOSE] : re[t.PRERELEASE]);
+            if (!match || match[1] !== identifier) {
+              throw new Error(`invalid identifier: ${identifier}`);
+            }
+          }
+        }
         switch (release) {
           case "premajor":
             this.prerelease.length = 0;
@@ -25910,6 +25950,12 @@ var require_semver = __commonJS({
             }
             this.inc("pre", identifier, identifierBase);
             break;
+          case "release":
+            if (this.prerelease.length === 0) {
+              throw new Error(`version ${this.raw} is not a prerelease`);
+            }
+            this.prerelease.length = 0;
+            break;
           case "major":
             if (this.minor !== 0 || this.patch !== 0 || this.prerelease.length === 0) {
               this.major++;
@@ -25933,9 +25979,6 @@ var require_semver = __commonJS({
             break;
           case "pre": {
             const base = Number(identifierBase) ? 1 : 0;
-            if (!identifier && identifierBase === false) {
-              throw new Error("invalid increment argument: identifier is empty");
-            }
             if (this.prerelease.length === 0) {
               this.prerelease = [base];
             } else {
@@ -25985,6 +26028,7 @@ var require_semver = __commonJS({
 // node_modules/semver/functions/parse.js
 var require_parse = __commonJS({
   "node_modules/semver/functions/parse.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var parse = (version, options, throwErrors = false) => {
       if (version instanceof SemVer) {
@@ -26006,6 +26050,7 @@ var require_parse = __commonJS({
 // node_modules/semver/functions/valid.js
 var require_valid = __commonJS({
   "node_modules/semver/functions/valid.js"(exports, module2) {
+    "use strict";
     var parse = require_parse();
     var valid2 = (version, options) => {
       const v = parse(version, options);
@@ -26018,6 +26063,7 @@ var require_valid = __commonJS({
 // node_modules/semver/functions/clean.js
 var require_clean = __commonJS({
   "node_modules/semver/functions/clean.js"(exports, module2) {
+    "use strict";
     var parse = require_parse();
     var clean2 = (version, options) => {
       const s = parse(version.trim().replace(/^[=v]+/, ""), options);
@@ -26030,6 +26076,7 @@ var require_clean = __commonJS({
 // node_modules/semver/functions/inc.js
 var require_inc = __commonJS({
   "node_modules/semver/functions/inc.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var inc = (version, release, options, identifier, identifierBase) => {
       if (typeof options === "string") {
@@ -26050,6 +26097,7 @@ var require_inc = __commonJS({
 // node_modules/semver/functions/diff.js
 var require_diff = __commonJS({
   "node_modules/semver/functions/diff.js"(exports, module2) {
+    "use strict";
     var parse = require_parse();
     var diff = (version1, version2) => {
       const v1 = parse(version1, null, true);
@@ -26067,13 +26115,12 @@ var require_diff = __commonJS({
         if (!lowVersion.patch && !lowVersion.minor) {
           return "major";
         }
-        if (highVersion.patch) {
+        if (lowVersion.compareMain(highVersion) === 0) {
+          if (lowVersion.minor && !lowVersion.patch) {
+            return "minor";
+          }
           return "patch";
         }
-        if (highVersion.minor) {
-          return "minor";
-        }
-        return "major";
       }
       const prefix = highHasPre ? "pre" : "";
       if (v1.major !== v2.major) {
@@ -26094,6 +26141,7 @@ var require_diff = __commonJS({
 // node_modules/semver/functions/major.js
 var require_major = __commonJS({
   "node_modules/semver/functions/major.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var major = (a, loose) => new SemVer(a, loose).major;
     module2.exports = major;
@@ -26103,6 +26151,7 @@ var require_major = __commonJS({
 // node_modules/semver/functions/minor.js
 var require_minor = __commonJS({
   "node_modules/semver/functions/minor.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var minor = (a, loose) => new SemVer(a, loose).minor;
     module2.exports = minor;
@@ -26112,6 +26161,7 @@ var require_minor = __commonJS({
 // node_modules/semver/functions/patch.js
 var require_patch = __commonJS({
   "node_modules/semver/functions/patch.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var patch = (a, loose) => new SemVer(a, loose).patch;
     module2.exports = patch;
@@ -26121,6 +26171,7 @@ var require_patch = __commonJS({
 // node_modules/semver/functions/prerelease.js
 var require_prerelease = __commonJS({
   "node_modules/semver/functions/prerelease.js"(exports, module2) {
+    "use strict";
     var parse = require_parse();
     var prerelease = (version, options) => {
       const parsed = parse(version, options);
@@ -26133,6 +26184,7 @@ var require_prerelease = __commonJS({
 // node_modules/semver/functions/compare.js
 var require_compare = __commonJS({
   "node_modules/semver/functions/compare.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var compare = (a, b, loose) => new SemVer(a, loose).compare(new SemVer(b, loose));
     module2.exports = compare;
@@ -26142,6 +26194,7 @@ var require_compare = __commonJS({
 // node_modules/semver/functions/rcompare.js
 var require_rcompare = __commonJS({
   "node_modules/semver/functions/rcompare.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var rcompare = (a, b, loose) => compare(b, a, loose);
     module2.exports = rcompare;
@@ -26151,6 +26204,7 @@ var require_rcompare = __commonJS({
 // node_modules/semver/functions/compare-loose.js
 var require_compare_loose = __commonJS({
   "node_modules/semver/functions/compare-loose.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var compareLoose = (a, b) => compare(a, b, true);
     module2.exports = compareLoose;
@@ -26160,6 +26214,7 @@ var require_compare_loose = __commonJS({
 // node_modules/semver/functions/compare-build.js
 var require_compare_build = __commonJS({
   "node_modules/semver/functions/compare-build.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var compareBuild = (a, b, loose) => {
       const versionA = new SemVer(a, loose);
@@ -26173,6 +26228,7 @@ var require_compare_build = __commonJS({
 // node_modules/semver/functions/sort.js
 var require_sort = __commonJS({
   "node_modules/semver/functions/sort.js"(exports, module2) {
+    "use strict";
     var compareBuild = require_compare_build();
     var sort = (list, loose) => list.sort((a, b) => compareBuild(a, b, loose));
     module2.exports = sort;
@@ -26182,6 +26238,7 @@ var require_sort = __commonJS({
 // node_modules/semver/functions/rsort.js
 var require_rsort = __commonJS({
   "node_modules/semver/functions/rsort.js"(exports, module2) {
+    "use strict";
     var compareBuild = require_compare_build();
     var rsort = (list, loose) => list.sort((a, b) => compareBuild(b, a, loose));
     module2.exports = rsort;
@@ -26191,6 +26248,7 @@ var require_rsort = __commonJS({
 // node_modules/semver/functions/gt.js
 var require_gt = __commonJS({
   "node_modules/semver/functions/gt.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var gt2 = (a, b, loose) => compare(a, b, loose) > 0;
     module2.exports = gt2;
@@ -26200,6 +26258,7 @@ var require_gt = __commonJS({
 // node_modules/semver/functions/lt.js
 var require_lt = __commonJS({
   "node_modules/semver/functions/lt.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var lt2 = (a, b, loose) => compare(a, b, loose) < 0;
     module2.exports = lt2;
@@ -26209,6 +26268,7 @@ var require_lt = __commonJS({
 // node_modules/semver/functions/eq.js
 var require_eq = __commonJS({
   "node_modules/semver/functions/eq.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var eq = (a, b, loose) => compare(a, b, loose) === 0;
     module2.exports = eq;
@@ -26218,6 +26278,7 @@ var require_eq = __commonJS({
 // node_modules/semver/functions/neq.js
 var require_neq = __commonJS({
   "node_modules/semver/functions/neq.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var neq = (a, b, loose) => compare(a, b, loose) !== 0;
     module2.exports = neq;
@@ -26227,6 +26288,7 @@ var require_neq = __commonJS({
 // node_modules/semver/functions/gte.js
 var require_gte = __commonJS({
   "node_modules/semver/functions/gte.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var gte = (a, b, loose) => compare(a, b, loose) >= 0;
     module2.exports = gte;
@@ -26236,6 +26298,7 @@ var require_gte = __commonJS({
 // node_modules/semver/functions/lte.js
 var require_lte = __commonJS({
   "node_modules/semver/functions/lte.js"(exports, module2) {
+    "use strict";
     var compare = require_compare();
     var lte = (a, b, loose) => compare(a, b, loose) <= 0;
     module2.exports = lte;
@@ -26245,6 +26308,7 @@ var require_lte = __commonJS({
 // node_modules/semver/functions/cmp.js
 var require_cmp = __commonJS({
   "node_modules/semver/functions/cmp.js"(exports, module2) {
+    "use strict";
     var eq = require_eq();
     var neq = require_neq();
     var gt2 = require_gt();
@@ -26294,6 +26358,7 @@ var require_cmp = __commonJS({
 // node_modules/semver/functions/coerce.js
 var require_coerce = __commonJS({
   "node_modules/semver/functions/coerce.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var parse = require_parse();
     var { safeRe: re, t } = require_re();
@@ -26339,6 +26404,7 @@ var require_coerce = __commonJS({
 // node_modules/semver/internal/lrucache.js
 var require_lrucache = __commonJS({
   "node_modules/semver/internal/lrucache.js"(exports, module2) {
+    "use strict";
     var LRUCache = class {
       constructor() {
         this.max = 1e3;
@@ -26376,6 +26442,7 @@ var require_lrucache = __commonJS({
 // node_modules/semver/classes/range.js
 var require_range = __commonJS({
   "node_modules/semver/classes/range.js"(exports, module2) {
+    "use strict";
     var SPACE_CHARACTERS = /\s+/g;
     var Range = class {
       constructor(range, options) {
@@ -26544,6 +26611,7 @@ var require_range = __commonJS({
       return result;
     };
     var parseComparator = (comp, options) => {
+      comp = comp.replace(re[t.BUILD], "");
       debug("comp", comp, options);
       comp = replaceCarets(comp, options);
       debug("caret", comp);
@@ -26750,6 +26818,7 @@ var require_range = __commonJS({
 // node_modules/semver/classes/comparator.js
 var require_comparator = __commonJS({
   "node_modules/semver/classes/comparator.js"(exports, module2) {
+    "use strict";
     var ANY = Symbol("SemVer ANY");
     var Comparator = class {
       static get ANY() {
@@ -26862,6 +26931,7 @@ var require_comparator = __commonJS({
 // node_modules/semver/functions/satisfies.js
 var require_satisfies = __commonJS({
   "node_modules/semver/functions/satisfies.js"(exports, module2) {
+    "use strict";
     var Range = require_range();
     var satisfies = (version, range, options) => {
       try {
@@ -26878,6 +26948,7 @@ var require_satisfies = __commonJS({
 // node_modules/semver/ranges/to-comparators.js
 var require_to_comparators = __commonJS({
   "node_modules/semver/ranges/to-comparators.js"(exports, module2) {
+    "use strict";
     var Range = require_range();
     var toComparators = (range, options) => new Range(range, options).set.map((comp) => comp.map((c) => c.value).join(" ").trim().split(" "));
     module2.exports = toComparators;
@@ -26887,6 +26958,7 @@ var require_to_comparators = __commonJS({
 // node_modules/semver/ranges/max-satisfying.js
 var require_max_satisfying = __commonJS({
   "node_modules/semver/ranges/max-satisfying.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var Range = require_range();
     var maxSatisfying = (versions, range, options) => {
@@ -26915,6 +26987,7 @@ var require_max_satisfying = __commonJS({
 // node_modules/semver/ranges/min-satisfying.js
 var require_min_satisfying = __commonJS({
   "node_modules/semver/ranges/min-satisfying.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var Range = require_range();
     var minSatisfying = (versions, range, options) => {
@@ -26943,6 +27016,7 @@ var require_min_satisfying = __commonJS({
 // node_modules/semver/ranges/min-version.js
 var require_min_version = __commonJS({
   "node_modules/semver/ranges/min-version.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var Range = require_range();
     var gt2 = require_gt();
@@ -26999,6 +27073,7 @@ var require_min_version = __commonJS({
 // node_modules/semver/ranges/valid.js
 var require_valid2 = __commonJS({
   "node_modules/semver/ranges/valid.js"(exports, module2) {
+    "use strict";
     var Range = require_range();
     var validRange = (range, options) => {
       try {
@@ -27014,6 +27089,7 @@ var require_valid2 = __commonJS({
 // node_modules/semver/ranges/outside.js
 var require_outside = __commonJS({
   "node_modules/semver/ranges/outside.js"(exports, module2) {
+    "use strict";
     var SemVer = require_semver();
     var Comparator = require_comparator();
     var { ANY } = Comparator;
@@ -27082,6 +27158,7 @@ var require_outside = __commonJS({
 // node_modules/semver/ranges/gtr.js
 var require_gtr = __commonJS({
   "node_modules/semver/ranges/gtr.js"(exports, module2) {
+    "use strict";
     var outside = require_outside();
     var gtr = (version, range, options) => outside(version, range, ">", options);
     module2.exports = gtr;
@@ -27091,6 +27168,7 @@ var require_gtr = __commonJS({
 // node_modules/semver/ranges/ltr.js
 var require_ltr = __commonJS({
   "node_modules/semver/ranges/ltr.js"(exports, module2) {
+    "use strict";
     var outside = require_outside();
     var ltr = (version, range, options) => outside(version, range, "<", options);
     module2.exports = ltr;
@@ -27100,6 +27178,7 @@ var require_ltr = __commonJS({
 // node_modules/semver/ranges/intersects.js
 var require_intersects = __commonJS({
   "node_modules/semver/ranges/intersects.js"(exports, module2) {
+    "use strict";
     var Range = require_range();
     var intersects = (r1, r2, options) => {
       r1 = new Range(r1, options);
@@ -27113,6 +27192,7 @@ var require_intersects = __commonJS({
 // node_modules/semver/ranges/simplify.js
 var require_simplify = __commonJS({
   "node_modules/semver/ranges/simplify.js"(exports, module2) {
+    "use strict";
     var satisfies = require_satisfies();
     var compare = require_compare();
     module2.exports = (versions, range, options) => {
@@ -27162,6 +27242,7 @@ var require_simplify = __commonJS({
 // node_modules/semver/ranges/subset.js
 var require_subset = __commonJS({
   "node_modules/semver/ranges/subset.js"(exports, module2) {
+    "use strict";
     var Range = require_range();
     var Comparator = require_comparator();
     var { ANY } = Comparator;
@@ -27324,6 +27405,7 @@ var require_subset = __commonJS({
 // node_modules/semver/index.js
 var require_semver2 = __commonJS({
   "node_modules/semver/index.js"(exports, module2) {
+    "use strict";
     var internalRe = require_re();
     var constants = require_constants();
     var SemVer = require_semver();
@@ -27422,34 +27504,179 @@ __export(main_exports, {
   showNotices: () => showNotices
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian20 = require("obsidian");
+var import_obsidian29 = require("obsidian");
 
 // src/views/card-browser-view/card-browser-view.tsx
-var import_obsidian14 = require("obsidian");
-var React24 = __toESM(require_react());
+var import_obsidian21 = require("obsidian");
+var React32 = __toESM(require_react());
 var import_client = __toESM(require_client());
 
 // src/components/card-browser/card-browser.tsx
-var React23 = __toESM(require_react());
+var React31 = __toESM(require_react());
 
 // src/components/section/folder-section.tsx
 var import_classnames3 = __toESM(require_classnames());
 var React4 = __toESM(require_react());
 
 // src/components/folder-button-set/folder-button-set.tsx
+var import_obsidian8 = require("obsidian");
 var React2 = __toESM(require_react());
 
 // src/components/folder-button/folder-button.tsx
 var React = __toESM(require_react());
 
 // src/context-menus/folder-context-menu.tsx
-var import_obsidian6 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 
 // src/logic/file-processes.ts
 var import_obsidian4 = require("obsidian");
 
 // src/logic/folder-processes.ts
+var import_obsidian2 = require("obsidian");
+
+// src/utils/file-manipulation.ts
 var import_obsidian = require("obsidian");
+
+// src/utils/string-processes.ts
+function isRootPath(path) {
+  return path === "" || path === "/";
+}
+var illegalRe = /[\/\?<>\\:\*\|"]/g;
+var controlRe = /[\x00-\x1f\x80-\x9f]/g;
+var reservedRe = /^\.+$/;
+var windowsReservedRe = /^(con|prn|aux|nul|com[0-9]|lpt[0-9])(\..*)?$/i;
+var windowsTrailingRe = /[\. ]+$/;
+var linkRe = /[\[\]]/g;
+function sanitizeFileFolderName(name) {
+  return name.replace(illegalRe, "").replace(controlRe, "").replace(reservedRe, "").replace(windowsReservedRe, "").replace(windowsTrailingRe, "");
+}
+function sanitizeInternalLinkName(name) {
+  const validFilename = sanitizeFileFolderName(name);
+  const validInternalLink = validFilename.replace(linkRe, "");
+  return validInternalLink;
+}
+function folderPathSanitize(str) {
+  let pathStr = str;
+  let pathArr;
+  pathArr = pathStr.split("/");
+  for (let j = 0; j < pathArr.length; j++) {
+    pathArr[j] = sanitizeFileFolderName(pathArr[j]);
+  }
+  pathStr = pathArr.join("/");
+  return pathStr;
+}
+function parseFilepath(filepath) {
+  const segments = filepath.split("/");
+  const filename = segments.pop() || "";
+  const extIndex = filename.lastIndexOf(".");
+  const ext = extIndex >= 0 ? filename.slice(extIndex) : "";
+  const basename = extIndex >= 0 ? filename.slice(0, extIndex) : filename;
+  let folderpath = "";
+  if (segments.length === 1 && segments[0] === "") {
+    folderpath = "/";
+  } else {
+    folderpath = segments.join("/");
+  }
+  return { folderpath, basename, ext: ext.startsWith(".") ? ext.slice(1) : ext };
+}
+function removeFrontmatter(text) {
+  const sectionRegex = /---([^`]+?)---(\s*)/g;
+  return text.replace(sectionRegex, "");
+}
+function removeCodeBlocks(text) {
+  let result = text.replace(/(^|\n)```[\s\S]*?```(\n|$)/g, "\n");
+  result = result.replace(/\n{3,}/g, "\n\n");
+  return result.trim();
+}
+function removeXmlTags(text) {
+  const xmlTagRegex = /<[^>]*>/g;
+  return text.replace(xmlTagRegex, "");
+}
+function simplifyWhiteSpace(text) {
+  let result = text.replace(/(\\n\s*)+/g, ". ");
+  result = result.replace(/\s*\.\s*/g, ". ");
+  result = result.replace(/ {2,}/g, " ");
+  result = result.replace(/(\.\s*){2,}/g, ". ");
+  if (result.trim() === ".") {
+    return ". ";
+  }
+  if (result.endsWith(".")) {
+    result = result + " ";
+  }
+  return result.trim();
+}
+function removeHeaders(text) {
+  return text.replace(/^#{1,6}\s+/gm, "");
+}
+function removeBold(text) {
+  return text.replace(/\*\*(.*?)\*\*/g, "$1").replace(/__(.*?)__/g, "$1");
+}
+function removeItalic(text) {
+  return text.replace(/\*(.*?)\*/g, "$1").replace(/_(.*?)_/g, "$1");
+}
+function removeStrikethrough(text) {
+  return text.replace(/~~(.*?)~~/g, "$1");
+}
+function removeInlineCode(text) {
+  return text.replace(/`([^`]+)`/g, "$1");
+}
+function removeImages(text) {
+  return text.replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1");
+}
+function removeLinks(text) {
+  return text.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+}
+function removeBlockquotes(text) {
+  return text.replace(/^>\s+/gm, "");
+}
+function removeLists(text) {
+  return text.replace(/^[\s]*[-*+]\s+/gm, "").replace(/^[\s]*\d+\.\s+/gm, "");
+}
+function removeHorizontalRules(text) {
+  let result = text.replace(/^\s*([-*_])\1{2,}\s*$/gm, "");
+  result = result.replace(/\n{3,}/g, "\n\n");
+  return result;
+}
+function removeInternalLinks(text) {
+  return text.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, p1, p2) => p2 ? p2 : p1);
+}
+function removeCallouts(text) {
+  return text.replace(/^>\s*\[![^\]]*\].*$/gm, "");
+}
+function removeTags(text) {
+  return text.replace(/#([^\s#]+)/g, "$1");
+}
+function removeHighlighting(text) {
+  return text.replace(/==([^=]+)==/g, "$1");
+}
+function removeComments(text) {
+  return text.replace(/^\s*%.*$/gm, "");
+}
+function removeEscapeCharacters(text) {
+  return text.replace(/\\([`*_{}\[\]()#+\-!])/g, "$1");
+}
+function removeMarkdownCharacters(text) {
+  let cleaned = text;
+  cleaned = removeHeaders(cleaned);
+  cleaned = removeBold(cleaned);
+  cleaned = removeItalic(cleaned);
+  cleaned = removeStrikethrough(cleaned);
+  cleaned = removeInlineCode(cleaned);
+  cleaned = removeImages(cleaned);
+  cleaned = removeLinks(cleaned);
+  cleaned = removeCallouts(cleaned);
+  cleaned = removeBlockquotes(cleaned);
+  cleaned = removeLists(cleaned);
+  cleaned = removeHorizontalRules(cleaned);
+  cleaned = removeInternalLinks(cleaned);
+  cleaned = removeTags(cleaned);
+  cleaned = removeHighlighting(cleaned);
+  cleaned = removeComments(cleaned);
+  cleaned = removeEscapeCharacters(cleaned);
+  cleaned = cleaned.replace(/[ \t]+$/gm, "").replace(/^[ \t]+/gm, "");
+  cleaned = cleaned.replace(/\n{2,}/g, "\n\n");
+  return cleaned.trim();
+}
 
 // src/constants.ts
 var SETTINGS_FILE_EXT = "pbs";
@@ -28239,9 +28466,20 @@ var stateSettingsAtom = atom({ visible: [], hidden: [] }, (get, set, newValue) =
     const { plugin } = getGlobals();
     plugin.settings.states.visible = newValue.visible;
     plugin.settings.states.hidden = newValue.hidden;
-    plugin.saveSettings();
+    void plugin.saveSettings();
   } catch (error2) {
     console.error("Error updating state settings:", error2);
+  }
+});
+var projectPageStateSettingsAtom = atom({ visible: [], hidden: [] }, (get, set, newValue) => {
+  set(projectPageStateSettingsAtom, newValue);
+  try {
+    const { plugin } = getGlobals();
+    plugin.settings.projectPageStates.visible = newValue.visible;
+    plugin.settings.projectPageStates.hidden = newValue.hidden;
+    void plugin.saveSettings();
+  } catch (error2) {
+    console.error("Error updating project page state settings:", error2);
   }
 });
 var folderSettingsAtom = atom({ defaultView: "Small" }, (get, set, newValue) => {
@@ -28249,7 +28487,7 @@ var folderSettingsAtom = atom({ defaultView: "Small" }, (get, set, newValue) => 
   try {
     const { plugin } = getGlobals();
     plugin.settings.folders = newValue;
-    plugin.saveSettings();
+    void plugin.saveSettings();
   } catch (error2) {
     console.error("Error updating folder settings:", error2);
   }
@@ -28261,9 +28499,21 @@ var statelessSettingsAtom = atom({ name: "", defaultViewMode: "List" }, (get, se
   try {
     const { plugin } = getGlobals();
     plugin.settings.stateless = newStatelessSettings;
-    plugin.saveSettings();
+    void plugin.saveSettings();
   } catch (error2) {
     console.error("Error updating stateless settings:", error2);
+  }
+});
+var projectPageStatelessSettingsAtom = atom({ name: "", defaultViewMode: "List" }, (get, set, newValue) => {
+  const currentStatelessSettings = get(projectPageStatelessSettingsAtom);
+  const nextStatelessSettings = { ...currentStatelessSettings, ...newValue };
+  set(projectPageStatelessSettingsAtom, nextStatelessSettings);
+  try {
+    const { plugin } = getGlobals();
+    plugin.settings.projectPageStateless = nextStatelessSettings;
+    void plugin.saveSettings();
+  } catch (error2) {
+    console.error("Error updating project page stateless settings:", error2);
   }
 });
 function initializeSettingsAtoms() {
@@ -28274,8 +28524,13 @@ function initializeSettingsAtoms() {
       visible: plugin.settings.states.visible,
       hidden: plugin.settings.states.hidden
     });
+    store.set(projectPageStateSettingsAtom, {
+      visible: plugin.settings.projectPageStates.visible,
+      hidden: plugin.settings.projectPageStates.hidden
+    });
     store.set(folderSettingsAtom, plugin.settings.folders);
     store.set(statelessSettingsAtom, plugin.settings.stateless);
+    store.set(projectPageStatelessSettingsAtom, plugin.settings.projectPageStateless);
   } catch (error2) {
     console.error("Error initializing settings atoms:", error2);
   }
@@ -28315,47 +28570,41 @@ var stateSettingsByNameAtom = (stateName) => atom((get) => {
   }
   console.warn(`State '${stateName}' not found in settings`);
 });
-
-// src/logic/section-processes.ts
-var orderSections = (unorderedSections) => {
-  const { plugin } = getGlobals();
-  const hiddenStatesNames = plugin.settings.states.hidden.map((stateSettings) => stateSettings.name);
-  const orderReference = plugin.settings.states.visible.map((stateSettings) => stateSettings.name);
-  orderReference.reverse();
-  orderReference.unshift("folders");
-  orderReference.push(" ");
-  let remainingSections = unorderedSections.map((section) => section);
-  let orderedSections = [];
-  orderReference.forEach((name) => {
-    let foundIndex;
-    for (let i = 0; i < remainingSections.length; i++) {
-      if (remainingSections[i].title === name) {
-        foundIndex = i;
-        break;
-      }
-    }
-    if (foundIndex === void 0)
-      return;
-    const nextSection = remainingSections.splice(foundIndex, 1)[0];
-    orderedSections.push(nextSection);
-  });
-  remainingSections = remainingSections.filter((section) => {
-    return !hiddenStatesNames.some((hiddenStateName) => hiddenStateName === section.title);
-  });
-  orderedSections.push(...remainingSections);
-  return orderedSections;
-};
-function getStateSettings(name) {
-  const { plugin } = getGlobals();
-  const allSettings = [...plugin.settings.states.visible, ...plugin.settings.states.hidden];
-  for (let i = 0; i <= allSettings.length; i++) {
-    if (!allSettings[i])
-      continue;
-    if (allSettings[i].name === name)
-      return allSettings[i];
+var projectPageStateSettingsByNameAtom = (stateName) => atom((get) => {
+  const allStateSettings = get(projectPageStateSettingsAtom);
+  const visibleState = allStateSettings.visible.find((state) => state.name === stateName);
+  if (visibleState) {
+    return visibleState;
   }
-  return plugin.settings.stateless;
-}
+  const hiddenState = allStateSettings.hidden.find((state) => state.name === stateName);
+  if (hiddenState) {
+    return hiddenState;
+  }
+  return null;
+}, (get, set, newSettings) => {
+  const currentStateSettings = get(projectPageStateSettingsAtom);
+  const visibleIndex = currentStateSettings.visible.findIndex((state) => state.name === stateName);
+  if (visibleIndex !== -1) {
+    const updatedVisible = [...currentStateSettings.visible];
+    updatedVisible[visibleIndex] = { ...updatedVisible[visibleIndex], ...newSettings };
+    set(projectPageStateSettingsAtom, {
+      visible: updatedVisible,
+      hidden: currentStateSettings.hidden
+    });
+    return;
+  }
+  const hiddenIndex = currentStateSettings.hidden.findIndex((state) => state.name === stateName);
+  if (hiddenIndex !== -1) {
+    const updatedHidden = [...currentStateSettings.hidden];
+    updatedHidden[hiddenIndex] = { ...updatedHidden[hiddenIndex], ...newSettings };
+    set(projectPageStateSettingsAtom, {
+      visible: currentStateSettings.visible,
+      hidden: updatedHidden
+    });
+    return;
+  }
+  console.warn(`Project page state '${stateName}' not found in settings`);
+});
 
 // src/utils/log-to-console.ts
 var chalk = __toESM(require_source());
@@ -28368,31 +28617,31 @@ function getTimestamp() {
   return `${hours}:${minutes}:${seconds}.${milliseconds}`;
 }
 function error(_data, _options = {}) {
-  print(chalk.red.bold("Ink error:"), _data, _options);
+  print(chalk.red.bold("Ink error:"), _data, _options, console.error);
 }
-function print(_label, _data, _options = {}) {
+function print(_label, _data, _options = {}, logFn = console.debug) {
   if (_data instanceof Array) {
-    printArray(_label, _data, _options);
+    printArray(_label, _data, _options, logFn);
   } else if (_data instanceof Object) {
-    printTimestampAndLabel(_label);
-    printObj(_data, _options);
-    printEmptyLine();
+    printTimestampAndLabel(_label, logFn);
+    printObj(_data, _options, logFn);
+    printEmptyLine(logFn);
   } else {
-    printStr(`${getTimestampAndLabel(_label)} ${_data}`);
+    printStr(`${getTimestampAndLabel(_label)} ${_data}`, logFn);
   }
 }
-function printArray(_label, _data, _options = {}) {
+function printArray(_label, _data, _options = {}, logFn = console.debug) {
   let accString = "";
   if (_data[0] instanceof Object) {
-    printTimestampAndLabel(_label);
+    printTimestampAndLabel(_label, logFn);
   }
   for (let i = 0; i < _data.length; i++) {
     if (_data[i] instanceof Object) {
       if (accString.length) {
-        printStr(accString);
+        printStr(accString, logFn);
         accString = "";
       }
-      printObj(_data[i], _options);
+      printObj(_data[i], _options, logFn);
     } else {
       if (i === 0) {
         accString = `${getTimestampAndLabel(_label)} ${_data[i]}`;
@@ -28404,18 +28653,18 @@ function printArray(_label, _data, _options = {}) {
         }
       }
       if (i === _data.length - 1) {
-        printStr(accString);
+        printStr(accString, logFn);
       }
     }
   }
   if (_data[_data.length - 1] instanceof Object) {
-    printEmptyLine();
+    printEmptyLine(logFn);
   }
 }
-function printStr(_str) {
-  console.log(`${_str}`);
+function printStr(_str, logFn = console.debug) {
+  logFn(`${_str}`);
 }
-function printObj(_data, _options) {
+function printObj(_data, _options, logFn = console.debug) {
   let data;
   if (_options.freeze) {
     data = JSON.parse(JSON.stringify(_data));
@@ -28425,167 +28674,28 @@ function printObj(_data, _options) {
   if (_options.stringify) {
     data = JSON.stringify(data, null, 2);
   }
-  console.log(data);
+  logFn(data);
 }
-function printTimestampAndLabel(_label) {
-  console.log(getTimestampAndLabel(_label));
+function printTimestampAndLabel(_label, logFn = console.debug) {
+  logFn(getTimestampAndLabel(_label));
 }
-function printEmptyLine() {
-  console.log("");
+function printEmptyLine(logFn = console.debug) {
+  logFn("");
 }
 function getTimestampAndLabel(_label) {
   return `${chalk.grey(getTimestamp())} ${_label}`;
 }
 
-// src/utils/string-processes.ts
-var illegalRe = /[\/\?<>\\:\*\|"]/g;
-var controlRe = /[\x00-\x1f\x80-\x9f]/g;
-var reservedRe = /^\.+$/;
-var windowsReservedRe = /^(con|prn|aux|nul|com[0-9]|lpt[0-9])(\..*)?$/i;
-var windowsTrailingRe = /[\. ]+$/;
-var linkRe = /[\[\]]/g;
-function sanitizeFileFolderName(name) {
-  return name.replace(illegalRe, "").replace(controlRe, "").replace(reservedRe, "").replace(windowsReservedRe, "").replace(windowsTrailingRe, "");
-}
-function sanitizeInternalLinkName(name) {
-  const validFilename = sanitizeFileFolderName(name);
-  const validInternalLink = validFilename.replace(linkRe, "");
-  return validInternalLink;
-}
-function folderPathSanitize(str) {
-  let pathStr = str;
-  let pathArr;
-  pathArr = pathStr.split("/");
-  for (let j = 0; j < pathArr.length; j++) {
-    pathArr[j] = sanitizeFileFolderName(pathArr[j]);
-  }
-  pathStr = pathArr.join("/");
-  return pathStr;
-}
-function parseFilepath(filepath) {
-  const segments = filepath.split("/");
-  const filename = segments.pop() || "";
-  const extIndex = filename.lastIndexOf(".");
-  const ext = extIndex >= 0 ? filename.slice(extIndex) : "";
-  const basename = extIndex >= 0 ? filename.slice(0, extIndex) : filename;
-  let folderpath = "";
-  if (segments.length === 1 && segments[0] === "") {
-    folderpath = "/";
-  } else {
-    folderpath = segments.join("/");
-  }
-  return { folderpath, basename, ext: ext.startsWith(".") ? ext.slice(1) : ext };
-}
-function removeFrontmatter(text) {
-  const sectionRegex = /---([^`]+?)---(\s*)/g;
-  return text.replace(sectionRegex, "");
-}
-function removeCodeBlocks(text) {
-  let result = text.replace(/(^|\n)```[\s\S]*?```(\n|$)/g, "\n");
-  result = result.replace(/\n{3,}/g, "\n\n");
-  return result.trim();
-}
-function removeXmlTags(text) {
-  const xmlTagRegex = /<[^>]*>/g;
-  return text.replace(xmlTagRegex, "");
-}
-function simplifyWhiteSpace(text) {
-  let result = text.replace(/(\\n\s*)+/g, ". ");
-  result = result.replace(/\s*\.\s*/g, ". ");
-  result = result.replace(/ {2,}/g, " ");
-  result = result.replace(/(\.\s*){2,}/g, ". ");
-  if (result.trim() === ".") {
-    return ". ";
-  }
-  if (result.endsWith(".")) {
-    result = result + " ";
-  }
-  return result.trim();
-}
-function removeHeaders(text) {
-  return text.replace(/^#{1,6}\s+/gm, "");
-}
-function removeBold(text) {
-  return text.replace(/\*\*(.*?)\*\*/g, "$1").replace(/__(.*?)__/g, "$1");
-}
-function removeItalic(text) {
-  return text.replace(/\*(.*?)\*/g, "$1").replace(/_(.*?)_/g, "$1");
-}
-function removeStrikethrough(text) {
-  return text.replace(/~~(.*?)~~/g, "$1");
-}
-function removeInlineCode(text) {
-  return text.replace(/`([^`]+)`/g, "$1");
-}
-function removeImages(text) {
-  return text.replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1");
-}
-function removeLinks(text) {
-  return text.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
-}
-function removeBlockquotes(text) {
-  return text.replace(/^>\s+/gm, "");
-}
-function removeLists(text) {
-  return text.replace(/^[\s]*[-*+]\s+/gm, "").replace(/^[\s]*\d+\.\s+/gm, "");
-}
-function removeHorizontalRules(text) {
-  let result = text.replace(/^\s*([-*_])\1{2,}\s*$/gm, "");
-  result = result.replace(/\n{3,}/g, "\n\n");
-  return result;
-}
-function removeInternalLinks(text) {
-  return text.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, p1, p2) => p2 ? p2 : p1);
-}
-function removeCallouts(text) {
-  return text.replace(/^>\s*\[![^\]]*\].*$/gm, "");
-}
-function removeTags(text) {
-  return text.replace(/#([^\s#]+)/g, "$1");
-}
-function removeHighlighting(text) {
-  return text.replace(/==([^=]+)==/g, "$1");
-}
-function removeComments(text) {
-  return text.replace(/^\s*%.*$/gm, "");
-}
-function removeEscapeCharacters(text) {
-  return text.replace(/\\([`*_{}\[\]()#+\-!])/g, "$1");
-}
-function removeMarkdownCharacters(text) {
-  let cleaned = text;
-  cleaned = removeHeaders(cleaned);
-  cleaned = removeBold(cleaned);
-  cleaned = removeItalic(cleaned);
-  cleaned = removeStrikethrough(cleaned);
-  cleaned = removeInlineCode(cleaned);
-  cleaned = removeImages(cleaned);
-  cleaned = removeLinks(cleaned);
-  cleaned = removeCallouts(cleaned);
-  cleaned = removeBlockquotes(cleaned);
-  cleaned = removeLists(cleaned);
-  cleaned = removeHorizontalRules(cleaned);
-  cleaned = removeInternalLinks(cleaned);
-  cleaned = removeTags(cleaned);
-  cleaned = removeHighlighting(cleaned);
-  cleaned = removeComments(cleaned);
-  cleaned = removeEscapeCharacters(cleaned);
-  cleaned = cleaned.replace(/[ \t]+$/gm, "").replace(/^[ \t]+/gm, "");
-  cleaned = cleaned.replace(/\n{2,}/g, "\n\n");
-  return cleaned.trim();
-}
-
 // src/logic/get-state-by-name.ts
 function getStateByName(stateName) {
-  const { plugin } = getGlobals();
-  const allStateSettings = [...plugin.settings.states.visible, ...plugin.settings.states.hidden];
-  const sanitizedStateName = sanitizeInternalLinkName(stateName);
-  for (const stateSettings of allStateSettings) {
-    if (stateSettings.name === sanitizedStateName) {
-      return stateSettings;
-    }
-  }
-  return null;
+  return getStateByNameForScope(stateName, "standardNote");
+}
+function getProjectPageStateByName(stateName) {
+  return getStateByNameForScope(stateName, "projectPage");
+}
+async function getStateByNameForFile(file, stateName) {
+  const scope = await getFileStateScope(file);
+  return getStateByNameForScope(stateName, scope);
 }
 
 // src/logic/get-priority-by-name.ts
@@ -28646,6 +28756,18 @@ var getFileStateSettings = (file) => {
   }
   return null;
 };
+var getFileStateSettingsAsync = async (file) => {
+  const frontmatter = getFileFrontmatter(file);
+  if (!frontmatter)
+    return null;
+  if (frontmatter.state) {
+    const stateName = frontmatter.state;
+    if (stateName) {
+      return await getStateByNameForFile(file, stateName);
+    }
+  }
+  return null;
+};
 var getFilePrioritySettings = (file) => {
   const frontmatter = getFileFrontmatter(file);
   if (!frontmatter)
@@ -28660,8 +28782,8 @@ var getFilePrioritySettings = (file) => {
   }
   return null;
 };
-var getFileStateName = (file) => {
-  const stateSettings = getFileStateSettings(file);
+var getFileStateNameAsync = async (file) => {
+  const stateSettings = await getFileStateSettingsAsync(file);
   if (!stateSettings)
     return null;
   return stateSettings.name;
@@ -28687,7 +28809,7 @@ var setFileState = async (file, stateSettings) => {
         frontmatter["state"] = void 0;
       }
     });
-    plugin.refreshFileDependants();
+    void plugin.refreshFileDependants();
     return true;
   } catch (e) {
     error(e);
@@ -28715,7 +28837,7 @@ var setFilePriority = async (file, prioritySettings) => {
         frontmatter["priority"] = void 0;
       }
     });
-    plugin.refreshFileDependants();
+    void plugin.refreshFileDependants();
     return true;
   } catch (e) {
     error(e);
@@ -28733,129 +28855,9 @@ var getFileAliases = (file) => {
   return null;
 };
 
-// src/logic/folder-processes.ts
-var getSortedSectionsInFolder = (folder) => {
-  const { plugin } = getGlobals();
-  const itemsInFolder = getItemsInFolder(folder);
-  const itemsBySection = {};
-  itemsInFolder?.forEach((item) => {
-    if (item instanceof import_obsidian.TFolder) {
-      if (!itemsBySection["folders"])
-        itemsBySection["folders"] = [];
-      itemsBySection["folders"].push(item);
-    } else if (item instanceof import_obsidian.TFile) {
-      if (item.extension.toLowerCase() === "pbs")
-        return;
-      const displayState = getFileStateName(item);
-      if (displayState) {
-        if (!itemsBySection[displayState])
-          itemsBySection[displayState] = [];
-        itemsBySection[displayState].push(item);
-      } else {
-        if (!itemsBySection[" "])
-          itemsBySection[" "] = [];
-        itemsBySection[" "].push(item);
-      }
-    }
-  });
-  let itemsBySectionArr = [];
-  for (const [key, value] of Object.entries(itemsBySection)) {
-    if (key === "folders") {
-      itemsBySectionArr.push({
-        title: key,
-        type: "folders",
-        items: value,
-        settings: plugin.settings.folders
-      });
-    } else if (key == " ") {
-      itemsBySectionArr.push({
-        title: key,
-        type: "stateless",
-        items: value,
-        settings: plugin.settings.stateless
-      });
-    } else {
-      itemsBySectionArr.push({
-        title: key,
-        type: "state",
-        items: value,
-        settings: getStateSettings(key)
-      });
-    }
-  }
-  itemsBySectionArr = orderSections(itemsBySectionArr);
-  return itemsBySectionArr;
-};
-function filterSectionsByString(sections, searchStr) {
-  sections.forEach((section) => {
-    if (section.type !== "folders")
-      filterSectionByString(section, searchStr);
-  });
-}
-function filterSectionByString(section, searchStr) {
-  section.items = section.items.filter((item) => {
-    return item.name.toLowerCase().contains(searchStr.toLowerCase());
-  });
-}
-var getItemsInFolder = (folder) => {
-  const v = folder.vault;
-  const curFiles = folder.children;
-  return curFiles;
-};
-
-// src/modals/confirmation-modal/confirmation-modal.ts
-var import_obsidian2 = require("obsidian");
-var ConfirmationModal = class extends import_obsidian2.Modal {
-  constructor(options) {
-    const { plugin } = getGlobals();
-    super(plugin.app);
-    this.title = "Confirmation";
-    this.message = "Are you sure?";
-    this.cancelLabel = "Cancel";
-    this.cancelAction = () => {
-    };
-    this.confirmLabel = "Yes";
-    this.title = options.title || this.title;
-    this.message = options.message || this.message;
-    this.cancelLabel = options.cancelLabel || this.cancelLabel;
-    this.confirmLabel = options.confirmLabel || this.confirmLabel;
-    this.cancelAction = options.cancelAction || this.cancelAction;
-    this.confirmAction = options.confirmAction;
-  }
-  onOpen() {
-    const { titleEl, contentEl } = this;
-    titleEl.setText(this.title);
-    contentEl.createEl("p", { text: this.message });
-    new import_obsidian2.Setting(contentEl).addButton((cancelBtn) => {
-      cancelBtn.setClass("uo_button");
-      cancelBtn.setButtonText(this.cancelLabel);
-      cancelBtn.onClick(() => {
-        this.close();
-        this.cancelAction();
-      });
-    }).addButton((confirmBtn) => {
-      confirmBtn.setClass("uo_button");
-      confirmBtn.setWarning();
-      confirmBtn.setButtonText(this.confirmLabel);
-      confirmBtn.onClick(() => {
-        this.close();
-        this.confirmAction();
-      });
-    });
-  }
-  onClose() {
-    const { titleEl, contentEl } = this;
-    titleEl.empty();
-    contentEl.empty();
-  }
-};
-
-// src/utils/file-manipulation.ts
-var import_obsidian3 = require("obsidian");
-
 // src/types/folder-settings_0_1_2.ts
 var DEFAULT_FOLDER_SETTINGS_0_1_2 = {
-  _description: `Obsidian Project Browser folder settings`
+  aboutThisFile: `Obsidian Project Browser folder settings`
 };
 
 // src/types/plugin-settings_0_0_5.ts
@@ -28947,6 +28949,7 @@ var DEFAULT_PLUGIN_SETTINGS_0_3_0 = {
     launchFolder: "/"
   },
   useAliases: true,
+  showFileExtForNonMdFiles: true,
   showStateMenu: true,
   loopStatesWhenCycling: true,
   folders: {
@@ -29034,25 +29037,197 @@ var DEFAULT_PLUGIN_SETTINGS_0_3_0 = {
   ]
 };
 
+// src/types/plugin-settings_0_4_0.ts
+var DEFAULT_PROJECT_BROWSER_FILE_TYPES = {
+  visible: [
+    "md",
+    "canvas",
+    "base",
+    "pdf",
+    "avif",
+    "bmp",
+    "gif",
+    "jpeg",
+    "jpg",
+    "png",
+    "svg",
+    "webp",
+    "flac",
+    "m4a",
+    "mp3",
+    "ogg",
+    "oga",
+    "opus",
+    "wav",
+    "webm",
+    "3gp",
+    "mkv",
+    "mov",
+    "mp4",
+    "ogv"
+  ],
+  hidden: ["pbs"]
+};
+var DEFAULT_PAGE_MENU_FILE_TYPES = {
+  visible: ["md", "canvas", "base"],
+  hidden: [
+    "pbs",
+    "pdf",
+    "avif",
+    "bmp",
+    "gif",
+    "jpeg",
+    "jpg",
+    "png",
+    "svg",
+    "webp",
+    "flac",
+    "m4a",
+    "mp3",
+    "ogg",
+    "oga",
+    "opus",
+    "wav",
+    "webm",
+    "3gp",
+    "mkv",
+    "mov",
+    "mp4",
+    "ogv"
+  ]
+};
+var DEFAULT_FILE_TYPE_SETTINGS_0_4_0 = {
+  projectBrowser: { ...DEFAULT_PROJECT_BROWSER_FILE_TYPES },
+  pageMenu: { ...DEFAULT_PAGE_MENU_FILE_TYPES }
+};
+var DEFAULT_PROJECT_PAGE_STATE_SETTINGS_0_4_0 = {
+  visible: [
+    {
+      name: "First Draft",
+      link: true,
+      defaultViewMode: "Small Cards",
+      defaultViewOrder: "AliasOrFilename",
+      defaultViewPriorityVisibility: true,
+      defaultViewPriorityGrouping: false
+    },
+    {
+      name: "Work in Progress",
+      link: true,
+      defaultViewMode: "Detailed Cards",
+      defaultViewOrder: "AliasOrFilename",
+      defaultViewPriorityVisibility: true,
+      defaultViewPriorityGrouping: false
+    },
+    {
+      name: "Proofingreading",
+      link: true,
+      defaultViewMode: "List",
+      defaultViewOrder: "ModifiedDate",
+      defaultViewPriorityVisibility: false,
+      defaultViewPriorityGrouping: false
+    },
+    {
+      name: "Ready",
+      link: true,
+      defaultViewMode: "List",
+      defaultViewOrder: "ModifiedDate",
+      defaultViewPriorityVisibility: false,
+      defaultViewPriorityGrouping: false
+    }
+  ],
+  hidden: [
+    {
+      name: "Abandoned",
+      link: true,
+      defaultViewMode: "List",
+      defaultViewOrder: "ModifiedDate",
+      defaultViewPriorityVisibility: false,
+      defaultViewPriorityGrouping: false
+    }
+  ]
+};
+var DEFAULT_PROJECT_PAGE_STATELESS_SETTINGS_0_4_0 = {
+  name: "",
+  link: true,
+  defaultViewMode: "List",
+  defaultViewOrder: "ModifiedDate",
+  defaultViewPriorityVisibility: true,
+  defaultViewPriorityGrouping: false
+};
+var DEFAULT_PLUGIN_SETTINGS_0_4_0 = {
+  ...DEFAULT_PLUGIN_SETTINGS_0_3_0,
+  settingsVersion: "0.4.0",
+  fileTypes: { ...DEFAULT_FILE_TYPE_SETTINGS_0_4_0 },
+  projectPageStates: {
+    visible: [...DEFAULT_PROJECT_PAGE_STATE_SETTINGS_0_4_0.visible],
+    hidden: [...DEFAULT_PROJECT_PAGE_STATE_SETTINGS_0_4_0.hidden]
+  },
+  projectPageStateless: { ...DEFAULT_PROJECT_PAGE_STATELESS_SETTINGS_0_4_0 },
+  defaultProjectPageState: void 0,
+  loopProjectPageStatesWhenCycling: true,
+  showRenamePopupOnNewPage: true
+};
+
 // src/types/types-map.ts
-var DEFAULT_SETTINGS = DEFAULT_PLUGIN_SETTINGS_0_3_0;
+var DEFAULT_SETTINGS = DEFAULT_PLUGIN_SETTINGS_0_4_0;
 var DEFAULT_FOLDER_SETTINGS = DEFAULT_FOLDER_SETTINGS_0_1_2;
 var DEFAULT_STATE_SETTINGS = DEFAULT_STATE_SETTINGS_0_3_0;
 var StateViewMode = StateViewMode_0_0_5;
 var StateViewOrder = StateViewOrder_0_3_0;
 
 // src/utils/file-manipulation.ts
+var PAGE_NAME_PATTERN = /page\s*(\d+)/i;
+function getNextPageNameInProject(folder) {
+  const children = folder.children;
+  if (!children)
+    return "Page 1";
+  const pageNumbers = [];
+  for (const child of children) {
+    if (!(child instanceof import_obsidian.TFile))
+      continue;
+    const basename = child.basename;
+    const match = basename.match(PAGE_NAME_PATTERN);
+    if (match)
+      pageNumbers.push(parseInt(match[1], 10));
+  }
+  const maxNumber = pageNumbers.length > 0 ? Math.max(...pageNumbers) : 0;
+  return `Page ${maxNumber + 1}`;
+}
+function normalizeFolderSettings(rawFolderSettings) {
+  const normalizedFolderSettings = {
+    ...rawFolderSettings
+  };
+  if (!normalizedFolderSettings.aboutThisFile && rawFolderSettings._description) {
+    normalizedFolderSettings.aboutThisFile = rawFolderSettings._description;
+  }
+  if (!normalizedFolderSettings.state && rawFolderSettings.stateName) {
+    normalizedFolderSettings.state = rawFolderSettings.stateName;
+  }
+  if (!normalizedFolderSettings.priority && rawFolderSettings.priorityName) {
+    normalizedFolderSettings.priority = rawFolderSettings.priorityName;
+  }
+  delete normalizedFolderSettings._description;
+  delete normalizedFolderSettings.stateName;
+  delete normalizedFolderSettings.priorityName;
+  return normalizedFolderSettings;
+}
 async function createProject(props) {
   const v = props.parentFolder.vault;
   const globals = getGlobals();
-  const primaryProjectFile = await createDefaultMarkdownFile(v, props.parentFolder, props.projectName);
+  const folderSettings = await getFolderSettings(v, props.parentFolder);
+  const parentIsProject = folderSettings.isProject === true;
+  const usePageNaming = parentIsProject && props.projectName === "Untitled";
+  const projectName = usePageNaming ? getNextPageNameInProject(props.parentFolder) : props.projectName;
+  const primaryProjectFile = await createDefaultMarkdownFile(v, props.parentFolder, projectName);
+  const getScopedStateByName = parentIsProject ? getProjectPageStateByName : getStateByName;
+  const defaultStateName = parentIsProject ? globals.plugin.settings.defaultProjectPageState : globals.plugin.settings.defaultState;
   if (props.stateName) {
-    const stateSettings = getStateByName(props.stateName);
+    const stateSettings = getScopedStateByName(props.stateName);
     if (stateSettings) {
       await setFileState(primaryProjectFile, stateSettings);
     }
-  } else if (globals.plugin.settings.defaultState) {
-    const stateSettings = getStateByName(globals.plugin.settings.defaultState);
+  } else if (defaultStateName) {
+    const stateSettings = getScopedStateByName(defaultStateName);
     if (stateSettings) {
       await setFileState(primaryProjectFile, stateSettings);
     }
@@ -29065,43 +29240,111 @@ async function createFolder(folderPath) {
   const folder = await plugin.app.vault.createFolder(safeFolderPath);
   return folder;
 }
+async function createSubproject(parentFolder, subprojectName) {
+  const { plugin } = getGlobals();
+  const vault = plugin.app.vault;
+  const basePath = parentFolder.path ? `${parentFolder.path}/` : "";
+  let baseName = sanitizeFileFolderName(subprojectName);
+  if (baseName.trim() === "")
+    baseName = "Unnamed";
+  let folderPath = `${basePath}${baseName}`;
+  let n = 2;
+  while (vault.getAbstractFileByPath(folderPath)) {
+    folderPath = `${basePath}${baseName} ${n}`;
+    n++;
+  }
+  const newFolder = await createFolder(folderPath);
+  await setFolderAsProject(newFolder);
+  const firstPage = await createProject({ parentFolder: newFolder, projectName: "Untitled" });
+  return firstPage;
+}
 async function renameTFile(file, safeName) {
   const { folderpath } = parseFilepath(file.path);
+  let newPathAndName = safeName;
+  if (file.extension) {
+    newPathAndName = `${safeName}.${file.extension}`;
+  }
+  if (folderpath) {
+    newPathAndName = `${folderpath}/${newPathAndName}`;
+  }
   try {
-    if (file.extension) {
-      const newPathAndName = `${folderpath}/${safeName}.${file.extension}`;
-      file.vault.rename(file, newPathAndName);
-      return newPathAndName;
-    } else {
-      const newPathAndName = `${folderpath}/${safeName}`;
-      file.vault.rename(file, newPathAndName);
-      return newPathAndName;
-    }
+    await file.vault.rename(file, newPathAndName);
+    return newPathAndName;
   } catch (e) {
-    console.log(e);
+    console.error(e);
     return null;
   }
 }
 async function renameTFolder(folder, safeName) {
-  const newPathAndName = `${folder.path}/${folder.name}`;
+  const { folderpath } = parseFilepath(folder.path);
+  let newPathAndName = safeName;
+  if (folderpath) {
+    newPathAndName = `${folderpath}/${safeName}`;
+  }
   try {
-    folder.vault.rename(folder, `${safeName}`);
-    return safeName;
+    await folder.vault.rename(folder, newPathAndName);
+    return newPathAndName;
   } catch (e) {
-    console.log(e);
+    console.error(e);
     return null;
   }
 }
+async function moveFileToFolder(file, targetFolder) {
+  const newPath = targetFolder.path ? `${targetFolder.path}/${file.name}` : file.name;
+  try {
+    await file.vault.rename(file, newPath);
+    return newPath;
+  } catch (e) {
+    console.error(e);
+    return null;
+  }
+}
+async function createProjectFromNote(note, parentFolder) {
+  const vault = parentFolder.vault;
+  const baseName = sanitizeFileFolderName(note.basename);
+  const noteStateSettings = getFileStateSettings(note);
+  const notePrioritySettings = getFilePrioritySettings(note);
+  if (!baseName) {
+    throw new Error("Note basename is empty after sanitization");
+  }
+  let folderName = baseName;
+  let version = 1;
+  let newFolderPath = parentFolder.path ? `${parentFolder.path}/${folderName}` : folderName;
+  while (vault.getAbstractFileByPath(newFolderPath)) {
+    version += 1;
+    folderName = `${baseName} (${version})`;
+    newFolderPath = parentFolder.path ? `${parentFolder.path}/${folderName}` : folderName;
+  }
+  const newFolder = await createFolder(newFolderPath);
+  const moved = await moveFileToFolder(note, newFolder);
+  if (!moved) {
+    throw new Error(`Failed to move note into project folder`);
+  }
+  await renameTFile(note, "Page 1");
+  await setFolderAsProject(newFolder);
+  if (noteStateSettings) {
+    await setFolderState(newFolder, noteStateSettings);
+  }
+  if (notePrioritySettings) {
+    await setFolderPriority(newFolder, notePrioritySettings);
+  }
+  await setFileState(note, null);
+  await setFilePriority(note, null);
+  const secondPage = await createProject({
+    parentFolder: newFolder,
+    projectName: "Untitled"
+  });
+  return secondPage;
+}
 async function createDefaultMarkdownFile(vault, folder, title) {
-  let filename = sanitizeFileFolderName(title);
-  let content = "";
+  const filename = sanitizeFileFolderName(title);
   return await createNewMarkdownFile(vault, folder, filename);
 }
 async function createNewMarkdownFile(vault, folder, filename, writeOptions, version = 1) {
   let pathAndVersionedBasename;
   let fileRef = null;
   try {
-    if (version == 1) {
+    if (version === 1) {
       pathAndVersionedBasename = `${folder.path}/${filename}`;
     } else {
       pathAndVersionedBasename = `${folder.path}/${filename} (${version})`;
@@ -29112,7 +29355,7 @@ async function createNewMarkdownFile(vault, folder, filename, writeOptions, vers
       fileRef = await vault.create(`${pathAndVersionedBasename}.md`, "", writeOptions);
     }
   } catch (reason) {
-    console.log(reason);
+    console.error(reason);
   }
   return fileRef;
 }
@@ -29126,13 +29369,13 @@ async function getFolderSettings(vault, folder) {
   }
   if (settingsFile) {
     try {
-      folderSettings = {
+      folderSettings = normalizeFolderSettings({
         ...folderSettings,
         ...JSON.parse(await vault.read(settingsFile))
-      };
+      });
     } catch (e) {
-      console.log(`Error reading folder settings`, e);
-      console.log(`Creating empty settings`);
+      console.error(`Error reading folder settings`, e);
+      console.debug(`Creating empty settings`);
     }
   }
   return folderSettings;
@@ -29140,21 +29383,22 @@ async function getFolderSettings(vault, folder) {
 async function saveFolderSettings(vault, folder, settings) {
   let settingsFile = null;
   const filename = `${folder.path}/${FOLDER_SETTINGS_FILENAME}`;
+  const normalizedFolderSettings = normalizeFolderSettings(settings);
   try {
     settingsFile = vault.getFileByPath(filename);
   } catch (e) {
   }
   if (settingsFile) {
     try {
-      await vault.modify(settingsFile, JSON.stringify(settings, null, 2));
+      await vault.modify(settingsFile, JSON.stringify(normalizedFolderSettings, null, 2));
     } catch (e) {
-      console.log(`Error writing to folder settings file`, e);
+      console.error(`Error writing to folder settings file`, e);
     }
   } else {
     try {
-      await vault.create(filename, JSON.stringify(settings, null, 2));
+      await vault.create(filename, JSON.stringify(normalizedFolderSettings, null, 2));
     } catch (e) {
-      console.log(`Error creating folder settings file`, e);
+      console.error(`Error creating folder settings file`, e);
     }
   }
 }
@@ -29162,14 +29406,324 @@ async function hideFolder(folder) {
   const { plugin } = getGlobals();
   const folderSettings = await getFolderSettings(plugin.app.vault, folder);
   folderSettings.isHidden = true;
-  saveFolderSettings(plugin.app.vault, folder, folderSettings);
+  await saveFolderSettings(plugin.app.vault, folder, folderSettings);
 }
 async function unhideFolder(folder) {
   const { plugin } = getGlobals();
   const folderSettings = await getFolderSettings(plugin.app.vault, folder);
   delete folderSettings.isHidden;
-  saveFolderSettings(plugin.app.vault, folder, folderSettings);
+  await saveFolderSettings(plugin.app.vault, folder, folderSettings);
 }
+async function setFolderAsProject(folder) {
+  const { plugin } = getGlobals();
+  const folderSettings = await getFolderSettings(plugin.app.vault, folder);
+  folderSettings.isProject = true;
+  delete folderSettings.state;
+  delete folderSettings.priority;
+  await saveFolderSettings(plugin.app.vault, folder, folderSettings);
+  void plugin.refreshFileDependants();
+}
+async function setFolderAsFolder(folder) {
+  const { plugin } = getGlobals();
+  const folderSettings = await getFolderSettings(plugin.app.vault, folder);
+  folderSettings.isProject = false;
+  delete folderSettings.state;
+  delete folderSettings.priority;
+  await saveFolderSettings(plugin.app.vault, folder, folderSettings);
+  void plugin.refreshFileDependants();
+}
+async function setFolderState(folder, stateSettings) {
+  const { plugin } = getGlobals();
+  const folderSettings = await getFolderSettings(plugin.app.vault, folder);
+  if (stateSettings === null) {
+    delete folderSettings.state;
+  } else {
+    folderSettings.state = stateSettings.name;
+  }
+  await saveFolderSettings(plugin.app.vault, folder, folderSettings);
+  void plugin.refreshFileDependants();
+}
+async function setFolderPriority(folder, prioritySettings) {
+  const { plugin } = getGlobals();
+  const folderSettings = await getFolderSettings(plugin.app.vault, folder);
+  const currentPriorityName = folderSettings.priority ?? null;
+  if (prioritySettings === null) {
+    delete folderSettings.priority;
+  } else if (currentPriorityName === prioritySettings.name) {
+    delete folderSettings.priority;
+  } else {
+    folderSettings.priority = prioritySettings.name;
+  }
+  await saveFolderSettings(plugin.app.vault, folder, folderSettings);
+  void plugin.refreshFileDependants();
+}
+async function getFolderStateName(folder) {
+  const { plugin } = getGlobals();
+  const folderSettings = await getFolderSettings(plugin.app.vault, folder);
+  return folderSettings.state ?? null;
+}
+async function getFolderPriorityName(folder) {
+  const { plugin } = getGlobals();
+  const folderSettings = await getFolderSettings(plugin.app.vault, folder);
+  return folderSettings.priority ?? null;
+}
+async function getFolderPrioritySettings(folder) {
+  const priorityName = await getFolderPriorityName(folder);
+  if (!priorityName)
+    return null;
+  return getPriorityByName(priorityName);
+}
+
+// src/logic/project-page-states.ts
+function getStandardNoteStateSettings() {
+  const { plugin } = getGlobals();
+  return {
+    visible: plugin.settings.states.visible,
+    hidden: plugin.settings.states.hidden,
+    stateless: plugin.settings.stateless,
+    defaultState: plugin.settings.defaultState,
+    shouldLoopWhenCycling: plugin.settings.loopStatesWhenCycling
+  };
+}
+function getProjectPageStateSettings() {
+  const { plugin } = getGlobals();
+  return {
+    visible: plugin.settings.projectPageStates.visible,
+    hidden: plugin.settings.projectPageStates.hidden,
+    stateless: plugin.settings.projectPageStateless,
+    defaultState: plugin.settings.defaultProjectPageState,
+    shouldLoopWhenCycling: plugin.settings.loopProjectPageStatesWhenCycling
+  };
+}
+function getStateSettingsForScope(scope) {
+  return scope === "projectPage" ? getProjectPageStateSettings() : getStandardNoteStateSettings();
+}
+function getAllStateSettingsForScope(scope) {
+  const scopedSettings = getStateSettingsForScope(scope);
+  return [...scopedSettings.visible, ...scopedSettings.hidden];
+}
+function getStateByNameForScope(stateName, scope) {
+  const sanitizedStateName = sanitizeInternalLinkName(stateName);
+  const allStateSettings = getAllStateSettingsForScope(scope);
+  for (const stateSettings of allStateSettings) {
+    if (stateSettings.name === sanitizedStateName) {
+      return stateSettings;
+    }
+  }
+  return null;
+}
+async function isMarkdownFileInProject(file) {
+  if (file.extension !== "md")
+    return false;
+  const { plugin } = getGlobals();
+  const parentFolder = file.parent ?? plugin.app.vault.getRoot();
+  const folderSettings = await getFolderSettings(plugin.app.vault, parentFolder);
+  return folderSettings.isProject === true;
+}
+async function getFileStateScope(file) {
+  const isProjectPage = await isMarkdownFileInProject(file);
+  return isProjectPage ? "projectPage" : "standardNote";
+}
+async function getStateSettingsForFile(file) {
+  const scope = await getFileStateScope(file);
+  return getStateSettingsForScope(scope);
+}
+
+// src/logic/section-processes.ts
+var orderSections = (unorderedSections, stateScope = "standardNote") => {
+  const scopedStateSettings = getStateSettingsForScope(stateScope);
+  const hiddenStatesNames = scopedStateSettings.hidden.map((stateSettings) => stateSettings.name);
+  const orderReference = scopedStateSettings.visible.map((stateSettings) => stateSettings.name);
+  orderReference.reverse();
+  orderReference.unshift("folders");
+  orderReference.push(" ");
+  let remainingSections = unorderedSections.map((section) => section);
+  let orderedSections = [];
+  orderReference.forEach((name) => {
+    let foundIndex;
+    for (let i = 0; i < remainingSections.length; i++) {
+      if (remainingSections[i].title === name) {
+        foundIndex = i;
+        break;
+      }
+    }
+    if (foundIndex === void 0)
+      return;
+    const nextSection = remainingSections.splice(foundIndex, 1)[0];
+    orderedSections.push(nextSection);
+  });
+  remainingSections = remainingSections.filter((section) => {
+    return !hiddenStatesNames.some((hiddenStateName) => hiddenStateName === section.title);
+  });
+  orderedSections.push(...remainingSections);
+  return orderedSections;
+};
+function getStateSettings(name, stateScope = "standardNote") {
+  const scopedSettings = getStateByNameForScope(name, stateScope);
+  if (scopedSettings) {
+    return scopedSettings;
+  }
+  return getStateSettingsForScope(stateScope).stateless;
+}
+
+// src/logic/file-type-filter.ts
+function isExtensionVisible(extension, surface) {
+  const { plugin } = getGlobals();
+  const normalizedExt = (extension ?? "").toLowerCase();
+  if (!normalizedExt)
+    return false;
+  const surfaceSettings = plugin.settings.fileTypes[surface];
+  return surfaceSettings?.visible?.some((ext) => ext.toLowerCase() === normalizedExt) ?? false;
+}
+
+// src/logic/folder-processes.ts
+var getProjectExcerpt = async (folder) => {
+  const itemsInFolder = getItemsInFolder(folder);
+  if (!itemsInFolder)
+    return null;
+  for (let i = 0; i < itemsInFolder.length; i++) {
+    const item = itemsInFolder[i];
+    if (item instanceof import_obsidian2.TFile) {
+      const rawState = getFileStateSettings(item);
+      if (rawState) {
+        return await getFileExcerpt(item);
+      }
+    }
+  }
+  return null;
+};
+async function getSortedSectionsInFolderAsync(folder) {
+  const { plugin } = getGlobals();
+  const vault = folder.vault;
+  const itemsInFolder = getItemsInFolder(folder);
+  const currentFolderSettings = await getFolderSettings(vault, folder);
+  const fileStateScope = currentFolderSettings.isProject ? "projectPage" : "standardNote";
+  const itemsBySection = {};
+  if (!itemsInFolder) {
+    return orderSections([]);
+  }
+  for (const item of itemsInFolder) {
+    if (item instanceof import_obsidian2.TFolder) {
+      const folderSettings = await getFolderSettings(vault, item);
+      if (folderSettings.isProject) {
+        item.priority = folderSettings.priority;
+        const stateName = folderSettings.state ?? null;
+        const sectionKey = stateName ?? " ";
+        if (!itemsBySection[sectionKey])
+          itemsBySection[sectionKey] = [];
+        itemsBySection[sectionKey].push(item);
+      } else {
+        if (!itemsBySection["folders"])
+          itemsBySection["folders"] = [];
+        itemsBySection["folders"].push(item);
+      }
+    } else if (item instanceof import_obsidian2.TFile) {
+      if (!isExtensionVisible(item.extension, "projectBrowser"))
+        continue;
+      const displayState = await getFileStateNameAsync(item);
+      if (displayState) {
+        if (!itemsBySection[displayState])
+          itemsBySection[displayState] = [];
+        itemsBySection[displayState].push(item);
+      } else {
+        if (!itemsBySection[" "])
+          itemsBySection[" "] = [];
+        itemsBySection[" "].push(item);
+      }
+    }
+  }
+  const itemsBySectionArr = [];
+  for (const [key, value] of Object.entries(itemsBySection)) {
+    if (key === "folders") {
+      itemsBySectionArr.push({
+        title: key,
+        type: "folders",
+        items: value,
+        settings: plugin.settings.folders
+      });
+    } else if (key === " ") {
+      itemsBySectionArr.push({
+        title: key,
+        type: "stateless",
+        items: value,
+        settings: fileStateScope === "projectPage" ? plugin.settings.projectPageStateless : plugin.settings.stateless,
+        stateScope: fileStateScope
+      });
+    } else {
+      itemsBySectionArr.push({
+        title: key,
+        type: "state",
+        items: value,
+        settings: getStateSettings(key, fileStateScope),
+        stateScope: fileStateScope
+      });
+    }
+  }
+  return orderSections(itemsBySectionArr, fileStateScope);
+}
+function filterSectionsByString(sections, searchStr) {
+  sections.forEach((section) => {
+    if (section.type !== "folders")
+      filterSectionByString(section, searchStr);
+  });
+}
+function filterSectionByString(section, searchStr) {
+  section.items = section.items.filter((item) => {
+    return item.name.toLowerCase().contains(searchStr.toLowerCase());
+  });
+}
+var getItemsInFolder = (folder) => {
+  const v = folder.vault;
+  const curFiles = folder.children;
+  return curFiles;
+};
+
+// src/modals/confirmation-modal/confirmation-modal.ts
+var import_obsidian3 = require("obsidian");
+var ConfirmationModal = class extends import_obsidian3.Modal {
+  constructor(options) {
+    const { plugin } = getGlobals();
+    super(plugin.app);
+    this.title = "Confirmation";
+    this.message = "Are you sure?";
+    this.cancelLabel = "Cancel";
+    this.cancelAction = () => {
+    };
+    this.confirmLabel = "Yes";
+    this.title = options.title || this.title;
+    this.message = options.message || this.message;
+    this.cancelLabel = options.cancelLabel || this.cancelLabel;
+    this.confirmLabel = options.confirmLabel || this.confirmLabel;
+    this.cancelAction = options.cancelAction || this.cancelAction;
+    this.confirmAction = options.confirmAction;
+  }
+  onOpen() {
+    const { titleEl, contentEl } = this;
+    titleEl.setText(this.title);
+    contentEl.createEl("p", { text: this.message });
+    new import_obsidian3.Setting(contentEl).addButton((cancelBtn) => {
+      cancelBtn.setClass("uo_button");
+      cancelBtn.setButtonText(this.cancelLabel);
+      cancelBtn.onClick(() => {
+        this.close();
+        this.cancelAction();
+      });
+    }).addButton((confirmBtn) => {
+      confirmBtn.setClass("uo_button");
+      confirmBtn.setWarning();
+      confirmBtn.setButtonText(this.confirmLabel);
+      confirmBtn.onClick(() => {
+        this.close();
+        this.confirmAction();
+      });
+    });
+  }
+  onClose() {
+    const { titleEl, contentEl } = this;
+    titleEl.empty();
+    contentEl.empty();
+  }
+};
 
 // src/logic/file-processes.ts
 var getFileExcerpt = async (file) => {
@@ -29183,15 +29737,15 @@ var getFileExcerpt = async (file) => {
   excerpt = simplifyWhiteSpace(excerpt);
   return excerpt;
 };
-function deleteFileImmediately(file) {
+async function deleteFileImmediately(file) {
   const { plugin } = getGlobals();
-  file.vault.delete(file);
-  plugin.refreshFileDependants();
+  await plugin.app.fileManager.trashFile(file);
+  void plugin.refreshFileDependants();
 }
-function deleteFolderImmediately(folder) {
+async function deleteFolderImmediately(folder) {
   const { plugin } = getGlobals();
-  folder.vault.delete(folder, true);
-  plugin.refreshFileDependants();
+  await plugin.app.fileManager.trashFile(folder);
+  void plugin.refreshFileDependants();
 }
 function deleteFileWithConfirmation(file) {
   new ConfirmationModal({
@@ -29199,7 +29753,7 @@ function deleteFileWithConfirmation(file) {
     message: `Are you sure you'd like to delete "${file.name}" ?`,
     confirmLabel: "Delete note",
     confirmAction: async () => {
-      deleteFileImmediately(file);
+      await deleteFileImmediately(file);
       new import_obsidian4.Notice(`Deleted "${file.name}"`);
     }
   }).open();
@@ -29210,15 +29764,111 @@ function deleteFolderWithConfirmation(folder) {
     message: `Are you sure you'd like to delete "${folder.name}" and it's contents?`,
     confirmLabel: "Delete folder & contents",
     confirmAction: async () => {
-      deleteFolderImmediately(folder);
+      await deleteFolderImmediately(folder);
       new import_obsidian4.Notice(`Deleted "${folder.name}"`);
     }
   }).open();
 }
 
-// src/modals/rename-folder-modal/rename-folder-modal.ts
+// src/logic/reveal-in-project-browser.ts
 var import_obsidian5 = require("obsidian");
-var RenameFolderModal = class extends import_obsidian5.Modal {
+
+// src/views/card-browser-view/card-browser-view-constants.ts
+var CARD_BROWSER_VIEW_TYPE = "card-browser-view";
+
+// src/logic/reveal-in-project-browser.ts
+var pendingProjectBrowserRevealLeaves = /* @__PURE__ */ new WeakSet();
+function isRevealableAbstractFile(file) {
+  return file instanceof import_obsidian5.TFile || file instanceof import_obsidian5.TFolder;
+}
+function getParentFolderForRevealTarget(target) {
+  return target.parent ?? null;
+}
+function getMostRecentProjectBrowserLeaf() {
+  const { plugin } = getGlobals();
+  const activeLeaf = plugin.app.workspace.getMostRecentLeaf();
+  const activeLeafViewType = activeLeaf?.view.getViewType();
+  const activeLeafIsProjectBrowser = activeLeafViewType === CARD_BROWSER_VIEW_TYPE;
+  if (activeLeaf && activeLeafIsProjectBrowser)
+    return activeLeaf;
+  const browserLeaves = plugin.app.workspace.getLeavesOfType(CARD_BROWSER_VIEW_TYPE);
+  const mostRecentBrowserLeaf = browserLeaves[browserLeaves.length - 1] ?? null;
+  return mostRecentBrowserLeaf;
+}
+function getProjectBrowserRevealLocation(target) {
+  const { plugin } = getGlobals();
+  const vaultRoot = plugin.app.vault.getRoot();
+  if (target instanceof import_obsidian5.TFolder) {
+    return {
+      path: target.path,
+      lastTouchedFilePath: ""
+    };
+  }
+  if (target instanceof import_obsidian5.TFile) {
+    const parentFolder = target.parent ?? vaultRoot;
+    return {
+      path: parentFolder.path,
+      lastTouchedFilePath: target.path
+    };
+  }
+  return null;
+}
+function getProjectBrowserRevealTargetForSelection(files) {
+  const revealableTargets = files.filter(isRevealableAbstractFile);
+  const hasRevealableTargets = revealableTargets.length > 0;
+  if (!hasRevealableTargets)
+    return null;
+  const hasSingleTarget = revealableTargets.length === 1;
+  if (hasSingleTarget)
+    return revealableTargets[0];
+  const firstParentFolder = getParentFolderForRevealTarget(revealableTargets[0]);
+  if (!firstParentFolder)
+    return revealableTargets[0];
+  const firstParentPath = firstParentFolder.path;
+  const allTargetsShareParent = revealableTargets.every((target) => {
+    const parentFolder = getParentFolderForRevealTarget(target);
+    return parentFolder?.path === firstParentPath;
+  });
+  if (allTargetsShareParent)
+    return firstParentFolder;
+  return revealableTargets[0];
+}
+async function revealInProjectBrowser(target) {
+  const revealLocation = getProjectBrowserRevealLocation(target);
+  if (!revealLocation)
+    return;
+  const { plugin } = getGlobals();
+  let leaf = getMostRecentProjectBrowserLeaf();
+  if (!leaf) {
+    leaf = plugin.app.workspace.getLeaf(true);
+  }
+  const leafAlreadyPending = pendingProjectBrowserRevealLeaves.has(leaf);
+  if (leafAlreadyPending)
+    return;
+  pendingProjectBrowserRevealLeaves.add(leaf);
+  try {
+    await leaf.setViewState({
+      type: CARD_BROWSER_VIEW_TYPE,
+      active: true,
+      state: {
+        path: revealLocation.path
+      }
+    });
+    plugin.app.workspace.setActiveLeaf(leaf, { focus: true });
+    const existingEphemeralState = leaf.getEphemeralState?.() ?? {};
+    leaf.setEphemeralState({
+      ...existingEphemeralState,
+      lastTouchedFilePath: revealLocation.lastTouchedFilePath,
+      scrollOffset: 0
+    });
+  } finally {
+    pendingProjectBrowserRevealLeaves.delete(leaf);
+  }
+}
+
+// src/modals/rename-folder-modal/rename-folder-modal.ts
+var import_obsidian6 = require("obsidian");
+var RenameFolderModal = class extends import_obsidian6.Modal {
   constructor(props) {
     const { plugin } = getGlobals();
     super(plugin.app);
@@ -29235,7 +29885,7 @@ var RenameFolderModal = class extends import_obsidian5.Modal {
   onOpen() {
     const { titleEl, contentEl } = this;
     titleEl.setText("Rename folder");
-    const inputSetting = new import_obsidian5.Setting(contentEl).setClass("project-browser_setting").setName("Folder name").addText((text) => {
+    const inputSetting = new import_obsidian6.Setting(contentEl).setClass("project-browser_setting").setName("Folder name").addText((text) => {
       text.setValue(this.name);
       text.inputEl.addEventListener("blur", async (e) => {
         this.name = sanitizeFileFolderName(text.getValue());
@@ -29249,7 +29899,7 @@ var RenameFolderModal = class extends import_obsidian5.Modal {
           if (this.name.trim() === "")
             this.name = "Unnamed";
           text.setValue(this.name);
-          renameTFolder(this.folder, this.name);
+          void renameTFolder(this.folder, this.name);
           this.resolveModal(this.folder);
           this.close();
         }
@@ -29257,7 +29907,7 @@ var RenameFolderModal = class extends import_obsidian5.Modal {
       text.inputEl.focus();
       text.inputEl.select();
     });
-    new import_obsidian5.Setting(contentEl).addButton((cancelBtn) => {
+    new import_obsidian6.Setting(contentEl).addButton((cancelBtn) => {
       cancelBtn.setClass("project-browser_button");
       cancelBtn.setButtonText("Cancel");
       cancelBtn.onClick(() => {
@@ -29269,7 +29919,7 @@ var RenameFolderModal = class extends import_obsidian5.Modal {
       confirmBtn.setCta();
       confirmBtn.setButtonText("Save");
       confirmBtn.onClick(() => {
-        renameTFolder(this.folder, this.name);
+        void renameTFolder(this.folder, this.name);
         this.resolveModal(this.folder);
         this.close();
       });
@@ -29288,12 +29938,37 @@ function registerFolderContextMenu(props) {
     const { plugin } = getGlobals();
     event.stopPropagation();
     const folderSettings = await getFolderSettings(plugin.app.vault, props.folder);
-    document.body.click();
-    const menu = new import_obsidian6.Menu();
+    let folderIsInsideAProject = false;
+    let ancestor = props.folder.parent;
+    while (ancestor) {
+      const ancestorSettings = await getFolderSettings(plugin.app.vault, ancestor);
+      if (ancestorSettings.isProject) {
+        folderIsInsideAProject = true;
+        break;
+      }
+      ancestor = ancestor.parent ?? null;
+    }
+    activeDocument.body.click();
+    const menu = new import_obsidian7.Menu();
     menu.addItem((item) => item.setTitle("Set as launch folder").onClick(() => {
       plugin.settings.access.launchFolder = props.folder.path;
-      plugin.saveSettings();
+      void plugin.saveSettings();
     }));
+    menu.addItem((item) => item.setTitle("Reveal in Project Browser").onClick(() => {
+      void revealInProjectBrowser(props.folder);
+    }));
+    if (folderSettings.isProject) {
+      menu.addItem((item) => item.setTitle("Convert to folder").onClick(async () => {
+        await setFolderAsFolder(props.folder);
+        props.onFolderChange();
+      }));
+    } else {
+      const convertToProjectLabel = folderIsInsideAProject ? "Convert to subproject" : "Convert to project";
+      menu.addItem((item) => item.setTitle(convertToProjectLabel).onClick(async () => {
+        await setFolderAsProject(props.folder);
+        props.onFolderChange();
+      }));
+    }
     if (folderSettings.isHidden) {
       menu.addItem((item) => item.setTitle("Unhide folder").onClick(async () => {
         await unhideFolder(props.folder);
@@ -29307,7 +29982,7 @@ function registerFolderContextMenu(props) {
     }
     menu.addSeparator();
     menu.addItem((item) => item.setTitle("Rename folder").onClick(() => {
-      new RenameFolderModal({
+      void new RenameFolderModal({
         folder: props.folder
       }).showModal();
     }));
@@ -29337,12 +30012,12 @@ var FolderButton = (props) => {
         folderBtnEl: buttonRef.current,
         folder: props.folder,
         onFolderChange: () => {
-          setTimeout(async () => {
-            applyFolderSettings();
+          window.setTimeout(async () => {
+            void applyFolderSettings();
           }, 200);
         }
       });
-    applyFolderSettings();
+    void applyFolderSettings();
   }, []);
   return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("button", {
     ref: buttonRef,
@@ -29369,7 +30044,7 @@ var FolderButton = (props) => {
 
 // src/components/folder-button-set/folder-button-set.tsx
 var FolderButtonSet = (props) => {
-  const cards = props.folders.map((folder) => {
+  const cards = props.folders.filter((folder) => folder instanceof import_obsidian8.TFolder).map((folder) => {
     return /* @__PURE__ */ React2.createElement(FolderButton, {
       folder,
       key: folder.path
@@ -29381,28 +30056,35 @@ var FolderButtonSet = (props) => {
 };
 
 // src/utils/sorting.ts
-var import_obsidian7 = require("obsidian");
+var import_obsidian9 = require("obsidian");
+var naturalNameCollator = new Intl.Collator(void 0, {
+  numeric: true,
+  sensitivity: "base"
+});
+function compareItemNamesNaturally(a, b) {
+  return naturalNameCollator.compare(a.name, b.name);
+}
 function sortItems(items, stateSettings) {
   let sortedItems = [];
   if (stateSettings.defaultViewPriorityGrouping) {
     if (stateSettings?.defaultViewOrder === StateViewOrder.AliasOrFilename) {
-      sortedItems = sortItemsByPriorityThenName(items, "ascending");
+      sortedItems = sortItemsByPriorityThenNaturalName(items, "ascending");
     } else if (stateSettings?.defaultViewOrder === StateViewOrder.CreationDate) {
       sortedItems = sortItemsByPriorityThenCreationDate(items, "ascending");
     } else if (stateSettings?.defaultViewOrder === StateViewOrder.ModifiedDate) {
       sortedItems = sortItemsByPriorityThenModifiedDate(items, "descending");
     } else {
-      sortedItems = sortItemsByPriorityThenName(items, "ascending");
+      sortedItems = sortItemsByPriorityThenNaturalName(items, "ascending");
     }
   } else {
     if (stateSettings?.defaultViewOrder === StateViewOrder.AliasOrFilename) {
-      sortedItems = sortItemsByName(items, "ascending");
+      sortedItems = sortItemsByNaturalName(items, "ascending");
     } else if (stateSettings?.defaultViewOrder === StateViewOrder.CreationDate) {
       sortedItems = sortItemsByCreationDate(items, "ascending");
     } else if (stateSettings?.defaultViewOrder === StateViewOrder.ModifiedDate) {
       sortedItems = sortItemsByModifiedDate(items, "descending");
     } else {
-      sortedItems = sortItemsByName(items, "ascending");
+      sortedItems = sortItemsByNaturalName(items, "ascending");
     }
   }
   return sortedItems;
@@ -29418,13 +30100,27 @@ function sortItemsByName(items, direction) {
   });
   return sortedItems;
 }
+function sortItemsByNaturalName(items, direction) {
+  const sortedItems = [...items];
+  sortedItems.sort((a, b) => {
+    const naturalComparison = compareItemNamesNaturally(a, b);
+    if (direction === "ascending")
+      return naturalComparison;
+    return naturalComparison * -1;
+  });
+  return sortedItems;
+}
+function getStatCtime(item) {
+  return item.stat?.ctime ?? 0;
+}
+function getStatMtime(item) {
+  return item.stat?.mtime ?? 0;
+}
 function sortItemsByCreationDate(items, direction) {
   const sortedItems = [...items];
   sortedItems.sort((a, b) => {
-    if (!(a instanceof import_obsidian7.TFile) || !(b instanceof import_obsidian7.TFile))
-      return 0;
-    const aCtime = a.stat.ctime;
-    const bCtime = b.stat.ctime;
+    const aCtime = getStatCtime(a);
+    const bCtime = getStatCtime(b);
     if (direction === "ascending") {
       return aCtime - bCtime;
     } else {
@@ -29436,10 +30132,8 @@ function sortItemsByCreationDate(items, direction) {
 function sortItemsByModifiedDate(items, direction) {
   const sortedItems = [...items];
   sortedItems.sort((a, b) => {
-    if (!(a instanceof import_obsidian7.TFile) || !(b instanceof import_obsidian7.TFile))
-      return 0;
-    const aMtime = a.stat.mtime;
-    const bMtime = b.stat.mtime;
+    const aMtime = getStatMtime(a);
+    const bMtime = getStatMtime(b);
     if (direction === "ascending") {
       return aMtime - bMtime;
     } else {
@@ -29451,40 +30145,51 @@ function sortItemsByModifiedDate(items, direction) {
 function sortItemsByPriority(items) {
   const sortedItems = [...items];
   sortedItems.sort((a, b) => {
-    if (a instanceof import_obsidian7.TFolder || b instanceof import_obsidian7.TFolder)
-      return 0;
-    const aPriority = getFilePrioritySettings(a);
-    const bPriority = getFilePrioritySettings(b);
+    const aPriority = getItemPriorityName(a);
+    const bPriority = getItemPriorityName(b);
     if (aPriority && !bPriority) {
-      if (aPriority.name === "High") {
+      if (aPriority === "High") {
         return -1;
       } else {
         return 1;
       }
     }
     if (!aPriority && bPriority) {
-      if (bPriority.name === "High") {
+      if (bPriority === "High") {
         return 1;
       } else {
         return -1;
       }
     }
     if (aPriority && bPriority) {
-      if (aPriority.name === bPriority.name)
+      if (aPriority === bPriority)
         return 0;
-      else if (aPriority.name === "High" && bPriority.name === "Low")
+      else if (aPriority === "High" && bPriority === "Low")
         return -1;
-      else if (aPriority.name === "Low" && bPriority.name === "High")
+      else if (aPriority === "Low" && bPriority === "High")
         return 1;
     }
     return 0;
   });
   return sortedItems;
 }
-function sortItemsByPriorityThenName(items, direction) {
-  const itemsSortedByName = sortItemsByName(items, direction);
-  const itemsSortedByNameAndPriority = sortItemsByPriority(itemsSortedByName);
-  return itemsSortedByNameAndPriority;
+function getItemPriorityName(item) {
+  if (item instanceof import_obsidian9.TFolder) {
+    const folderPriority = item;
+    return folderPriority.priority ?? null;
+  }
+  if (item instanceof import_obsidian9.TFile) {
+    const prioritySettings = getFilePrioritySettings(item);
+    if (!prioritySettings)
+      return null;
+    return prioritySettings.name;
+  }
+  return null;
+}
+function sortItemsByPriorityThenNaturalName(items, direction) {
+  const itemsSortedByNaturalName = sortItemsByNaturalName(items, direction);
+  const itemsSortedByNaturalNameAndPriority = sortItemsByPriority(itemsSortedByNaturalName);
+  return itemsSortedByNaturalNameAndPriority;
 }
 function sortItemsByPriorityThenCreationDate(items, direction) {
   const itemsSortedByCreationDate = sortItemsByCreationDate(items, direction);
@@ -29556,10 +30261,41 @@ var ArrowUpDown = createLucideIcon("ArrowUpDown", [
   ["path", { d: "M7 4v16", key: "1glfcx" }]
 ]);
 
+// node_modules/lucide-react/dist/esm/icons/chevron-left.js
+var ChevronLeft = createLucideIcon("ChevronLeft", [
+  ["path", { d: "m15 18-6-6 6-6", key: "1wnfg3" }]
+]);
+
+// node_modules/lucide-react/dist/esm/icons/chevron-right.js
+var ChevronRight = createLucideIcon("ChevronRight", [
+  ["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]
+]);
+
 // node_modules/lucide-react/dist/esm/icons/corner-left-up.js
 var CornerLeftUp = createLucideIcon("CornerLeftUp", [
   ["polyline", { points: "14 9 9 4 4 9", key: "m9oyvo" }],
   ["path", { d: "M20 20h-7a4 4 0 0 1-4-4V4", key: "1blwi3" }]
+]);
+
+// node_modules/lucide-react/dist/esm/icons/external-link.js
+var ExternalLink = createLucideIcon("ExternalLink", [
+  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
+  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
+  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
+]);
+
+// node_modules/lucide-react/dist/esm/icons/file-stack.js
+var FileStack = createLucideIcon("FileStack", [
+  ["path", { d: "M21 7h-3a2 2 0 0 1-2-2V2", key: "9rb54x" }],
+  [
+    "path",
+    {
+      d: "M21 6v6.5c0 .8-.7 1.5-1.5 1.5h-7c-.8 0-1.5-.7-1.5-1.5v-9c0-.8.7-1.5 1.5-1.5H17Z",
+      key: "1059l0"
+    }
+  ],
+  ["path", { d: "M7 8v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H15", key: "16874u" }],
+  ["path", { d: "M3 12v8.8c0 .3.2.6.4.8.2.2.5.4.8.4H11", key: "k2ox98" }]
 ]);
 
 // node_modules/lucide-react/dist/esm/icons/grip-vertical.js
@@ -29636,13 +30372,13 @@ var FolderQuickMenu = (props) => {
   };
   React3.useEffect(() => {
     if (tooltip) {
-      tooltipRef.current.style.display = "block";
+      tooltipRef.current.classList.add("ddc_pb_tooltip--visible");
       if (tooltipTimeout) {
-        clearTimeout(tooltipTimeout);
+        window.clearTimeout(tooltipTimeout);
         tooltipTimeout = null;
       }
-      tooltipTimeout = setTimeout(() => {
-        tooltipRef.current.style.display = "none";
+      tooltipTimeout = window.setTimeout(() => {
+        tooltipRef.current.classList.remove("ddc_pb_tooltip--visible");
         setTooltip(null);
       }, 1e3);
     }
@@ -29691,56 +30427,44 @@ var BaseSection = React4.forwardRef((props, ref) => {
 });
 
 // src/components/section/state-section.tsx
-var import_classnames6 = __toESM(require_classnames());
-var React17 = __toESM(require_react());
+var import_classnames7 = __toESM(require_classnames());
+var React22 = __toESM(require_react());
 
 // src/components/detailed-note-card-set/detailed-note-card-set.tsx
-var React7 = __toESM(require_react());
+var import_obsidian13 = require("obsidian");
+var React9 = __toESM(require_react());
 
 // src/components/cards/detailed-note-card/detailed-note-card.tsx
 var React6 = __toESM(require_react());
 
 // src/logic/get-file-display-name.ts
-var getFileDisplayName = (file) => {
+var OBSIDIAN_DOCUMENT_EXTENSIONS = /* @__PURE__ */ new Set(["md", "canvas", "base"]);
+function getFileDisplayNameParts(file) {
   const { plugin } = getGlobals();
   const aliases = getFileAliases(file);
   if (plugin.settings.useAliases && aliases) {
-    return aliases[0];
-  } else {
-    return file.basename;
+    return { basename: aliases[0], extension: null };
   }
-};
+  const ext = (file.extension ?? "md").toLowerCase();
+  if (OBSIDIAN_DOCUMENT_EXTENSIONS.has(ext)) {
+    return { basename: file.basename, extension: null };
+  }
+  if (plugin.settings.showFileExtForNonMdFiles && file.extension) {
+    return { basename: file.basename, extension: "." + file.extension };
+  }
+  return { basename: file.basename, extension: null };
+}
 
 // src/components/cards/note-card-base/note-card-base.tsx
 var import_classnames4 = __toESM(require_classnames());
 var React5 = __toESM(require_react());
 
 // src/context-menus/file-context-menu.tsx
-var import_obsidian9 = require("obsidian");
-
-// src/logic/file-access-processes.ts
-function openFileInSameLeaf(file) {
-  const { plugin } = getGlobals();
-  let { workspace } = plugin.app;
-  let leaf = workspace.getMostRecentLeaf();
-  if (!leaf) {
-    leaf = workspace.getLeaf();
-  }
-  leaf.openFile(file);
-}
-async function openFileInBackgroundTab(file) {
-  const { plugin } = getGlobals();
-  let { workspace } = plugin.app;
-  let curLeaf = workspace.getMostRecentLeaf();
-  let newLeaf = workspace.getLeaf(true);
-  await newLeaf.openFile(file);
-  if (curLeaf)
-    workspace.setActiveLeaf(curLeaf);
-}
+var import_obsidian11 = require("obsidian");
 
 // src/modals/rename-file-modal/rename-file-modal.ts
-var import_obsidian8 = require("obsidian");
-var RenameFileModal = class extends import_obsidian8.Modal {
+var import_obsidian10 = require("obsidian");
+var RenameFileModal = class extends import_obsidian10.Modal {
   constructor(props) {
     const { plugin } = getGlobals();
     super(plugin.app);
@@ -29758,7 +30482,7 @@ var RenameFileModal = class extends import_obsidian8.Modal {
     const { titleEl, contentEl } = this;
     titleEl.setText("Rename file");
     contentEl.createEl("p", { text: `Don't include file extension.` });
-    const inputSetting = new import_obsidian8.Setting(contentEl).setClass("project-browser_setting").setName("File name").addText((text) => {
+    const inputSetting = new import_obsidian10.Setting(contentEl).setClass("project-browser_setting").setName("File name").addText((text) => {
       text.setValue(this.name);
       text.inputEl.addEventListener("blur", async (e) => {
         this.name = sanitizeFileFolderName(text.getValue());
@@ -29771,19 +30495,19 @@ var RenameFileModal = class extends import_obsidian8.Modal {
           this.name = sanitizeFileFolderName(text.getValue());
           if (this.name.trim() === "")
             this.name = "Unnamed";
-          renameTFile(this.file, this.name);
-          this.resolveModal(this.file);
+          void renameTFile(this.file, this.name);
+          this.resolveModal?.(this.file);
           this.close();
         }
       });
       text.inputEl.focus();
       text.inputEl.select();
     });
-    new import_obsidian8.Setting(contentEl).addButton((cancelBtn) => {
+    new import_obsidian10.Setting(contentEl).addButton((cancelBtn) => {
       cancelBtn.setClass("project-browser_button");
       cancelBtn.setButtonText("Cancel");
       cancelBtn.onClick(() => {
-        this.rejectModal("cancelled");
+        this.rejectModal?.("cancelled");
         this.close();
       });
     }).addButton((confirmBtn) => {
@@ -29791,8 +30515,8 @@ var RenameFileModal = class extends import_obsidian8.Modal {
       confirmBtn.setCta();
       confirmBtn.setButtonText("Save");
       confirmBtn.onClick(() => {
-        renameTFile(this.file, this.name);
-        this.resolveModal(this.file);
+        void renameTFile(this.file, this.name);
+        this.resolveModal?.(this.file);
         this.close();
       });
     });
@@ -29804,67 +30528,227 @@ var RenameFileModal = class extends import_obsidian8.Modal {
   }
 };
 
+// src/logic/file-access-processes.ts
+var pendingTitleSelectPaths = /* @__PURE__ */ new Set();
+var EDIT_FILE_TITLE_COMMAND_IDS = [
+  "editor:rename-file",
+  "file-explorer:rename-file",
+  "workspace:rename-file"
+];
+function openFileInSameLeaf(file) {
+  const { plugin } = getGlobals();
+  let { workspace } = plugin.app;
+  let leaf = workspace.getMostRecentLeaf();
+  if (!leaf) {
+    leaf = workspace.getLeaf();
+  }
+  void leaf.openFile(file);
+}
+async function openFileInBackgroundTab(file) {
+  const { plugin } = getGlobals();
+  let { workspace } = plugin.app;
+  let curLeaf = workspace.getMostRecentLeaf();
+  let newLeaf = workspace.getLeaf(true);
+  await newLeaf.openFile(file);
+  if (curLeaf)
+    workspace.setActiveLeaf(curLeaf, { focus: true });
+}
+function openNewPageAndSelectTitle(file) {
+  const { plugin } = getGlobals();
+  if (plugin.settings.showRenamePopupOnNewPage ?? true) {
+    pendingTitleSelectPaths.add(file.path);
+  }
+  openFileInSameLeaf(file);
+}
+function tryExecuteEditFileTitleCommand(plugin) {
+  const appWithCommands = plugin.app;
+  const commands = appWithCommands.commands;
+  const executeCommandById = commands?.executeCommandById;
+  if (!executeCommandById)
+    return false;
+  if (commands?.commands) {
+    const editTitleId = Object.entries(commands.commands).find(([, cmd]) => cmd?.name?.toLowerCase().includes("edit") && cmd?.name?.toLowerCase().includes("title"))?.[0];
+    if (editTitleId) {
+      try {
+        executeCommandById(editTitleId);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+  }
+  for (const id of EDIT_FILE_TITLE_COMMAND_IDS) {
+    try {
+      executeCommandById(id);
+      return true;
+    } catch {
+      continue;
+    }
+  }
+  return false;
+}
+function registerFileOpenSelectTitleHandler(plugin) {
+  plugin.registerEvent(plugin.app.workspace.on("file-open", (openedFile) => {
+    if (!openedFile || !pendingTitleSelectPaths.has(openedFile.path))
+      return;
+    pendingTitleSelectPaths.delete(openedFile.path);
+    window.setTimeout(() => {
+      const activeFile = plugin.app.workspace.getActiveFile();
+      if (activeFile?.path !== openedFile.path)
+        return;
+      const commandSucceeded = tryExecuteEditFileTitleCommand(plugin);
+      if (!commandSucceeded) {
+        new RenameFileModal({ file: openedFile }).open();
+      }
+    }, 50);
+  }));
+}
+
+// src/logic/get-file-type-label.ts
+var FILE_TYPE_LABELS = {
+  canvas: "CANVAS",
+  base: "BASE",
+  pdf: "PDF",
+  png: "PNG",
+  jpg: "JPEG",
+  jpeg: "JPEG",
+  gif: "GIF",
+  svg: "SVG",
+  webp: "WEBP",
+  avif: "AVIF",
+  bmp: "BMP",
+  flac: "FLAC",
+  m4a: "M4A",
+  mp3: "MP3",
+  ogg: "OGG",
+  wav: "WAV",
+  webm: "WEBM",
+  "3gp": "3GP",
+  mkv: "MKV",
+  mov: "MOV",
+  mp4: "MP4",
+  ogv: "OGV"
+};
+var TYPE_TAG_EXTENSIONS = /* @__PURE__ */ new Set(["canvas", "base"]);
+var FRONTMATTER_EXTENSIONS = /* @__PURE__ */ new Set(["md"]);
+function hasFrontmatterSupport(extension) {
+  return FRONTMATTER_EXTENSIONS.has((extension ?? "").toLowerCase());
+}
+function getFileTypeLabel(extension) {
+  const ext = (extension ?? "").toLowerCase();
+  if (!TYPE_TAG_EXTENSIONS.has(ext))
+    return null;
+  return FILE_TYPE_LABELS[ext] ?? ext.toUpperCase();
+}
+
+// src/logic/is-extension-unsupported.ts
+var REGISTRY_FALLBACK_EXTENSIONS = /* @__PURE__ */ new Set(["md", "canvas", "base"]);
+function getRegisteredExtensionsFromApp(app) {
+  try {
+    const appWithRegistry = app;
+    const registry = appWithRegistry.viewRegistry ?? appWithRegistry.workspace?.viewRegistry;
+    if (!registry)
+      return /* @__PURE__ */ new Set([...REGISTRY_FALLBACK_EXTENSIONS]);
+    const typeByExtension = registry.typeByExtension ?? registry.typeByExt ?? {};
+    const keys = Object.keys(typeByExtension);
+    const result = new Set(keys.map((k) => k.toLowerCase()).filter((k) => k && k !== "pbs"));
+    if (result.size === 0)
+      return /* @__PURE__ */ new Set([...REGISTRY_FALLBACK_EXTENSIONS]);
+    return result;
+  } catch {
+    return /* @__PURE__ */ new Set([...REGISTRY_FALLBACK_EXTENSIONS]);
+  }
+}
+function isExtensionUnsupportedByObsidian(extension) {
+  const normalizedExt = (extension ?? "").toLowerCase();
+  if (!normalizedExt)
+    return false;
+  const { plugin } = getGlobals();
+  const registeredExtensions = getRegisteredExtensionsFromApp(plugin.app);
+  return !registeredExtensions.has(normalizedExt);
+}
+
 // src/context-menus/file-context-menu.tsx
 function registerFileContextMenu(props) {
   const { plugin } = getGlobals();
-  const folder = props.file.parent;
   const priorities = JSON.parse(JSON.stringify(plugin.settings.priorities));
-  const visibleStates = JSON.parse(JSON.stringify(plugin.settings.states.visible));
-  visibleStates.reverse();
-  const hiddenStates = JSON.parse(JSON.stringify(plugin.settings.states.hidden));
-  hiddenStates.reverse();
-  props.fileButtonEl.addEventListener("contextmenu", function(event) {
+  props.fileButtonEl.addEventListener("contextmenu", async function(event) {
     event.stopPropagation();
-    document.body.click();
-    const menu = new import_obsidian9.Menu();
-    menu.addItem((item) => {
-      item.setTitle("Open in new tab");
-      item.onClick(() => {
-        openFileInBackgroundTab(props.file);
-      });
-    });
-    menu.addSeparator();
-    priorities.forEach((prioritySettings) => {
+    activeDocument.body.click();
+    const fileExtension = props.file.extension ?? "";
+    const isUnsupported = isExtensionUnsupportedByObsidian(fileExtension);
+    const hasFrontmatter = hasFrontmatterSupport(fileExtension);
+    const currentFileState = await getFileStateSettingsAsync(props.file);
+    const scopedStateSettings = await getStateSettingsForFile(props.file);
+    const visibleStates = JSON.parse(JSON.stringify(scopedStateSettings.visible));
+    visibleStates.reverse();
+    const hiddenStates = JSON.parse(JSON.stringify(scopedStateSettings.hidden));
+    hiddenStates.reverse();
+    const menu = new import_obsidian11.Menu();
+    if (!isUnsupported) {
       menu.addItem((item) => {
-        const fileRawPriority = getFilePrioritySettings(props.file);
-        item.setTitle(prioritySettings.name);
-        if (prioritySettings.name === fileRawPriority?.name)
-          item.setChecked(true);
+        item.setTitle("Open in new tab");
         item.onClick(() => {
-          setFilePriority(props.file, prioritySettings);
-          props.onFileChange();
+          void openFileInBackgroundTab(props.file);
         });
       });
-    });
-    menu.addSeparator();
-    visibleStates.forEach((stateSettings) => {
       menu.addItem((item) => {
-        const fileRawState = getFileStateSettings(props.file);
-        item.setTitle(stateSettings.name);
-        if (stateSettings.name === fileRawState?.name)
-          item.setChecked(true);
+        item.setTitle("Reveal in Project Browser");
         item.onClick(() => {
-          setFileState(props.file, stateSettings);
-          props.onFileChange();
+          void revealInProjectBrowser(props.file);
         });
       });
-    });
-    menu.addSeparator();
-    hiddenStates.forEach((stateSettings) => {
+      menu.addSeparator();
+    } else {
       menu.addItem((item) => {
-        const fileRawState = getFileStateSettings(props.file);
-        item.setTitle(stateSettings.name);
-        if (stateSettings.name === fileRawState?.name)
-          item.setChecked(true);
+        item.setTitle("Reveal in Project Browser");
         item.onClick(() => {
-          setFileState(props.file, stateSettings);
-          props.onFileChange();
+          void revealInProjectBrowser(props.file);
         });
       });
-    });
-    menu.addSeparator();
+      menu.addSeparator();
+    }
+    if (hasFrontmatter) {
+      priorities.forEach((prioritySettings) => {
+        menu.addItem((item) => {
+          const fileRawPriority = getFilePrioritySettings(props.file);
+          item.setTitle(prioritySettings.name);
+          if (prioritySettings.name === fileRawPriority?.name)
+            item.setChecked(true);
+          item.onClick(() => {
+            void setFilePriority(props.file, prioritySettings);
+            props.onFileChange();
+          });
+        });
+      });
+      menu.addSeparator();
+      visibleStates.forEach((stateSettings) => {
+        menu.addItem((item) => {
+          item.setTitle(stateSettings.name);
+          if (stateSettings.name === currentFileState?.name)
+            item.setChecked(true);
+          item.onClick(async () => {
+            await setFileState(props.file, stateSettings);
+            props.onFileChange();
+          });
+        });
+      });
+      menu.addSeparator();
+      hiddenStates.forEach((stateSettings) => {
+        menu.addItem((item) => {
+          item.setTitle(stateSettings.name);
+          if (stateSettings.name === currentFileState?.name)
+            item.setChecked(true);
+          item.onClick(async () => {
+            await setFileState(props.file, stateSettings);
+            props.onFileChange();
+          });
+        });
+      });
+      menu.addSeparator();
+    }
     menu.addItem((item) => item.setTitle("Rename").onClick(() => {
-      new RenameFileModal({
+      void new RenameFileModal({
         file: props.file
       }).showModal();
       props.onFileChange();
@@ -29884,6 +30768,8 @@ var NoteCardBase = (props) => {
   const noteRef = React5.useRef(null);
   const prioritySettings = getFilePrioritySettings(props.file);
   const showSettleTransition = props.file.path === cardBrowserContext.lastTouchedFilePath;
+  const fileTypeLabel = getFileTypeLabel(props.file.extension ?? "");
+  const isUnsupported = isExtensionUnsupportedByObsidian(props.file.extension ?? "");
   React5.useEffect(() => {
     if (!plugin)
       return;
@@ -29907,28 +30793,37 @@ var NoteCardBase = (props) => {
     ]),
     onClick: (event) => {
       if (event.ctrlKey || event.metaKey) {
-        openFileInBackgroundTab(props.file);
+        void openFileInBackgroundTab(props.file);
       } else {
         cardBrowserContext.rememberLastTouchedFile(props.file);
-        openFileInSameLeaf(props.file);
+        void openFileInSameLeaf(props.file);
       }
     },
     style: {
       rotate: props.rotation ? props.rotation + "deg" : void 0
     }
-  }, props.children));
+  }, (fileTypeLabel || isUnsupported) && /* @__PURE__ */ React5.createElement("div", {
+    className: "ddc_pb_note-card-top-right"
+  }, fileTypeLabel && /* @__PURE__ */ React5.createElement("span", {
+    className: "ddc_pb_note-card-type-label",
+    "aria-hidden": true
+  }, fileTypeLabel), isUnsupported && /* @__PURE__ */ React5.createElement(ExternalLink, {
+    className: "ddc_pb_external-file-icon",
+    "aria-label": "Opens in external program",
+    size: 14
+  })), props.children));
 };
 
 // src/components/cards/detailed-note-card/detailed-note-card.tsx
 var DetailedNoteCard = (props) => {
-  const name = getFileDisplayName(props.file);
+  const { basename, extension } = getFileDisplayNameParts(props.file);
   const [excerpt, setExcerpt] = React6.useState("");
   const [articleRotation] = React6.useState(Math.random() * 4 - 2);
   const [titleRotation] = React6.useState(Math.random() * 2 - 1);
   const [blurbRotation] = React6.useState(Math.random() * 2 - 1);
   React6.useEffect(() => {
     if (props.file.extension.toLowerCase() == "md") {
-      getExcerpt(props.file);
+      void getExcerpt(props.file);
     }
   }, []);
   return /* @__PURE__ */ React6.createElement(React6.Fragment, null, /* @__PURE__ */ React6.createElement(NoteCardBase, {
@@ -29939,7 +30834,9 @@ var DetailedNoteCard = (props) => {
     style: {
       rotate: titleRotation + "deg"
     }
-  }, name), /* @__PURE__ */ React6.createElement("p", {
+  }, basename, extension && /* @__PURE__ */ React6.createElement("span", {
+    className: "ddc_pb_file-ext-faint"
+  }, extension)), /* @__PURE__ */ React6.createElement("p", {
     style: {
       rotate: blurbRotation + "deg"
     }
@@ -29952,132 +30849,360 @@ var DetailedNoteCard = (props) => {
   }
 };
 
+// src/components/cards/detailed-project-card/detailed-project-card.tsx
+var React8 = __toESM(require_react());
+
+// src/components/cards/project-card-base/project-card-base.tsx
+var React7 = __toESM(require_react());
+
+// src/context-menus/project-context-menu.tsx
+var import_obsidian12 = require("obsidian");
+function registerProjectContextMenu(props) {
+  const { plugin } = getGlobals();
+  const priorities = JSON.parse(JSON.stringify(plugin.settings.priorities));
+  const visibleStates = JSON.parse(JSON.stringify(plugin.settings.states.visible));
+  visibleStates.reverse();
+  const hiddenStates = JSON.parse(JSON.stringify(plugin.settings.states.hidden));
+  hiddenStates.reverse();
+  props.projectButtonEl.addEventListener("contextmenu", async (event) => {
+    event.stopPropagation();
+    activeDocument.body.click();
+    const currentStateName = await getFolderStateName(props.folder);
+    const currentPrioritySettings = await getFolderPrioritySettings(props.folder);
+    const menu = new import_obsidian12.Menu();
+    menu.addItem((item) => item.setTitle("Set as launch project").onClick(() => {
+      plugin.settings.access.launchFolder = props.folder.path;
+      void plugin.saveSettings();
+    }));
+    menu.addItem((item) => item.setTitle("Reveal in Project Browser").onClick(() => {
+      void revealInProjectBrowser(props.folder);
+    }));
+    menu.addItem((item) => item.setTitle("Convert to folder").onClick(async () => {
+      await setFolderAsFolder(props.folder);
+      props.onProjectChange();
+    }));
+    menu.addSeparator();
+    priorities.forEach((prioritySettings) => {
+      menu.addItem((item) => {
+        item.setTitle(prioritySettings.name);
+        if (prioritySettings.name === currentPrioritySettings?.name)
+          item.setChecked(true);
+        item.onClick(async () => {
+          await setFolderPriority(props.folder, prioritySettings);
+          props.onProjectChange();
+        });
+      });
+    });
+    menu.addSeparator();
+    visibleStates.forEach((stateSettings) => {
+      menu.addItem((item) => {
+        item.setTitle(stateSettings.name);
+        if (stateSettings.name === currentStateName)
+          item.setChecked(true);
+        item.onClick(async () => {
+          await setFolderState(props.folder, stateSettings);
+          props.onProjectChange();
+        });
+      });
+    });
+    menu.addSeparator();
+    hiddenStates.forEach((stateSettings) => {
+      menu.addItem((item) => {
+        item.setTitle(stateSettings.name);
+        if (stateSettings.name === currentStateName)
+          item.setChecked(true);
+        item.onClick(async () => {
+          await setFolderState(props.folder, stateSettings);
+          props.onProjectChange();
+        });
+      });
+    });
+    menu.addSeparator();
+    menu.addItem((item) => item.setTitle("Rename").onClick(() => {
+      void new RenameFolderModal({ folder: props.folder }).showModal();
+      props.onProjectChange();
+    }));
+    menu.addItem((item) => item.setTitle("Delete").onClick(() => {
+      deleteFolderWithConfirmation(props.folder);
+      props.onProjectChange();
+    }));
+    menu.showAtMouseEvent(event);
+  }, false);
+}
+
+// src/components/cards/project-card-base/project-card-base.tsx
+var import_classnames5 = __toESM(require_classnames());
+var ProjectCardBase = (props) => {
+  const { plugin } = getGlobals();
+  const cardBrowserContext = React7.useContext(CardBrowserContext);
+  const cardRef = React7.useRef(null);
+  const [priorityName, setPriorityName] = React7.useState(null);
+  React7.useEffect(() => {
+    if (!plugin)
+      return;
+    if (cardRef.current) {
+      registerProjectContextMenu({
+        projectButtonEl: cardRef.current,
+        folder: props.folder,
+        onProjectChange: () => {
+          cardBrowserContext.rerender();
+        }
+      });
+    }
+  }, []);
+  React7.useEffect(() => {
+    let cancelled = false;
+    void getFolderPriorityName(props.folder).then((nextPriorityName) => {
+      if (!cancelled) {
+        setPriorityName(nextPriorityName);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [props.folder.path]);
+  return /* @__PURE__ */ React7.createElement("article", {
+    ref: cardRef,
+    className: (0, import_classnames5.default)([
+      "ddc_pb_project-card",
+      "ddc_pb_project-card-base",
+      priorityName?.includes("High") && "ddc_pb_high-priority",
+      priorityName?.includes("Low") && "ddc_pb_low-priority",
+      props.className
+    ]),
+    onClick: (event) => {
+      if (event.ctrlKey || event.metaKey) {
+        cardBrowserContext.openFolderInSameLeaf(props.folder);
+      } else {
+        cardBrowserContext.openFolderInSameLeaf(props.folder);
+      }
+    },
+    style: {
+      rotate: props.rotation ? props.rotation + "deg" : void 0
+    }
+  }, props.children);
+};
+
+// src/components/cards/detailed-project-card/detailed-project-card.tsx
+var DetailedProjectCard = (props) => {
+  const name = props.folder.name;
+  const [excerpt, setExcerpt] = React8.useState("");
+  const [articleRotation] = React8.useState(Math.random() * 4 - 2);
+  const [titleRotation] = React8.useState(Math.random() * 2 - 1);
+  const [blurbRotation] = React8.useState(Math.random() * 2 - 1);
+  React8.useEffect(() => {
+    void getProjectExcerpt(props.folder).then((excerptText) => {
+      if (excerptText)
+        setExcerpt(excerptText);
+    });
+  }, []);
+  return /* @__PURE__ */ React8.createElement(ProjectCardBase, {
+    folder: props.folder,
+    className: "ddc_pb_detailed-project-card",
+    rotation: articleRotation
+  }, /* @__PURE__ */ React8.createElement("h3", {
+    style: { rotate: titleRotation + "deg" }
+  }, name), /* @__PURE__ */ React8.createElement("p", {
+    style: { rotate: blurbRotation + "deg" }
+  }, excerpt));
+};
+
 // src/components/detailed-note-card-set/detailed-note-card-set.tsx
 var DetailedNoteCardSet = (props) => {
-  const cards = props.files.map((file) => {
-    return /* @__PURE__ */ React7.createElement(DetailedNoteCard, {
-      file,
-      key: file.path
+  const cards = props.files.map((item) => {
+    if (item instanceof import_obsidian13.TFolder) {
+      return /* @__PURE__ */ React9.createElement(DetailedProjectCard, {
+        folder: item,
+        key: item.path
+      });
+    }
+    return /* @__PURE__ */ React9.createElement(DetailedNoteCard, {
+      file: item,
+      key: item.path
     });
   });
-  return /* @__PURE__ */ React7.createElement(React7.Fragment, null, /* @__PURE__ */ React7.createElement("div", {
+  return /* @__PURE__ */ React9.createElement(React9.Fragment, null, /* @__PURE__ */ React9.createElement("div", {
     className: "ddc_pb_detailed-note-card-set"
   }, cards));
 };
 
 // src/components/simple-note-card-set/simple-note-card-set.tsx
-var React9 = __toESM(require_react());
+var import_obsidian14 = require("obsidian");
+var React12 = __toESM(require_react());
 
 // src/components/cards/simple-note-card/simple-note-card.tsx
-var React8 = __toESM(require_react());
+var React10 = __toESM(require_react());
 var SimpleNoteCard = (props) => {
-  const name = getFileDisplayName(props.file);
-  const [articleRotation] = React8.useState(Math.random() * 4 - 2);
-  const [blurbRotation] = React8.useState(Math.random() * 2 - 1);
-  return /* @__PURE__ */ React8.createElement(React8.Fragment, null, /* @__PURE__ */ React8.createElement(NoteCardBase, {
+  const { basename, extension } = getFileDisplayNameParts(props.file);
+  const [articleRotation] = React10.useState(Math.random() * 4 - 2);
+  const [blurbRotation] = React10.useState(Math.random() * 2 - 1);
+  return /* @__PURE__ */ React10.createElement(React10.Fragment, null, /* @__PURE__ */ React10.createElement(NoteCardBase, {
     file: props.file,
     className: "ddc_pb_simple-note-card",
     rotation: articleRotation
-  }, /* @__PURE__ */ React8.createElement("h3", {
+  }, /* @__PURE__ */ React10.createElement("h3", {
     style: {
       rotate: blurbRotation + "deg"
     }
-  }, name)));
+  }, basename, extension && /* @__PURE__ */ React10.createElement("span", {
+    className: "ddc_pb_file-ext-faint"
+  }, extension))));
+};
+
+// src/components/cards/simple-project-card/simple-project-card.tsx
+var React11 = __toESM(require_react());
+var SimpleProjectCard = (props) => {
+  const name = props.folder.name;
+  const [articleRotation] = React11.useState(Math.random() * 4 - 2);
+  const [blurbRotation] = React11.useState(Math.random() * 2 - 1);
+  return /* @__PURE__ */ React11.createElement(ProjectCardBase, {
+    folder: props.folder,
+    className: "ddc_pb_simple-project-card",
+    rotation: articleRotation
+  }, /* @__PURE__ */ React11.createElement("h3", {
+    style: { rotate: blurbRotation + "deg" }
+  }, name));
 };
 
 // src/components/simple-note-card-set/simple-note-card-set.tsx
 var SimpleNoteCardSet = (props) => {
-  const cards = props.files.map((file) => {
-    return /* @__PURE__ */ React9.createElement(SimpleNoteCard, {
-      key: file.path,
-      file
+  const cards = props.files.map((item) => {
+    if (item instanceof import_obsidian14.TFolder) {
+      return /* @__PURE__ */ React12.createElement(SimpleProjectCard, {
+        folder: item,
+        key: item.path
+      });
+    }
+    return /* @__PURE__ */ React12.createElement(SimpleNoteCard, {
+      file: item,
+      key: item.path
     });
   });
-  return /* @__PURE__ */ React9.createElement(React9.Fragment, null, /* @__PURE__ */ React9.createElement("div", {
+  return /* @__PURE__ */ React12.createElement(React12.Fragment, null, /* @__PURE__ */ React12.createElement("div", {
     className: "ddc_pb_simple-note-card-set"
   }, cards));
 };
 
 // src/components/list-note-card-set/list-note-card-set.tsx
-var React11 = __toESM(require_react());
+var import_obsidian15 = require("obsidian");
+var React15 = __toESM(require_react());
 
 // src/components/cards/list-note-card/list-note-card.tsx
-var React10 = __toESM(require_react());
+var React13 = __toESM(require_react());
 var ListNoteCard = (props) => {
-  const name = getFileDisplayName(props.file);
-  return /* @__PURE__ */ React10.createElement(React10.Fragment, null, /* @__PURE__ */ React10.createElement(NoteCardBase, {
+  const { basename, extension } = getFileDisplayNameParts(props.file);
+  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement(NoteCardBase, {
     file: props.file,
     className: "ddc_pb_list-note-card"
-  }, /* @__PURE__ */ React10.createElement("h3", null, name)));
+  }, /* @__PURE__ */ React13.createElement("h3", null, basename, extension && /* @__PURE__ */ React13.createElement("span", {
+    className: "ddc_pb_file-ext-faint"
+  }, extension))));
+};
+
+// src/components/cards/list-project-card/list-project-card.tsx
+var React14 = __toESM(require_react());
+var ListProjectCard = (props) => {
+  const name = props.folder.name;
+  return /* @__PURE__ */ React14.createElement(ProjectCardBase, {
+    folder: props.folder,
+    className: "ddc_pb_list-project-card"
+  }, /* @__PURE__ */ React14.createElement("h3", null, name));
 };
 
 // src/components/list-note-card-set/list-note-card-set.tsx
 var ListNoteCardSet = (props) => {
-  const cards = props.files.map((file) => {
-    return /* @__PURE__ */ React11.createElement(ListNoteCard, {
-      key: file.path,
-      file
+  const cards = props.files.map((item) => {
+    if (item instanceof import_obsidian15.TFolder) {
+      return /* @__PURE__ */ React15.createElement(ListProjectCard, {
+        folder: item,
+        key: item.path
+      });
+    }
+    return /* @__PURE__ */ React15.createElement(ListNoteCard, {
+      file: item,
+      key: item.path
     });
   });
-  return /* @__PURE__ */ React11.createElement(React11.Fragment, null, /* @__PURE__ */ React11.createElement("div", {
+  return /* @__PURE__ */ React15.createElement(React15.Fragment, null, /* @__PURE__ */ React15.createElement("div", {
     className: "ddc_pb_list-note-card-set"
   }, cards));
 };
 
 // src/components/small-note-card-set/small-note-card-set.tsx
-var React13 = __toESM(require_react());
+var import_obsidian16 = require("obsidian");
+var React18 = __toESM(require_react());
 
 // src/components/cards/small-note-card/small-note-card.tsx
-var React12 = __toESM(require_react());
+var React16 = __toESM(require_react());
 var SmallNoteCard = (props) => {
-  const name = getFileDisplayName(props.file);
-  const [articleRotation] = React12.useState(Math.random() * 4 - 2);
-  return /* @__PURE__ */ React12.createElement(React12.Fragment, null, /* @__PURE__ */ React12.createElement(NoteCardBase, {
+  const { basename, extension } = getFileDisplayNameParts(props.file);
+  const [articleRotation] = React16.useState(Math.random() * 4 - 2);
+  return /* @__PURE__ */ React16.createElement(React16.Fragment, null, /* @__PURE__ */ React16.createElement(NoteCardBase, {
     file: props.file,
     className: "ddc_pb_small-note-card",
     rotation: articleRotation
-  }, /* @__PURE__ */ React12.createElement("h3", null, name)));
+  }, /* @__PURE__ */ React16.createElement("h3", null, basename, extension && /* @__PURE__ */ React16.createElement("span", {
+    className: "ddc_pb_file-ext-faint"
+  }, extension))));
+};
+
+// src/components/cards/small-project-card/small-project-card.tsx
+var React17 = __toESM(require_react());
+var SmallProjectCard = (props) => {
+  const name = props.folder.name;
+  const [articleRotation] = React17.useState(Math.random() * 4 - 2);
+  return /* @__PURE__ */ React17.createElement(ProjectCardBase, {
+    folder: props.folder,
+    className: "ddc_pb_small-project-card",
+    rotation: articleRotation
+  }, /* @__PURE__ */ React17.createElement("h3", null, name));
 };
 
 // src/components/small-note-card-set/small-note-card-set.tsx
 var SmallNoteCardSet = (props) => {
-  const cards = props.files.map((file) => {
-    return /* @__PURE__ */ React13.createElement(SmallNoteCard, {
-      key: file.path,
-      file
+  const cards = props.files.map((item) => {
+    if (item instanceof import_obsidian16.TFolder) {
+      return /* @__PURE__ */ React18.createElement(SmallProjectCard, {
+        folder: item,
+        key: item.path
+      });
+    }
+    return /* @__PURE__ */ React18.createElement(SmallNoteCard, {
+      file: item,
+      key: item.path
     });
   });
-  return /* @__PURE__ */ React13.createElement(React13.Fragment, null, /* @__PURE__ */ React13.createElement("div", {
+  return /* @__PURE__ */ React18.createElement(React18.Fragment, null, /* @__PURE__ */ React18.createElement("div", {
     className: "ddc_pb_small-note-card-set"
   }, cards));
 };
 
 // src/context-menus/state-section-context-menu.tsx
-var import_obsidian10 = require("obsidian");
+var import_obsidian17 = require("obsidian");
 function registerStateSectionContextMenu(el, baseFolder, stateName, commands) {
   const { plugin } = getGlobals();
   el.addEventListener("contextmenu", function(event) {
     event.stopPropagation();
-    document.body.click();
-    const menu = new import_obsidian10.Menu();
-    menu.addItem((item) => item.setTitle("New note").onClick(async () => {
+    activeDocument.body.click();
+    const menu = new import_obsidian17.Menu();
+    menu.addItem((item) => item.setTitle("New page").onClick(async () => {
       const newFile = await createProject({
         parentFolder: baseFolder,
         projectName: "Untitled",
         stateName
       });
-      setTimeout(() => openFileInSameLeaf(newFile), 500);
+      window.setTimeout(() => openNewPageAndSelectTitle(newFile), 500);
     }));
     menu.showAtMouseEvent(event);
   }, false);
 }
 
 // src/components/section-quick-menu/state-quick-menu.tsx
-var React16 = __toESM(require_react());
-var import_classnames5 = __toESM(require_classnames());
+var React21 = __toESM(require_react());
+var import_classnames6 = __toESM(require_classnames());
 
 // src/components/tooltip/tooltip.tsx
-var React15 = __toESM(require_react());
+var React20 = __toESM(require_react());
 
 // node_modules/@popperjs/core/lib/enums.js
 var top = "top";
@@ -32866,8 +33991,8 @@ function useMutableBox(initialValue) {
   }
   return ref.current;
 }
-function updateClassName(box, action, classNames13) {
-  classNames13.split(/\s+/).forEach(function(name) {
+function updateClassName(box, action, classNames19) {
+  classNames19.split(/\s+/).forEach(function(name) {
     if (name) {
       box.classList[action](name);
     }
@@ -33082,8 +34207,8 @@ var Tooltip = ({
   content,
   children
 }) => {
-  const hideTimeout = React15.useRef(null);
-  return /* @__PURE__ */ React15.createElement(tippy_react_esm_default, {
+  const hideTimeout = React20.useRef(null);
+  return /* @__PURE__ */ React20.createElement(tippy_react_esm_default, {
     content,
     delay: [250, 250],
     hideOnClick: false,
@@ -33094,7 +34219,7 @@ var tooltip_default = Tooltip;
 
 // src/components/section-quick-menu/state-quick-menu.tsx
 var StateQuickMenu = (props) => {
-  const stateSettingsAtom2 = React16.useMemo(() => stateSettingsByNameAtom(props.section.title), [props.section.title]);
+  const stateSettingsAtom2 = React21.useMemo(() => props.section.stateScope === "projectPage" ? projectPageStateSettingsByNameAtom(props.section.title) : stateSettingsByNameAtom(props.section.title), [props.section.stateScope, props.section.title]);
   const [stateSettings, setStateSettings] = useAtom(stateSettingsAtom2);
   const viewModes = Object.values(StateViewMode);
   const viewOrders = Object.values(StateViewOrder);
@@ -33132,39 +34257,39 @@ var StateQuickMenu = (props) => {
       });
     }
   };
-  return /* @__PURE__ */ React16.createElement(React16.Fragment, null, /* @__PURE__ */ React16.createElement("div", {
+  return /* @__PURE__ */ React21.createElement(React21.Fragment, null, /* @__PURE__ */ React21.createElement("div", {
     className: "ddc_pb_section-quick-menu"
-  }, /* @__PURE__ */ React16.createElement(tooltip_default, {
+  }, /* @__PURE__ */ React21.createElement(tooltip_default, {
     content: curViewOrder
-  }, /* @__PURE__ */ React16.createElement("button", {
-    className: (0, import_classnames5.default)([
+  }, /* @__PURE__ */ React21.createElement("button", {
+    className: (0, import_classnames6.default)([
       "ddc_pb_quick-menu-button",
       "ddc_pb_sort-button"
     ]),
     onClick: cycleViewOrder
-  }, /* @__PURE__ */ React16.createElement(ArrowUpDown, {
+  }, /* @__PURE__ */ React21.createElement(ArrowUpDown, {
     className: "ddc_pb_icon",
     size: 16
-  }))), /* @__PURE__ */ React16.createElement(tooltip_default, {
+  }))), /* @__PURE__ */ React21.createElement(tooltip_default, {
     content: curPriorityAppearance
-  }, /* @__PURE__ */ React16.createElement("button", {
-    className: (0, import_classnames5.default)([
+  }, /* @__PURE__ */ React21.createElement("button", {
+    className: (0, import_classnames6.default)([
       "ddc_pb_quick-menu-button",
       "ddc_pb_sort-button"
     ]),
     onClick: cyclePriorityAppearance
-  }, /* @__PURE__ */ React16.createElement(Ungroup, {
+  }, /* @__PURE__ */ React21.createElement(Ungroup, {
     className: "ddc_pb_icon",
     size: 16
-  }))), /* @__PURE__ */ React16.createElement(tooltip_default, {
+  }))), /* @__PURE__ */ React21.createElement(tooltip_default, {
     content: curViewMode
-  }, /* @__PURE__ */ React16.createElement("button", {
-    className: (0, import_classnames5.default)([
+  }, /* @__PURE__ */ React21.createElement("button", {
+    className: (0, import_classnames6.default)([
       "ddc_pb_quick-menu-button",
       "ddc_pb_view-button"
     ]),
     onClick: cycleViewMode
-  }, /* @__PURE__ */ React16.createElement(LayoutGrid, {
+  }, /* @__PURE__ */ React21.createElement(LayoutGrid, {
     className: "ddc_pb_icon",
     size: 16
   })))));
@@ -33182,12 +34307,12 @@ function getPriorityAppearance(stateSettings) {
 // src/components/section/state-section.tsx
 var StateSection = (props) => {
   const { plugin } = getGlobals();
-  const cardBrowserContext = React17.useContext(CardBrowserContext);
-  const sectionRef = React17.useRef(null);
-  const stateSettingsAtom2 = React17.useMemo(() => stateSettingsByNameAtom(props.section.title), [props.section.title]);
+  const cardBrowserContext = React22.useContext(CardBrowserContext);
+  const sectionRef = React22.useRef(null);
+  const stateSettingsAtom2 = React22.useMemo(() => props.section.stateScope === "projectPage" ? projectPageStateSettingsByNameAtom(props.section.title) : stateSettingsByNameAtom(props.section.title), [props.section.stateScope, props.section.title]);
   const stateSettings = useAtomValue(stateSettingsAtom2);
   const curStateSettings = stateSettings || props.section.settings;
-  React17.useEffect(() => {
+  React22.useEffect(() => {
     if (!plugin)
       return;
     if (!cardBrowserContext.folder)
@@ -33197,54 +34322,55 @@ var StateSection = (props) => {
     }
   });
   const sortedFiles = sortItems(props.section.items, curStateSettings);
-  return /* @__PURE__ */ React17.createElement(React17.Fragment, null, /* @__PURE__ */ React17.createElement(BaseSection2, {
+  return /* @__PURE__ */ React22.createElement(React22.Fragment, null, /* @__PURE__ */ React22.createElement(BaseSection2, {
     ref: sectionRef,
     key: curStateSettings.name,
-    className: (0, import_classnames6.default)([
+    className: (0, import_classnames7.default)([
       "ddc_pb_state-section",
       curStateSettings.defaultViewPriorityVisibility && "ddc_pb_priorities-visible"
     ]),
     section: props.section
-  }, /* @__PURE__ */ React17.createElement(SectionHeader, null, curStateSettings.name), curStateSettings.defaultViewMode === StateViewMode.DetailedCards && /* @__PURE__ */ React17.createElement(DetailedNoteCardSet, {
+  }, /* @__PURE__ */ React22.createElement(SectionHeader, null, curStateSettings.name), curStateSettings.defaultViewMode === StateViewMode.DetailedCards && /* @__PURE__ */ React22.createElement(DetailedNoteCardSet, {
     files: sortedFiles
-  }), curStateSettings.defaultViewMode === StateViewMode.SimpleCards && /* @__PURE__ */ React17.createElement(SimpleNoteCardSet, {
+  }), curStateSettings.defaultViewMode === StateViewMode.SimpleCards && /* @__PURE__ */ React22.createElement(SimpleNoteCardSet, {
     files: sortedFiles
-  }), curStateSettings.defaultViewMode === StateViewMode.SmallCards && /* @__PURE__ */ React17.createElement(SmallNoteCardSet, {
+  }), curStateSettings.defaultViewMode === StateViewMode.SmallCards && /* @__PURE__ */ React22.createElement(SmallNoteCardSet, {
     files: sortedFiles
-  }), curStateSettings.defaultViewMode === StateViewMode.List && /* @__PURE__ */ React17.createElement(ListNoteCardSet, {
+  }), curStateSettings.defaultViewMode === StateViewMode.List && /* @__PURE__ */ React22.createElement(ListNoteCardSet, {
     files: sortedFiles
   })));
 };
-var BaseSection2 = React17.forwardRef((props, ref) => {
+var BaseSection2 = React22.forwardRef((props, ref) => {
   const {
     showQuickMenu = true
   } = props;
-  return /* @__PURE__ */ React17.createElement(React17.Fragment, null, /* @__PURE__ */ React17.createElement("div", {
+  return /* @__PURE__ */ React22.createElement(React22.Fragment, null, /* @__PURE__ */ React22.createElement("div", {
     ref,
-    className: (0, import_classnames6.default)([
+    className: (0, import_classnames7.default)([
       "ddc_pb_section",
       props.className && props.className
     ])
-  }, props.children, showQuickMenu && /* @__PURE__ */ React17.createElement(StateQuickMenu, {
+  }, props.children, showQuickMenu && /* @__PURE__ */ React22.createElement(StateQuickMenu, {
     section: props.section
   })));
 });
 var SectionHeader = (props) => {
-  return /* @__PURE__ */ React17.createElement(React17.Fragment, null, /* @__PURE__ */ React17.createElement("div", {
+  return /* @__PURE__ */ React22.createElement(React22.Fragment, null, /* @__PURE__ */ React22.createElement("div", {
     className: "ddc_pb_section-header"
-  }, /* @__PURE__ */ React17.createElement("h2", null, props.children)));
+  }, /* @__PURE__ */ React22.createElement("h2", null, props.children)));
 };
 
 // src/components/section/stateless-section.tsx
-var import_classnames8 = __toESM(require_classnames());
-var React19 = __toESM(require_react());
+var import_classnames9 = __toESM(require_classnames());
+var React24 = __toESM(require_react());
 
 // src/components/section-quick-menu/stateless-quick-menu.tsx
-var React18 = __toESM(require_react());
-var import_classnames7 = __toESM(require_classnames());
+var React23 = __toESM(require_react());
+var import_classnames8 = __toESM(require_classnames());
 var StatelessQuickMenu = (props) => {
-  const [statelessSettings, setStatelessSettings] = useAtom(statelessSettingsAtom);
-  const tooltipRef = React18.useRef(null);
+  const scopedStatelessSettingsAtom = React23.useMemo(() => props.section.stateScope === "projectPage" ? projectPageStatelessSettingsAtom : statelessSettingsAtom, [props.section.stateScope]);
+  const [statelessSettings, setStatelessSettings] = useAtom(scopedStatelessSettingsAtom);
+  const tooltipRef = React23.useRef(null);
   const viewModes = Object.values(StateViewMode);
   const viewOrders = Object.values(StateViewOrder);
   const curViewMode = statelessSettings?.defaultViewMode || StateViewMode.List;
@@ -33281,39 +34407,39 @@ var StatelessQuickMenu = (props) => {
       });
     }
   };
-  return /* @__PURE__ */ React18.createElement(React18.Fragment, null, /* @__PURE__ */ React18.createElement("div", {
+  return /* @__PURE__ */ React23.createElement(React23.Fragment, null, /* @__PURE__ */ React23.createElement("div", {
     className: "ddc_pb_section-quick-menu"
-  }, /* @__PURE__ */ React18.createElement(tooltip_default, {
+  }, /* @__PURE__ */ React23.createElement(tooltip_default, {
     content: curViewOrder
-  }, /* @__PURE__ */ React18.createElement("button", {
-    className: (0, import_classnames7.default)([
+  }, /* @__PURE__ */ React23.createElement("button", {
+    className: (0, import_classnames8.default)([
       "ddc_pb_quick-menu-button",
       "ddc_pb_sort-button"
     ]),
     onClick: cycleViewOrder
-  }, /* @__PURE__ */ React18.createElement(ArrowUpDown, {
+  }, /* @__PURE__ */ React23.createElement(ArrowUpDown, {
     className: "ddc_pb_icon",
     size: 16
-  }))), /* @__PURE__ */ React18.createElement(tooltip_default, {
+  }))), /* @__PURE__ */ React23.createElement(tooltip_default, {
     content: curPriorityAppearance
-  }, /* @__PURE__ */ React18.createElement("button", {
-    className: (0, import_classnames7.default)([
+  }, /* @__PURE__ */ React23.createElement("button", {
+    className: (0, import_classnames8.default)([
       "ddc_pb_quick-menu-button",
       "ddc_pb_sort-button"
     ]),
     onClick: cyclePriorityAppearance
-  }, /* @__PURE__ */ React18.createElement(Ungroup, {
+  }, /* @__PURE__ */ React23.createElement(Ungroup, {
     className: "ddc_pb_icon",
     size: 16
-  }))), /* @__PURE__ */ React18.createElement(tooltip_default, {
+  }))), /* @__PURE__ */ React23.createElement(tooltip_default, {
     content: curViewMode
-  }, /* @__PURE__ */ React18.createElement("button", {
-    className: (0, import_classnames7.default)([
+  }, /* @__PURE__ */ React23.createElement("button", {
+    className: (0, import_classnames8.default)([
       "ddc_pb_quick-menu-button",
       "ddc_pb_view-button"
     ]),
     onClick: cycleViewMode
-  }, /* @__PURE__ */ React18.createElement(LayoutGrid, {
+  }, /* @__PURE__ */ React23.createElement(LayoutGrid, {
     className: "ddc_pb_icon",
     size: 16
   })))));
@@ -33330,63 +34456,85 @@ function getPriorityAppearance2(stateSettings) {
 
 // src/components/section/stateless-section.tsx
 var StatelessSection = (props) => {
-  const [statelessSettings, setStatelessSettings] = useAtom(statelessSettingsAtom);
+  const scopedStatelessSettingsAtom = props.section.stateScope === "projectPage" ? projectPageStatelessSettingsAtom : statelessSettingsAtom;
+  const [statelessSettings, setStatelessSettings] = useAtom(scopedStatelessSettingsAtom);
   const curStatelessSettings = statelessSettings || props.section.settings;
   const sortedFiles = sortItems(props.section.items, curStatelessSettings);
-  return /* @__PURE__ */ React19.createElement(React19.Fragment, null, /* @__PURE__ */ React19.createElement(BaseSection3, {
+  return /* @__PURE__ */ React24.createElement(React24.Fragment, null, /* @__PURE__ */ React24.createElement(BaseSection3, {
     key: curStatelessSettings.name,
-    className: (0, import_classnames8.default)([
+    className: (0, import_classnames9.default)([
       "ddc_pb_stateless-section",
       curStatelessSettings.defaultViewPriorityVisibility && "ddc_pb_priorities-visible"
     ]),
     section: props.section
-  }, curStatelessSettings.defaultViewMode === StateViewMode.DetailedCards && /* @__PURE__ */ React19.createElement(DetailedNoteCardSet, {
+  }, curStatelessSettings.defaultViewMode === StateViewMode.DetailedCards && /* @__PURE__ */ React24.createElement(DetailedNoteCardSet, {
     files: sortedFiles
-  }), curStatelessSettings.defaultViewMode === StateViewMode.SimpleCards && /* @__PURE__ */ React19.createElement(SimpleNoteCardSet, {
+  }), curStatelessSettings.defaultViewMode === StateViewMode.SimpleCards && /* @__PURE__ */ React24.createElement(SimpleNoteCardSet, {
     files: sortedFiles
-  }), curStatelessSettings.defaultViewMode === StateViewMode.SmallCards && /* @__PURE__ */ React19.createElement(SmallNoteCardSet, {
+  }), curStatelessSettings.defaultViewMode === StateViewMode.SmallCards && /* @__PURE__ */ React24.createElement(SmallNoteCardSet, {
     files: sortedFiles
-  }), curStatelessSettings.defaultViewMode === StateViewMode.List && /* @__PURE__ */ React19.createElement(ListNoteCardSet, {
+  }), curStatelessSettings.defaultViewMode === StateViewMode.List && /* @__PURE__ */ React24.createElement(ListNoteCardSet, {
     files: sortedFiles
   })));
 };
-var BaseSection3 = React19.forwardRef((props, ref) => {
+var BaseSection3 = React24.forwardRef((props, ref) => {
   const {
     showQuickMenu = true
   } = props;
-  return /* @__PURE__ */ React19.createElement(React19.Fragment, null, /* @__PURE__ */ React19.createElement("div", {
+  return /* @__PURE__ */ React24.createElement(React24.Fragment, null, /* @__PURE__ */ React24.createElement("div", {
     ref,
-    className: (0, import_classnames8.default)([
+    className: (0, import_classnames9.default)([
       "ddc_pb_section",
       props.className && props.className
     ])
-  }, props.children, showQuickMenu && /* @__PURE__ */ React19.createElement(StatelessQuickMenu, {
+  }, props.children, showQuickMenu && /* @__PURE__ */ React24.createElement(StatelessQuickMenu, {
     section: props.section
   })));
 });
 
 // src/components/back-button-and-path/back-button-and-path.tsx
-var React20 = __toESM(require_react());
-var import_classnames9 = __toESM(require_classnames());
+var React25 = __toESM(require_react());
+var import_classnames10 = __toESM(require_classnames());
 var BackButtonAndPath = (props) => {
   const folderTrail = [props.folder];
   while (folderTrail[folderTrail.length - 1].parent) {
     folderTrail.push(folderTrail[folderTrail.length - 1].parent);
   }
   folderTrail.reverse();
-  return /* @__PURE__ */ React20.createElement(React20.Fragment, null, /* @__PURE__ */ React20.createElement("div", {
+  const [projectFolderPaths, setProjectFolderPaths] = React25.useState(/* @__PURE__ */ new Set());
+  React25.useEffect(() => {
+    const checkProjectFolders = async () => {
+      const projectPaths = /* @__PURE__ */ new Set();
+      for (const folder of folderTrail) {
+        const folderSettings = await getFolderSettings(folder.vault, folder);
+        if (folderSettings.isProject)
+          projectPaths.add(folder.path);
+      }
+      setProjectFolderPaths(projectPaths);
+    };
+    void checkProjectFolders();
+  }, [props.folder.path, props.refreshKey]);
+  const firstProjectIndex = folderTrail.findIndex((f) => projectFolderPaths.has(f.path));
+  return /* @__PURE__ */ React25.createElement(React25.Fragment, null, /* @__PURE__ */ React25.createElement("div", {
     className: "ddc_pb_back-button-and-path"
-  }, folderTrail.length > 1 && /* @__PURE__ */ React20.createElement(CornerLeftUp, {
+  }, folderTrail.length > 1 && /* @__PURE__ */ React25.createElement(CornerLeftUp, {
     onClick: () => props.onBackClick(),
     className: "ddc_pb_icon"
-  }), folderTrail.map((folder, index2) => /* @__PURE__ */ React20.createElement("div", {
+  }), folderTrail.map((folder, index2) => /* @__PURE__ */ React25.createElement("div", {
     key: index2,
     className: "ddc_pb_breadcrumb"
-  }, /* @__PURE__ */ React20.createElement(PathButton, {
+  }, /* @__PURE__ */ React25.createElement(PathButton, {
     folder,
     onClick: folderTrail.length > 1 && index2 !== folderTrail.length - 1 ? props.onFolderClick : void 0,
-    isCurrentFolder: index2 === folderTrail.length - 1
-  }), index2 < folderTrail.length - 1 && /* @__PURE__ */ React20.createElement("div", null, ">")))));
+    isCurrentFolder: index2 === folderTrail.length - 1,
+    isProjectFolder: projectFolderPaths.has(folder.path),
+    isInsideProject: firstProjectIndex >= 0 && index2 > firstProjectIndex && !projectFolderPaths.has(folder.path)
+  }), index2 < folderTrail.length - 1 && /* @__PURE__ */ React25.createElement(ChevronRight, {
+    className: (0, import_classnames10.default)([
+      "ddc_pb_breadcrumb-separator",
+      firstProjectIndex >= 0 && index2 >= firstProjectIndex && "ddc_pb_inside-project"
+    ])
+  })))));
 };
 function PathButton(props) {
   const v = props.folder.vault;
@@ -33397,12 +34545,18 @@ function PathButton(props) {
   } else {
     name = props.folder.name;
   }
-  return /* @__PURE__ */ React20.createElement(React20.Fragment, null, props.onClick && /* @__PURE__ */ React20.createElement("a", {
-    onClick: () => props.onClick(props.folder)
-  }, name), !props.onClick && /* @__PURE__ */ React20.createElement("div", {
+  return /* @__PURE__ */ React25.createElement(React25.Fragment, null, props.onClick && /* @__PURE__ */ React25.createElement("a", {
     onClick: () => props.onClick(props.folder),
-    className: (0, import_classnames9.default)([
-      props.isCurrentFolder && "ddc_pb_current-folder"
+    className: (0, import_classnames10.default)([
+      props.isProjectFolder && "ddc_pb_project-folder",
+      props.isInsideProject && "ddc_pb_inside-project"
+    ])
+  }, name), !props.onClick && /* @__PURE__ */ React25.createElement("div", {
+    onClick: () => props.onClick(props.folder),
+    className: (0, import_classnames10.default)([
+      props.isCurrentFolder && "ddc_pb_current-folder",
+      props.isProjectFolder && "ddc_pb_project-folder",
+      props.isInsideProject && "ddc_pb_inside-project"
     ])
   }, name));
 }
@@ -33457,11 +34611,11 @@ function v4(options, buf, offset2) {
 var v4_default = v4;
 
 // src/context-menus/card-browser-context-menu.tsx
-var import_obsidian12 = require("obsidian");
+var import_obsidian20 = require("obsidian");
 
 // src/modals/new-folder-modal/new-folder-modal.ts
-var import_obsidian11 = require("obsidian");
-var NewFolderModal = class extends import_obsidian11.Modal {
+var import_obsidian18 = require("obsidian");
+var NewFolderModal = class extends import_obsidian18.Modal {
   constructor(props) {
     const { plugin } = getGlobals();
     super(plugin.app);
@@ -33477,7 +34631,7 @@ var NewFolderModal = class extends import_obsidian11.Modal {
   onOpen() {
     const { titleEl, contentEl } = this;
     titleEl.setText("Create new folder");
-    new import_obsidian11.Setting(contentEl).setClass("project-browser_setting").setName("Folder name").addText((text) => {
+    new import_obsidian18.Setting(contentEl).setClass("project-browser_setting").setName("Folder name").addText((text) => {
       text.setValue(this.name);
       text.inputEl.addEventListener("blur", async (e) => {
         this.name = sanitizeFileFolderName(text.getValue());
@@ -33498,7 +34652,7 @@ var NewFolderModal = class extends import_obsidian11.Modal {
         }
       });
     });
-    new import_obsidian11.Setting(contentEl).addButton((cancelBtn) => {
+    new import_obsidian18.Setting(contentEl).addButton((cancelBtn) => {
       cancelBtn.setClass("project-browser_button");
       cancelBtn.setButtonText("Cancel");
       cancelBtn.onClick(() => {
@@ -33524,136 +34678,14 @@ var NewFolderModal = class extends import_obsidian11.Modal {
   }
 };
 
-// src/context-menus/card-browser-context-menu.tsx
-function registerCardBrowserContextMenu(el, baseFolder, commands) {
-  const { plugin } = getGlobals();
-  el.addEventListener("contextmenu", contextMenuHandler);
-  function contextMenuHandler(e) {
-    e.stopPropagation();
-    document.body.click();
-    const showHiddenFolders = getShowHiddenFolders();
-    const menu = new import_obsidian12.Menu();
-    if (showHiddenFolders) {
-      menu.addItem((item) => item.setTitle("Hide hidden folders").onClick(() => {
-        hideHiddenFolders();
-      }));
-    } else {
-      menu.addItem((item) => item.setTitle("Show hidden folders").onClick(() => {
-        unhideHiddenFolders();
-      }));
-    }
-    menu.addItem((item) => item.setTitle("Set as launch folder").onClick(() => {
-      plugin.settings.access.launchFolder = commands.getCurFolder().path;
-      plugin.saveSettings();
-    }));
-    menu.addSeparator();
-    menu.addItem((item) => item.setTitle("New note").onClick(async () => {
-      const newFile = await createProject({
-        parentFolder: commands.getCurFolder(),
-        projectName: "Untitled"
-      });
-      setTimeout(() => openFileInSameLeaf(newFile), 500);
-    }));
-    menu.addItem((item) => item.setTitle("New folder").onClick(() => {
-      new NewFolderModal({
-        baseFolder: commands.getCurFolder()
-      }).showModal();
-    }));
-    menu.showAtMouseEvent(e);
-  }
-}
-
-// src/components/search-input/search-input.tsx
-var React21 = __toESM(require_react());
-var SearchInput = (props) => {
-  const searchInputElRef = React21.useRef(null);
-  const lastClickedInCardBrowserRef = React21.useRef(true);
-  React21.useEffect(() => {
-    document.addEventListener("pointerdown", (event) => {
-      const cardBrowserEl = event.target?.closest(".ddc_pb_browser");
-      if (cardBrowserEl) {
-        lastClickedInCardBrowserRef.current = true;
-      } else {
-        lastClickedInCardBrowserRef.current = false;
-      }
-    });
-    document.addEventListener("keydown", handleKeyPress);
-    return () => {
-      document.removeEventListener("keydown", handleKeyPress);
-    };
-  });
-  React21.useEffect(() => {
-    clearSearchStr();
-    if (props.searchActive) {
-      searchInputElRef.current?.focus();
-    }
-  }, [props.searchActive]);
-  const handleKeyPress = (event) => {
-    if (!lastClickedInCardBrowserRef.current)
-      return;
-    const cardBrowserEl = event.target?.closest(".ddc_pb_browser");
-    const activeDomElName = document.activeElement?.tagName;
-    if (!cardBrowserEl?.contains(document.activeElement) && activeDomElName === "INPUT")
-      return;
-    if (event.key === "Escape") {
-      clearSearchStr();
-      props.hideSearchInput();
-      return;
-    }
-    if (document.activeElement === searchInputElRef.current)
-      return;
-    if (event.key.length === 1 && event.key.match(/[a-zA-Z0-9]/)) {
-      searchInputElRef.current?.focus();
-      props.showSearchInput();
-    }
-    ;
-  };
-  return /* @__PURE__ */ React21.createElement(React21.Fragment, null, /* @__PURE__ */ React21.createElement("div", {
-    className: "ddc_pb_search-input-container",
-    style: {
-      display: props.searchActive ? "flex" : "none"
-    }
-  }, /* @__PURE__ */ React21.createElement("input", {
-    ref: searchInputElRef,
-    className: "ddc_pb_search-input",
-    onChange: (e) => props.onChange(e.currentTarget.value),
-    onBlur: () => {
-      if (searchInputElRef.current) {
-        if (searchInputElRef.current.value.trim() === "") {
-          clearSearchStr();
-        }
-      }
-    }
-  }), /* @__PURE__ */ React21.createElement("button", {
-    className: "ddc_pb_search-clear-btn",
-    onClick: () => {
-      clearSearchStr();
-      props.hideSearchInput();
-    }
-  }, /* @__PURE__ */ React21.createElement(X, {
-    size: 20
-  }))));
-  function clearSearchStr() {
-    if (searchInputElRef.current) {
-      searchInputElRef.current.value = "";
-    }
-    props.onChange("");
-  }
-};
-
-// src/components/card-browser/card-browser.tsx
-var import_classnames11 = __toESM(require_classnames());
-
-// src/components/card-browser-floating-menu/card-browser-floating-menu.tsx
-var React22 = __toESM(require_react());
-
-// src/modals/new-project-modal/new-project-modal.ts
-var import_obsidian13 = require("obsidian");
-var NewProjectModal = class extends import_obsidian13.Modal {
+// src/modals/new-subproject-modal/new-subproject-modal.ts
+var import_obsidian19 = require("obsidian");
+var NewSubprojectModal = class extends import_obsidian19.Modal {
   constructor(props) {
     const { plugin } = getGlobals();
     super(plugin.app);
-    this.folder = props.folder;
+    this.parentFolder = props.parentFolder;
+    this.name = "New subproject";
   }
   showModal() {
     return new Promise((resolve, reject) => {
@@ -33664,12 +34696,10 @@ var NewProjectModal = class extends import_obsidian13.Modal {
   }
   onOpen() {
     const { titleEl, contentEl } = this;
-    titleEl.setText("Create new project");
-    contentEl.createEl("p", { text: "This will create a new note." });
-    contentEl.createEl("p", { text: "In the future this will be" });
-    new import_obsidian13.Setting(contentEl).setClass("project-browser_setting").setName("Project name").addText((text) => {
+    titleEl.setText("Create new subproject");
+    new import_obsidian19.Setting(contentEl).setClass("project-browser_setting").setName("Project name").addText((text) => {
       text.setValue(this.name);
-      text.inputEl.addEventListener("blur", async (e) => {
+      text.inputEl.addEventListener("blur", async () => {
         this.name = sanitizeFileFolderName(text.getValue());
         if (this.name.trim() === "")
           this.name = "Unnamed";
@@ -33681,11 +34711,13 @@ var NewProjectModal = class extends import_obsidian13.Modal {
           if (this.name.trim() === "")
             this.name = "Unnamed";
           text.setValue(this.name);
-          this.initCreateProject();
+          void this.initCreateSubproject();
         }
       });
+      text.inputEl.focus();
+      text.inputEl.select();
     });
-    new import_obsidian13.Setting(contentEl).addButton((cancelBtn) => {
+    new import_obsidian19.Setting(contentEl).addButton((cancelBtn) => {
       cancelBtn.setClass("project-browser_button");
       cancelBtn.setButtonText("Cancel");
       cancelBtn.onClick(() => {
@@ -33695,8 +34727,10 @@ var NewProjectModal = class extends import_obsidian13.Modal {
     }).addButton((confirmBtn) => {
       confirmBtn.setClass("project-browser_button");
       confirmBtn.setCta();
-      confirmBtn.setButtonText("Create project");
-      confirmBtn.onClick(() => this.initCreateProject());
+      confirmBtn.setButtonText("Create subproject");
+      confirmBtn.onClick(() => {
+        void this.initCreateSubproject();
+      });
     });
   }
   onClose() {
@@ -33704,59 +34738,462 @@ var NewProjectModal = class extends import_obsidian13.Modal {
     titleEl.empty();
     contentEl.empty();
   }
-  async initCreateProject() {
-    const file = await createProject({
-      parentFolder: this.folder,
-      projectName: this.name
-    });
+  async initCreateSubproject() {
+    const file = await createSubproject(this.parentFolder, this.name);
     this.resolveModal(file);
     this.close();
   }
 };
 
+// src/context-menus/card-browser-context-menu.tsx
+function registerCardBrowserContextMenu(el, baseFolder, commands) {
+  const { plugin } = getGlobals();
+  el.addEventListener("contextmenu", contextMenuHandler);
+  async function contextMenuHandler(e) {
+    e.stopPropagation();
+    activeDocument.body.click();
+    const curFolder = commands.getCurFolder();
+    const folderSettings = await getFolderSettings(plugin.app.vault, curFolder);
+    const showHiddenFolders = getShowHiddenFolders();
+    const menu = new import_obsidian20.Menu();
+    if (showHiddenFolders) {
+      menu.addItem((item) => item.setTitle("Hide hidden folders").onClick(() => {
+        hideHiddenFolders();
+      }));
+    } else {
+      menu.addItem((item) => item.setTitle("Show hidden folders").onClick(() => {
+        unhideHiddenFolders();
+      }));
+    }
+    menu.addItem((item) => item.setTitle("Set as launch folder").onClick(() => {
+      plugin.settings.access.launchFolder = curFolder.path;
+      void plugin.saveSettings();
+    }));
+    if (folderSettings.isProject) {
+      menu.addItem((item) => item.setTitle("Convert to folder").onClick(async () => {
+        await setFolderAsFolder(curFolder);
+      }));
+    } else {
+      menu.addItem((item) => item.setTitle("Convert to project").onClick(async () => {
+        await setFolderAsProject(curFolder);
+      }));
+    }
+    menu.addSeparator();
+    const newFileLabel = folderSettings.isProject ? "New page" : "New project";
+    menu.addItem((item) => item.setTitle(newFileLabel).onClick(async () => {
+      const newFile = await createProject({
+        parentFolder: commands.getCurFolder(),
+        projectName: "Untitled"
+      });
+      window.setTimeout(() => openNewPageAndSelectTitle(newFile), 500);
+    }));
+    if (folderSettings.isProject) {
+      menu.addItem((item) => item.setTitle("New subproject").onClick(async () => {
+        try {
+          const newFile = await new NewSubprojectModal({
+            parentFolder: commands.getCurFolder()
+          }).showModal();
+          openFileInSameLeaf(newFile);
+        } catch {
+        }
+      }));
+    }
+    menu.addItem((item) => item.setTitle("New folder").onClick(() => {
+      void new NewFolderModal({
+        baseFolder: commands.getCurFolder()
+      }).showModal();
+    }));
+    menu.showAtMouseEvent(e);
+  }
+}
+
+// src/components/search-input/search-input.tsx
+var React26 = __toESM(require_react());
+var SearchInput = (props) => {
+  const searchInputElRef = React26.useRef(null);
+  const lastClickedInCardBrowserRef = React26.useRef(true);
+  React26.useEffect(() => {
+    activeDocument.addEventListener("pointerdown", (event) => {
+      const cardBrowserEl = event.target?.closest(".ddc_pb_browser");
+      if (cardBrowserEl) {
+        lastClickedInCardBrowserRef.current = true;
+      } else {
+        lastClickedInCardBrowserRef.current = false;
+      }
+    });
+    activeDocument.addEventListener("keydown", handleKeyPress);
+    return () => {
+      activeDocument.removeEventListener("keydown", handleKeyPress);
+    };
+  });
+  React26.useEffect(() => {
+    clearSearchStr();
+    if (props.searchActive) {
+      searchInputElRef.current?.focus();
+    }
+  }, [props.searchActive]);
+  const handleKeyPress = (event) => {
+    if (!lastClickedInCardBrowserRef.current)
+      return;
+    const cardBrowserEl = event.target?.closest(".ddc_pb_browser");
+    const activeDomElName = activeDocument.activeElement?.tagName;
+    if (!cardBrowserEl?.contains(activeDocument.activeElement) && activeDomElName === "INPUT")
+      return;
+    if (event.key === "Escape") {
+      clearSearchStr();
+      props.hideSearchInput();
+      return;
+    }
+    if (activeDocument.activeElement === searchInputElRef.current)
+      return;
+    if (event.key.length === 1 && event.key.match(/[a-zA-Z0-9]/)) {
+      searchInputElRef.current?.focus();
+      props.showSearchInput();
+    }
+    ;
+  };
+  return /* @__PURE__ */ React26.createElement(React26.Fragment, null, /* @__PURE__ */ React26.createElement("div", {
+    className: "ddc_pb_search-input-container",
+    style: {
+      display: props.searchActive ? "flex" : "none"
+    }
+  }, /* @__PURE__ */ React26.createElement("input", {
+    ref: searchInputElRef,
+    className: "ddc_pb_search-input",
+    onChange: (e) => props.onChange(e.currentTarget.value),
+    onBlur: () => {
+      if (searchInputElRef.current) {
+        if (searchInputElRef.current.value.trim() === "") {
+          clearSearchStr();
+        }
+      }
+    }
+  }), /* @__PURE__ */ React26.createElement("button", {
+    className: "ddc_pb_search-clear-btn",
+    onClick: () => {
+      clearSearchStr();
+      props.hideSearchInput();
+    }
+  }, /* @__PURE__ */ React26.createElement(X, {
+    size: 20
+  }))));
+  function clearSearchStr() {
+    if (searchInputElRef.current) {
+      searchInputElRef.current.value = "";
+    }
+    props.onChange("");
+  }
+};
+
+// src/components/card-browser/card-browser.tsx
+var import_classnames14 = __toESM(require_classnames());
+
 // src/components/card-browser-floating-menu/card-browser-floating-menu.tsx
-var import_classnames10 = __toESM(require_classnames());
+var React28 = __toESM(require_react());
+var import_classnames12 = __toESM(require_classnames());
+
+// src/components/fab-menu-action-button/fab-menu-action-button.tsx
+var React27 = __toESM(require_react());
+var import_classnames11 = __toESM(require_classnames());
+var MENU_ACTION_ICON_SIZE_PX = 11;
+function FabMenuActionButton(props) {
+  const { variant, density = "default", label, title, onClick, disabled } = props;
+  return /* @__PURE__ */ React27.createElement("button", {
+    type: "button",
+    className: (0, import_classnames11.default)("ddc_pb_fab-menu-action-button", `ddc_pb_fab-menu-action-button--${variant}`, density === "compact" && "ddc_pb_fab-menu-action-button--compact"),
+    onClick,
+    title: title ?? label,
+    disabled
+  }, /* @__PURE__ */ React27.createElement(Plus, {
+    size: MENU_ACTION_ICON_SIZE_PX,
+    "aria-hidden": true
+  }), /* @__PURE__ */ React27.createElement("span", {
+    className: "ddc_pb_fab-menu-action-button__label"
+  }, label));
+}
+function FabMenuActionButtonStack(props) {
+  return /* @__PURE__ */ React27.createElement("div", {
+    className: (0, import_classnames11.default)("ddc_pb_fab-menu-action-button-stack", props.padBottom && "ddc_pb_fab-menu-action-button-stack--pad-bottom")
+  }, props.children);
+}
+
+// src/components/card-browser-floating-menu/card-browser-floating-menu.tsx
+function getNextNewFolderPath(parentFolder) {
+  const vault = parentFolder.vault;
+  const basePath = parentFolder.path ? `${parentFolder.path}/` : "";
+  let name = "New folder";
+  let fullPath = `${basePath}${name}`;
+  let n = 2;
+  while (vault.getAbstractFileByPath(fullPath)) {
+    name = `New folder ${n}`;
+    fullPath = `${basePath}${name}`;
+    n++;
+  }
+  return fullPath;
+}
 var CardBrowserFloatingMenu = (props) => {
-  return /* @__PURE__ */ React22.createElement(React22.Fragment, null, /* @__PURE__ */ React22.createElement("div", {
-    className: "ddc_pb_card-browser-floating-menu"
-  }, /* @__PURE__ */ React22.createElement("button", {
-    className: (0, import_classnames10.default)([
-      "ddc_pb_search-button",
-      props.searchActive && "ddc_pb_active"
-    ]),
+  const [menuIsOpen, setMenuIsOpen] = React28.useState(false);
+  const fabContainerRef = React28.useRef(null);
+  React28.useEffect(() => {
+    function handleClickOutside(event) {
+      if (!fabContainerRef.current)
+        return;
+      if (fabContainerRef.current.contains(event.target))
+        return;
+      const target = event.target;
+      const isObsidianMenuOrModal = target.closest(".menu, .modal, .modal-bg");
+      if (isObsidianMenuOrModal)
+        return;
+      setMenuIsOpen(false);
+    }
+    activeDocument.addEventListener("pointerdown", handleClickOutside);
+    return () => activeDocument.removeEventListener("pointerdown", handleClickOutside);
+  }, []);
+  async function handleNewFileOrPage() {
+    try {
+      const newFile = await createProject({
+        parentFolder: props.folder,
+        projectName: "Untitled"
+      });
+      openNewPageAndSelectTitle(newFile);
+    } catch (reason) {
+      console.error(reason);
+    }
+    setMenuIsOpen(false);
+  }
+  async function handleNewSubproject() {
+    try {
+      const newFile = await new NewSubprojectModal({ parentFolder: props.folder }).showModal();
+      openFileInSameLeaf(newFile);
+    } catch (reason) {
+      if (reason !== "cancelled") {
+        console.error(reason);
+      }
+    }
+    setMenuIsOpen(false);
+  }
+  async function handleNewFolder() {
+    try {
+      const folderPath = getNextNewFolderPath(props.folder);
+      await createFolder(folderPath);
+      props.onFolderCreated?.();
+    } catch (reason) {
+      console.error(reason);
+    }
+    setMenuIsOpen(false);
+  }
+  return /* @__PURE__ */ React28.createElement("div", {
+    className: "ddc_pb_card-browser-floating-menu",
+    ref: fabContainerRef
+  }, /* @__PURE__ */ React28.createElement("div", {
+    className: "ddc_pb_card-browser-floating-menu__group"
+  }, menuIsOpen && /* @__PURE__ */ React28.createElement(FabMenuActionButtonStack, {
+    padBottom: true
+  }, props.currentFolderIsProject ? /* @__PURE__ */ React28.createElement(React28.Fragment, null, /* @__PURE__ */ React28.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "Add page",
+    onClick: handleNewFileOrPage
+  }), /* @__PURE__ */ React28.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "Add subproject",
+    onClick: handleNewSubproject
+  }), /* @__PURE__ */ React28.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "Add folder",
+    onClick: handleNewFolder
+  })) : /* @__PURE__ */ React28.createElement(React28.Fragment, null, /* @__PURE__ */ React28.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "New project",
+    onClick: handleNewFileOrPage
+  }), /* @__PURE__ */ React28.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "New folder",
+    onClick: handleNewFolder
+  }))), /* @__PURE__ */ React28.createElement("button", {
+    className: (0, import_classnames12.default)("ddc_pb_card-browser-floating-menu__new-button", menuIsOpen && "ddc_pb_active"),
+    onClick: () => setMenuIsOpen((prev) => !prev),
+    title: menuIsOpen ? "Close menu" : "New"
+  }, /* @__PURE__ */ React28.createElement(Plus, {
+    size: 20
+  })), /* @__PURE__ */ React28.createElement("button", {
+    className: (0, import_classnames12.default)("ddc_pb_card-browser-floating-menu__search-button", props.searchActive && "ddc_pb_active"),
     onClick: () => {
       if (props.searchActive) {
         props.deactivateSearch();
       } else {
         props.activateSearch();
       }
-    }
-  }, /* @__PURE__ */ React22.createElement(Search, {
+    },
+    title: "Search"
+  }, /* @__PURE__ */ React28.createElement(Search, {
     size: 20
-  })), /* @__PURE__ */ React22.createElement("button", {
-    className: "ddc_pb_new-button",
-    onClick: () => newProject(props.folder)
-  }, /* @__PURE__ */ React22.createElement(Plus, {
-    size: 33
-  }))));
-  async function newProject(folder) {
-    const modal = new NewProjectModal({
-      folder
-    });
-    try {
-      const newFile = await createProject({
-        parentFolder: folder,
-        projectName: "Untitled"
-      });
-      openFileInSameLeaf(newFile);
-    } catch (reason) {
-      console.log(reason);
+  })), /* @__PURE__ */ React28.createElement("button", {
+    className: (0, import_classnames12.default)("ddc_pb_card-browser-floating-menu__folder-title", props.parentFolderIsProject && "ddc_pb_card-browser-floating-menu__folder-title--is-project", !props.parentFolderIsProject && props.parentFolderIsInsideProject && "ddc_pb_card-browser-floating-menu__folder-title--is-inside-project", props.parentFolder === null && "ddc_pb_card-browser-floating-menu__folder-title--hidden"),
+    onClick: props.parentFolder !== null ? props.onOpenParentFolder : void 0,
+    title: props.parentFolder === null ? void 0 : isRootPath(props.parentFolder.path) ? "Open vault root in browser" : `Open ${props.parentFolder.name} in browser`
+  }, /* @__PURE__ */ React28.createElement(ChevronLeft, {
+    size: 16,
+    className: "ddc_pb_card-browser-floating-menu__folder-title-chevron"
+  }), props.parentFolder === null ? "" : isRootPath(props.parentFolder.path) ? "Home" : props.parentFolder.name)));
+};
+
+// src/components/state-menu/project-folder-state-menu.tsx
+var React30 = __toESM(require_react());
+
+// src/components/state-menu/state-menu-shell.tsx
+var React29 = __toESM(require_react());
+var import_classnames13 = __toESM(require_classnames());
+var StateMenuShell = (props) => {
+  const stateMenuSettings = useAtomValue(stateMenuAtom);
+  const [menuIsActive, setMenuIsActive] = React29.useState(false);
+  const showHighlightRef = React29.useRef(false);
+  const stateMenuRef = React29.useRef(null);
+  const stateMenuContentRef = React29.useRef(null);
+  const resizeObserverRef = React29.useRef(null);
+  const stateMenuSettingsRef = React29.useRef(stateMenuSettings);
+  React29.useEffect(() => {
+    stateMenuSettingsRef.current = stateMenuSettings;
+  }, [stateMenuSettings]);
+  const displayState = props.currentStateSettings?.name || "Set State";
+  React29.useEffect(() => {
+    function handleClickOutside(event) {
+      if (stateMenuRef.current && !stateMenuRef.current.contains(event.target)) {
+        setMenuIsActive(false);
+      }
     }
+    activeDocument.addEventListener("pointerdown", handleClickOutside);
+    monitorWorkspaceResizes();
+    return () => {
+      unmonitorWorkspaceResizes();
+      activeDocument.removeEventListener("pointerdown", handleClickOutside);
+    };
+  }, []);
+  React29.useEffect(() => {
+    setHeight();
+  }, [stateMenuSettings, menuIsActive]);
+  React29.useEffect(() => {
+    showHighlightRef.current = false;
+  });
+  return /* @__PURE__ */ React29.createElement("div", {
+    className: "ddc_pb_state-menu",
+    ref: stateMenuRef
+  }, /* @__PURE__ */ React29.createElement("div", {
+    className: "ddc_pb_state-menu-content",
+    ref: stateMenuContentRef
+  }, !menuIsActive && /* @__PURE__ */ React29.createElement("button", {
+    className: (0, import_classnames13.default)([
+      "ddc_pb_state-btn",
+      "ddc_pb_in-closed-menu",
+      showHighlightRef.current && "ddc_pb_has-return-transition"
+    ]),
+    onClick: () => {
+      setMenuIsActive(true);
+    }
+  }, displayState), menuIsActive && /* @__PURE__ */ React29.createElement(React29.Fragment, null, /* @__PURE__ */ React29.createElement("div", {
+    className: "ddc_pb_visible-state-btns"
+  }, props.visibleStates.map((visibleStateSettings) => /* @__PURE__ */ React29.createElement("button", {
+    key: visibleStateSettings.name,
+    className: (0, import_classnames13.default)([
+      "ddc_pb_state-btn",
+      "ddc_pb_visible-state",
+      visibleStateSettings.name === props.currentStateSettings?.name && "is-set"
+    ]),
+    onClick: () => void setStateAndCloseMenu(visibleStateSettings)
+  }, sanitizeInternalLinkName(visibleStateSettings.name)))), /* @__PURE__ */ React29.createElement("div", {
+    className: "ddc_pb_hidden-state-btns"
+  }, props.hiddenStates.map((hiddenStateSettings) => /* @__PURE__ */ React29.createElement("button", {
+    key: hiddenStateSettings.name,
+    className: (0, import_classnames13.default)([
+      "ddc_pb_state-btn",
+      "ddc_pb_hidden-state",
+      hiddenStateSettings.name === props.currentStateSettings?.name && "is-set"
+    ]),
+    onClick: () => void setStateAndCloseMenu(hiddenStateSettings)
+  }, sanitizeInternalLinkName(hiddenStateSettings.name)))))));
+  async function setStateAndCloseMenu(clickedStateSettings) {
+    const nextStateSettings = clickedStateSettings.name === props.currentStateSettings?.name ? null : clickedStateSettings;
+    showHighlightRef.current = true;
+    await props.onSetState(nextStateSettings);
+    setMenuIsActive(false);
+  }
+  function setHeight() {
+    if (stateMenuSettingsRef.current.visible) {
+      setVisibleHeight();
+    } else {
+      setHiddenHeight();
+    }
+  }
+  function setVisibleHeight() {
+    if (!stateMenuContentRef.current || !stateMenuRef.current)
+      return;
+    const contentHeight = stateMenuContentRef.current.getBoundingClientRect().height;
+    stateMenuRef.current.style.height = `${contentHeight}px`;
+  }
+  function setHiddenHeight() {
+    if (!stateMenuRef.current)
+      return;
+    stateMenuRef.current.style.height = "0";
+  }
+  function monitorWorkspaceResizes() {
+    const surroundingWorkspaceSplit = stateMenuRef.current?.closest(".workspace-split");
+    let resizeTimeout = null;
+    resizeObserverRef.current = new ResizeObserver(() => {
+      if (resizeTimeout)
+        window.clearTimeout(resizeTimeout);
+      resizeTimeout = window.setTimeout(() => {
+        setHeight();
+      }, 50);
+    });
+    if (surroundingWorkspaceSplit) {
+      resizeObserverRef.current?.observe(surroundingWorkspaceSplit);
+    }
+  }
+  function unmonitorWorkspaceResizes() {
+    const surroundingWorkspaceSplit = stateMenuRef.current?.closest(".workspace-split");
+    if (surroundingWorkspaceSplit) {
+      resizeObserverRef.current?.unobserve(surroundingWorkspaceSplit);
+    }
+    resizeObserverRef.current?.disconnect();
+  }
+};
+
+// src/components/state-menu/project-folder-state-menu.tsx
+var ProjectFolderStateMenu = (props) => {
+  const { plugin } = getGlobals();
+  const [currentStateSettings, setCurrentStateSettings] = React30.useState(null);
+  React30.useEffect(() => {
+    let cancelled = false;
+    void loadCurrentState();
+    return () => {
+      cancelled = true;
+    };
+    async function loadCurrentState() {
+      const stateName = await getFolderStateName(props.folder);
+      if (cancelled)
+        return;
+      setCurrentStateSettings(stateName ? getStateByName(stateName) : null);
+    }
+  }, [props.folder.path, props.refreshKey]);
+  return /* @__PURE__ */ React30.createElement(StateMenuShell, {
+    currentStateSettings,
+    visibleStates: plugin.settings.states.visible,
+    hiddenStates: plugin.settings.states.hidden,
+    onSetState: setProjectFolderState
+  });
+  async function setProjectFolderState(nextStateSettings) {
+    await setFolderState(props.folder, nextStateSettings);
+    setCurrentStateSettings(nextStateSettings);
+    return true;
   }
 };
 
 // src/components/card-browser/card-browser.tsx
-var CardBrowserContext = React23.createContext({
+var CardBrowserContext = React31.createContext({
   folder: null,
   lastTouchedFilePath: "",
   rememberLastTouchedFile: () => {
@@ -33768,18 +35205,94 @@ var CardBrowserContext = React23.createContext({
 });
 var CardBrowser = (props) => {
   const { plugin } = getGlobals();
-  const [viewInstanceId] = React23.useState(v4_default());
-  const [refreshId, setRefreshId] = React23.useState(v4_default());
-  const [searchActive, setSearchActive] = React23.useState(false);
-  const [searchStr, setSearchStr] = React23.useState("");
+  const [viewInstanceId] = React31.useState(v4_default());
+  const [refreshId, setRefreshId] = React31.useState(v4_default());
+  const [searchActive, setSearchActive] = React31.useState(false);
+  const [searchStr, setSearchStr] = React31.useState("");
+  const [parentFolderIsProject, setParentFolderIsProject] = React31.useState(false);
+  const [parentFolderIsInsideProject, setParentFolderIsInsideProject] = React31.useState(false);
+  const [currentFolderIsProject, setCurrentFolderIsProject] = React31.useState(false);
   const { state, eState } = props.getViewStates();
-  const browserRef = React23.useRef(null);
+  const browserRef = React31.useRef(null);
+  const fabContainerRef = React31.useRef(null);
   const v = plugin.app.vault;
   const initialFolder = v.getFolderByPath(state.path) || v.getRoot();
-  let sectionsOfItems = getSortedSectionsInFolder(initialFolder);
-  filterSectionsByString(sectionsOfItems, searchStr);
+  const [sectionsOfItemsRaw, setSectionsOfItemsRaw] = React31.useState(null);
+  React31.useEffect(() => {
+    const parent = initialFolder.parent;
+    if (!parent) {
+      setParentFolderIsProject(false);
+      setParentFolderIsInsideProject(false);
+      return;
+    }
+    let cancelled = false;
+    void getFolderSettings(v, parent).then((settings) => {
+      if (cancelled)
+        return;
+      const isProject = settings.isProject === true;
+      setParentFolderIsProject(isProject);
+      if (isProject) {
+        setParentFolderIsInsideProject(false);
+        return;
+      }
+      const checkAncestors = async () => {
+        let ancestor = parent.parent;
+        while (ancestor) {
+          const ancestorSettings = await getFolderSettings(v, ancestor);
+          if (ancestorSettings.isProject === true) {
+            if (!cancelled)
+              setParentFolderIsInsideProject(true);
+            return;
+          }
+          ancestor = ancestor.parent ?? null;
+        }
+        if (!cancelled)
+          setParentFolderIsInsideProject(false);
+      };
+      void checkAncestors();
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [initialFolder.path, refreshId, v]);
+  React31.useEffect(() => {
+    let cancelled = false;
+    void getFolderSettings(v, initialFolder).then((settings) => {
+      if (!cancelled)
+        setCurrentFolderIsProject(settings.isProject === true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [initialFolder.path, refreshId, v]);
+  React31.useEffect(() => {
+    let cancelled = false;
+    void getSortedSectionsInFolderAsync(initialFolder).then((sections) => {
+      if (!cancelled) {
+        setSectionsOfItemsRaw(sections);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [initialFolder.path, refreshId]);
+  const sectionsOfItems = React31.useMemo(() => {
+    if (sectionsOfItemsRaw === null)
+      return null;
+    const copy = sectionsOfItemsRaw.map((s) => ({ ...s, items: [...s.items] }));
+    filterSectionsByString(copy, searchStr);
+    return copy;
+  }, [sectionsOfItemsRaw, searchStr]);
   const lastTouchedFilePath = eState?.lastTouchedFilePath || "";
-  React23.useEffect(() => {
+  React31.useEffect(() => {
+    const scrollEl = browserRef.current;
+    const onScroll = props.onBrowserScroll;
+    if (!scrollEl || !onScroll)
+      return;
+    scrollEl.addEventListener("scroll", onScroll, { passive: true });
+    return () => scrollEl.removeEventListener("scroll", onScroll);
+  }, [props.onBrowserScroll]);
+  React31.useEffect(() => {
     if (!plugin)
       return;
     props.passBackHandlers({
@@ -33801,7 +35314,7 @@ var CardBrowser = (props) => {
   function rerender() {
     setRefreshId(v4_default());
   }
-  return /* @__PURE__ */ React23.createElement(CardBrowserContext.Provider, {
+  return /* @__PURE__ */ React31.createElement(CardBrowserContext.Provider, {
     value: {
       folder: initialFolder,
       lastTouchedFilePath,
@@ -33809,39 +35322,56 @@ var CardBrowser = (props) => {
       rememberLastTouchedFile,
       rerender
     }
-  }, /* @__PURE__ */ React23.createElement("div", {
+  }, /* @__PURE__ */ React31.createElement("div", {
+    className: "ddc_pb_card-browser-root"
+  }, /* @__PURE__ */ React31.createElement("div", {
     ref: browserRef,
     className: "ddc_pb_browser"
-  }, /* @__PURE__ */ React23.createElement(BackButtonAndPath, {
+  }, /* @__PURE__ */ React31.createElement(BackButtonAndPath, {
     folder: initialFolder,
     onBackClick: openParentFolder,
-    onFolderClick: (folder) => openFolderInSameLeaf(folder)
-  }), /* @__PURE__ */ React23.createElement("div", {
-    className: (0, import_classnames11.default)([
+    onFolderClick: (folder) => openFolderInSameLeaf(folder),
+    refreshKey: refreshId
+  }), currentFolderIsProject && /* @__PURE__ */ React31.createElement("div", {
+    className: "ddc_pb_card-browser-project-header"
+  }, /* @__PURE__ */ React31.createElement(ProjectFolderStateMenu, {
+    folder: initialFolder,
+    refreshKey: refreshId
+  })), /* @__PURE__ */ React31.createElement("div", {
+    className: (0, import_classnames14.default)([
       "ddc_pb_section",
       "ddc_pb_nav-and-filter-section"
     ])
-  }, sectionsOfItems.map((section) => /* @__PURE__ */ React23.createElement(React23.Fragment, {
+  }, (sectionsOfItems ?? []).map((section) => /* @__PURE__ */ React31.createElement(React31.Fragment, {
     key: section.title
-  }, section.type === "folders" && /* @__PURE__ */ React23.createElement(React23.Fragment, null, /* @__PURE__ */ React23.createElement(FolderSection, {
+  }, section.type === "folders" && /* @__PURE__ */ React31.createElement(React31.Fragment, null, /* @__PURE__ */ React31.createElement(FolderSection, {
     section
-  })))), /* @__PURE__ */ React23.createElement(SearchInput, {
+  })))), /* @__PURE__ */ React31.createElement(SearchInput, {
     searchActive,
     onChange: setSearchStr,
     hideSearchInput: () => setSearchActive(false),
     showSearchInput: () => setSearchActive(true)
-  })), /* @__PURE__ */ React23.createElement("div", null, sectionsOfItems.map((section, index2) => /* @__PURE__ */ React23.createElement(React23.Fragment, {
+  })), /* @__PURE__ */ React31.createElement("div", null, (sectionsOfItems ?? []).map((section) => /* @__PURE__ */ React31.createElement(React31.Fragment, {
     key: section.title
-  }, section.type !== "folders" && ((!searchActive || searchActive && section.items.length > 0) && /* @__PURE__ */ React23.createElement("div", null, section.type === "state" && /* @__PURE__ */ React23.createElement(StateSection, {
+  }, section.type !== "folders" && ((!searchActive || searchActive && section.items.length > 0) && /* @__PURE__ */ React31.createElement("div", null, section.type === "state" && /* @__PURE__ */ React31.createElement(StateSection, {
     section
-  }), section.type === "stateless" && /* @__PURE__ */ React23.createElement(StatelessSection, {
+  }), section.type === "stateless" && /* @__PURE__ */ React31.createElement(StatelessSection, {
     section
-  })))))), /* @__PURE__ */ React23.createElement(CardBrowserFloatingMenu, {
+  }))))))), /* @__PURE__ */ React31.createElement("div", {
+    ref: fabContainerRef,
+    className: "ddc_pb_card-browser-fab-container"
+  }, /* @__PURE__ */ React31.createElement(CardBrowserFloatingMenu, {
     folder: initialFolder,
+    parentFolder: initialFolder.parent,
+    parentFolderIsProject,
+    parentFolderIsInsideProject,
+    currentFolderIsProject,
+    onOpenParentFolder: openParentFolder,
+    onFolderCreated: rerender,
     searchActive,
     activateSearch: () => setSearchActive(true),
     deactivateSearch: () => setSearchActive(false)
-  })));
+  }))));
   function rememberLastTouchedFile(file) {
     props.rememberLastTouchedFilepath(file.path);
   }
@@ -33871,12 +35401,13 @@ function isEmpty(obj) {
 }
 
 // src/views/card-browser-view/card-browser-view.tsx
-var CARD_BROWSER_VIEW_TYPE = "card-browser-view";
+var CARD_BROWSER_VIEW_CONTENT_CLASS = "ddc_pb_card-browser-view-content";
+var pendingLeafReplacements = /* @__PURE__ */ new WeakSet();
 function setCardBrowserViewStateDefaults() {
   const { plugin } = getGlobals();
   let launchPath = plugin.settings.access.launchFolder;
   if (!plugin.app.vault.getFolderByPath(launchPath)) {
-    new import_obsidian14.Notice("Launch folder not found. Launching in root of vault instead. Update your launch folder in the Project Browser plugin settings.", 1e4);
+    new import_obsidian21.Notice("Launch folder not found. Launching in root of vault instead. Update your launch folder in the Project Browser plugin settings.", 1e4);
     launchPath = plugin.app.vault.getRoot().path;
   }
   return {
@@ -33889,26 +35420,58 @@ function registerCardBrowserView() {
 }
 function loadCardBrowserOnNewTab() {
   const { plugin } = getGlobals();
-  plugin.registerEvent(plugin.app.workspace.on("active-leaf-change", (leaf) => {
+  function replaceLeafIfEmpty(leaf) {
     if (!leaf)
       return;
     const viewType = leaf.view.getViewType();
-    if (viewType === "empty") {
-      replaceLeaf(leaf);
-    }
+    if (viewType !== "empty")
+      return;
+    void replaceLeaf(leaf);
+  }
+  plugin.registerEvent(plugin.app.workspace.on("active-leaf-change", (leaf) => {
+    replaceLeafIfEmpty(leaf);
   }));
+  plugin.registerEvent(plugin.app.workspace.on("layout-change", () => {
+    const activeLeaf = plugin.app.workspace.getMostRecentLeaf();
+    replaceLeafIfEmpty(activeLeaf);
+  }));
+  replaceLeafIfEmpty(plugin.app.workspace.getMostRecentLeaf());
 }
-function newProjectBrowserLeaf() {
+async function openProjectBrowserInLeaf(leaf, shouldActivateLeaf) {
+  if (pendingLeafReplacements.has(leaf))
+    return;
+  const currentViewType = leaf.view.getViewType();
+  if (currentViewType === CARD_BROWSER_VIEW_TYPE) {
+    if (shouldActivateLeaf) {
+      const { plugin } = getGlobals();
+      plugin.app.workspace.setActiveLeaf(leaf, { focus: true });
+    }
+    return;
+  }
+  pendingLeafReplacements.add(leaf);
+  try {
+    await leaf.setViewState({
+      type: CARD_BROWSER_VIEW_TYPE,
+      active: shouldActivateLeaf,
+      state: setCardBrowserViewStateDefaults()
+    });
+    if (shouldActivateLeaf) {
+      const { plugin } = getGlobals();
+      plugin.app.workspace.setActiveLeaf(leaf, { focus: true });
+    }
+  } finally {
+    pendingLeafReplacements.delete(leaf);
+  }
+}
+async function newProjectBrowserLeaf() {
   const { plugin } = getGlobals();
   const leaf = plugin.app.workspace.getLeaf(true);
-  new ProjectCardsView(leaf);
-  plugin.app.workspace.setActiveLeaf(leaf);
+  await openProjectBrowserInLeaf(leaf, true);
 }
-function replaceLeaf(leaf) {
-  const { plugin } = getGlobals();
-  new ProjectCardsView(leaf);
+async function replaceLeaf(leaf) {
+  await openProjectBrowserInLeaf(leaf, false);
 }
-var ProjectCardsView = class extends import_obsidian14.ItemView {
+var ProjectCardsView = class extends import_obsidian21.ItemView {
   constructor(leaf) {
     super(leaf);
     this.internalClick = false;
@@ -33916,15 +35479,20 @@ var ProjectCardsView = class extends import_obsidian14.ItemView {
       this.cardBrowserHandlers = handlers;
       this.applyScrollOffset();
     };
+    this.handleBrowserScrollForPersist = () => {
+      void this.saveReturnState();
+    };
     this.applyScrollOffset = () => {
-      setTimeout(() => {
-        if (this.eState?.scrollOffset)
-          this.contentEl.scrollTo(0, this.eState.scrollOffset);
+      window.setTimeout(() => {
+        const scrollEl = this.getBrowserScrollElement();
+        if (this.eState?.scrollOffset != null && scrollEl) {
+          scrollEl.scrollTo(0, this.eState.scrollOffset);
+        }
       }, 50);
     };
     this.setViewStateWithHistory = (statePartial) => {
       const nextState = { ...this.state, ...statePartial };
-      this.leaf.setViewState({
+      void this.leaf.setViewState({
         type: CARD_BROWSER_VIEW_TYPE,
         state: nextState
       });
@@ -33944,7 +35512,8 @@ var ProjectCardsView = class extends import_obsidian14.ItemView {
       return this.eState;
     };
     this.saveReturnState = async (props) => {
-      const scrollOffset = this.contentEl.scrollTop;
+      const scrollHost = this.getBrowserScrollElement() ?? this.contentEl;
+      const scrollOffset = scrollHost.scrollTop;
       if (props?.lastTouchedFilePath) {
         this.eState = {
           scrollOffset,
@@ -33958,7 +35527,7 @@ var ProjectCardsView = class extends import_obsidian14.ItemView {
     };
     this.navigation = true;
     this.icon = ICON_PLUGIN;
-    leaf.open(this);
+    void leaf.open(this);
   }
   getViewType() {
     return CARD_BROWSER_VIEW_TYPE;
@@ -33968,13 +35537,15 @@ var ProjectCardsView = class extends import_obsidian14.ItemView {
   }
   async onOpen() {
     const contentEl = this.contentEl;
-    contentEl.empty();
     contentEl.setAttr("style", "padding: 0;");
+    contentEl.addClass(CARD_BROWSER_VIEW_CONTENT_CLASS);
     if (!this.state || isEmpty(this.state)) {
       this.state = setCardBrowserViewStateDefaults();
     }
-    if (!this.root)
+    if (!this.root) {
+      contentEl.empty();
       this.root = (0, import_client.createRoot)(contentEl);
+    }
     this.renderView();
   }
   getState() {
@@ -33986,9 +35557,6 @@ var ProjectCardsView = class extends import_obsidian14.ItemView {
   setState(state, result) {
     result.history = true;
     this.state = state;
-    this.contentEl.addEventListener("scroll", (e) => {
-      this.saveReturnState();
-    });
     this.cardBrowserHandlers?.rerender();
     return super.setState(this.state, result);
   }
@@ -34000,9 +35568,10 @@ var ProjectCardsView = class extends import_obsidian14.ItemView {
   async onClose() {
   }
   renderView() {
-    this.root.render(/* @__PURE__ */ React24.createElement(Provider, {
+    this.root.render(/* @__PURE__ */ React32.createElement(Provider, {
       store: globalStore
-    }, /* @__PURE__ */ React24.createElement(card_browser_default, {
+    }, /* @__PURE__ */ React32.createElement(card_browser_default, {
+      containerEl: this.contentEl,
       path: this.state.path,
       setViewStateWithHistory: (statePartial) => this.setViewStateWithHistory(statePartial),
       rememberLastTouchedFilepath: this.rememberLastTouchedFilepath,
@@ -34013,188 +35582,71 @@ var ProjectCardsView = class extends import_obsidian14.ItemView {
           state: this.state
         };
       },
-      passBackHandlers: this.setCardBrowserHandlers
+      passBackHandlers: this.setCardBrowserHandlers,
+      onBrowserScroll: this.handleBrowserScrollForPersist
     })));
   }
+  getBrowserScrollElement() {
+    return this.contentEl.querySelector(".ddc_pb_browser");
+  }
 };
 
-// src/views/markdown-view-mods/markdown-view-mods.tsx
-var import_obsidian16 = require("obsidian");
-var React26 = __toESM(require_react());
+// src/views/project-pages-sidebar-view/project-pages-sidebar-view.tsx
+var import_obsidian24 = require("obsidian");
+var React34 = __toESM(require_react());
 var import_client2 = __toESM(require_client());
 
-// src/components/state-menu/state-menu.tsx
-var import_obsidian15 = require("obsidian");
-var React25 = __toESM(require_react());
-var import_classnames12 = __toESM(require_classnames());
-var StateMenu = (props) => {
+// src/components/project-page-menu-file-button/project-page-menu-file-button.tsx
+var React33 = __toESM(require_react());
+var import_classnames15 = __toESM(require_classnames());
+var ProjectPageMenuFileButton = (props) => {
+  const buttonRef = React33.useRef(null);
   const { plugin } = getGlobals();
-  const parentLeafRef = React25.useRef(plugin.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView)?.leaf);
-  const stateMenuSettings = useAtomValue(stateMenuAtom);
-  const [file, setFile] = React25.useState(props.file);
-  const [stateSettings, setStateSettings] = React25.useState(getFileStateSettings(file));
-  const [menuIsActive, setMenuIsActive] = React25.useState(false);
-  const showHighlightRef = React25.useRef(false);
-  const stateMenuRef = React25.useRef(null);
-  const stateMenuContentRef = React25.useRef(null);
-  const resizeObserverRef = React25.useRef(null);
-  const stateMenuSettingsRef = React25.useRef(stateMenuSettings);
-  React25.useEffect(() => {
-    stateMenuSettingsRef.current = stateMenuSettings;
-  }, [stateMenuSettings]);
-  const curFileRef = React25.useRef(file);
-  React25.useEffect(() => {
-    curFileRef.current = file;
-  }, [file]);
-  let displayState = stateSettings?.name;
-  if (!displayState)
-    displayState = "Set State";
-  const visibleStates = plugin.settings.states.visible;
-  const hiddenStates = plugin.settings.states.hidden;
-  React25.useEffect(() => {
-    function handleClickOutside(event) {
-      if (stateMenuRef.current && !stateMenuRef.current.contains(event.target)) {
-        setMenuIsActive(false);
-      }
-    }
-    document.addEventListener("pointerdown", handleClickOutside);
-    monitorWorkspaceResizes();
-    listenForFileChanges();
-    return () => {
-      unmonitorWorkspaceResizes();
-      document.removeEventListener("pointerdown", handleClickOutside);
-    };
-  }, []);
-  React25.useEffect(() => {
-    setHeight();
-  }, [stateMenuSettings]);
-  React25.useEffect(() => {
-    setHeight();
-  }, [menuIsActive]);
-  React25.useEffect(() => {
-    showHighlightRef.current = false;
-  });
-  return /* @__PURE__ */ React25.createElement("div", {
-    className: "ddc_pb_state-menu",
-    ref: stateMenuRef
-  }, /* @__PURE__ */ React25.createElement("div", {
-    className: "ddc_pb_state-menu-content",
-    ref: stateMenuContentRef
-  }, !menuIsActive && /* @__PURE__ */ React25.createElement("button", {
-    className: (0, import_classnames12.default)([
-      "ddc_pb_state-btn",
-      "ddc_pb_in-closed-menu",
-      showHighlightRef.current && "ddc_pb_has-return-transition"
-    ]),
-    onClick: () => {
-      setMenuIsActive(true);
-    }
-  }, displayState), menuIsActive && /* @__PURE__ */ React25.createElement(React25.Fragment, null, /* @__PURE__ */ React25.createElement("div", {
-    className: "ddc_pb_visible-state-btns"
-  }, visibleStates.map((thisStatesSettings, index2) => /* @__PURE__ */ React25.createElement("button", {
-    key: index2,
-    className: (0, import_classnames12.default)([
-      "ddc_pb_state-btn",
-      "ddc_pb_visible-state",
-      thisStatesSettings.name === stateSettings?.name && "is-set"
-    ]),
-    onClick: () => setStateAndCloseMenu(thisStatesSettings)
-  }, sanitizeInternalLinkName(thisStatesSettings.name)))), /* @__PURE__ */ React25.createElement("div", {
-    className: "ddc_pb_hidden-state-btns"
-  }, hiddenStates.map((thisStatesSettings, index2) => /* @__PURE__ */ React25.createElement("button", {
-    key: index2,
-    className: (0, import_classnames12.default)([
-      "ddc_pb_state-btn",
-      "ddc_pb_hidden-state",
-      thisStatesSettings.name === stateSettings?.name && "is-set"
-    ]),
-    onClick: () => setStateAndCloseMenu(thisStatesSettings)
-  }, sanitizeInternalLinkName(thisStatesSettings.name)))))));
-  function listenForFileChanges() {
-    if (!plugin)
+  React33.useEffect(() => {
+    if (!plugin || !buttonRef.current)
       return;
-    plugin.registerEvent(plugin.app.workspace.on("file-open", (newFile) => {
-      if (!newFile)
-        return;
-      let activeLeaf = plugin.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView)?.leaf;
-      if (!activeLeaf)
-        return;
-      if (activeLeaf.view != parentLeafRef.current?.view)
-        return;
-      setFile(newFile);
-      const newStateSettings = getFileStateSettings(newFile);
-      setStateSettings(newStateSettings);
-    }));
-    let fileChangeTimeout = null;
-    plugin.registerEvent(plugin.app.metadataCache.on("changed", (modifiedFile, data, cache) => {
-      if (modifiedFile.path !== curFileRef.current.path)
-        return;
-      if (fileChangeTimeout)
-        clearTimeout(fileChangeTimeout);
-      fileChangeTimeout = setTimeout(() => {
-        showHighlightRef.current = true;
-        setStateSettings(getFileStateSettings(curFileRef.current));
-      }, 100);
-    }));
-  }
-  async function setStateAndCloseMenu(newStateSettings) {
-    if (!plugin)
-      return;
-    if (newStateSettings !== stateSettings) {
-      showHighlightRef.current = true;
-      const successInSettingState = await setFileState(file, newStateSettings);
-      if (successInSettingState)
-        setStateSettings(newStateSettings);
-    } else {
-      showHighlightRef.current = true;
-      const successInErasingState = await setFileState(file, null);
-      if (successInErasingState)
-        setStateSettings(null);
-    }
-    setMenuIsActive(false);
-  }
-  function setHeight() {
-    if (stateMenuSettingsRef.current.visible) {
-      setVisibleHeight();
-    } else {
-      setHiddenHeight();
-    }
-  }
-  function setVisibleHeight() {
-    if (!stateMenuContentRef.current)
-      return;
-    if (!stateMenuRef.current)
-      return;
-    const contentHeight = stateMenuContentRef.current.getBoundingClientRect().height;
-    stateMenuRef.current.style.height = `${contentHeight}px`;
-  }
-  function setHiddenHeight() {
-    if (!stateMenuRef.current)
-      return;
-    stateMenuRef.current.style.height = "0";
-  }
-  function monitorWorkspaceResizes() {
-    const surroundingWorkspaceSplit = stateMenuRef.current?.closest(".workspace-split");
-    let resizeTimeout = null;
-    resizeObserverRef.current = new ResizeObserver(() => {
-      if (resizeTimeout)
-        clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(() => {
-        setHeight();
-      }, 50);
+    registerFileContextMenu({
+      fileButtonEl: buttonRef.current,
+      file: props.file,
+      onFileChange: props.onFileChange
     });
-    if (surroundingWorkspaceSplit) {
-      resizeObserverRef.current?.observe(surroundingWorkspaceSplit);
-    }
-  }
-  function unmonitorWorkspaceResizes() {
-    const surroundingWorkspaceSplit = stateMenuRef.current?.closest(".workspace-split");
-    if (surroundingWorkspaceSplit) {
-      resizeObserverRef.current?.unobserve(surroundingWorkspaceSplit);
-    }
-    resizeObserverRef.current?.disconnect();
-  }
+  }, [props.file.path]);
+  const fileTypeLabel = getFileTypeLabel(props.file.extension ?? "");
+  const isUnsupported = isExtensionUnsupportedByObsidian(props.file.extension ?? "");
+  const { basename, extension } = getFileDisplayNameParts(props.file);
+  return /* @__PURE__ */ React33.createElement("button", {
+    ref: buttonRef,
+    type: "button",
+    className: (0, import_classnames15.default)("ddc_pb_project-page-menu__file-button", `ddc_pb_project-page-menu__file-button--${props.context}`, props.isCurrentPage && "ddc_pb_project-page-menu__file-button--active"),
+    onClick: props.isCurrentPage ? void 0 : () => props.onPageClick(props.file),
+    disabled: props.isCurrentPage
+  }, fileTypeLabel && /* @__PURE__ */ React33.createElement("span", {
+    className: "ddc_pb_project-page-menu__file-button-tags"
+  }, /* @__PURE__ */ React33.createElement("span", {
+    className: "ddc_pb_file-type-tag",
+    "aria-hidden": true
+  }, fileTypeLabel)), isUnsupported && /* @__PURE__ */ React33.createElement("span", {
+    className: "ddc_pb_project-page-menu__file-button-external-icon"
+  }, /* @__PURE__ */ React33.createElement(ExternalLink, {
+    className: "ddc_pb_external-file-icon",
+    "aria-label": "Opens in external program",
+    size: 12
+  })), basename, extension && /* @__PURE__ */ React33.createElement("span", {
+    className: "ddc_pb_file-ext-faint"
+  }, extension));
 };
+
+// src/logic/project-page-list.ts
+var import_obsidian22 = require("obsidian");
+function getSortedPageMenuFilesInProjectFolder(folder) {
+  const items = getItemsInFolder(folder);
+  if (!items)
+    return [];
+  return items.filter((item) => item instanceof import_obsidian22.TFile).filter((file) => isExtensionVisible(file.extension, "pageMenu")).sort(compareItemNamesNaturally);
+}
+
+// src/logic/project-pages-sidebar-controller.ts
+var import_obsidian23 = require("obsidian");
 
 // src/logic/toggle-state-menu.ts
 function toggleStateMenu() {
@@ -34204,7 +35656,7 @@ function toggleStateMenu() {
   newStateMenuSettings.visible = !newStateMenuSettings.visible;
   setStateMenuSettings(newStateMenuSettings);
   plugin.settings.showStateMenu = newStateMenuSettings.visible;
-  plugin.saveSettings();
+  void plugin.saveSettings();
 }
 var cycleStateTimeout = null;
 var openedByFunction = false;
@@ -34220,8 +35672,8 @@ function openStateMenuIfClosed() {
 }
 function returnStateMenuAfterDelay() {
   if (cycleStateTimeout)
-    clearTimeout(cycleStateTimeout);
-  cycleStateTimeout = setTimeout(() => {
+    window.clearTimeout(cycleStateTimeout);
+  cycleStateTimeout = window.setTimeout(() => {
     if (!openedByFunction)
       return;
     openedByFunction = false;
@@ -34232,16 +35684,346 @@ function returnStateMenuAfterDelay() {
   }, 1e3);
 }
 
+// src/views/project-pages-sidebar-view/project-pages-sidebar-view.tsx
+var PROJECT_PAGES_SIDEBAR_VIEW_TYPE = "project-browser-project-pages-sidebar";
+function detachProjectPagesSidebarLeaves() {
+  const { plugin } = getGlobals();
+  plugin.app.workspace.detachLeavesOfType(PROJECT_PAGES_SIDEBAR_VIEW_TYPE);
+}
+
+// src/views/markdown-view-mods/markdown-view-mods.tsx
+var import_obsidian25 = require("obsidian");
+var React38 = __toESM(require_react());
+var import_client3 = __toESM(require_client());
+
+// src/components/state-menu/state-menu.tsx
+var React36 = __toESM(require_react());
+
+// src/components/state-menu/project-page-state-menu.tsx
+var React35 = __toESM(require_react());
+var ProjectPageStateMenu = (props) => {
+  const { plugin } = getGlobals();
+  const [stateSettings, setStateSettings] = React35.useState(null);
+  const fileRef = React35.useRef(props.file);
+  React35.useEffect(() => {
+    fileRef.current = props.file;
+    void loadCurrentState(props.file);
+  }, [props.file.path]);
+  React35.useEffect(() => {
+    let fileChangeTimeout = null;
+    const handleMetadataChanged = (modifiedFile, data, cache) => {
+      if (modifiedFile.path !== fileRef.current.path)
+        return;
+      if (fileChangeTimeout)
+        window.clearTimeout(fileChangeTimeout);
+      fileChangeTimeout = window.setTimeout(() => {
+        void loadCurrentState(fileRef.current);
+      }, 100);
+    };
+    plugin.app.metadataCache.on("changed", handleMetadataChanged);
+    return () => {
+      if (fileChangeTimeout)
+        window.clearTimeout(fileChangeTimeout);
+      plugin.app.metadataCache.off("changed", handleMetadataChanged);
+    };
+  }, [plugin]);
+  return /* @__PURE__ */ React35.createElement(StateMenuShell, {
+    currentStateSettings: stateSettings,
+    visibleStates: plugin.settings.projectPageStates.visible,
+    hiddenStates: plugin.settings.projectPageStates.hidden,
+    onSetState: setStateAndUpdateMenu
+  });
+  async function loadCurrentState(file) {
+    const currentStateSettings = await getFileStateSettingsAsync(file);
+    if (fileRef.current.path === file.path) {
+      setStateSettings(currentStateSettings);
+    }
+  }
+  async function setStateAndUpdateMenu(newStateSettings) {
+    const successInSettingState = await setFileState(fileRef.current, newStateSettings);
+    if (successInSettingState) {
+      setStateSettings(newStateSettings);
+      return true;
+    }
+    return false;
+  }
+};
+
+// src/components/state-menu/state-menu.tsx
+var StateMenu = (props) => {
+  const [isProjectPage, setIsProjectPage] = React36.useState(null);
+  React36.useEffect(() => {
+    let cancelled = false;
+    void isMarkdownFileInProject(props.file).then((nextIsProjectPage) => {
+      if (!cancelled) {
+        setIsProjectPage(nextIsProjectPage);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [props.file.path]);
+  if (isProjectPage === null) {
+    return null;
+  }
+  if (isProjectPage) {
+    return /* @__PURE__ */ React36.createElement(ProjectPageStateMenu, {
+      file: props.file
+    });
+  }
+  return /* @__PURE__ */ React36.createElement(StandardStateMenu, {
+    file: props.file
+  });
+};
+var StandardStateMenu = (props) => {
+  const { plugin } = getGlobals();
+  const [stateSettings, setStateSettings] = React36.useState(getFileStateSettings(props.file));
+  const fileRef = React36.useRef(props.file);
+  React36.useEffect(() => {
+    fileRef.current = props.file;
+    setStateSettings(getFileStateSettings(props.file));
+  }, [props.file.path]);
+  React36.useEffect(() => {
+    let fileChangeTimeout = null;
+    const handleMetadataChanged = (modifiedFile, data, cache) => {
+      if (modifiedFile.path !== fileRef.current.path)
+        return;
+      if (fileChangeTimeout)
+        window.clearTimeout(fileChangeTimeout);
+      fileChangeTimeout = window.setTimeout(() => {
+        setStateSettings(getFileStateSettings(fileRef.current));
+      }, 100);
+    };
+    plugin.app.metadataCache.on("changed", handleMetadataChanged);
+    return () => {
+      if (fileChangeTimeout)
+        window.clearTimeout(fileChangeTimeout);
+      plugin.app.metadataCache.off("changed", handleMetadataChanged);
+    };
+  }, [plugin]);
+  return /* @__PURE__ */ React36.createElement(StateMenuShell, {
+    currentStateSettings: stateSettings,
+    visibleStates: plugin.settings.states.visible,
+    hiddenStates: plugin.settings.states.hidden,
+    onSetState: setStateAndUpdateMenu
+  });
+  async function setStateAndUpdateMenu(newStateSettings) {
+    const successInSettingState = await setFileState(fileRef.current, newStateSettings);
+    if (successInSettingState) {
+      setStateSettings(newStateSettings);
+      return true;
+    }
+    return false;
+  }
+};
+
+// src/components/project-pages-fab/project-pages-fab.tsx
+var React37 = __toESM(require_react());
+var import_classnames16 = __toESM(require_classnames());
+var PAGE_LIST_SCROLL_EPSILON_PX = 1;
+function isPathInFolder(filePath, parentPath) {
+  const fileParentPath = filePath.includes("/") ? filePath.substring(0, filePath.lastIndexOf("/")) : "";
+  return fileParentPath === parentPath;
+}
+var ProjectPagesFAB = (props) => {
+  const [menuIsOpen, setMenuIsOpen] = React37.useState(!!props.initialMenuOpen);
+  const [refreshTrigger, setRefreshTrigger] = React37.useState(0);
+  const [pageListHasOverflow, setPageListHasOverflow] = React37.useState(false);
+  const fabContainerRef = React37.useRef(null);
+  const pageListScrollRef = React37.useRef(null);
+  const pageListInnerRef = React37.useRef(null);
+  const pagesInProject = React37.useMemo(() => {
+    return getSortedPageMenuFilesInProjectFolder(props.projectFolder);
+  }, [props.projectFolder, refreshTrigger]);
+  React37.useEffect(() => {
+    const vault = props.projectFolder.vault;
+    const projectPath = props.projectFolder.path;
+    function checkAndRefresh(path) {
+      if (isPathInFolder(path, projectPath)) {
+        setRefreshTrigger((t) => t + 1);
+      }
+    }
+    function handleCreate(file) {
+      checkAndRefresh(file.path);
+    }
+    function handleDelete(file) {
+      checkAndRefresh(file.path);
+    }
+    function handleRename(file, oldPath) {
+      checkAndRefresh(file.path);
+      checkAndRefresh(oldPath);
+    }
+    vault.on("create", handleCreate);
+    vault.on("delete", handleDelete);
+    vault.on("rename", handleRename);
+    return () => {
+      vault.off("create", handleCreate);
+      vault.off("delete", handleDelete);
+      vault.off("rename", handleRename);
+    };
+  }, [props.projectFolder]);
+  const syncPageListScrollPresentation = React37.useCallback(() => {
+    const scrollEl = pageListScrollRef.current;
+    if (!scrollEl)
+      return;
+    const hasOverflow = scrollEl.scrollHeight > scrollEl.clientHeight + PAGE_LIST_SCROLL_EPSILON_PX;
+    setPageListHasOverflow(hasOverflow);
+    if (!hasOverflow) {
+      scrollEl.classList.remove("ddc_pb_page-list-scroll--fade-top", "ddc_pb_page-list-scroll--fade-bottom");
+      return;
+    }
+    const atTop = scrollEl.scrollTop <= PAGE_LIST_SCROLL_EPSILON_PX;
+    const atBottom = scrollEl.scrollTop + scrollEl.clientHeight >= scrollEl.scrollHeight - PAGE_LIST_SCROLL_EPSILON_PX;
+    scrollEl.classList.toggle("ddc_pb_page-list-scroll--fade-top", !atTop);
+    scrollEl.classList.toggle("ddc_pb_page-list-scroll--fade-bottom", !atBottom);
+  }, []);
+  function handlePageListScroll() {
+    syncPageListScrollPresentation();
+  }
+  React37.useLayoutEffect(() => {
+    if (!menuIsOpen || !props.parentIsProject) {
+      setPageListHasOverflow(false);
+      return;
+    }
+    syncPageListScrollPresentation();
+    const frameId = window.requestAnimationFrame(syncPageListScrollPresentation);
+    return () => cancelAnimationFrame(frameId);
+  }, [menuIsOpen, props.parentIsProject, pagesInProject, refreshTrigger, syncPageListScrollPresentation]);
+  React37.useEffect(() => {
+    if (typeof ResizeObserver === "undefined")
+      return;
+    if (!menuIsOpen || !props.parentIsProject)
+      return;
+    const scrollEl = pageListScrollRef.current;
+    const innerEl = pageListInnerRef.current;
+    if (!scrollEl)
+      return;
+    const resizeObserver = new ResizeObserver(() => syncPageListScrollPresentation());
+    resizeObserver.observe(scrollEl);
+    if (innerEl)
+      resizeObserver.observe(innerEl);
+    return () => resizeObserver.disconnect();
+  }, [menuIsOpen, props.parentIsProject, syncPageListScrollPresentation]);
+  React37.useEffect(() => {
+    function handleClickOutside(event) {
+      if (!fabContainerRef.current)
+        return;
+      if (fabContainerRef.current.contains(event.target))
+        return;
+      const target = event.target;
+      const isObsidianMenuOrModal = target.closest(".menu, .modal, .modal-bg");
+      if (isObsidianMenuOrModal)
+        return;
+      setMenuIsOpen(false);
+    }
+    activeDocument.addEventListener("pointerdown", handleClickOutside);
+    return () => activeDocument.removeEventListener("pointerdown", handleClickOutside);
+  }, []);
+  React37.useEffect(() => {
+    if (props.initialMenuOpen) {
+      setMenuIsOpen(true);
+    }
+  }, [props.initialMenuOpen]);
+  function handleFABClick() {
+    setMenuIsOpen((prev) => !prev);
+  }
+  function handlePageClick(file) {
+    props.onNavigateToPage(file);
+  }
+  function handleOpenProjectFolderClick() {
+    props.onOpenProjectFolder(props.projectFolder);
+    setMenuIsOpen(false);
+  }
+  function handleNewProjectClick() {
+    void props.onNewProject?.();
+  }
+  function handleAddPageClick() {
+    void props.onAddPage?.();
+  }
+  const showMenuActions = menuIsOpen && (props.parentIsProject ? !!props.onAddPage : !!(props.onAddPage || props.onNewProject));
+  return /* @__PURE__ */ React37.createElement("div", {
+    className: "ddc_pb_project-pages-fab",
+    ref: fabContainerRef
+  }, menuIsOpen && props.parentIsProject && /* @__PURE__ */ React37.createElement("div", {
+    className: "ddc_pb_project-pages-fab__page-list-scroll",
+    ref: pageListScrollRef,
+    onScroll: handlePageListScroll
+  }, /* @__PURE__ */ React37.createElement("div", {
+    ref: pageListInnerRef,
+    className: (0, import_classnames16.default)("ddc_pb_project-pages-fab__page-list-scroll-inner", !pageListHasOverflow && "ddc_pb_project-pages-fab__page-list-scroll-inner--bottom-aligned")
+  }, pagesInProject.map((file) => /* @__PURE__ */ React37.createElement(ProjectPageMenuFileButton, {
+    key: file.path,
+    file,
+    isCurrentPage: file.path === props.currentFile.path,
+    context: "fab",
+    onPageClick: handlePageClick,
+    onFileChange: () => setRefreshTrigger((t) => t + 1)
+  })))), /* @__PURE__ */ React37.createElement("div", {
+    className: "ddc_pb_project-pages-fab__footer"
+  }, showMenuActions && /* @__PURE__ */ React37.createElement(FabMenuActionButtonStack, null, props.parentIsProject ? /* @__PURE__ */ React37.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "Add page",
+    onClick: handleAddPageClick
+  }) : /* @__PURE__ */ React37.createElement(React37.Fragment, null, props.onAddPage && /* @__PURE__ */ React37.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "Add page",
+    onClick: handleAddPageClick
+  }), props.onNewProject && /* @__PURE__ */ React37.createElement(FabMenuActionButton, {
+    variant: "primary",
+    density: "compact",
+    label: "New project",
+    onClick: handleNewProjectClick
+  }))), /* @__PURE__ */ React37.createElement("div", {
+    className: "ddc_pb_project-pages-fab__group"
+  }, /* @__PURE__ */ React37.createElement("button", {
+    className: (0, import_classnames16.default)("ddc_pb_project-pages-fab__main-button", menuIsOpen && "ddc_pb_active"),
+    onClick: handleFABClick,
+    title: props.parentIsProject ? "Project pages" : "Add page"
+  }, props.parentIsProject ? /* @__PURE__ */ React37.createElement(FileStack, {
+    size: 20
+  }) : /* @__PURE__ */ React37.createElement(Plus, {
+    size: 20
+  })), /* @__PURE__ */ React37.createElement("button", {
+    className: (0, import_classnames16.default)("ddc_pb_project-pages-fab__project-title", props.parentIsProject && "ddc_pb_project-pages-fab__project-title--is-project", !props.parentIsProject && props.parentIsInsideProject && "ddc_pb_project-pages-fab__project-title--is-inside-project"),
+    onClick: handleOpenProjectFolderClick,
+    title: isRootPath(props.projectFolder.path) ? "Open vault root in project browser" : props.parentIsProject ? `Open ${props.projectFolder.name} in project browser` : "Open folder in project browser"
+  }, /* @__PURE__ */ React37.createElement(ChevronLeft, {
+    size: 16,
+    className: "ddc_pb_project-pages-fab__project-title-chevron"
+  }), isRootPath(props.projectFolder.path) ? "Home" : props.projectFolder.name))));
+};
+
 // src/views/markdown-view-mods/markdown-view-mods.tsx
 var stateMenuContainerClassName = "ddc_pb_state-menu-container";
+var projectPagesFabContainerClassName = "ddc_pb_project-pages-fab-container";
+var keepProjectPagesFabMenuOpenUntilMs = 0;
+var projectPagesFabRenderRequestId = 0;
+function isFileView(leaf) {
+  return !!leaf && leaf.view instanceof import_obsidian25.FileView;
+}
 function registerMarkdownViewMods() {
   const { plugin } = getGlobals();
   addViewMenuOptions();
   plugin.registerEvent(plugin.app.workspace.on("active-leaf-change", (leaf) => {
     if (!leaf)
       return;
-    const viewType = leaf.view.getViewType();
-    if (viewType === "markdown") {
+    if (isFileView(leaf)) {
+      const keepMenuOpen = Date.now() < keepProjectPagesFabMenuOpenUntilMs;
+      void addOrRemoveProjectPagesFAB({ keepMenuOpen });
+      if (leaf.view instanceof import_obsidian25.MarkdownView) {
+        addStateHeader();
+      }
+    }
+  }));
+  plugin.registerEvent(plugin.app.workspace.on("file-open", () => {
+    const activeLeaf = plugin.app.workspace.getMostRecentLeaf();
+    if (!activeLeaf || !isFileView(activeLeaf))
+      return;
+    const keepMenuOpen = Date.now() < keepProjectPagesFabMenuOpenUntilMs;
+    void addOrRemoveProjectPagesFAB({ keepMenuOpen });
+    if (activeLeaf.view instanceof import_obsidian25.MarkdownView) {
       addStateHeader();
     }
   }));
@@ -34252,7 +36034,7 @@ function addViewMenuOptions() {
     if (source !== "more-options")
       return;
     menu.addItem((item) => {
-      item.setTitle("Toggle State Menu");
+      item.setTitle("Toggle state menu");
       item.setChecked(getStateMenuSettings().visible);
       item.onClick(toggleStateMenu);
       item.setSection("pane");
@@ -34263,7 +36045,7 @@ function addViewMenuOptions() {
 function addStateHeader() {
   const { plugin } = getGlobals();
   let { workspace } = plugin.app;
-  let leaf = workspace.getActiveViewOfType(import_obsidian16.ItemView)?.leaf;
+  let leaf = workspace.getActiveViewOfType(import_obsidian25.ItemView)?.leaf;
   if (!leaf)
     return;
   const activeFile = workspace.getActiveFile();
@@ -34275,27 +36057,156 @@ function addStateHeader() {
     const headerEl = containerEl.children[0];
     stateMenuContainerEl = headerEl.createDiv(stateMenuContainerClassName);
     headerEl.after(stateMenuContainerEl);
-    let stateMenuRoot = (0, import_client2.createRoot)(stateMenuContainerEl);
-    stateMenuRoot.render(/* @__PURE__ */ React26.createElement(StateMenu, {
+    const stateMenuRoot2 = (0, import_client3.createRoot)(stateMenuContainerEl);
+    stateMenuContainerEl.__stateMenuRoot = stateMenuRoot2;
+  }
+  const stateEl = stateMenuContainerEl;
+  const stateMenuRoot = stateEl.__stateMenuRoot;
+  if (stateMenuRoot) {
+    stateMenuRoot.render(/* @__PURE__ */ React38.createElement(StateMenu, {
       file: activeFile
     }));
   }
 }
+async function addOrRemoveProjectPagesFAB(options) {
+  const requestId = ++projectPagesFabRenderRequestId;
+  const { plugin } = getGlobals();
+  const workspace = plugin.app.workspace;
+  const activeFileAtStart = workspace.getActiveFile();
+  const resolvedParentFolderAtStart = activeFileAtStart?.parent ?? plugin.app.vault.getRoot();
+  let parentIsProject = resolvedParentFolderAtStart instanceof import_obsidian25.TFolder && (await getFolderSettings(plugin.app.vault, resolvedParentFolderAtStart)).isProject === true;
+  if (requestId !== projectPagesFabRenderRequestId)
+    return;
+  const leaf = workspace.getActiveViewOfType(import_obsidian25.ItemView)?.leaf;
+  if (!leaf)
+    return;
+  const containerEl = leaf.view.containerEl;
+  const activeFile = workspace.getActiveFile();
+  cleanupInactiveProjectPagesFABs(containerEl);
+  let fabContainerEl = containerEl.find(`.${projectPagesFabContainerClassName}`);
+  if (!activeFile) {
+    removeProjectPagesFAB(containerEl);
+    return;
+  }
+  const parentFolder = activeFile.parent ?? plugin.app.vault.getRoot();
+  if (parentFolder.path !== resolvedParentFolderAtStart.path) {
+    parentIsProject = (await getFolderSettings(plugin.app.vault, parentFolder)).isProject === true;
+    if (requestId !== projectPagesFabRenderRequestId)
+      return;
+  }
+  let parentIsInsideProject = false;
+  if (!parentIsProject) {
+    let ancestor = parentFolder.parent;
+    while (ancestor) {
+      const ancestorSettings = await getFolderSettings(plugin.app.vault, ancestor);
+      if (ancestorSettings.isProject === true) {
+        parentIsInsideProject = true;
+        break;
+      }
+      ancestor = ancestor.parent ?? null;
+    }
+    if (requestId !== projectPagesFabRenderRequestId)
+      return;
+  }
+  function onNavigateToPage(file) {
+    keepProjectPagesFabMenuOpenUntilMs = Date.now() + 1500;
+    openFileInSameLeaf(file);
+    openStateMenuIfClosed();
+  }
+  function onOpenProjectFolder(folder) {
+    const activeLeaf = workspace.getMostRecentLeaf();
+    if (activeLeaf) {
+      void activeLeaf.setViewState({
+        type: CARD_BROWSER_VIEW_TYPE,
+        state: { path: folder.path }
+      });
+    }
+  }
+  async function onNewFile() {
+    const newFile = await createProject({
+      parentFolder,
+      projectName: "Untitled"
+    });
+    openNewPageAndSelectTitle(newFile);
+    window.setTimeout(() => addOrRemoveProjectPagesFAB({ keepMenuOpen: true }), 0);
+  }
+  async function onAddPage() {
+    if (parentIsProject) {
+      const newFile = await createProject({
+        parentFolder,
+        projectName: "Untitled"
+      });
+      openNewPageAndSelectTitle(newFile);
+      openStateMenuIfClosed();
+    } else {
+      const newFile = await createProjectFromNote(activeFile, parentFolder);
+      openNewPageAndSelectTitle(newFile);
+    }
+    window.setTimeout(() => addOrRemoveProjectPagesFAB({ keepMenuOpen: true }), 0);
+  }
+  if (!fabContainerEl) {
+    fabContainerEl = containerEl.createDiv(projectPagesFabContainerClassName);
+    containerEl.appendChild(fabContainerEl);
+    const root2 = (0, import_client3.createRoot)(fabContainerEl);
+    fabContainerEl.__projectPagesFabRoot = root2;
+  }
+  const fabEl = fabContainerEl;
+  const root = fabEl.__projectPagesFabRoot;
+  if (root) {
+    root.render(/* @__PURE__ */ React38.createElement(ProjectPagesFAB, {
+      projectFolder: parentFolder,
+      currentFile: activeFile,
+      parentIsProject,
+      parentIsInsideProject,
+      initialMenuOpen: options?.keepMenuOpen,
+      onNavigateToPage,
+      onOpenProjectFolder,
+      onNewProject: onNewFile,
+      onAddPage
+    }));
+  }
+}
+function cleanupInactiveProjectPagesFABs(activeContainerEl) {
+  const fabContainers = Array.from(activeDocument.querySelectorAll(`.${projectPagesFabContainerClassName}`));
+  for (const fabContainer of fabContainers) {
+    if (!fabContainer.instanceOf(HTMLElement))
+      continue;
+    if (activeContainerEl.contains(fabContainer))
+      continue;
+    removeProjectPagesFABElement(fabContainer);
+  }
+}
+function removeProjectPagesFAB(containerEl) {
+  const fabContainerEl = containerEl.find(`.${projectPagesFabContainerClassName}`);
+  if (!fabContainerEl)
+    return;
+  removeProjectPagesFABElement(fabContainerEl);
+}
+function removeProjectPagesFABElement(fabContainerEl) {
+  if (!fabContainerEl)
+    return;
+  const el = fabContainerEl;
+  if (el.__projectPagesFabRoot) {
+    el.__projectPagesFabRoot.unmount();
+    delete el.__projectPagesFabRoot;
+  }
+  fabContainerEl.remove();
+}
 
 // src/components/state-editor/state-editor.tsx
-var import_client3 = __toESM(require_client());
-var React27 = __toESM(require_react());
+var import_client4 = __toESM(require_client());
+var React39 = __toESM(require_react());
 var import_react_sortablejs = __toESM(require_dist());
-var import_classnames13 = __toESM(require_classnames());
+var import_classnames17 = __toESM(require_classnames());
 
 // src/modals/state-settings-modal-base/state-settings-modal-base.ts
-var import_obsidian17 = require("obsidian");
-var StateSettingsModalBase = class extends import_obsidian17.Modal {
+var import_obsidian26 = require("obsidian");
+var StateSettingsModalBase = class extends import_obsidian26.Modal {
   constructor(props) {
     const { plugin } = getGlobals();
     super(plugin.app);
     this.title = "State settings";
-    this.actionButtonLabel = "Save state";
+    this.actionButtonLabel = "Save";
     this.stateSettings = {
       ...DEFAULT_STATE_SETTINGS
     };
@@ -34323,7 +36234,7 @@ var StateSettingsModalBase = class extends import_obsidian17.Modal {
     if (this.introText) {
       contentEl.createEl("p", { text: this.introText });
     }
-    new import_obsidian17.Setting(contentEl).setClass("ddc_pb_setting").setName("Enter name of new state").addText((text) => {
+    new import_obsidian26.Setting(contentEl).setClass("ddc_pb_setting").setName("Enter name").addText((text) => {
       this.nameInputEl = text;
       text.setValue(this.stateSettings.name);
       text.inputEl.addEventListener("blur", async (e) => {
@@ -34335,7 +36246,7 @@ var StateSettingsModalBase = class extends import_obsidian17.Modal {
         }
       });
     });
-    new import_obsidian17.Setting(contentEl).setClass("ddc_pb_setting").setName("Default view").addDropdown((dropdown) => {
+    new import_obsidian26.Setting(contentEl).setClass("ddc_pb_setting").setName("Default view").addDropdown((dropdown) => {
       Object.values(StateViewMode).map((viewModeStr) => {
         dropdown.addOption(viewModeStr, viewModeStr);
       });
@@ -34344,14 +36255,14 @@ var StateSettingsModalBase = class extends import_obsidian17.Modal {
         this.stateSettings.defaultViewMode = dropdown.getValue();
       });
     });
-    new import_obsidian17.Setting(contentEl).setClass("ddc_pb_setting").setName("Treat as link").setDesc(`This will input states as internal Obsidian links so that they can be opened and will appear in the graph view as nodes.`).addToggle((toggle) => {
+    new import_obsidian26.Setting(contentEl).setClass("ddc_pb_setting").setName("Treat as link").setDesc(`This will input states as internal Obsidian links so that they can be opened and will appear in the graph view as nodes.`).addToggle((toggle) => {
       this.linkInputEl = toggle;
       toggle.setValue(this.stateSettings.link ?? false);
       toggle.onChange(async (value) => {
         this.stateSettings.link = value;
       });
     });
-    new import_obsidian17.Setting(contentEl).addButton((cancelBtn) => {
+    new import_obsidian26.Setting(contentEl).addButton((cancelBtn) => {
       cancelBtn.setClass("ddc_pb_button");
       cancelBtn.setButtonText("Cancel");
       cancelBtn.onClick(() => {
@@ -34392,9 +36303,9 @@ var StateSettingsModalBase = class extends import_obsidian17.Modal {
 var EditStateModal = class extends StateSettingsModalBase {
   constructor(props) {
     super({
-      title: "Edit state",
-      introText: "Note: Editing the state's name won't update existing notes with that state.",
-      actionButtonLabel: "Save state",
+      title: "Edit project state",
+      introText: "Note: Editing the project state name won't update existing projects with that project state.",
+      actionButtonLabel: "Save project state",
       stateSettings: props.stateSettings,
       onSuccess: props.onSuccess,
       onReject: props.onReject
@@ -34406,9 +36317,9 @@ var EditStateModal = class extends StateSettingsModalBase {
 var NewVisibleStateModal = class extends StateSettingsModalBase {
   constructor(props) {
     super({
-      title: "Create new visible state",
-      introText: "Create a new visible state to categorize your notes.",
-      actionButtonLabel: "Create visible state",
+      title: "Create new visible project state",
+      introText: "Create a new visible project state to categorize your projects.",
+      actionButtonLabel: "Create visible project state",
       onSuccess: props.onSuccess,
       onReject: props.onReject
     });
@@ -34419,9 +36330,9 @@ var NewVisibleStateModal = class extends StateSettingsModalBase {
 var NewHiddenStateModal = class extends StateSettingsModalBase {
   constructor(props) {
     super({
-      title: "Create new hidden state",
-      introText: "Create a new hidden state to categorize your notes.",
-      actionButtonLabel: "Create hidden state",
+      title: "Create new hidden project state",
+      introText: "Create a new hidden project state to categorize your projects.",
+      actionButtonLabel: "Create hidden project state",
       onSuccess: props.onSuccess,
       onReject: props.onReject
     });
@@ -34434,23 +36345,23 @@ function insertStateEditor(containerEl) {
   let root;
   const sectionEl = containerEl.createDiv("ddc_pb_settings-sub-section");
   const contentEl = sectionEl.createDiv();
-  this.root = (0, import_client3.createRoot)(contentEl);
+  this.root = (0, import_client4.createRoot)(contentEl);
   renderView();
   function renderView() {
-    this.root.render(/* @__PURE__ */ React27.createElement(StateEditor, null));
+    this.root.render(/* @__PURE__ */ React39.createElement(StateEditor, null));
   }
 }
 var StateEditor = (props) => {
   const { plugin } = getGlobals();
-  const [visibleStates, setVisibleStates] = React27.useState(convertToStateItems(plugin.settings.states.visible));
-  const [hiddenStates, setHiddenStates] = React27.useState(convertToStateItems(plugin.settings.states.hidden));
-  const [isDragging, setIsDragging] = React27.useState(false);
+  const [visibleStates, setVisibleStates] = React39.useState(convertToStateItems(plugin.settings.states.visible));
+  const [hiddenStates, setHiddenStates] = React39.useState(convertToStateItems(plugin.settings.states.hidden));
+  const [isDragging, setIsDragging] = React39.useState(false);
   const deletedStates = [];
-  return /* @__PURE__ */ React27.createElement(React27.Fragment, null, /* @__PURE__ */ React27.createElement("div", {
-    className: "ddc_pb_section-header"
-  }, /* @__PURE__ */ React27.createElement("div", {
+  return /* @__PURE__ */ React39.createElement(React39.Fragment, null, /* @__PURE__ */ React39.createElement("div", {
+    className: "ddc_pb_section-header ddc_pb_states-section-list"
+  }, /* @__PURE__ */ React39.createElement("div", {
     className: "ddc_pb_states-section"
-  }, /* @__PURE__ */ React27.createElement("h3", null, "Visible states"), /* @__PURE__ */ React27.createElement(import_react_sortablejs.ReactSortable, {
+  }, /* @__PURE__ */ React39.createElement("h3", null, "Visible project states"), /* @__PURE__ */ React39.createElement(import_react_sortablejs.ReactSortable, {
     list: visibleStates,
     setList: async (stateItems) => {
       plugin.settings.states.visible = convertToStates(stateItems);
@@ -34459,7 +36370,7 @@ var StateEditor = (props) => {
     },
     group: "states",
     animation: 200,
-    className: (0, import_classnames13.default)([
+    className: (0, import_classnames17.default)([
       "ddc_pb_states-ctrl",
       "ddc_pb_visible-states-ctrl"
     ]),
@@ -34469,14 +36380,14 @@ var StateEditor = (props) => {
     onEnd: () => {
       setIsDragging(false);
     }
-  }, visibleStates.map((stateItem) => /* @__PURE__ */ React27.createElement("div", {
+  }, visibleStates.map((stateItem) => /* @__PURE__ */ React39.createElement("div", {
     key: stateItem.id,
     className: "ddc_pb_draggable"
-  }, /* @__PURE__ */ React27.createElement("div", {
+  }, /* @__PURE__ */ React39.createElement("div", {
     className: "ddc_pb_draggable-label"
-  }, /* @__PURE__ */ React27.createElement(GripVertical, {
+  }, /* @__PURE__ */ React39.createElement(GripVertical, {
     className: "ddc_pb_icon ddc_pb_drag-icon"
-  }), stateItem.stateSettings.name), /* @__PURE__ */ React27.createElement(Settings, {
+  }), stateItem.stateSettings.name), /* @__PURE__ */ React39.createElement(Settings, {
     className: "ddc_pb_icon ddc_pb_settings-icon",
     onClick: async () => {
       new EditStateModal({
@@ -34495,9 +36406,9 @@ var StateEditor = (props) => {
         }
       }).open();
     }
-  })))), /* @__PURE__ */ React27.createElement("div", {
+  })))), /* @__PURE__ */ React39.createElement("div", {
     className: "ddc_pb_states-button-group"
-  }, /* @__PURE__ */ React27.createElement("button", {
+  }, /* @__PURE__ */ React39.createElement("button", {
     className: "ddc_pb_add-button",
     onClick: async () => {
       new NewVisibleStateModal({
@@ -34509,9 +36420,9 @@ var StateEditor = (props) => {
         }
       }).open();
     }
-  }, /* @__PURE__ */ React27.createElement(Plus, null)))), /* @__PURE__ */ React27.createElement("div", {
+  }, /* @__PURE__ */ React39.createElement(Plus, null)))), /* @__PURE__ */ React39.createElement("div", {
     className: "ddc_pb_states-section"
-  }, /* @__PURE__ */ React27.createElement("h3", null, "Hidden states"), /* @__PURE__ */ React27.createElement(import_react_sortablejs.ReactSortable, {
+  }, /* @__PURE__ */ React39.createElement("h3", null, "Hidden project states"), /* @__PURE__ */ React39.createElement(import_react_sortablejs.ReactSortable, {
     list: hiddenStates,
     setList: async (stateItems) => {
       plugin.settings.states.hidden = convertToStates(stateItems);
@@ -34526,18 +36437,18 @@ var StateEditor = (props) => {
     },
     group: "states",
     animation: 200,
-    className: (0, import_classnames13.default)([
+    className: (0, import_classnames17.default)([
       "ddc_pb_states-ctrl",
       "ddc_pb_hidden-states-ctrl"
     ])
-  }, hiddenStates.map((stateItem) => /* @__PURE__ */ React27.createElement("div", {
+  }, hiddenStates.map((stateItem) => /* @__PURE__ */ React39.createElement("div", {
     key: stateItem.id,
     className: "ddc_pb_draggable"
-  }, /* @__PURE__ */ React27.createElement("div", {
+  }, /* @__PURE__ */ React39.createElement("div", {
     className: "ddc_pb_draggable-label"
-  }, /* @__PURE__ */ React27.createElement(GripVertical, {
+  }, /* @__PURE__ */ React39.createElement(GripVertical, {
     className: "ddc_pb_icon ddc_pb_drag-icon"
-  }), stateItem.stateSettings.name), /* @__PURE__ */ React27.createElement(Settings, {
+  }), stateItem.stateSettings.name), /* @__PURE__ */ React39.createElement(Settings, {
     className: "ddc_pb_icon ddc_pb_settings-icon",
     onClick: async () => {
       new EditStateModal({
@@ -34556,9 +36467,9 @@ var StateEditor = (props) => {
         }
       }).open();
     }
-  })))), /* @__PURE__ */ React27.createElement("div", {
+  })))), /* @__PURE__ */ React39.createElement("div", {
     className: "ddc_pb_states-button-group"
-  }, /* @__PURE__ */ React27.createElement("button", {
+  }, /* @__PURE__ */ React39.createElement("button", {
     className: "ddc_pb_add-button",
     onClick: async () => {
       new NewHiddenStateModal({
@@ -34570,21 +36481,21 @@ var StateEditor = (props) => {
         }
       }).open();
     }
-  }, /* @__PURE__ */ React27.createElement(Plus, null)))), /* @__PURE__ */ React27.createElement("div", {
-    className: (0, import_classnames13.default)([
+  }, /* @__PURE__ */ React39.createElement(Plus, null)))), /* @__PURE__ */ React39.createElement("div", {
+    className: (0, import_classnames17.default)([
       "ddc_pb_states-section",
       "ddc_pb_dropzone-section",
       isDragging && "ddc_pb_visible"
     ])
-  }, /* @__PURE__ */ React27.createElement("h3", null, /* @__PURE__ */ React27.createElement(Trash, {
+  }, /* @__PURE__ */ React39.createElement("h3", null, /* @__PURE__ */ React39.createElement(Trash, {
     className: "ddc_pb_delete-icon"
-  }), "Drag here to delete"), /* @__PURE__ */ React27.createElement(import_react_sortablejs.ReactSortable, {
+  }), "Drag here to delete"), /* @__PURE__ */ React39.createElement(import_react_sortablejs.ReactSortable, {
     list: deletedStates,
     setList: () => {
     },
     group: "states",
     animation: 200,
-    className: (0, import_classnames13.default)([
+    className: (0, import_classnames17.default)([
       "ddc_pb_states-ctrl",
       "ddc_pb_dropzone-ctrl"
     ])
@@ -34608,30 +36519,805 @@ function convertToStates(stateItems) {
   return states;
 }
 
+// src/components/project-page-state-editor/project-page-state-editor.tsx
+var import_client5 = __toESM(require_client());
+var React40 = __toESM(require_react());
+var import_react_sortablejs2 = __toESM(require_dist());
+var import_classnames18 = __toESM(require_classnames());
+
+// src/modals/edit-project-page-state-modal/edit-project-page-state-modal.ts
+var EditProjectPageStateModal = class extends StateSettingsModalBase {
+  constructor(props) {
+    super({
+      title: "Edit page state",
+      introText: "Note: Editing the page state name will not update existing project pages with that page state.",
+      actionButtonLabel: "Save page state",
+      stateSettings: props.stateSettings,
+      onSuccess: props.onSuccess,
+      onReject: props.onReject
+    });
+  }
+};
+
+// src/modals/new-visible-project-page-state-modal/new-visible-project-page-state-modal.ts
+var NewVisibleProjectPageStateModal = class extends StateSettingsModalBase {
+  constructor(props) {
+    super({
+      title: "Create new visible page state",
+      introText: "Create a new visible page state to categorize project pages.",
+      actionButtonLabel: "Create visible page state",
+      onSuccess: props.onSuccess,
+      onReject: props.onReject
+    });
+  }
+};
+
+// src/modals/new-hidden-project-page-state-modal/new-hidden-project-page-state-modal.ts
+var NewHiddenProjectPageStateModal = class extends StateSettingsModalBase {
+  constructor(props) {
+    super({
+      title: "Create new hidden page state",
+      introText: "Create a new hidden page state to categorize project pages.",
+      actionButtonLabel: "Create hidden page state",
+      onSuccess: props.onSuccess,
+      onReject: props.onReject
+    });
+  }
+};
+
+// src/components/project-page-state-editor/project-page-state-editor.tsx
+function insertProjectPageStateEditor(containerEl) {
+  let root;
+  const sectionEl = containerEl.createDiv("ddc_pb_settings-sub-section");
+  const contentEl = sectionEl.createDiv();
+  this.root = (0, import_client5.createRoot)(contentEl);
+  renderView();
+  function renderView() {
+    this.root.render(/* @__PURE__ */ React40.createElement(ProjectPageStateEditor, null));
+  }
+}
+var ProjectPageStateEditor = () => {
+  const { plugin } = getGlobals();
+  const [visibleStates, setVisibleStates] = React40.useState(convertToStateItems2(plugin.settings.projectPageStates.visible));
+  const [hiddenStates, setHiddenStates] = React40.useState(convertToStateItems2(plugin.settings.projectPageStates.hidden));
+  const [isDragging, setIsDragging] = React40.useState(false);
+  const deletedStates = [];
+  return /* @__PURE__ */ React40.createElement(React40.Fragment, null, /* @__PURE__ */ React40.createElement("div", {
+    className: "ddc_pb_section-header ddc_pb_states-section-list"
+  }, /* @__PURE__ */ React40.createElement("div", {
+    className: "ddc_pb_states-section"
+  }, /* @__PURE__ */ React40.createElement("h3", null, "Visible page states"), /* @__PURE__ */ React40.createElement(import_react_sortablejs2.ReactSortable, {
+    list: visibleStates,
+    setList: async (stateItems) => {
+      plugin.settings.projectPageStates.visible = convertToStates2(stateItems);
+      await plugin.saveSettings();
+      setVisibleStates(stateItems);
+    },
+    group: "project-page-states",
+    animation: 200,
+    className: (0, import_classnames18.default)([
+      "ddc_pb_states-ctrl",
+      "ddc_pb_visible-states-ctrl"
+    ]),
+    onStart: () => {
+      setIsDragging(true);
+    },
+    onEnd: () => {
+      setIsDragging(false);
+    }
+  }, visibleStates.map((stateItem) => /* @__PURE__ */ React40.createElement("div", {
+    key: stateItem.id,
+    className: "ddc_pb_draggable"
+  }, /* @__PURE__ */ React40.createElement("div", {
+    className: "ddc_pb_draggable-label"
+  }, /* @__PURE__ */ React40.createElement(GripVertical, {
+    className: "ddc_pb_icon ddc_pb_drag-icon"
+  }), stateItem.stateSettings.name), /* @__PURE__ */ React40.createElement(Settings, {
+    className: "ddc_pb_icon ddc_pb_settings-icon",
+    onClick: async () => {
+      new EditProjectPageStateModal({
+        stateSettings: stateItem.stateSettings,
+        onSuccess: async (modifiedState) => {
+          const newStates = plugin.settings.projectPageStates.visible.map((stateInArray) => {
+            if (stateInArray.name === stateItem.stateSettings.name) {
+              stateInArray.name = modifiedState.name;
+              stateInArray.defaultViewMode = modifiedState.defaultViewMode;
+              stateInArray.link = modifiedState.link;
+            }
+            return stateInArray;
+          });
+          await plugin.saveSettings();
+          setVisibleStates(convertToStateItems2(newStates));
+        }
+      }).open();
+    }
+  })))), /* @__PURE__ */ React40.createElement("div", {
+    className: "ddc_pb_states-button-group"
+  }, /* @__PURE__ */ React40.createElement("button", {
+    className: "ddc_pb_add-button",
+    onClick: async () => {
+      new NewVisibleProjectPageStateModal({
+        onSuccess: async (newState) => {
+          const newStates = plugin.settings.projectPageStates.visible;
+          newStates.push(newState);
+          await plugin.saveSettings();
+          setVisibleStates(convertToStateItems2(newStates));
+        }
+      }).open();
+    }
+  }, /* @__PURE__ */ React40.createElement(Plus, null)))), /* @__PURE__ */ React40.createElement("div", {
+    className: "ddc_pb_states-section"
+  }, /* @__PURE__ */ React40.createElement("h3", null, "Hidden page states"), /* @__PURE__ */ React40.createElement(import_react_sortablejs2.ReactSortable, {
+    list: hiddenStates,
+    setList: async (stateItems) => {
+      plugin.settings.projectPageStates.hidden = convertToStates2(stateItems);
+      await plugin.saveSettings();
+      setHiddenStates(stateItems);
+    },
+    onStart: () => {
+      setIsDragging(true);
+    },
+    onEnd: () => {
+      setIsDragging(false);
+    },
+    group: "project-page-states",
+    animation: 200,
+    className: (0, import_classnames18.default)([
+      "ddc_pb_states-ctrl",
+      "ddc_pb_hidden-states-ctrl"
+    ])
+  }, hiddenStates.map((stateItem) => /* @__PURE__ */ React40.createElement("div", {
+    key: stateItem.id,
+    className: "ddc_pb_draggable"
+  }, /* @__PURE__ */ React40.createElement("div", {
+    className: "ddc_pb_draggable-label"
+  }, /* @__PURE__ */ React40.createElement(GripVertical, {
+    className: "ddc_pb_icon ddc_pb_drag-icon"
+  }), stateItem.stateSettings.name), /* @__PURE__ */ React40.createElement(Settings, {
+    className: "ddc_pb_icon ddc_pb_settings-icon",
+    onClick: async () => {
+      new EditProjectPageStateModal({
+        stateSettings: stateItem.stateSettings,
+        onSuccess: async (modifiedState) => {
+          const newStates = plugin.settings.projectPageStates.hidden.map((stateInArray) => {
+            if (stateInArray.name === stateItem.stateSettings.name) {
+              stateInArray.name = modifiedState.name;
+              stateInArray.defaultViewMode = modifiedState.defaultViewMode;
+              stateInArray.link = modifiedState.link;
+            }
+            return stateInArray;
+          });
+          await plugin.saveSettings();
+          setHiddenStates(convertToStateItems2(newStates));
+        }
+      }).open();
+    }
+  })))), /* @__PURE__ */ React40.createElement("div", {
+    className: "ddc_pb_states-button-group"
+  }, /* @__PURE__ */ React40.createElement("button", {
+    className: "ddc_pb_add-button",
+    onClick: async () => {
+      new NewHiddenProjectPageStateModal({
+        onSuccess: async (newState) => {
+          const newStates = plugin.settings.projectPageStates.hidden;
+          newStates.push(newState);
+          await plugin.saveSettings();
+          setHiddenStates(convertToStateItems2(newStates));
+        }
+      }).open();
+    }
+  }, /* @__PURE__ */ React40.createElement(Plus, null)))), /* @__PURE__ */ React40.createElement("div", {
+    className: (0, import_classnames18.default)([
+      "ddc_pb_states-section",
+      "ddc_pb_dropzone-section",
+      isDragging && "ddc_pb_visible"
+    ])
+  }, /* @__PURE__ */ React40.createElement("h3", null, /* @__PURE__ */ React40.createElement(Trash, {
+    className: "ddc_pb_delete-icon"
+  }), "Drag here to delete"), /* @__PURE__ */ React40.createElement(import_react_sortablejs2.ReactSortable, {
+    list: deletedStates,
+    setList: () => {
+    },
+    group: "project-page-states",
+    animation: 200,
+    className: (0, import_classnames18.default)([
+      "ddc_pb_states-ctrl",
+      "ddc_pb_dropzone-ctrl"
+    ])
+  }))));
+};
+function convertToStateItems2(stateSettings) {
+  const stateItems = [];
+  stateSettings.forEach((thisStateSettings) => {
+    stateItems.push({
+      id: thisStateSettings.name,
+      stateSettings: thisStateSettings
+    });
+  });
+  return stateItems;
+}
+function convertToStates2(stateItems) {
+  const states = [];
+  stateItems.forEach((stateItem) => {
+    states.push(stateItem.stateSettings);
+  });
+  return states;
+}
+
+// src/components/file-type-editor/file-type-editor.tsx
+var import_client6 = __toESM(require_client());
+var React41 = __toESM(require_react());
+var import_react_sortablejs3 = __toESM(require_dist());
+var import_classnames19 = __toESM(require_classnames());
+var EXTENSION_DISPLAY_NAMES = {
+  md: "Note",
+  canvas: "Canvas",
+  base: "Base"
+};
+var CORE_EXTENSIONS_FULL_PRIMARY = /* @__PURE__ */ new Set(["md", "canvas", "base"]);
+var REGISTRY_FALLBACK_EXTENSIONS2 = /* @__PURE__ */ new Set(["md", "canvas", "base"]);
+function getDisplayNameForExtension(extension) {
+  const normalized = (extension ?? "").toLowerCase();
+  return EXTENSION_DISPLAY_NAMES[normalized] ?? `.${normalized}`;
+}
+function isPluginRegisteredExtension(app, extension) {
+  try {
+    const registry = app.viewRegistry;
+    if (!registry)
+      return false;
+    const typeByExtension = registry.typeByExtension ?? registry.typeByExt ?? {};
+    const viewType = typeByExtension[(extension ?? "").toLowerCase()];
+    if (!viewType || typeof viewType !== "string")
+      return false;
+    const views = registry.views ?? registry.byType ?? {};
+    const viewMeta = views[viewType];
+    if (!viewMeta)
+      return false;
+    return !!(viewMeta.pluginId ?? viewMeta.plugin?.id);
+  } catch {
+    return false;
+  }
+}
+function getFileTypeCategory(app, extension, registeredExtensions, unsupportedSet) {
+  const norm = (extension ?? "").toLowerCase();
+  if (unsupportedSet.has(norm))
+    return "unsupported";
+  if (registeredExtensions.has(norm)) {
+    return isPluginRegisteredExtension(app, extension) ? "registered" : "default";
+  }
+  return "unsupported";
+}
+function getRegisteredExtensionsFromApp2(app) {
+  try {
+    const appWithRegistry = app;
+    const registry = appWithRegistry.viewRegistry ?? appWithRegistry.workspace?.viewRegistry;
+    if (!registry)
+      return /* @__PURE__ */ new Set([...REGISTRY_FALLBACK_EXTENSIONS2]);
+    const typeByExtension = registry.typeByExtension ?? registry.typeByExt ?? {};
+    const keys = Object.keys(typeByExtension);
+    const result = new Set(keys.map((k) => k.toLowerCase()).filter((k) => k && k !== "pbs"));
+    if (result.size === 0)
+      return /* @__PURE__ */ new Set([...REGISTRY_FALLBACK_EXTENSIONS2]);
+    return result;
+  } catch {
+    return /* @__PURE__ */ new Set([...REGISTRY_FALLBACK_EXTENSIONS2]);
+  }
+}
+function getPluginNameForExtension(app, extension) {
+  try {
+    const registry = app.viewRegistry;
+    if (!registry)
+      return null;
+    const typeByExtension = registry.typeByExtension ?? registry.typeByExt ?? {};
+    const viewType = typeByExtension[(extension ?? "").toLowerCase()];
+    if (!viewType || typeof viewType !== "string")
+      return null;
+    const views = registry.views ?? registry.byType ?? {};
+    const viewMeta = views[viewType];
+    if (!viewMeta)
+      return null;
+    const pluginId = viewMeta.pluginId ?? viewMeta.plugin?.id;
+    if (!pluginId)
+      return null;
+    const plugin = app.plugins?.plugins?.[pluginId];
+    return plugin?.manifest?.name ?? null;
+  } catch {
+    return null;
+  }
+}
+function runFileTypeDiscovery(plugin) {
+  const fileTypes = plugin.settings.fileTypes;
+  const allKnown = /* @__PURE__ */ new Set([
+    ...(fileTypes.projectBrowser.visible ?? []).map((e) => e.toLowerCase()),
+    ...(fileTypes.projectBrowser.hidden ?? []).map((e) => e.toLowerCase()),
+    ...(fileTypes.pageMenu.visible ?? []).map((e) => e.toLowerCase()),
+    ...(fileTypes.pageMenu.hidden ?? []).map((e) => e.toLowerCase())
+  ]);
+  const registered = getRegisteredExtensionsFromApp2(plugin.app);
+  let addedPlugin = false;
+  for (const ext of registered) {
+    const norm = ext.toLowerCase();
+    if (!allKnown.has(norm)) {
+      allKnown.add(norm);
+      fileTypes.projectBrowser.visible = [...fileTypes.projectBrowser.visible ?? [], norm];
+      fileTypes.pageMenu.hidden = [...fileTypes.pageMenu.hidden ?? [], norm];
+      addedPlugin = true;
+    }
+  }
+  const vault = plugin.app.vault;
+  const files = vault.getFiles();
+  const vaultExtensions = /* @__PURE__ */ new Set();
+  for (const file of files) {
+    const ext = (file.extension ?? "").toLowerCase();
+    if (ext && ext !== "pbs")
+      vaultExtensions.add(ext);
+  }
+  let addedVault = false;
+  for (const ext of vaultExtensions) {
+    if (!allKnown.has(ext)) {
+      allKnown.add(ext);
+      fileTypes.projectBrowser.hidden = [...fileTypes.projectBrowser.hidden ?? [], ext];
+      fileTypes.pageMenu.hidden = [...fileTypes.pageMenu.hidden ?? [], ext];
+      addedVault = true;
+    }
+  }
+  if (addedPlugin || addedVault) {
+    void plugin.saveSettings();
+    return true;
+  }
+  return false;
+}
+function insertFileTypeEditor(containerEl, onScansComplete, surface) {
+  const sectionEl = containerEl.createDiv("ddc_pb_settings-sub-section");
+  const contentEl = sectionEl.createDiv();
+  (0, import_client6.createRoot)(contentEl).render(/* @__PURE__ */ React41.createElement(FileTypeSettingsSection, {
+    onScansComplete,
+    surface
+  }));
+}
+function FileTypeSettingsSection(props) {
+  const { plugin } = getGlobals();
+  const { onScansComplete, surface } = props;
+  React41.useEffect(() => {
+    const runOnMount = () => {
+      const changed = runFileTypeDiscovery(plugin);
+      if (changed) {
+        onScansComplete?.();
+      }
+    };
+    window.setTimeout(runOnMount, 0);
+  }, [plugin, onScansComplete]);
+  const surfaces = surface ? [surface] : ["projectBrowser", "pageMenu"];
+  const legendContent = /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-popup"
+  }, /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-entry"
+  }, /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_draggable ddc_pb_file-type-default ddc_pb_file-type-default-full ddc_pb_file-type-legend-chip"
+  }, /* @__PURE__ */ React41.createElement("span", {
+    className: "ddc_pb_draggable-label"
+  }, "Native")), /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-content"
+  }, /* @__PURE__ */ React41.createElement("p", {
+    className: "ddc_pb_file-type-legend-subdesc"
+  }, "Core Obsidian file types."))), /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-entry"
+  }, /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_draggable ddc_pb_file-type-registered ddc_pb_file-type-legend-chip"
+  }, /* @__PURE__ */ React41.createElement("span", {
+    className: "ddc_pb_draggable-label"
+  }, "Plugin")), /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-content"
+  }, /* @__PURE__ */ React41.createElement("p", {
+    className: "ddc_pb_file-type-legend-subdesc"
+  }, "File types added by community plugins."))), /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-entry"
+  }, /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_draggable ddc_pb_file-type-unsupported ddc_pb_file-type-legend-chip"
+  }, /* @__PURE__ */ React41.createElement("span", {
+    className: "ddc_pb_draggable-label"
+  }, "Other")), /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-content"
+  }, /* @__PURE__ */ React41.createElement("p", {
+    className: "ddc_pb_file-type-legend-subdesc"
+  }, "Found in your vault but usually hidden by Obsidian."))));
+  return /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_section-header ddc_pb_file-type-section-header"
+  }, surfaces.map((s) => /* @__PURE__ */ React41.createElement(FileTypeEditor, {
+    key: s,
+    surface: s
+  })), /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-legend-row ddc_pb_legend-btn-wrapper"
+  }, /* @__PURE__ */ React41.createElement(tippy_react_esm_default, {
+    content: legendContent,
+    trigger: "click",
+    interactive: true,
+    hideOnClick: true,
+    theme: "ddc_pb_legend"
+  }, /* @__PURE__ */ React41.createElement("button", {
+    type: "button",
+    className: "ddc_pb_file-type-legend-btn"
+  }, "Legend"))));
+}
+var FileTypeEditor = (props) => {
+  const { plugin } = getGlobals();
+  const { surface } = props;
+  const surfaceSettings = plugin.settings.fileTypes[surface];
+  const [visibleFileTypes, setVisibleFileTypes] = React41.useState(() => (surfaceSettings?.visible ?? []).map((ext) => ({ id: ext, extension: ext })));
+  const [hiddenFileTypes, setHiddenFileTypes] = React41.useState(() => (surfaceSettings?.hidden ?? []).map((ext) => ({ id: ext, extension: ext })));
+  const registeredExtensions = React41.useMemo(() => getRegisteredExtensionsFromApp2(plugin.app), [plugin.app]);
+  const unsupportedSet = React41.useMemo(() => {
+    const hidden = surfaceSettings?.hidden ?? [];
+    return new Set(hidden.map((e) => e.toLowerCase()).filter((ext) => !registeredExtensions.has(ext)));
+  }, [surfaceSettings?.hidden, registeredExtensions]);
+  const persistVisible = React41.useCallback(async (items) => {
+    plugin.settings.fileTypes[surface].visible = items.map((item) => item.extension);
+    await plugin.saveSettings();
+    setVisibleFileTypes(items);
+  }, [plugin, surface]);
+  const persistHidden = React41.useCallback(async (items) => {
+    plugin.settings.fileTypes[surface].hidden = items.map((item) => item.extension);
+    await plugin.saveSettings();
+    setHiddenFileTypes(items);
+  }, [plugin, surface]);
+  const surfaceLabel = surface === "projectBrowser" ? "Project Browser" : "Page Menu";
+  return /* @__PURE__ */ React41.createElement(React41.Fragment, null, /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-section"
+  }, /* @__PURE__ */ React41.createElement("h3", null, "Show these..."), /* @__PURE__ */ React41.createElement(import_react_sortablejs3.ReactSortable, {
+    list: visibleFileTypes,
+    setList: persistVisible,
+    group: `fileTypes-${surface}`,
+    animation: 200,
+    className: (0, import_classnames19.default)([
+      "ddc_pb_states-ctrl",
+      "ddc_pb_visible-states-ctrl"
+    ])
+  }, visibleFileTypes.map((item) => {
+    const category = getFileTypeCategory(plugin.app, item.extension, registeredExtensions, unsupportedSet);
+    const pluginName = getPluginNameForExtension(plugin.app, item.extension);
+    const displayName = getDisplayNameForExtension(item.extension);
+    return /* @__PURE__ */ React41.createElement("div", {
+      key: item.id,
+      className: (0, import_classnames19.default)("ddc_pb_draggable", `ddc_pb_file-type-${category}`, category === "default" && CORE_EXTENSIONS_FULL_PRIMARY.has(item.extension.toLowerCase()) && "ddc_pb_file-type-default-full")
+    }, /* @__PURE__ */ React41.createElement("div", {
+      className: "ddc_pb_draggable-label ddc_pb_hidden-item-label"
+    }, /* @__PURE__ */ React41.createElement(GripVertical, {
+      className: "ddc_pb_icon ddc_pb_drag-icon"
+    }), /* @__PURE__ */ React41.createElement("span", {
+      className: "ddc_pb_hidden-item-text"
+    }, /* @__PURE__ */ React41.createElement("span", {
+      className: "ddc_pb_hidden-item-ext"
+    }, displayName), pluginName && /* @__PURE__ */ React41.createElement("span", {
+      className: "ddc_pb_hidden-item-plugin"
+    }, "via ", pluginName))));
+  }))), /* @__PURE__ */ React41.createElement("div", {
+    className: "ddc_pb_file-type-section"
+  }, /* @__PURE__ */ React41.createElement("h3", null, "Hide these..."), /* @__PURE__ */ React41.createElement(import_react_sortablejs3.ReactSortable, {
+    list: hiddenFileTypes,
+    setList: persistHidden,
+    group: `fileTypes-${surface}`,
+    animation: 200,
+    className: (0, import_classnames19.default)([
+      "ddc_pb_states-ctrl",
+      "ddc_pb_hidden-states-ctrl"
+    ])
+  }, hiddenFileTypes.map((item) => {
+    const displayName = getDisplayNameForExtension(item.extension);
+    const pluginName = getPluginNameForExtension(plugin.app, item.extension);
+    const category = getFileTypeCategory(plugin.app, item.extension, registeredExtensions, unsupportedSet);
+    return /* @__PURE__ */ React41.createElement("div", {
+      key: item.id,
+      className: (0, import_classnames19.default)("ddc_pb_draggable", `ddc_pb_file-type-${category}`, category === "default" && CORE_EXTENSIONS_FULL_PRIMARY.has(item.extension.toLowerCase()) && "ddc_pb_file-type-default-full")
+    }, /* @__PURE__ */ React41.createElement("div", {
+      className: "ddc_pb_draggable-label ddc_pb_hidden-item-label"
+    }, /* @__PURE__ */ React41.createElement(GripVertical, {
+      className: "ddc_pb_icon ddc_pb_drag-icon"
+    }), /* @__PURE__ */ React41.createElement("span", {
+      className: "ddc_pb_hidden-item-text"
+    }, /* @__PURE__ */ React41.createElement("span", {
+      className: "ddc_pb_hidden-item-ext"
+    }, displayName), pluginName && /* @__PURE__ */ React41.createElement("span", {
+      className: "ddc_pb_hidden-item-plugin"
+    }, "via ", pluginName))));
+  }))));
+};
+
 // src/tabs/settings-tab/settings-tab.ts
-var import_obsidian18 = require("obsidian");
+var import_obsidian28 = require("obsidian");
+
+// src/components/dom-components/notice-components.ts
+var import_obsidian27 = require("obsidian");
+function createNoticeTemplate(noticeNumber, noticeTotal) {
+  const noticeBody = activeDocument.createDocumentFragment();
+  const scrollAreaEl = noticeBody.createDiv("ddc_pb_notice-scroll");
+  createNoticeLabel(scrollAreaEl, noticeNumber, noticeTotal);
+  const footerEl = noticeBody.createDiv("ddc_pb_notice-footer");
+  return {
+    noticeBody,
+    scrollAreaEl,
+    footerEl
+  };
+}
+function launchPersistentNotice(noticeBody) {
+  const notice = new import_obsidian27.Notice(noticeBody, 0);
+  notice.messageEl.classList.add("ddc_pb_notice");
+  wireNoticePointerHandling(notice.messageEl);
+  return notice;
+}
+function wireNoticePointerHandling(noticeContentEl) {
+  noticeContentEl.querySelector(".ddc_pb_notice-scroll")?.addEventListener("click", (event) => {
+    event.stopPropagation();
+  });
+  noticeContentEl.querySelector(".ddc_pb_notice-footer")?.addEventListener("click", (event) => {
+    if (event.target instanceof HTMLElement && event.target.closest("a, button")) {
+      return;
+    }
+    event.stopPropagation();
+  });
+}
+function createNoticeLabel(noticeParent, noticeNumber, noticeTotal) {
+  const labelEl = noticeParent.createEl("p");
+  let labelText = `Project Browser plugin`;
+  labelEl.setText(labelText);
+  labelEl.classList.add("ddc_pb_notice-label");
+  return labelEl;
+}
+function createNoticeCtaBar(footerEl, props) {
+  let primaryBtnEl = null;
+  let tertiaryBtnEl = null;
+  const footerLinkEls = [];
+  const links = props.footerLinks ?? (props.footerLink ? [props.footerLink] : []);
+  if (links.length > 0) {
+    const footerLinksEl = footerEl.createDiv("ddc_pb_notice-footer-links");
+    for (const link of links) {
+      const footerLinkEl = footerLinksEl.createEl("a");
+      footerLinkEl.setAttribute("href", link.href);
+      footerLinkEl.setText(link.label);
+      footerLinkEl.onClickEvent((event) => event.stopPropagation());
+      footerLinkEls.push(footerLinkEl);
+    }
+  }
+  const ctaBarEl = footerEl.createDiv("ddc_pb_notice-cta-bar");
+  if (props.primaryLabel) {
+    primaryBtnEl = ctaBarEl.createEl("button");
+    primaryBtnEl.setText(props.primaryLabel);
+    primaryBtnEl.classList.add("ddc_pb_primary-btn");
+  }
+  if (props.tertiaryLabel) {
+    tertiaryBtnEl = ctaBarEl.createEl("button");
+    tertiaryBtnEl.setText(props.tertiaryLabel);
+    tertiaryBtnEl.classList.add("ddc_pb_tertiary-btn");
+  }
+  return {
+    ctaBarEl,
+    primaryBtnEl,
+    tertiaryBtnEl,
+    footerLinkEls
+  };
+}
+
+// src/notices/onboarding-notices.ts
+function showOnboardingNotices_maybe() {
+  const { plugin } = getGlobals();
+  if (plugin.settings.onboardingNotices.welcomeNoticeRead)
+    return false;
+  void showOnboardingNotices();
+  return true;
+}
+function showWelcomeTips() {
+  noticeShowingOrDismissed = false;
+  void showOnboardingNotices();
+}
+var noticeShowingOrDismissed = false;
+async function showOnboardingNotices() {
+  const { plugin } = getGlobals();
+  if (noticeShowingOrDismissed)
+    return;
+  noticeShowingOrDismissed = true;
+  const { noticeBody, scrollAreaEl, footerEl } = createNoticeTemplate(1, 3);
+  scrollAreaEl.createEl("h1").setText(`Welcome to Project Browser`);
+  scrollAreaEl.createEl("p").setText(`Project Browser is designed to simplify file navigation and help you focus on your priority projects.`);
+  scrollAreaEl.createEl("p").setText(`Here's a quick rundown to help you get started...`);
+  const {
+    primaryBtnEl,
+    tertiaryBtnEl
+  } = createNoticeCtaBar(footerEl, {
+    primaryLabel: `Read now`,
+    tertiaryLabel: "Remind me later"
+  });
+  const notice = launchPersistentNotice(noticeBody);
+  if (tertiaryBtnEl) {
+    tertiaryBtnEl.addEventListener("click", () => {
+      notice.hide();
+    });
+  }
+  if (primaryBtnEl) {
+    primaryBtnEl.addEventListener("click", () => {
+      notice.hide();
+      showBrowserViewNotice();
+    });
+  }
+}
+function showBrowserViewNotice() {
+  const { plugin } = getGlobals();
+  const { noticeBody, scrollAreaEl, footerEl } = createNoticeTemplate();
+  scrollAreaEl.createEl("h1").setText(`The Browse view...`);
+  scrollAreaEl.createEl("p").setText(`By default, the Browse view appears when you create a new tab. You can also open it from the button in the ribbon menu.`);
+  const {
+    primaryBtnEl,
+    tertiaryBtnEl
+  } = createNoticeCtaBar(footerEl, {
+    primaryLabel: "Continue",
+    tertiaryLabel: "Remind me later"
+  });
+  const notice = launchPersistentNotice(noticeBody);
+  if (primaryBtnEl) {
+    primaryBtnEl.addEventListener("click", () => {
+      notice.hide();
+      showNotesNotice();
+    });
+  }
+}
+function showNotesNotice() {
+  const { plugin } = getGlobals();
+  const { noticeBody, scrollAreaEl, footerEl } = createNoticeTemplate();
+  scrollAreaEl.createEl("h1").setText(`Note states...`);
+  scrollAreaEl.createEl("p").setText(`The state of each note can be assigned through a button at the top of the note or through the command shortcuts (Cmd+Shift+D and Cmd+Shift+A).`);
+  scrollAreaEl.createEl("p").setText(`Notes in each folder are organised in the browse view by their state.`);
+  const {
+    primaryBtnEl,
+    tertiaryBtnEl
+  } = createNoticeCtaBar(footerEl, {
+    primaryLabel: "Continue",
+    tertiaryLabel: "Remind me later"
+  });
+  const notice = launchPersistentNotice(noticeBody);
+  if (primaryBtnEl) {
+    primaryBtnEl.addEventListener("click", () => {
+      notice.hide();
+      showCustomisationNotice();
+    });
+  }
+}
+function showCustomisationNotice() {
+  const { plugin } = getGlobals();
+  const { noticeBody, scrollAreaEl, footerEl } = createNoticeTemplate();
+  scrollAreaEl.createEl("h1").setText(`Customisation...`);
+  scrollAreaEl.createEl("p").setText(`The states and their order can be customised in the settings. As well as when the browse view opens and a growing set of other features.`);
+  scrollAreaEl.createEl("p").setText(`The state menu in each note can also be hidden with Cmd+Shift+S.`);
+  const {
+    primaryBtnEl,
+    tertiaryBtnEl
+  } = createNoticeCtaBar(footerEl, {
+    primaryLabel: "Continue",
+    tertiaryLabel: "Remind me later"
+  });
+  const notice = launchPersistentNotice(noticeBody);
+  if (primaryBtnEl) {
+    primaryBtnEl.addEventListener("click", () => {
+      notice.hide();
+      showDevelopmentWelcomeNotice();
+    });
+  }
+}
+function showDevelopmentWelcomeNotice() {
+  const { plugin } = getGlobals();
+  const { noticeBody, scrollAreaEl, footerEl } = createNoticeTemplate();
+  scrollAreaEl.createEl("h1").setText(`Get involved...`);
+  scrollAreaEl.createEl("p").setText(`If you notice any bugs, please report them through the link in the settings.`);
+  scrollAreaEl.createEl("p").setText(`You can also follow along with development and let me know which features are important to you at the links below.`);
+  const {
+    tertiaryBtnEl
+  } = createNoticeCtaBar(footerEl, {
+    footerLinks: [
+      {
+        href: "https://www.youtube.com/playlist?list=PLAiv7XV4xFx3_JUHGUp_vrqturMTsoBUZ",
+        label: "View dev diaries"
+      },
+      {
+        href: "https://designdebt.club/socials",
+        label: "Follow on socials"
+      }
+    ],
+    tertiaryLabel: "Dismiss"
+  });
+  const notice = launchPersistentNotice(noticeBody);
+  if (tertiaryBtnEl) {
+    tertiaryBtnEl.addEventListener("click", () => {
+      notice.hide();
+      noticeShowingOrDismissed = false;
+      plugin.settings.onboardingNotices.welcomeNoticeRead = true;
+      plugin.settings.onboardingNotices.lastVersionNoticeRead = plugin.manifest.version;
+      void plugin.saveSettings();
+    });
+  }
+}
+
+// src/notices/version-notices.ts
+var semVer = __toESM(require_semver2());
+function showVersionNotice() {
+  const { plugin } = getGlobals();
+  const curVersion = plugin.manifest.version;
+  const lastVersionTipRead = plugin.settings.onboardingNotices.lastVersionNoticeRead;
+  const noLastVersionTipRead = !semVer.valid(lastVersionTipRead);
+  const updatedToNewerVersion = semVer.gt(curVersion, lastVersionTipRead);
+  if (noLastVersionTipRead || updatedToNewerVersion) {
+    showLatestChanges();
+  }
+}
+function showRecentChanges() {
+  showLatestChanges();
+}
+function showLatestChanges() {
+  const { plugin } = getGlobals();
+  const { noticeBody, scrollAreaEl, footerEl } = createNoticeTemplate(1, 3);
+  scrollAreaEl.createEl("h1").setText(`Project Browser v0.4`);
+  scrollAreaEl.createEl("p").setText(`Added:`);
+  let listEl = scrollAreaEl.createEl("ul");
+  listEl.createEl("li").setText(`Multi-page projects are here!`);
+  listEl.createEl("li").setText(`Every note, base, or canvas is already considered a project and can have multiple pages added to it.`);
+  listEl.createEl("li").setText(`Custom states for pages.`);
+  listEl.createEl("li").setText(`Convert folders to projects.`);
+  listEl.createEl("li").setText(`File type visibility options.`);
+  listEl.createEl("li").setText(`File extension visibility option.`);
+  listEl.createEl("li").setText(`Reveal files/folders in Project Browser from files pane.`);
+  listEl.createEl("li").setText(`Design tweaks to floating buttons.`);
+  listEl.createEl("li").setText(`Fixed stateless sections ignoring quick menu settings.`);
+  listEl.createEl("li").setText(`Fixed files/folders moving to the vault root upon renaming.`);
+  scrollAreaEl.createEl("p").setText(`Breaking changes:`);
+  listEl = scrollAreaEl.createEl("ul");
+  listEl.createEl("li").setText(`Default hotkeys have been removed to align with Obsidian recommendations. Set you preferred hotkeys in the Obsidian settings.`);
+  const {
+    tertiaryBtnEl
+  } = createNoticeCtaBar(footerEl, {
+    footerLink: {
+      href: "https://youtu.be/na0eSecbRUI",
+      label: "View release video"
+    },
+    tertiaryLabel: "Dismiss"
+  });
+  const notice = launchPersistentNotice(noticeBody);
+  if (tertiaryBtnEl) {
+    tertiaryBtnEl.addEventListener("click", () => {
+      notice.hide();
+      plugin.settings.onboardingNotices.lastVersionNoticeRead = plugin.manifest.version;
+      void plugin.saveSettings();
+    });
+  }
+}
+
+// src/tabs/settings-tab/settings-tab.ts
 function registerSettingsTab() {
   const { plugin } = getGlobals();
   plugin.addSettingTab(new MySettingsTab());
 }
-var MySettingsTab = class extends import_obsidian18.PluginSettingTab {
+var MySettingsTab = class extends import_obsidian28.PluginSettingTab {
   constructor() {
     const { plugin } = getGlobals();
     super(plugin.app, plugin);
     this.display = () => {
       const { containerEl } = this;
       containerEl.empty();
-      insertMoreInfoLinks(containerEl);
+      containerEl.createEl("p").setText("Displays your projects as a friendly list of cards. Add multiple pages to projects, apply and group by statuses and priorities, customise card appearances, and filter simply by typing.");
+      containerEl.createEl("hr");
+      insertSetupTroubleshootSection(containerEl);
       insertAccessSettings(containerEl, this.display);
+      containerEl.createEl("hr");
       insertStateSettings(containerEl, this.display);
+      containerEl.createEl("hr");
+      insertProjectPageStateSettings(containerEl, this.display);
+      containerEl.createEl("hr");
       insertPrioritySettings(containerEl, this.display);
+      containerEl.createEl("hr");
       insertNoteSettings(containerEl, this.display);
-      new import_obsidian18.Setting(containerEl).addButton((button) => {
-        button.setButtonText("Reset settings");
+      containerEl.createEl("hr");
+      insertFileTypeSettings(containerEl, this.display);
+      new import_obsidian28.Setting(containerEl).setClass("ddc_pb_bare-setting").addButton((button) => {
+        button.setButtonText("Reset settings\u2026");
         button.onClick(() => {
           new ConfirmationModal({
             title: "Please confirm",
-            message: "Revert all Project Browser settings to defaults??",
+            message: "Revert all Project Browser settings to defaults?",
             confirmLabel: "Reset settings",
             confirmAction: async () => {
               await this.plugin.resetSettings();
@@ -34640,35 +37326,66 @@ var MySettingsTab = class extends import_obsidian18.PluginSettingTab {
           }).open();
         });
       });
+      containerEl.createEl("hr");
+      insertMoreInfoLinks(containerEl);
     };
     this.plugin = plugin;
   }
 };
 function insertMoreInfoLinks(containerEl) {
-  const sectionEl = containerEl.createDiv("ddc_pb_settings-section");
-  sectionEl.createEl("p", { text: `For information on this plugin's development, visit the links below. Feel free to leave comments in the development diaries on YouTube.` });
-  const list = sectionEl.createEl("ul");
-  list.createEl("li").createEl("a", {
-    href: "https://github.com/daledesilva/obsidian_project-browser/releases",
-    text: "Latest changes"
+  const wrapperEl = containerEl.createDiv("ddc_pb_section");
+  const sectionEl = wrapperEl.createDiv("ddc_pb_controls-section");
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_controls-header").setName("Plugin development").setDesc("For information on this plugin's development, visit the links below.");
+  const contentEl = sectionEl.createDiv("ddc_pb_controls-content");
+  const tipsGridEl = contentEl.createDiv("ddc_pb_tips-grid");
+  const addLinkRow = (parent, href, label, description) => {
+    const labelEl = parent.createDiv("ddc_pb_tips-label");
+    const link = labelEl.createEl("a", { href, text: label });
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener");
+    parent.createDiv("ddc_pb_tips-desc").setText(description);
+  };
+  addLinkRow(tipsGridEl, "https://github.com/daledesilva/obsidian_project-browser/releases", "Latest changes", "Version history, release notes, and download links for each Project Browser release.");
+  addLinkRow(tipsGridEl, "https://github.com/daledesilva/obsidian_project-browser", "Roadmap", "Main repository with source code, roadmap, and project information.");
+  addLinkRow(tipsGridEl, "https://youtube.com/playlist?list=PLAiv7XV4xFx3_JUHGUp_vrqturMTsoBUZ&si=VO6nlt2v0KG224cY", "Development diaries", "Video diaries documenting the plugin's development progress.");
+  addLinkRow(tipsGridEl, "https://github.com/daledesilva/obsidian_project-browser/issues", "Request feature / Report bug", "Submit feature requests, report bugs, or join the discussion.");
+}
+function insertSetupTroubleshootSection(containerEl) {
+  const { plugin } = getGlobals();
+  const isExpanded = plugin.settings.onboardingSectionExpanded ?? true;
+  const wrapperEl = containerEl.createDiv("ddc_pb_section-wrapper");
+  if (isExpanded)
+    wrapperEl.classList.add("ddc_pb_expanded");
+  const sectionEl = wrapperEl.createDiv("ddc_pb_controls-section");
+  const headerSetting = new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_controls-header").setClass("ddc_pb_controls-header--clickable").setName("Setup & troubleshoot").setDesc("Configuration tips and getting started resources.");
+  const arrowEl = headerSetting.settingEl.createSpan("ddc_pb_collapse-arrow");
+  arrowEl.setText("\u203A");
+  if (isExpanded)
+    arrowEl.classList.add("ddc_pb_expanded");
+  headerSetting.settingEl.addEventListener("click", async () => {
+    const expanded = wrapperEl.classList.toggle("ddc_pb_expanded");
+    arrowEl.classList.toggle("ddc_pb_expanded", expanded);
+    plugin.settings.onboardingSectionExpanded = expanded;
+    await plugin.saveSettings();
   });
-  list.createEl("li").createEl("a", {
-    href: "https://github.com/daledesilva/obsidian_project-browser",
-    text: "Roadmap"
-  });
-  list.createEl("li").createEl("a", {
-    href: "https://youtube.com/playlist?list=PLAiv7XV4xFx3_JUHGUp_vrqturMTsoBUZ&si=VO6nlt2v0KG224cY",
-    text: "Development diaries."
-  });
-  list.createEl("li").createEl("a", {
-    href: "https://github.com/daledesilva/obsidian_project-browser/issues",
-    text: "Request feature / Report bug."
+  const contentEl = sectionEl.createDiv("ddc_pb_controls-content");
+  const tipsSectionEl = contentEl.createDiv("ddc_pb_tips-section");
+  const tipsGridEl = tipsSectionEl.createDiv("ddc_pb_tips-grid");
+  tipsGridEl.createDiv("ddc_pb_tips-label").setText("Obsidian Sync");
+  tipsGridEl.createDiv("ddc_pb_tips-desc").setText(`If using "Obsidian Sync", turn on "Sync all other types" in the Obsidian sync settings. This ensures that your project folder settings are synced across devices.`);
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_bare-setting").setClass("ddc_pb_bare-setting--no-bottom-margin").addButton((btn) => {
+    btn.setButtonText("View recent changes");
+    btn.onClick(() => showRecentChanges());
+  }).addButton((btn) => {
+    btn.setButtonText("Rewatch welcome tips");
+    btn.setCta();
+    btn.onClick(() => showWelcomeTips());
   });
 }
 function insertAccessSettings(containerEl, refresh) {
   const { plugin } = getGlobals();
   const sectionEl = containerEl.createDiv("ddc_pb_settings-section");
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Replace empty tab").setDesc("Create a new, empty tab to access the Project Browser.").addToggle((toggle) => {
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_setting").setName("Replace empty tab").setDesc("Create a new, empty tab to access the Project Browser.").addToggle((toggle) => {
     toggle.setValue(plugin.settings.access.replaceNewTab);
     toggle.onChange(async (value) => {
       plugin.settings.access.replaceNewTab = value;
@@ -34676,7 +37393,7 @@ function insertAccessSettings(containerEl, refresh) {
       refresh();
     });
   });
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Enable ribbon icon").setDesc("Click an icon in the Obsidian ribbon menu bar to open the Project Browser in a new tab.").addToggle((toggle) => {
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_setting").setName("Enable ribbon icon").setDesc("Click an icon in the Obsidian ribbon menu bar to open the Project Browser in a new tab.").addToggle((toggle) => {
     toggle.setValue(plugin.settings.access.enableRibbonIcon);
     toggle.onChange(async (value) => {
       plugin.settings.access.enableRibbonIcon = value;
@@ -34684,7 +37401,7 @@ function insertAccessSettings(containerEl, refresh) {
       refresh();
     });
   });
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Enable command").setDesc("Run a command from the Command Palette at any time to open the Project Browser in a new tab.").addToggle((toggle) => {
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_setting").setName("Enable command").setDesc("Run a command from the Command Palette at any time to open the Project Browser in a new tab.").addToggle((toggle) => {
     toggle.setValue(plugin.settings.access.enableCommand);
     toggle.onChange(async (value) => {
       plugin.settings.access.enableCommand = value;
@@ -34692,16 +37409,16 @@ function insertAccessSettings(containerEl, refresh) {
       refresh();
     });
   });
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Launch folder").setDesc("Which folder should new Project Browser tabs open in.").addText((text) => {
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_setting").setName("Launch folder").setDesc("Which folder should new Project Browser tabs open in.").addText((text) => {
     text.setValue(plugin.settings.access.launchFolder);
     text.inputEl.addEventListener("blur", (e) => {
       const safeValue = folderPathSanitize(text.getValue());
       text.setValue(safeValue);
       plugin.settings.access.launchFolder = safeValue;
-      plugin.saveSettings();
+      void plugin.saveSettings();
     });
   });
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Use Aliases").setDesc(`Display the first alias of a file as it's name in the Project Browser if available.`).addToggle((toggle) => {
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_setting").setName("Use aliases").setDesc(`Display the first alias of a file as it's name in the Project Browser if available.`).addToggle((toggle) => {
     toggle.setValue(plugin.settings.useAliases);
     toggle.onChange(async (value) => {
       plugin.settings.useAliases = value;
@@ -34712,10 +37429,10 @@ function insertAccessSettings(containerEl, refresh) {
 }
 function insertStateSettings(containerEl, refresh) {
   const { plugin } = getGlobals();
-  const sectionEl = containerEl.createDiv("ddc_pb_settings-section ddc_pb_controls-section");
-  sectionEl.createEl("h2", { text: "States" });
-  sectionEl.createEl("p", { text: `This is the list of categories that Project Browser will help assign notes and group by in the Browser view. Add new states and drag them to reorder or delete.` });
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Loop states").setDesc("When pressing the hotkeys to step states forward or backward, should it cycle back to the first or last state when the end is reached?").addToggle((toggle) => {
+  const sectionEl = containerEl.createDiv("ddc_pb_controls-section ddc_pb_controls-section--states");
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_controls-header").setName("File & project states").setDesc("This is the list of categories that Project Browser will help assign projects and group by in the Browser view. Add new project states and drag them to reorder or delete.");
+  const contentEl = sectionEl.createDiv("ddc_pb_controls-content");
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Loop project states").setDesc("When pressing the hotkeys to step project states forward or backward, should it cycle back to the first or last state when the end is reached?").addToggle((toggle) => {
     toggle.setValue(plugin.settings.loopStatesWhenCycling);
     toggle.onChange(async (value) => {
       plugin.settings.loopStatesWhenCycling = value;
@@ -34723,8 +37440,8 @@ function insertStateSettings(containerEl, refresh) {
       refresh();
     });
   });
-  insertStateEditor(sectionEl);
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Default state").addDropdown((dropdown) => {
+  insertStateEditor(contentEl);
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Default project state").addDropdown((dropdown) => {
     function updateDropdownOptions() {
       const options = {};
       Object.values(plugin.settings.states.visible).map((stateSettings) => {
@@ -34743,16 +37460,72 @@ function insertStateSettings(containerEl, refresh) {
     });
     dropdown.selectEl.addEventListener("change", (event) => {
       plugin.settings.defaultState = dropdown.getValue() == "(None)" ? void 0 : dropdown.getValue();
-      plugin.saveSettings();
+      void plugin.saveSettings();
     });
   });
 }
+function insertProjectPageStateSettings(containerEl, refresh) {
+  const { plugin } = getGlobals();
+  const sectionEl = containerEl.createDiv("ddc_pb_controls-section ddc_pb_controls-section--states");
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_controls-header").setName("Page states").setDesc("This is the list of categories that Project Browser will use for markdown pages inside project folders. Add new page states and drag them to reorder or delete.");
+  const contentEl = sectionEl.createDiv("ddc_pb_controls-content");
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Loop page states").setDesc("When pressing the hotkeys to step page states forward or backward, should it cycle back to the first or last state when the end is reached?").addToggle((toggle) => {
+    toggle.setValue(plugin.settings.loopProjectPageStatesWhenCycling);
+    toggle.onChange(async (value) => {
+      plugin.settings.loopProjectPageStatesWhenCycling = value;
+      await plugin.saveSettings();
+      refresh();
+    });
+  });
+  insertProjectPageStateEditor(contentEl);
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Default page state").addDropdown((dropdown) => {
+    function updateDropdownOptions() {
+      const options = {};
+      Object.values(plugin.settings.projectPageStates.visible).map((stateSettings) => {
+        options[stateSettings.name] = stateSettings.name;
+      });
+      Object.values(plugin.settings.projectPageStates.hidden).map((stateSettings) => {
+        options[stateSettings.name] = stateSettings.name;
+      });
+      options["(None)"] = "(None)";
+      dropdown.selectEl.empty();
+      dropdown.addOptions(options);
+      dropdown.setValue(plugin.settings.defaultProjectPageState ?? "(None)");
+    }
+    updateDropdownOptions();
+    dropdown.selectEl.addEventListener("focus", () => {
+      updateDropdownOptions();
+    });
+    dropdown.selectEl.addEventListener("change", () => {
+      plugin.settings.defaultProjectPageState = dropdown.getValue() == "(None)" ? void 0 : dropdown.getValue();
+      void plugin.saveSettings();
+    });
+  });
+}
+function createExpandableFileTypeSection(parentEl, headerName, headerDesc, surface, refresh) {
+  const wrapperEl = parentEl.createDiv("ddc_pb_section-wrapper");
+  const sectionEl = wrapperEl.createDiv("ddc_pb_controls-section");
+  const headerSetting = new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_controls-header").setClass("ddc_pb_controls-header--clickable").setName(headerName).setDesc(headerDesc);
+  const arrowEl = headerSetting.settingEl.createSpan("ddc_pb_collapse-arrow");
+  arrowEl.setText("\u203A");
+  headerSetting.settingEl.addEventListener("click", () => {
+    const expanded = wrapperEl.classList.toggle("ddc_pb_expanded");
+    arrowEl.classList.toggle("ddc_pb_expanded", expanded);
+  });
+  const contentEl = sectionEl.createDiv("ddc_pb_controls-content");
+  insertFileTypeEditor(contentEl, refresh, surface);
+}
+function insertFileTypeSettings(containerEl, refresh) {
+  const sectionEl = containerEl.createDiv("ddc_pb_section");
+  createExpandableFileTypeSection(sectionEl, "Browser panel file visibility", "Control which file types appear in the project browser card view.", "projectBrowser", refresh);
+  createExpandableFileTypeSection(sectionEl, "Page menu file visibility", "Control which file types appear in the project pages menu.", "pageMenu", refresh);
+}
 function insertPrioritySettings(containerEl, refresh) {
   const { plugin } = getGlobals();
-  const sectionEl = containerEl.createDiv("ddc_pb_settings-section ddc_pb_controls-section");
-  sectionEl.createEl("h2", { text: "Priorities" });
-  sectionEl.createEl("p", { text: `Files can be given high or low priorities from within the browser panel. This can make notes appear with different styling or as grouped by priority.` });
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Treat priorities as links").setDesc("This will input priorities as internal Obsidian links so that they can be opened and will appear in the graph view as nodes.").addToggle((toggle) => {
+  const sectionEl = containerEl.createDiv("ddc_pb_controls-section");
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_controls-header").setName("Priorities").setDesc("Files can be given high or low priorities from within the browser panel. This can make notes appear with different styling or as grouped by priority.");
+  const contentEl = sectionEl.createDiv("ddc_pb_controls-content");
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Treat priorities as links").setDesc("This will input priorities as internal Obsidian links so that they can be opened and will appear in the graph view as nodes.").addToggle((toggle) => {
     const hasLinkEnabled = plugin.settings.priorities.some((priority) => priority.link);
     toggle.setValue(hasLinkEnabled);
     toggle.onChange(async (value) => {
@@ -34766,13 +37539,29 @@ function insertPrioritySettings(containerEl, refresh) {
 }
 function insertNoteSettings(containerEl, refresh) {
   const { plugin } = getGlobals();
-  const sectionEl = containerEl.createDiv("ddc_pb_settings-section ddc_pb_controls-section");
-  sectionEl.createEl("h2", { text: "Notes" });
-  sectionEl.createEl("p", { text: "This section defines how Project Browser features are integrated on screen when your markdown notes display." });
-  new import_obsidian18.Setting(sectionEl).setClass("ddc_pb_setting").setName("Show state menu in notes").setDesc("This can be toggled any time through a command (Default shortcut: Cmd+Shift+S).").addToggle((toggle) => {
+  const sectionEl = containerEl.createDiv("ddc_pb_controls-section");
+  new import_obsidian28.Setting(sectionEl).setClass("ddc_pb_controls-header").setName("File overlays").setDesc("This section defines how Project Browser features are integrated on screen when your files are open.");
+  const contentEl = sectionEl.createDiv("ddc_pb_controls-content");
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Show state menu in notes").setDesc("This can be toggled any time through a command (Default shortcut: Cmd+Shift+S).").addToggle((toggle) => {
     toggle.setValue(plugin.settings.showStateMenu);
     toggle.onChange(async (value) => {
       plugin.settings.showStateMenu = value;
+      await plugin.saveSettings();
+      refresh();
+    });
+  });
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Show extension for non-document files").setDesc("Display the full filename (including extension) for non-document files (e.g. PDF, images). Notes, canvas, and base files always show basename only.").addToggle((toggle) => {
+    toggle.setValue(plugin.settings.showFileExtForNonMdFiles);
+    toggle.onChange(async (value) => {
+      plugin.settings.showFileExtForNonMdFiles = value;
+      await plugin.saveSettings();
+      refresh();
+    });
+  });
+  new import_obsidian28.Setting(contentEl).setClass("ddc_pb_setting").setName("Show rename popup when creating new pages").setDesc("When enabled, the renaming popup is shown immediately upon new page creation. Press enter or escape to accept quickly, or disable this setting to prevent the popup showing.").addToggle((toggle) => {
+    toggle.setValue(plugin.settings.showRenamePopupOnNewPage ?? true);
+    toggle.onChange(async (value) => {
+      plugin.settings.showRenamePopupOnNewPage = value;
       await plugin.saveSettings();
       refresh();
     });
@@ -34783,16 +37572,18 @@ function insertNoteSettings(containerEl, refresh) {
 async function registerOpenProjectBrowserCommand() {
   const { plugin } = getGlobals();
   plugin.addCommand({
-    id: "open-project-browser",
+    id: "open",
     name: "Open",
     icon: ICON_PROJECT_BROWSER,
-    callback: () => newProjectBrowserLeaf()
+    callback: () => {
+      void newProjectBrowserLeaf();
+    }
   });
 }
 async function registerOpenProjectBrowserRibbonIcon() {
   const { plugin } = getGlobals();
   plugin.addRibbonIcon(ICON_PROJECT_BROWSER, "Open project browser", () => {
-    newProjectBrowserLeaf();
+    void newProjectBrowserLeaf();
   });
 }
 
@@ -34869,7 +37660,7 @@ var DEFAULT_PLUGIN_SETTINGS_0_1_0 = {
 };
 
 // src/types/plugin-settings-migrations.ts
-var semVer = __toESM(require_semver2());
+var semVer2 = __toESM(require_semver2());
 
 // src/types/migration-helpers.ts
 function findItemByProperty(array, propertyName, propertyValue) {
@@ -34881,14 +37672,18 @@ function migrateOutdatedSettings(settings) {
   let updatedSettings = settings;
   if (!settings.settingsVersion)
     updatedSettings = migrate_0_0_4_to_0_0_5(settings);
-  if (semVer.lt(settings.settingsVersion, "0.1.0"))
-    updatedSettings = migrate_0_0_5_to_0_1_0(settings);
-  if (semVer.lt(settings.settingsVersion, "0.3.0"))
-    updatedSettings = migrate_0_1_0_to_0_3_0(settings);
+  if (semVer2.lt(updatedSettings.settingsVersion, "0.1.0"))
+    updatedSettings = migrate_0_0_5_to_0_1_0(updatedSettings);
+  if (semVer2.lt(updatedSettings.settingsVersion, "0.3.0"))
+    updatedSettings = migrate_0_1_0_to_0_3_0(updatedSettings);
+  if (semVer2.lt(updatedSettings.settingsVersion, "0.4.0"))
+    updatedSettings = migrate_0_3_0_to_0_4_0(updatedSettings);
+  if (updatedSettings.settingsVersion === "0.4.0")
+    updatedSettings = patch_0_4_0_settings(updatedSettings);
   if (JSON.stringify(updatedSettings) != JSON.stringify(settings)) {
-    console.log("Project Browser: Migrated outdated settings");
-    console.log("Old Settings", JSON.parse(JSON.stringify(settings)));
-    console.log("New Settings", JSON.parse(JSON.stringify(updatedSettings)));
+    console.debug("Project Browser: Migrated outdated settings");
+    console.debug("Old Settings", JSON.parse(JSON.stringify(settings)));
+    console.debug("New Settings", JSON.parse(JSON.stringify(updatedSettings)));
   }
   return updatedSettings;
 }
@@ -34995,223 +37790,63 @@ function migrate_0_1_0_to_0_3_0(oldSettings) {
   };
   return JSON.parse(JSON.stringify(newSettings));
 }
-
-// src/components/dom-components/notice-components.ts
-var import_obsidian19 = require("obsidian");
-function createNoticeTemplate(noticeNumber, noticeTotal) {
-  const noticeBody = document.createDocumentFragment();
-  createNoticeLabel(noticeBody, noticeNumber, noticeTotal);
-  return noticeBody;
-}
-function launchPersistentNotice(noticeBody) {
-  const notice = new import_obsidian19.Notice(noticeBody, 0);
-  notice.noticeEl.classList.add("ddc_pb_notice");
-  notice.noticeEl.style.pointerEvents = "none";
-  return notice;
-}
-function createNoticeLabel(noticeBody, noticeNumber, noticeTotal) {
-  const labelEl = noticeBody.createEl("p");
-  let labelText = `Project Browser plugin`;
-  labelEl.setText(labelText);
-  labelEl.classList.add("ddc_pb_notice-label");
-  return labelEl;
-}
-function createNoticeCtaBar(noticeBody, props) {
-  let primaryBtnEl = null;
-  let tertiaryBtnEl = null;
-  const ctaBarEl = noticeBody.createDiv("ddc_pb_notice-cta-bar");
-  if (props.primaryLabel) {
-    primaryBtnEl = ctaBarEl.createEl("button");
-    primaryBtnEl.setText(props.primaryLabel);
-    primaryBtnEl.classList.add("ddc_pb_primary-btn");
-    primaryBtnEl.style.pointerEvents = "all";
-  }
-  if (props.tertiaryLabel) {
-    tertiaryBtnEl = ctaBarEl.createEl("button");
-    tertiaryBtnEl.setText(props.tertiaryLabel);
-    tertiaryBtnEl.classList.add("ddc_pb_tertiary-btn");
-    tertiaryBtnEl.style.pointerEvents = "all";
-  }
-  return {
-    ctaBarEl,
-    primaryBtnEl,
-    tertiaryBtnEl
+function migrate_0_3_0_to_0_4_0(oldSettings) {
+  const newSettings = {
+    ...DEFAULT_PLUGIN_SETTINGS_0_4_0,
+    ...oldSettings,
+    settingsVersion: "0.4.0",
+    fileTypes: { ...DEFAULT_PLUGIN_SETTINGS_0_4_0.fileTypes },
+    projectPageStates: {
+      visible: [...DEFAULT_PROJECT_PAGE_STATE_SETTINGS_0_4_0.visible],
+      hidden: [...DEFAULT_PROJECT_PAGE_STATE_SETTINGS_0_4_0.hidden]
+    },
+    projectPageStateless: { ...DEFAULT_PROJECT_PAGE_STATELESS_SETTINGS_0_4_0 },
+    defaultProjectPageState: DEFAULT_PLUGIN_SETTINGS_0_4_0.defaultProjectPageState,
+    loopProjectPageStatesWhenCycling: DEFAULT_PLUGIN_SETTINGS_0_4_0.loopProjectPageStatesWhenCycling,
+    showRenamePopupOnNewPage: true
   };
+  return JSON.parse(JSON.stringify(newSettings));
 }
-
-// src/notices/onboarding-notices.ts
-function showOnboardingNotices_maybe() {
-  const { plugin } = getGlobals();
-  if (plugin.settings.onboardingNotices.welcomeNoticeRead)
-    return false;
-  showOnboardingNotices();
-  return true;
-}
-var noticeShowingOrDismissed = false;
-async function showOnboardingNotices() {
-  const { plugin } = getGlobals();
-  if (noticeShowingOrDismissed)
-    return;
-  noticeShowingOrDismissed = true;
-  const noticeBody = createNoticeTemplate(1, 3);
-  noticeBody.createEl("h1").setText(`Welcome to Project Browser`);
-  noticeBody.createEl("p").setText(`Project Browser is designed to simplify file navigation and help you focus on your priority projects.`);
-  noticeBody.createEl("p").setText(`Here's a quick rundown to help you get started...`);
-  const {
-    primaryBtnEl,
-    tertiaryBtnEl
-  } = createNoticeCtaBar(noticeBody, {
-    primaryLabel: `Read now`,
-    tertiaryLabel: "Remind me later"
-  });
-  const notice = launchPersistentNotice(noticeBody);
-  if (tertiaryBtnEl) {
-    tertiaryBtnEl.addEventListener("click", () => {
-      notice.hide();
-    });
+function patch_0_4_0_settings(settings) {
+  const patched = JSON.parse(JSON.stringify(settings));
+  if (!patched.projectPageStates) {
+    patched.projectPageStates = {
+      visible: [...DEFAULT_PROJECT_PAGE_STATE_SETTINGS_0_4_0.visible],
+      hidden: [...DEFAULT_PROJECT_PAGE_STATE_SETTINGS_0_4_0.hidden]
+    };
   }
-  if (primaryBtnEl) {
-    primaryBtnEl.addEventListener("click", () => {
-      notice.hide();
-      showBrowserViewNotice();
-    });
+  if (!patched.projectPageStateless) {
+    patched.projectPageStateless = { ...DEFAULT_PROJECT_PAGE_STATELESS_SETTINGS_0_4_0 };
   }
-}
-function showBrowserViewNotice() {
-  const { plugin } = getGlobals();
-  const noticeBody = createNoticeTemplate();
-  noticeBody.createEl("h1").setText(`The Browse view...`);
-  noticeBody.createEl("p").setText(`By default, the Browse view appears when you create a new tab. You can also open it from the button in the ribbon menu.`);
-  const {
-    primaryBtnEl,
-    tertiaryBtnEl
-  } = createNoticeCtaBar(noticeBody, {
-    primaryLabel: "Continue",
-    tertiaryLabel: "Remind me later"
-  });
-  const notice = launchPersistentNotice(noticeBody);
-  if (primaryBtnEl) {
-    primaryBtnEl.addEventListener("click", () => {
-      notice.hide();
-      showNotesNotice();
-    });
+  if (patched.defaultProjectPageState === void 0) {
+    patched.defaultProjectPageState = DEFAULT_PLUGIN_SETTINGS_0_4_0.defaultProjectPageState;
   }
-}
-function showNotesNotice() {
-  const { plugin } = getGlobals();
-  const noticeBody = createNoticeTemplate();
-  noticeBody.createEl("h1").setText(`Note states...`);
-  noticeBody.createEl("p").setText(`The state of each note can be assigned through a button at the top of the note or through the command shortcuts (Cmd+Shift+D and Cmd+Shift+A).`);
-  noticeBody.createEl("p").setText(`Notes in each folder are organised in the browse view by their state.`);
-  const {
-    primaryBtnEl,
-    tertiaryBtnEl
-  } = createNoticeCtaBar(noticeBody, {
-    primaryLabel: "Continue",
-    tertiaryLabel: "Remind me later"
-  });
-  const notice = launchPersistentNotice(noticeBody);
-  if (primaryBtnEl) {
-    primaryBtnEl.addEventListener("click", () => {
-      notice.hide();
-      showCustomisationNotice();
-    });
+  if (patched.loopProjectPageStatesWhenCycling === void 0) {
+    patched.loopProjectPageStatesWhenCycling = DEFAULT_PLUGIN_SETTINGS_0_4_0.loopProjectPageStatesWhenCycling;
   }
-}
-function showCustomisationNotice() {
-  const { plugin } = getGlobals();
-  const noticeBody = createNoticeTemplate();
-  noticeBody.createEl("h1").setText(`Customisation...`);
-  noticeBody.createEl("p").setText(`The states and their order can be customised in the settings. As well as when the browse view opens and a growing set of other features.`);
-  noticeBody.createEl("p").setText(`The state menu in each note can also be hidden with Cmd+Shift+S.`);
-  const {
-    primaryBtnEl,
-    tertiaryBtnEl
-  } = createNoticeCtaBar(noticeBody, {
-    primaryLabel: "Continue",
-    tertiaryLabel: "Remind me later"
-  });
-  const notice = launchPersistentNotice(noticeBody);
-  if (primaryBtnEl) {
-    primaryBtnEl.addEventListener("click", () => {
-      notice.hide();
-      showDevelopmentWelcomeNotice();
-    });
+  if (!patched.fileTypes)
+    return patched;
+  const fileTypes = patched.fileTypes;
+  if (fileTypes.projectBrowser) {
+    return patched;
   }
-}
-function showDevelopmentWelcomeNotice() {
-  const { plugin } = getGlobals();
-  const noticeBody = createNoticeTemplate();
-  noticeBody.createEl("h1").setText(`Get involved...`);
-  noticeBody.createEl("p").setText(`If you notice any bugs, please report them through the link in the settings.`);
-  noticeBody.createEl("p").setText(`You can also follow along with development and let me know which features are important to you at the link below.`);
-  const link = noticeBody.createEl("a");
-  link.setAttribute("href", "https://www.youtube.com/playlist?list=PLAiv7XV4xFx3_JUHGUp_vrqturMTsoBUZ");
-  link.setText(`Project Browser development diaries`);
-  link.onClickEvent((e) => e.stopPropagation());
-  const {
-    tertiaryBtnEl
-  } = createNoticeCtaBar(noticeBody, {
-    tertiaryLabel: "Dismiss"
-  });
-  const notice = launchPersistentNotice(noticeBody);
-  if (tertiaryBtnEl) {
-    tertiaryBtnEl.addEventListener("click", () => {
-      notice.hide();
-      noticeShowingOrDismissed = false;
-      plugin.settings.onboardingNotices.welcomeNoticeRead = true;
-      plugin.settings.onboardingNotices.lastVersionNoticeRead = plugin.manifest.version;
-      plugin.saveSettings();
-    });
+  const oldVisible = fileTypes.visible ?? [];
+  let oldHidden = fileTypes.hidden ?? [];
+  const oldUnsupported = fileTypes.unsupported ?? [];
+  const order2 = fileTypes.hiddenAndUnsupportedOrder;
+  oldHidden = Array.isArray(order2) && order2.length > 0 ? order2 : [...oldHidden, ...oldUnsupported.filter((e) => !oldHidden.map((x) => x.toLowerCase()).includes(e.toLowerCase()))];
+  const hasPbs = oldHidden.some((e) => e.toLowerCase() === "pbs");
+  if (!hasPbs) {
+    oldHidden = [...oldHidden, "pbs"];
   }
-}
-
-// src/notices/version-notices.ts
-var semVer2 = __toESM(require_semver2());
-function showVersionNotice() {
-  const { plugin } = getGlobals();
-  const curVersion = plugin.manifest.version;
-  const lastVersionTipRead = plugin.settings.onboardingNotices.lastVersionNoticeRead;
-  const noLastVersionTipRead = !semVer2.valid(lastVersionTipRead);
-  const updatedToNewerVersion = semVer2.gt(curVersion, lastVersionTipRead);
-  if (noLastVersionTipRead || updatedToNewerVersion) {
-    showLatestChanges();
-  }
-}
-function showLatestChanges() {
-  const { plugin } = getGlobals();
-  const noticeBody = createNoticeTemplate(1, 3);
-  noticeBody.createEl("h1").setText(`Changes in Project Browser v0.3.2`);
-  const listEl = noticeBody.createEl("ul");
-  listEl.createEl("li").setText(`Added priority context menu in browse view (Right click or hold on a note).`);
-  listEl.createEl("li").setText(`Added quick menu to sections in browse view (Click on section blank area on touch devices).`);
-  listEl.createEl("li").setText(`Added ability to change section ordering on the fly.`);
-  listEl.createEl("li").setText(`Added ability to change priority grouping and visibility on the fly.`);
-  listEl.createEl("li").setText(`Added ability to change card display type on the fly.`);
-  listEl.createEl("li").setText(`Added ability to treat priorities as links (Changing this won't change existing priorities).`);
-  listEl.createEl("li").setText(`Markdown is now stripped from preview text when in detailed card view.`);
-  listEl.createEl("li").setText(`Fixed initial state not being applied when new file is created within a state section.`);
-  listEl.createEl("li").setText(`Fixed errors in styling of notices.`);
-  listEl.createEl("li").setText(`Fixed error where changing state or priority would refresh the modified time stamp. Now it preserves the previous timestamp.`);
-  const link = noticeBody.createEl("a");
-  link.setAttribute("href", "https://youtu.be/ubZpS8JUWUk");
-  link.setText(`View release video`);
-  noticeBody.createEl("h2").setText("Note...");
-  noticeBody.createEl("p").appendText("Multi-page projects are coming in version 0.4!");
-  link.onClickEvent((e) => e.stopPropagation());
-  const {
-    tertiaryBtnEl
-  } = createNoticeCtaBar(noticeBody, {
-    tertiaryLabel: "Dismiss"
-  });
-  const notice = launchPersistentNotice(noticeBody);
-  if (tertiaryBtnEl) {
-    tertiaryBtnEl.addEventListener("click", () => {
-      notice.hide();
-      plugin.settings.onboardingNotices.lastVersionNoticeRead = plugin.manifest.version;
-      plugin.saveSettings();
-    });
-  }
+  patched.fileTypes = {
+    projectBrowser: { visible: [...oldVisible], hidden: [...oldHidden] },
+    pageMenu: {
+      visible: [...DEFAULT_FILE_TYPE_SETTINGS_0_4_0.pageMenu.visible],
+      hidden: [...DEFAULT_FILE_TYPE_SETTINGS_0_4_0.pageMenu.hidden]
+    }
+  };
+  return patched;
 }
 
 // src/commands/toggle-state-menu.ts
@@ -35221,21 +37856,15 @@ async function registerToggleStateMenuCommand() {
     id: "toggle-state-menu",
     name: "Toggle state menu",
     icon: ICON_STATE_MENU,
-    hotkeys: [
-      {
-        modifiers: ["Meta", "Shift"],
-        key: "s"
-      }
-    ],
     callback: toggleStateMenu
   });
 }
 
 // src/logic/offset-state.ts
-function offsetState(file, offset2, cycle = false) {
-  const { plugin } = getGlobals();
-  const curStateSettings = getFileStateSettings(file);
-  const allStateSettings = [...plugin.settings.states.visible, ...plugin.settings.states.hidden];
+async function offsetState(file, offset2, cycle = false) {
+  const curStateSettings = await getFileStateSettingsAsync(file);
+  const scopedStateSettings = await getStateSettingsForFile(file);
+  const allStateSettings = [...scopedStateSettings.visible, ...scopedStateSettings.hidden];
   if (curStateSettings) {
     const curStateIndex = allStateSettings.findIndex((state) => state.name === curStateSettings?.name);
     let newStateIndex = curStateIndex + offset2;
@@ -35264,21 +37893,14 @@ async function registerCycleStateCommands() {
     id: "cycle-state-forward",
     name: `Step note's state forward`,
     icon: ICON_STEP_STATE_FORWARD,
-    hotkeys: [
-      {
-        modifiers: ["Meta", "Shift"],
-        key: "d"
-      }
-    ],
     editorCallback: (editor) => {
       const file = plugin.app.workspace.getActiveFile();
       if (!file)
         return;
       const wasOpen = openStateMenuIfClosed();
       const delayMs = wasOpen ? 0 : 300;
-      setTimeout(() => {
-        const newStateSettings = offsetState(file, 1, plugin.settings.loopStatesWhenCycling);
-        setFileState(file, newStateSettings);
+      window.setTimeout(() => {
+        void cycleFileState(file, 1);
       }, delayMs);
       returnStateMenuAfterDelay();
     }
@@ -35287,29 +37909,95 @@ async function registerCycleStateCommands() {
     id: "cycle-state-backward",
     name: `Step note's state backward`,
     icon: ICON_STEP_STATE_BACKWARD,
-    hotkeys: [
-      {
-        modifiers: ["Meta", "Shift"],
-        key: "a"
-      }
-    ],
     editorCallback: (editor) => {
       const file = plugin.app.workspace.getActiveFile();
       if (!file)
         return;
       const wasOpen = openStateMenuIfClosed();
       const delayMs = wasOpen ? 0 : 300;
-      setTimeout(() => {
-        const newStateSettings = offsetState(file, -1, plugin.settings.loopStatesWhenCycling);
-        setFileState(file, newStateSettings);
+      window.setTimeout(() => {
+        void cycleFileState(file, -1);
       }, delayMs);
       returnStateMenuAfterDelay();
     }
   });
+  async function cycleFileState(file, offset2) {
+    const scopedSettings = await getStateSettingsForFile(file);
+    const newStateSettings = await offsetState(file, offset2, scopedSettings.shouldLoopWhenCycling);
+    await setFileState(file, newStateSettings);
+  }
+}
+
+// src/commands/reveal-in-project-browser.ts
+var REVEAL_IN_PROJECT_BROWSER_TITLE = "Reveal in Project Browser";
+var REVEAL_IN_FINDER_TITLES = [
+  "Reveal in Finder",
+  "Reveal in File Explorer",
+  "Reveal in system explorer",
+  "Show in system explorer"
+];
+var revealInFinderSectionsBySource = /* @__PURE__ */ new Map();
+function getMenuItemText(rawText) {
+  if (typeof rawText !== "string")
+    return "";
+  return rawText.replace(/\s+/g, " ").trim();
+}
+function getRevealInFinderSectionFromMenu(menu) {
+  const menuSnapshot = menu;
+  const menuItems = menuSnapshot.items ?? [];
+  for (const menuItem of menuItems) {
+    const itemTitle = getMenuItemText(menuItem.title ?? menuItem.dom?.textContent);
+    const itemMatchesRevealInFinder = REVEAL_IN_FINDER_TITLES.includes(itemTitle);
+    if (!itemMatchesRevealInFinder)
+      continue;
+    const itemSection = menuItem.section;
+    if (typeof itemSection === "string" && itemSection.length > 0)
+      return itemSection;
+    const domSection = menuItem.dom?.dataset?.section;
+    if (typeof domSection === "string" && domSection.length > 0)
+      return domSection;
+  }
+  return "";
+}
+function getRevealInFinderSectionForSource(menu, source) {
+  const sectionFromMenu = getRevealInFinderSectionFromMenu(menu);
+  if (sectionFromMenu) {
+    revealInFinderSectionsBySource.set(source, sectionFromMenu);
+    return sectionFromMenu;
+  }
+  return revealInFinderSectionsBySource.get(source) ?? "";
+}
+function addRevealInProjectBrowserMenuItem(menu, target, source) {
+  const finderSection = getRevealInFinderSectionForSource(menu, source);
+  menu.addItem((item) => {
+    item.setTitle(REVEAL_IN_PROJECT_BROWSER_TITLE);
+    item.setIcon(ICON_PROJECT_BROWSER);
+    if (finderSection) {
+      item.setSection(finderSection);
+    }
+    item.onClick(() => {
+      void revealInProjectBrowser(target);
+    });
+  });
+}
+function registerRevealInProjectBrowserMenus() {
+  const { plugin } = getGlobals();
+  plugin.registerEvent(plugin.app.workspace.on("file-menu", (menu, file, source) => {
+    const revealTarget = getProjectBrowserRevealTargetForSelection([file]);
+    if (!revealTarget)
+      return;
+    addRevealInProjectBrowserMenuItem(menu, revealTarget, source);
+  }));
+  plugin.registerEvent(plugin.app.workspace.on("files-menu", (menu, files, source) => {
+    const revealTarget = getProjectBrowserRevealTargetForSelection(files);
+    if (!revealTarget)
+      return;
+    addRevealInProjectBrowserMenuItem(menu, revealTarget, source);
+  }));
 }
 
 // src/main.ts
-var ProjectBrowserPlugin = class extends import_obsidian20.Plugin {
+var ProjectBrowserPlugin = class extends import_obsidian29.Plugin {
   constructor() {
     super(...arguments);
     this.fileDependants = {};
@@ -35323,21 +38011,30 @@ var ProjectBrowserPlugin = class extends import_obsidian20.Plugin {
     initStateMenuSettings();
     registerCardBrowserView();
     registerMarkdownViewMods();
-    registerToggleStateMenuCommand();
-    registerCycleStateCommands();
+    void registerToggleStateMenuCommand();
+    void registerCycleStateCommands();
+    registerFileOpenSelectTitleHandler(this);
+    registerRevealInProjectBrowserMenus();
     if (this.settings.access.replaceNewTab)
       loadCardBrowserOnNewTab();
     if (this.settings.access.enableRibbonIcon)
-      registerOpenProjectBrowserRibbonIcon();
+      void registerOpenProjectBrowserRibbonIcon();
     if (this.settings.access.enableCommand)
-      registerOpenProjectBrowserCommand();
+      void registerOpenProjectBrowserCommand();
     registerSettingsTab();
     showNotices();
-    this.app.vault.on("create", () => this.refreshFileDependants());
-    this.app.vault.on("delete", () => this.refreshFileDependants());
-    this.app.vault.on("rename", () => this.refreshFileDependants());
+    this.app.vault.on("create", () => {
+      void this.refreshFileDependants();
+    });
+    this.app.vault.on("delete", () => {
+      void this.refreshFileDependants();
+    });
+    this.app.vault.on("rename", () => {
+      void this.refreshFileDependants();
+    });
   }
   onunload() {
+    detachProjectPagesSidebarLeaves();
     this.app.vault.off("create", () => this.refreshFileDependants());
     this.app.vault.off("delete", () => this.refreshFileDependants());
     this.app.vault.off("rename", () => this.refreshFileDependants());
@@ -35348,7 +38045,7 @@ var ProjectBrowserPlugin = class extends import_obsidian20.Plugin {
       this.settings = Object.assign({}, DEFAULT_SETTINGS, this.settings);
     } else {
       this.settings = migrateOutdatedSettings(this.settings);
-      this.saveSettings();
+      void this.saveSettings();
     }
   }
   async saveSettings() {
@@ -35356,8 +38053,8 @@ var ProjectBrowserPlugin = class extends import_obsidian20.Plugin {
   }
   async resetSettings() {
     this.settings = JSON.parse(JSON.stringify(DEFAULT_SETTINGS));
-    this.saveSettings();
-    new import_obsidian20.Notice("Project Browser plugin settings reset");
+    void this.saveSettings();
+    new import_obsidian29.Notice("Project Browser plugin settings reset");
   }
   addGlobalFileDependant(id, handler) {
     this.fileDependants[id] = handler;
@@ -35366,8 +38063,8 @@ var ProjectBrowserPlugin = class extends import_obsidian20.Plugin {
     delete this.fileDependants[id];
   }
   async refreshFileDependants() {
-    clearTimeout(this.refreshFileDependantsTimeout);
-    this.refreshFileDependantsTimeout = setTimeout(() => {
+    window.clearTimeout(this.refreshFileDependantsTimeout);
+    this.refreshFileDependantsTimeout = window.setTimeout(() => {
       Object.entries(this.fileDependants).forEach(([key, handler]) => {
         try {
           handler();
