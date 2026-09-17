@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "03-projects/Nightfall/07-History/Timeline.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -124,7 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254
+    "width": 415
   },
   "right": {
     "id": "3e8af4b6b575063a",
@@ -245,16 +245,21 @@
   },
   "active": "40a8f262642a5b6e",
   "lastOpenFiles": [
+    "03-projects/Nightfall/03-Divinity/Pantheon.md",
+    "03-projects/Nightfall/05-Systems/Luminance.md",
+    "03-projects/Nightfall/02-World/Gloam.md",
+    "03-projects/Nightfall/01-Canon/Canon Principles.md",
+    "03-projects/Nightfall/01-Canon/Glossary.md",
+    "03-projects/Nightfall/03-Divinity/Patron Gods.md",
+    "03-projects/Nightfall/07-History/Timeline.md",
     "03-projects/Nightfall/00-MOC/Nightfall Home.md",
     "03-projects/Nightfall/02-World/World Shape.md",
     "03-projects/Nightfall/03-Divinity/Crown Gods.md",
-    "03-projects/Nightfall/03-Divinity/Pantheon.md",
     "03-projects/Nightfall/99-Design/Templates/New Note Template.md",
     "03-projects/Nightfall/README.md",
     "03-projects/Nightfall/99-Design/Templates",
     "03-projects/Nightfall/99-Design/Implementation Matrix.md",
     "03-projects/Nightfall/99-Design",
-    "03-projects/Nightfall/07-History/Timeline.md",
     "03-projects/Nightfall/07-History",
     "03-projects/Nightfall/06-Death/PvP Knock Flow.md",
     "03-projects/Nightfall/06-Death/Return.md",
@@ -263,7 +268,6 @@
     "03-projects/Nightfall/06-Death/Death.md",
     "03-projects/Nightfall/06-Death",
     "03-projects/Nightfall/05-Systems/Multi-Aspect Attunement.md",
-    "03-projects/Nightfall/05-Systems/Luminance.md",
     "03-projects/Nightfall/05-Systems/Darkness.md",
     "03-projects/Nightfall/05-Systems/Divine Friction.md",
     "03-projects/Nightfall/05-Systems/Dark Tolerance.md",
@@ -272,10 +276,6 @@
     "03-projects/Nightfall/05-Systems",
     "03-projects/Nightfall/04-Magic/Void.md",
     "03-projects/Nightfall/04-Magic/Tide.md",
-    "03-projects/Nightfall/04-Magic/Marrow.md",
-    "03-projects/Nightfall/04-Magic/Gale.md",
-    "03-projects/Nightfall/04-Magic/Ember.md",
-    "03-projects/Nightfall/04-Magic/Confluences.md",
     "03-projects/Nightfall/04-Magic",
     "03-projects/Nightfall/02-World",
     "03-projects/Nightfall/03-Divinity",
