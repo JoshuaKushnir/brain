@@ -241,7 +241,6 @@
       "bases:Create new base": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-git:Open Git source control": false,
-      "terminal-ai:Open terminal": false,
       "project-browser:Open project browser": false
     }
   },

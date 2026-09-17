@@ -1,0 +1,20 @@
+---
+title: "Orr"
+tags: [god, crown]
+status: canon
+---
+# Orr
+
+Orr is the Crown God of [[Void]]. Orr is silent, restrained, observant, and difficult to read.
+
+## Worship
+
+Disciples pursue the emotional discipline of Void. Their first [[Attunement]] places [[Crownlight]] in the soul and grants protection against [[Darkness]].
+
+## Divided worship
+
+When a disciple accepts a second Aspect, Orr withdraws protection without explaining whether it abandoned the disciple.
+
+## Story use
+
+Orr can appear personally, teach, bargain, sulk, compete, or fail. Divine power does not guarantee wisdom or moral authority.
