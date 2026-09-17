@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "14f580cc018b05ea",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
             "id": "40a8f262642a5b6e",
             "type": "leaf",
             "state": {
@@ -32,6 +44,34 @@
             }
           },
           {
+            "id": "7e6547875fe9d8a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/04 Gods/Patrons and Crowns.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Patrons and Crowns"
+            }
+          },
+          {
+            "id": "2c6da22dd67f2350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/05 Peoples/Kin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kin"
+            }
+          },
+          {
             "id": "6c43e53891643220",
             "type": "leaf",
             "state": {
@@ -43,6 +83,20 @@
               },
               "icon": "lucide-file",
               "title": "Pantheon"
+            }
+          },
+          {
+            "id": "1bc81eb232bbc562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/02-World/Undertide.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Undertide"
             }
           },
           {
@@ -71,7 +125,6 @@
       {
         "id": "0af72a111a79796e",
         "type": "tabs",
-        "dimension": 62.31884057971014,
         "children": [
           {
             "id": "a17f9191dc5a49ee",
@@ -80,7 +133,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -113,23 +166,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          }
-        ]
-      },
-      {
-        "id": "97c76435c2522239",
-        "type": "tabs",
-        "dimension": 37.68115942028986,
-        "children": [
-          {
-            "id": "14f580cc018b05ea",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -244,38 +280,38 @@
       "project-browser:Open project browser": false
     }
   },
-  "active": "40a8f262642a5b6e",
+  "active": "14f580cc018b05ea",
   "lastOpenFiles": [
+    "03-projects/Nightfall/02-World/Undertide.md",
+    "03-projects/Nightfall/02-World/The Rings.md",
+    "03-projects/Nightfall/02-World/The Dark.md",
+    "03-projects/Nightfall/02-World/The Rim.md",
+    "03-projects/Nightfall/02-World/World Shape.md",
+    "03-projects/Nightfall/99-Design/Implementation Matrix.md",
+    "03-projects/Nightfall/00-MOC/Nightfall Home.md",
+    "03-projects/Nightfall/03-Divinity/Last.md",
+    "03-projects/Nightfall/03-Divinity/Pantheon.md",
+    "03-projects/Nightfall/02-World/Vigil.md",
+    "03-projects/Nightfall/05 Peoples/Kin.md",
+    "03-projects/Nightfall/05 Peoples/Peoples MOC.md",
+    "03-projects/Nightfall/10 Reference/Link Report.md",
+    "03-projects/Nightfall/04 Gods/Patrons and Crowns.md",
+    "03-projects/Nightfall/07-History/Timeline.md",
     "03-projects/Nightfall/02-World/Hearth.md",
     "03-projects/Nightfall/02-World/Murk.md",
-    "03-projects/Nightfall/02-World/The Dark.md",
-    "03-projects/Nightfall/00-MOC/Nightfall Home.md",
     "03-projects/Nightfall/05-Systems/Luminance.md",
     "03-projects/Nightfall/05-Systems/Multi-Aspect Attunement.md",
-    "03-projects/Nightfall/99-Design/Implementation Matrix.md",
     "03-projects/Nightfall/06-Death/PvP Knock Flow.md",
-    "03-projects/Nightfall/03-Divinity/Pantheon.md",
     "03-projects/Nightfall/05-Systems/Divine Friction.md",
     "03-projects/Nightfall/06-Death/Return.md",
     "03-projects/Nightfall/06-Death/Death.md",
-    "03-projects/Nightfall/02-World/World Shape.md",
-    "03-projects/Nightfall/07-History/Timeline.md",
     "03-projects/Nightfall/02-World/Gloam.md",
     "03-projects/Nightfall/01-Canon/Canon Principles.md",
     "03-projects/Nightfall/01-Canon/Glossary.md",
-    "03-projects/Nightfall/03-Divinity/Patron Gods.md",
-    "03-projects/Nightfall/03-Divinity/Crown Gods.md",
-    "03-projects/Nightfall/99-Design/Templates/New Note Template.md",
-    "03-projects/Nightfall/README.md",
     "03-projects/Nightfall/99-Design/Templates",
     "03-projects/Nightfall/99-Design",
     "03-projects/Nightfall/07-History",
-    "03-projects/Nightfall/06-Death/Execution.md",
-    "03-projects/Nightfall/06-Death/Downed and Holdfast.md",
     "03-projects/Nightfall/06-Death",
-    "03-projects/Nightfall/05-Systems/Darkness.md",
-    "03-projects/Nightfall/05-Systems/Dark Tolerance.md",
-    "03-projects/Nightfall/05-Systems/Combat Resources.md",
     "03-projects/Nightfall/05-Systems",
     "03-projects/Nightfall/04-Magic",
     "03-projects/Nightfall/02-World",
