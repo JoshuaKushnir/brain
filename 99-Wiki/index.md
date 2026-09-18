@@ -52,7 +52,7 @@
 - [[concepts/return|return]] `aliases: Resurrection, Rebirth` - Return is the metaphysical process of transitioning from the state of 'Undertide' back into the real
 - [[concepts/ring|ring]] `aliases: The Belt` - The Ring is a broad geographic belt that encapsulates the area known as the [[Rise]]. It functions a
 - [[concepts/grip|grip]] `aliases: Execution` - Grip refers to the committed execution of an action or intent. It serves as a measure of an individu
-- [[concepts/holdfast|holdfast]] `aliases: Soul Tether` - Holdfast is a transient, binding connection that bridges a soul to its physical body when that indiv
+- [[concepts/holdfast|holdfast]] `aliases: Soul Tether, Downed and Holdfast` - Holdfast is a transient, binding connection that bridges a soul to its physical body when that indiv
 - [[concepts/dark-tolerance|dark-tolerance]] `aliases: Dark Tolerance, Shadow Resistance` - Dark Tolerance is the capacity of an individual to withstand exposure to [[Darkness]] before their i
 - [[concepts/echo|echo]] `aliases: Post-death Identity` - An Echo is a metaphysical phenomenon representing the remnant of an individual's identity that persi
 - [[concepts/crownlight|crownlight]] `aliases: Crown Light, CL` - Crownlight is a concept denoting a form of divine protection and the maintenance of internal Aspect 
@@ -101,6 +101,7 @@
 
 ## Sources
 
+- [[sources/implementation-matrix_6cbd3c|implementation-matrix_6cbd3c]] `aliases: Nightfall Design Matrix, Canon-to-Game Mapping`
 - [[sources/entity-template_adefe5|entity-template_adefe5]] `aliases: Entity Documentation Template, Nightfall Entity Blueprint`
 - [[sources/faction-template_292aa3|faction-template_292aa3]] `aliases: Faction Design Template, Faction Documentation Template`
 - [[sources/new-note-template_dc452f|new-note-template_dc452f]] `aliases: Standard Lore Template, Nightfall Documentation Template`

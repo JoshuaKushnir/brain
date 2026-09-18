@@ -7,8 +7,10 @@ sources:
   - "[[sources/confluences_d137ad]]"
   - "[[sources/aspects_a227dd]]"
   - "[[sources/implementation-notes_1c2a2e]]"
+  - "[[sources/implementation-matrix_6cbd3c]]"
 tags:
   - "phenomenon"
+  - "term"
 aliases:
   - "Metaphysical Resistance"
   - "The Divine Barrier"
@@ -27,6 +29,7 @@ Combining these Aspects generates Divine Friction, manifesting as the interferen
 - **Cognitive Dissonance:** Requires the subject to synthesize contradictory metaphysical axioms, often leading to potential mental or physical collapse.
 - **Rite of Passage:** Surviving the duration of Divine Friction is an essential, involuntary hurdle that acts as a filter for those seeking to unlock or master a [[Confluence]].
 - **Attunement Prerequisite:** A first Aspect must be acquired through Attunement, establishing the necessary capacity for magic interaction that serves as the foundation before Divine Friction manifests.
+- **Mechanical Representation:** Divine Friction manifests as a dynamic switching pressure mechanic and an instability meter, requiring subjects to actively balance the influence of competing [[concepts/crownlights|Crownlights]].
 ## Applications
 
 - **Gateway Security:** Acts as a natural defense mechanism for [[Confluence]] sites, ensuring that only those with sufficient resilience can interact with higher-order divine structures.
@@ -42,5 +45,6 @@ Combining these Aspects generates Divine Friction, manifesting as the interferen
 
 ## Mentions in Source
 
-- "Unlocking one requires both Aspects, survival of [[Divine Friction]], discovery of the shared principle, and a deed meaningful to both Crowns." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
 - "Combining Aspects creates [[Divine Friction]], while rare reconciliations produce [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]
+- "Unlocking one requires both Aspects, survival of [[Divine Friction]], discovery of the shared principle, and a deed meaningful to both Crowns." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
+- "| [[Divine Friction]] | Competing Crownlights | Switching pressure and instability meter |" — [[03-projects/Nightfall/05-Design/Implementation Matrix|Implementation Matrix]]

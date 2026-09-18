@@ -174,3 +174,13 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Updated pages**：[[concepts/new-note-template.md]], [[entities/nightfall.md]], [[concepts/gameplay-expression.md]]
 
+
+
+## [2026-09-18 01:17] ingest | Implementation Matrix · 236s · gemini-3.1-flash-lite · 1.3KB
+
+**Created pages**：[[sources/implementation-matrix_6cbd3c.md]]
+
+**Updated pages**：[[concepts/attunement.md]], [[concepts/dark-tolerance.md]], [[concepts/luminance.md]], [[concepts/multi-aspect-attunement.md]], [[concepts/divine-friction.md]], [[concepts/holdfast.md]], [[concepts/ring-order.md]], [[concepts/grip.md]], [[concepts/return.md]]
+
+**Contradictions found**：
+- Do not make the ring number a perfectly fixed difficulty metric; use a more fluid approach to scaling. vs [[concepts/ring-order]]

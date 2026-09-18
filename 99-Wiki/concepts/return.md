@@ -2,13 +2,14 @@
 type: concept
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/canon-glossary_8c2f1a]]"
+  - "[[sources/implementation-matrix_6cbd3c]]"
 tags:
 aliases:
   - "Resurrection"
   - "Rebirth"
-generation_complete: true
 ---
 
 # Return

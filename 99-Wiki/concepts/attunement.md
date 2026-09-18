@@ -8,6 +8,7 @@ sources:
   - "[[sources/aspects_a227dd]]"
   - "[[sources/ash_0a8a6a]]"
   - "[[sources/canon-glossary_8c2f1a]]"
+  - "[[sources/implementation-matrix_6cbd3c]]"
 tags:
   - "method"
   - "theory"
@@ -55,10 +56,13 @@ Additionally, Attunement facilitates the presence of Crownlight within the soul,
 - Channeling specific magical energy granted by one of the Crown Gods.
 - Sustaining the link necessary to manifest the [[Aspects]] associated with a deity's influence.
 - Stabilizing the soul against external metaphysical pressures such as Darkness.
+- In gameplay, Attunement is expressed through aspect selection that is gated by trials and reputation systems, ensuring specialization advantages for loyal single-Aspect characters.
 
 ## Mentions in Source
 
+- "- **Attunement:** pact that places Crownlight in the soul." — [[03-projects/Nightfall/06-Reference/Canon Glossary|Canon Glossary]]
 - "See [[Crown Gods]], [[Attunement]], and [[Multi-Aspect Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ash|Ash]]
 - "A first Aspect comes through [[Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]
 - "Each governs one of the five [[Aspects]] and demands exclusive magical devotion through [[Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Crown Gods|Crown Gods]]
-- "- **Attunement:** pact that places Crownlight in the soul." — [[03-projects/Nightfall/06-Reference/Canon Glossary|Canon Glossary]]
+- "| [[Attunement]] | Exclusive divine bond | Aspect selection through trials and reputation |" — [[03-projects/Nightfall/05-Design/Implementation Matrix|Implementation Matrix]]
+- "- Preserve specialization advantages for loyal single-Aspect characters." — [[03-projects/Nightfall/05-Design/Implementation Matrix|Implementation Matrix]]
