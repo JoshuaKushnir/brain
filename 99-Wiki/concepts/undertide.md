@@ -6,6 +6,7 @@ generation_complete: true
 sources:
   - "[[sources/session-notes-2026-09-17_f672fb]]"
   - "[[sources/session-notes-2026-09-17_62c37f]]"
+  - "[[sources/canon-glossary_8c2f1a]]"
 tags:
   - "phenomenon"
 aliases:

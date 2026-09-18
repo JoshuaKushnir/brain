@@ -2,12 +2,14 @@
 type: concept
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/implementation-notes_1c2a2e]]"
+  - "[[sources/canon-decisions_57b8f6]]"
 tags:
+  - "term"
 aliases:
   - "Light level"
-generation_complete: true
 ---
 
 # Luminance
@@ -16,6 +18,7 @@ generation_complete: true
 
 Luminance is a foundational game resource representing the player's exposure to light or their innate capacity to generate it, serving as a primary metric for environmental navigation and survival.
 
+Furthermore, it functions as a tool for exploration and a marker of personal identity, and is explicitly defined as non-interchangeable with magical energy pools like mana. This distinction highlights the resource's unique thematic nature compared to traditional power systems.
 ## Key Characteristics
 
 - Functions as a core resource alongside [[Health]], [[Mana]], and [[Posture]].
@@ -37,8 +40,11 @@ Luminance is a foundational game resource representing the player's exposure to 
 ## Related Entities
 
 - [[entities/health|Health]]
+- [[entities/vigil|Vigil]]
+- [[entities/crown-gods|Crown Gods]]
 
 ## Mentions in Source
 
 - "The lore expects separate Health, Mana, Posture, and Luminance resources; distinct Downed, Carried, Grip, and Execution states; and five Aspect kits." — [[03-projects/Nightfall/06-Reference/Implementation Notes|Implementation Notes]]
 - "Player Dark Tolerance and current Luminance." — [[03-projects/Nightfall/06-Reference/Implementation Notes|Implementation Notes]]
+- "Luminance is an exploration and identity resource, not mana." — [[03-projects/Nightfall/06-Reference/Canon Decisions|Canon Decisions]]

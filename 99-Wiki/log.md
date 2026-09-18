@@ -134,3 +134,43 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Updated pages**：[[concepts/divine-friction.md]]
 
+
+
+## [2026-09-18 01:02] ingest | Canon Glossary · 584s · gemini-3.1-flash-lite · 745B
+
+**Created pages**：[[sources/canon-glossary_8c2f1a.md]], [[concepts/crownlight.md]], [[concepts/echo.md]], [[concepts/dark-tolerance.md]], [[concepts/holdfast.md]], [[concepts/grip.md]], [[concepts/ring.md]], [[concepts/return.md]], [[concepts/canon-glossary.md]]
+
+**Updated pages**：[[concepts/aspects.md]], [[concepts/darkness.md]], [[concepts/attunement.md]], [[concepts/patron-gods.md]], [[concepts/undertide.md]]
+
+
+
+## [2026-09-18 01:05] ingest | Canon Decisions · 144s · gemini-3.1-flash-lite · 818B
+
+**Created pages**：[[sources/canon-decisions_57b8f6.md]], [[entities/vigil.md]], [[entities/the-rise.md]], [[concepts/death.md]]
+
+**Updated pages**：[[concepts/luminance.md]], [[concepts/patron-gods.md]], [[concepts/multi-aspect-attunement.md]], [[entities/crown-gods.md]], [[concepts/aspects.md]], [[concepts/canon-glossary.md]], [[concepts/aspect-kits.md]]
+
+
+
+## [2026-09-18 01:06] ingest | New Note Template · 63s · gemini-3.1-flash-lite · 457B
+
+**Created pages**：[[sources/new-note-template_dc452f.md]], [[concepts/proposal.md]], [[concepts/new-note-template.md]], [[concepts/gameplay-expression.md]]
+
+**Updated pages**：[[concepts/nightfall-home.md]], [[concepts/canon-glossary.md]], [[entities/nightfall.md]]
+
+
+
+## [2026-09-18 01:07] ingest | Faction Template · 104s · gemini-3.1-flash-lite · 207B
+
+**Created pages**：[[sources/faction-template_292aa3.md]], [[concepts/faction-template.md]], [[concepts/faction.md]]
+
+**Updated pages**：
+
+
+
+## [2026-09-18 01:13] ingest | Entity Template · 328s · gemini-3.1-flash-lite · 244B
+
+**Created pages**：[[sources/entity-template_adefe5.md]], [[concepts/identity.md]], [[concepts/history.md]], [[concepts/relationships.md]]
+
+**Updated pages**：[[concepts/new-note-template.md]], [[entities/nightfall.md]], [[concepts/gameplay-expression.md]]
+

@@ -10,6 +10,7 @@ sources:
   - "[[sources/session-notes-2026-09-17_f672fb]]"
   - "[[sources/aspects_a227dd]]"
   - "[[sources/ash_0a8a6a]]"
+  - "[[sources/canon-decisions_57b8f6]]"
 tags:
   - "person"
   - "term"
@@ -33,22 +34,27 @@ To harness the power of a Confluence, mortals must possess both corresponding As
 Furthermore, the Crown Gods serve as the foundational entities to which all lawful magic is tethered, defining the interpretation and application of magical power within the world.
 
 The term "Crown Gods" also functions as a categorical designation for figures who hold the title of 'Crown' over specific Aspects, serving as the foundational framework for understanding the leadership and manifestation of magical power within the setting.
+
+This requirement for exclusivity strictly prohibits polytheistic or diluted magical practices, ensuring that a follower's magical connection remains singular and untarnished by the influence of other divine entities. Such theological constraints define the rigid nature of devotion required to maintain access to a god's specific magical domain.
 ## Related Entities
 
 - [[entities/veyra|Veyra]]
 - [[entities/mareth|Mareth]]
 - [[entities/soryn|Soryn]]
+- [[entities/vigil|Vigil]]
 
 ## Related Concepts
 
 - [[concepts/confluence|Confluence]]
 - [[concepts/divine-friction|Divine Friction]]
+- [[concepts/luminance|Luminance]]
 
 ## Mentions in Source
 
+- "See [[Crown Gods]], [[Attunement]], and [[Multi-Aspect Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ash|Ash]]
 - "Each is governed by one of the [[Crown Gods]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]
 - "It is a truth shared by two jealous [[Crown Gods]] that a divided mortal forces both to acknowledge." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
 - "A Confluence is not two damage types used together. It is a truth shared by two jealous [[Crown Gods]] that a divided mortal forces both to acknowledge." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
 - "Unlocking one requires both Aspects, survival of [[Divine Friction]], discovery of the shared principle, and a deed meaningful to both Crowns." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
 - "The "Crowns are Eidolon's divided pieces" idea survives only as a rare heresy inside Eidolon.md, not as core canon." — [[03-projects/Nightfall/90-Archive/Legacy Structure/10-Reference/Session Notes 2026-09-17|Session Notes 2026-09-17]]
-- "See [[Crown Gods]], [[Attunement]], and [[Multi-Aspect Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ash|Ash]]
+- "Crown Gods demand exclusive magical worship." — [[03-projects/Nightfall/06-Reference/Canon Decisions|Canon Decisions]]

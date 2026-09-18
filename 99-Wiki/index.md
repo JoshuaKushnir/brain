@@ -7,6 +7,8 @@
 
 ## Entities
 
+- [[entities/the-rise|the-rise]] `aliases: The Rise, The Core Focal Point` - The Rise is a core geographic focal point in the [[Nightfall]] setting. Together with [[Vigil]], it 
+- [[entities/vigil|vigil]] `aliases: The Vigil, Vigil Hub` - Vigil is a primary geographical anchor point for the Nightfall world. It serves as one of the two ce
 - [[entities/health|health]] `aliases: HP, Vitality` - Health is a primary resource tracked within the game system to measure a player's physical well-bein
 - [[entities/link-report|link-report]] `aliases: Link Report, Vault Audit, Knowledge Integrity Report, Unresolved targets` - The Link Report document functions as a concise quantitative summary of the internal structure and o
 - [[entities/session-notes-2026-09-17|session-notes-2026-09-17]] `aliases: Session Notes 2026-09-17, 2026-09-17 Project Logs` - This document serves as a record of structural and narrative maintenance tasks conducted on the proj
@@ -37,6 +39,23 @@
 
 ## Concepts
 
+- [[concepts/relationships|relationships]] `aliases: Entity Links, Entity Connections` - Relationships represent the formal interconnectedness between different elements within the knowledg
+- [[concepts/history|history]] `aliases: Entity History, Origin Story` - The History concept refers to the narrative or factual background of an entity's emergence and devel
+- [[concepts/identity|identity]] `aliases: Entity Identity` - Identity is the introductory section of an entity documentation page, serving as a concise summary o
+- [[concepts/faction|faction]] `aliases: Group, Organization` - A faction is a collective group within a game world that functions as a primary social or political 
+- [[concepts/faction-template|faction-template]] `aliases: Faction Design Document, Faction Structure` - The Faction Template is a structural design tool used to define the core attributes of factions with
+- [[concepts/gameplay-expression|gameplay-expression]] `aliases: Gameplay expression, Gameplay Integration, Mechanic Lore Representation, Gameplay` - Gameplay expression is a design methodology used to bridge the gap between abstract narrative lore a
+- [[concepts/new-note-template|new-note-template]] `aliases: NNT, Nightfall Documentation Template, Entity Template` - The New Note Template is a standardized documentation framework developed for the [[Nightfall]] proj
+- [[concepts/proposal|proposal]] `aliases: Draft, Unresolved Material` - Proposal identifies content within the [[Nightfall]] project that has not yet been verified or integ
+- [[concepts/death|death]] `aliases: Mortality, The Death Cycle` - Death is a structured, multi-stage transition process within the Nightfall canon, replacing traditio
+- [[concepts/canon-glossary|canon-glossary]] `aliases: Canon Glossary, Nightfall Lexicon, Canon Decisions, Canon` - The Canon Glossary is a foundational reference document providing a standardized set of terminology 
+- [[concepts/return|return]] `aliases: Resurrection, Rebirth` - Return is the metaphysical process of transitioning from the state of 'Undertide' back into the real
+- [[concepts/ring|ring]] `aliases: The Belt` - The Ring is a broad geographic belt that encapsulates the area known as the [[Rise]]. It functions a
+- [[concepts/grip|grip]] `aliases: Execution` - Grip refers to the committed execution of an action or intent. It serves as a measure of an individu
+- [[concepts/holdfast|holdfast]] `aliases: Soul Tether` - Holdfast is a transient, binding connection that bridges a soul to its physical body when that indiv
+- [[concepts/dark-tolerance|dark-tolerance]] `aliases: Dark Tolerance, Shadow Resistance` - Dark Tolerance is the capacity of an individual to withstand exposure to [[Darkness]] before their i
+- [[concepts/echo|echo]] `aliases: Post-death Identity` - An Echo is a metaphysical phenomenon representing the remnant of an individual's identity that persi
+- [[concepts/crownlight|crownlight]] `aliases: Crown Light, CL` - Crownlight is a concept denoting a form of divine protection and the maintenance of internal Aspect 
 - [[concepts/posture|posture]] `aliases: Balance, Stance, Defensive Integrity` - Posture is a core resource system representing a character's physical balance or defensive integrity
 - [[concepts/implementation-notes|implementation-notes]] `aliases: Implementation Notes, Technical Design Notes, System Implementation Guide` - Implementation Notes serve as the technical bridge between high-level narrative design and underlyin
 - [[concepts/darkness-tier|darkness-tier]] `aliases: Darkness tier, Exposure level` - Darkness tier is a data metric used to categorize the intensity and severity of environmental darkne
@@ -68,20 +87,25 @@
 - [[concepts/undertide|undertide]] `aliases: The Undertide, Under-tide` - Undertide is a term for a geographical or metaphysical reflection of the rings of the world, consist
 - [[concepts/ring-order|ring-order]] `aliases: Ring order, World Progression Sequence, The Rings` - Ring order is a foundational architectural and geographical standard used to define the spatial orga
 - [[concepts/attunement|attunement]] `aliases: Divine Attunement, Attunement Rite` - Attunement is a foundational method of magical practice and a state of alignment required by the [[C
-- [[concepts/aspects|aspects]] `aliases: The Five Aspects, Fundamental Domains` - The Aspects represent the five fundamental domains and cosmic forces that underpin reality, serving 
+- [[concepts/aspects|aspects]] `aliases: The Five Aspects, Fundamental Domains, Aspect` - The Aspects represent the five fundamental domains and cosmic forces that underpin reality, serving 
 - [[concepts/confluence|confluence]] `aliases: Shared truth, Confluences` - A Confluence is a metaphysical phenomenon representing an immutable truth shared between two [[Crown
 - [[concepts/survival-covenants|survival-covenants]] `aliases: survival covenants, mortal covenants` - Survival covenants are foundational agreements or bonds established between the [[Patron Gods]] and 
-- [[concepts/patron-gods|patron-gods]] `aliases: Patron Gods, Twelve Patron Gods` - The Patron Gods are a collective of twelve divine entities who rose to prominence during the global 
+- [[concepts/patron-gods|patron-gods]] `aliases: Patron Gods, Twelve Patron Gods, Patron` - The Patron Gods are a collective of twelve divine entities who rose to prominence during the global 
 - [[concepts/nightfall|nightfall]] `aliases: The Nightfall, The Great Cataclysm` - Nightfall is a catastrophic historical event characterized as a period of profound global instabilit
 - [[concepts/canonical-destination-file|canonical-destination-file]] `aliases: canonical path, main project file` - A canonical destination file is the officially designated, active version of a document within a pro
 - [[concepts/legacy-structure|legacy-structure]] `aliases: Archive Structure, Legacy Files` - The Legacy Structure is a repository organization method used to isolate and preserve files displace
 - [[concepts/one-shot-migration|one-shot-migration]] `aliases: one-time migration, bulk migration` - The one-shot migration is a singular, comprehensive transfer process designed to relocate files from
 - [[concepts/twelve-mortal-peoples|twelve-mortal-peoples]] `aliases: Twelve Mortal Peoples, 12 Mortal Peoples` - The phrase **twelve mortal peoples** denotes the collective of human societies that were created by 
 - [[concepts/readme|readme]] `aliases: README file, README.md` - A **README** is a foundational documentation file that describes the organization, taxonomy, and nav
-- [[concepts/nightfall-home|nightfall-home]] `aliases: Nightfall Home page, Nightfall Home entry, Nightfall Home (entry)` - Nightfall Home is the designated entry page located within the **00‑MOC** folder of the Nightfall va
+- [[concepts/nightfall-home|nightfall-home]] `aliases: Nightfall Home page, Nightfall Home entry, Nightfall Home (entry), Nightfall Home` - Nightfall Home is the designated entry page located within the 00‑MOC folder of the Nightfall vault.
 
 ## Sources
 
+- [[sources/entity-template_adefe5|entity-template_adefe5]] `aliases: Entity Documentation Template, Nightfall Entity Blueprint`
+- [[sources/faction-template_292aa3|faction-template_292aa3]] `aliases: Faction Design Template, Faction Documentation Template`
+- [[sources/new-note-template_dc452f|new-note-template_dc452f]] `aliases: Standard Lore Template, Nightfall Documentation Template`
+- [[sources/canon-decisions_57b8f6|canon-decisions_57b8f6]] `aliases: Nightfall Foundations, Design Constants`
+- [[sources/canon-glossary_8c2f1a|canon-glossary_8c2f1a]] `aliases: Nightfall Lexicon, Canon Reference`
 - [[sources/implementation-notes_1c2a2e|implementation-notes_1c2a2e]] `aliases: Nightfall Implementation Requirements, System Integration Specs`
 - [[sources/link-report_1645ad|link-report_1645ad]] `aliases: Vault Health Report, Nightfall Metrics`
 - [[sources/session-notes-2026-09-17_62c37f|session-notes-2026-09-17_62c37f]] `aliases: Nightfall Session Log 2026-09-17, Cosmology Consolidation Notes`

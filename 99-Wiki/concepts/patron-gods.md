@@ -6,8 +6,10 @@ generation_complete: true
 sources:
   - "[[sources/patron-gods_29832d]]"
   - "[[sources/canon-glossary_8c2f1a]]"
+  - "[[sources/canon-decisions_57b8f6]]"
 tags:
   - "term"
+  - "other"
 aliases:
   - "Patron Gods"
   - "Twelve Patron Gods"
@@ -37,6 +39,7 @@ The Patron Gods function as protectors and foundational figures in the cultural 
 - [[concepts/survival-covenants|survival covenants]]
 - [[concepts/nightfall|Nightfall]]
 - [[concepts/aspects|Aspect]]
+- [[concepts/luminance|Luminance]]
 
 ## Related Entities
 
@@ -44,8 +47,11 @@ The Patron Gods function as protectors and foundational figures in the cultural 
 - [[entities/hammer|Hammer]]
 - [[entities/kiln|Kiln]]
 - [[entities/spore|Spore]]
+- [[entities/vigil|Vigil]]
+- [[entities/the-rise|The Rise]]
 
 ## Mentions in Source
 
-- "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
 - "- **Patron:** god of a people and survival covenant." — [[03-projects/Nightfall/06-Reference/Canon Glossary|Canon Glossary]]
+- "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
+- "Patron Gods create peoples but do not assign Aspects." — [[03-projects/Nightfall/06-Reference/Canon Decisions|Canon Decisions]]

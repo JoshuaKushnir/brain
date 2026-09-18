@@ -2,13 +2,14 @@
 type: concept
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/implementation-notes_1c2a2e]]"
+  - "[[sources/canon-decisions_57b8f6]]"
 tags:
 aliases:
   - "Aspects"
   - "Kit systems"
-generation_complete: true
 ---
 
 # Aspect kits

@@ -1,18 +1,34 @@
 ---
 type: concept
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-18
+generation_complete: true
+type_confirmed: true
 sources:
   - "[[sources/readme_207c1e]]"
+  - "[[sources/new-note-template_dc452f]]"
 tags:
+  - "place"
 aliases:
-  - Nightfall Home page
-  - Nightfall Home entry
-  - Nightfall Home (entry)
-generation_complete: true
+  - "Nightfall Home page"
+  - "Nightfall Home entry"
+  - "Nightfall Home (entry)"
+  - "Nightfall Home"
 ---
 
 # Nightfall Home
+
+## Description
+
+Nightfall Home is the designated entry page located within the 00‑MOC folder of the Nightfall vault. It serves as the primary navigational anchor and central hub for users to access the project's documentation, lore, and core repository. By acting as the initial landing page, it ensures contributors have a consistent point of reference and a clear connection to the broader project scope. The page is specifically designed to facilitate organization by linking to gods, rings, peoples, systems, and events, and it is referenced within the new note template to standardize onboarding and entry-point navigation.
+
+## Related Entities
+
+- [[entities/nightfall|Nightfall]]
+
+## Related Concepts
+
+- [[concepts/readme|README]]
 
 ## Definition
 
@@ -32,12 +48,7 @@ Nightfall Home is the designated entry page located within the **00‑MOC** fold
 - **Navigation:** Acts as a hub that routes users to detailed documentation, reducing the likelihood of getting lost in the vault’s structure.  
 - **Documentation consistency:** By mandating Nightfall Home as the first page, the project maintains a uniform entry experience across updates and forks.
 
-## Related Concepts
-
-- [[99-Wiki/concepts/readme|README]]
-
-## Related Entities
-
 ## Mentions in Source
 
 - "Start at [[00-MOC/Nightfall Home]]." — [[03-projects/Nightfall/README|README]]
+- "[[Nightfall Home]]" — [[03-projects/Nightfall/05-Design/Templates/New Note Template|New Note Template]]

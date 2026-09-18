@@ -2,13 +2,15 @@
 type: concept
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/ash_0a8a6a]]"
+  - "[[sources/canon-decisions_57b8f6]]"
 tags:
+  - "method"
 aliases:
   - "Multi-Attunement"
   - "Aspect Synthesis"
-generation_complete: true
 ---
 
 # Multi-Aspect Attunement
@@ -39,7 +41,9 @@ Multi-Aspect Attunement is an advanced theoretical field focused on the integrat
 ## Related Entities
 
 - [[entities/tide|Tide]]
+- [[entities/vigil|Vigil]]
 
 ## Mentions in Source
 
 - "See [[Crown Gods]], [[Attunement]], and [[Multi-Aspect Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ash|Ash]]
+- "Multi-Attunement is difficult, costly, and story-defining." — [[03-projects/Nightfall/06-Reference/Canon Decisions|Canon Decisions]]

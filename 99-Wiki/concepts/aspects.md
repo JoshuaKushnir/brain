@@ -7,6 +7,7 @@ sources:
   - "[[sources/crown-gods_1fbc2d]]"
   - "[[sources/aspects_a227dd]]"
   - "[[sources/canon-glossary_8c2f1a]]"
+  - "[[sources/canon-decisions_57b8f6]]"
 tags:
   - "term"
 aliases:
@@ -47,7 +48,8 @@ The Aspects refer to the five fundamental domains or cosmic forces that underpin
 - **Divine Stewardship**: Each of the five deities maintains exclusive authority over a single, unique Aspect.
 - **Fundamental Nature**: They represent the essential forces of existence rather than mere elements or attributes.
 - **Mediated Access**: Interaction with these forces typically requires adherence to specific religious, ritualistic, or magical protocols established by the pantheon.
-
+- **Authority Constraints**: Patron Gods lack the power to assign Aspects, a prerogative reserved solely for the Crown Gods, ensuring a clear hierarchy of divine influence.
+- **Management Principle**: Practitioners are prohibited from stacking dual-Aspect power, as Aspects function as fundamental, discrete units that resist additive mechanical manipulation.
 ## Applications
 
 - **Theological Worship**: Serves as the structural basis for the religious rites performed by followers of the Crown Gods.
@@ -56,6 +58,7 @@ The Aspects refer to the five fundamental domains or cosmic forces that underpin
 
 ## Mentions in Source
 
+- "Aspect: one of five divine interpretations of magic." — [[03-projects/Nightfall/06-Reference/Canon Glossary|Canon Glossary]]
 - "Aspects are divine interpretations of magic rather than interchangeable elements." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]
 - "Each governs one of the five [[Aspects]] and demands exclusive magical devotion through [[Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Crown Gods|Crown Gods]]
-- "Aspect: one of five divine interpretations of magic." — [[03-projects/Nightfall/06-Reference/Canon Glossary|Canon Glossary]]
+- "Patron Gods create peoples but do not assign Aspects." — [[03-projects/Nightfall/06-Reference/Canon Decisions|Canon Decisions]]
