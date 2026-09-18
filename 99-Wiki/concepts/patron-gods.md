@@ -1,0 +1,45 @@
+---
+type: concept
+created: 2026-09-18
+updated: 2026-09-18
+sources:
+  - "[[sources/patron-gods_29832d]]"
+tags:
+aliases:
+  - "Patron Gods"
+  - "Twelve Patron Gods"
+generation_complete: true
+---
+
+# Patron Gods
+
+## Definition
+
+The Patron Gods are a collective of twelve divine entities who rose to prominence during the global catastrophe known as [[Nightfall]]. They are recognized for ensuring the survival of the human race by enacting [[survival covenants]] with twelve distinct mortal peoples.
+
+## Key Characteristics
+
+- **Numerical Significance**: Comprised of exactly twelve divine members.
+- **Divine Covenants**: Each deity is bound to a specific mortal group through a formal [[survival covenant]].
+- **Symbolic Domains**: Each god is represented by a unique object or elemental realm that defines their influence and power.
+- **Cataclysmic Origin**: Their significance is inextricably linked to the survival efforts during the [[Nightfall]] event.
+
+## Applications
+
+The Patron Gods function as protectors and foundational figures in the cultural and theological frameworks of the twelve mortal peoples. They serve as conduits for survival rituals and communal identity, with their symbolic domains guiding the technical and spiritual development of their respective followers.
+
+## Related Concepts
+
+- [[concepts/survival-covenants|survival covenants]]
+- [[concepts/nightfall|Nightfall]]
+
+## Related Entities
+
+- [[entities/hearth|Hearth]]
+- [[entities/hammer|Hammer]]
+- [[entities/kiln|Kiln]]
+- [[entities/spore|Spore]]
+
+## Mentions in Source
+
+- "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]

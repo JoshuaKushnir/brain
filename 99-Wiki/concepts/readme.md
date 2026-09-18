@@ -1,17 +1,33 @@
 ---
 type: concept
 created: 2026-09-17
-updated: 2026-09-17
-sources:
-  - "[[readme_207c1e]]"
-tags:
-aliases:
-  - README file
-  - README.md
+updated: 2026-09-18
 generation_complete: true
+sources:
+  - "[[sources/readme_207c1e]]"
+  - "[[sources/readme_132946]]"
+tags:
+  - "theory"
+aliases:
+  - "README file"
+  - "README.md"
 ---
 
 # README
+
+## Description
+
+A **README** is a foundational documentation file that describes the organization, taxonomy, and navigation of a project's repository. In the Nightfall project, it enumerates numbered sections representing distinct content categories, such as entry points, canon lore, and systems, while providing a roadmap for consistent content creation and retrieval. Beyond active project documentation, README files also serve to manage historical context, such as explaining the presence of legacy archive folders created during migrations. These archives contain files preserved during one-shot migration processes because their original file paths conflicted with canonical destinations, ensuring that previous iterations remain accessible for verification without being mistaken for the primary source of truth.
+
+## Related Concepts
+
+- [[concepts/nightfall-home|Nightfall Home]]
+- [[concepts/legacy-structure|Legacy Structure]]
+- [[concepts/one-shot-migration|one-shot migration]]
+
+## Related Entities
+
+- [[entities/nightfall|Nightfall]]
 
 ## Definition
 
@@ -31,9 +47,3 @@ A **README** is a foundational documentation file that describes the organizatio
 - **Documentation governance**: Maintains consistent taxonomy across the Nightfall project, reducing duplication and misplacement of files.  
 - **Search optimization**: By defining clear categories, the README enables easier retrieval of assets through folder navigation or search tools.  
 - **Project planning**: The “implementation plans” section guides developers on upcoming work and documentation milestones.
-
-## Related Concepts
-
-- [[nightfall-home|Nightfall Home]]
-
-## Related Entities

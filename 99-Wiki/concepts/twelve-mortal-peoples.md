@@ -3,7 +3,7 @@ type: concept
 created: 2026-09-17
 updated: 2026-09-17
 sources:
-  - "[[patron-gods_29832d]]"
+  - "[[sources/patron-gods_29832d]]"
 tags:
 aliases:
   - Twelve Mortal Peoples

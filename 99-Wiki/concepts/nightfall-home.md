@@ -3,7 +3,7 @@ type: concept
 created: 2026-09-17
 updated: 2026-09-17
 sources:
-  - "[[readme_207c1e]]"
+  - "[[sources/readme_207c1e]]"
 tags:
 aliases:
   - Nightfall Home page
