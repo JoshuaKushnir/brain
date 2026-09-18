@@ -1,3 +1,10 @@
 views:
   - type: table
     name: Table
+  - type: cards
+    name: View
+    markers: bullet
+    indentProperties: true
+    image: note.related
+    imageAspectRatio: 0.25
+    imageFit: contain
