@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "path:03-projects/Nightfall  ",
   "showTags": false,
   "showAttachments": false,
@@ -33,5 +33,5 @@
   "linkStrength": 0.705491359034666,
   "linkDistance": 272,
   "scale": 0.1846232622585802,
-  "close": true
+  "close": false
 }

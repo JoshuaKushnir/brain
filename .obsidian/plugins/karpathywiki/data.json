@@ -1,22 +1,18 @@
 {
-  "provider": "custom",
+  "provider": "gemini",
   "apiKey": "",
   "openAICodexSecretId": "karpathywiki-openai-codex",
   "providerApiKeySecretId": "karpathywiki-provider-api-key",
   "openAICodexModels": [],
   "openAICodexModelsFetchedAt": 0,
-  "baseUrl": "https://api.groq.com/openai/v1",
-  "model": "openai/gpt-oss-120b",
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+  "model": "gemini-3.8-flash",
   "markdownConversionBackend": "native",
   "wikiFolder": "03-projects/Nightfall/99-Wiki",
   "language": "en",
   "wikiLanguage": "en",
   "useCustomWikiLanguage": false,
-  "availableModels": [
-    "allam-2-7b",
-    "whisper-large-v3",
-    "whisper-large-v3-turbo"
-  ],
+  "availableModels": [],
   "useCustomModel": true,
   "maxConversationHistory": 30,
   "queryHistory": [],
@@ -55,5 +51,12 @@
   "bedrockSsoStartUrl": "",
   "_migrated_v1_23_0_startup_notice": true,
   "_migrated_v1_25_3_secret_storage": true,
-  "_migrated_v1_27_0_markdown_conversion_backend": true
+  "_migrated_v1_27_0_markdown_conversion_backend": true,
+  "usePerTaskModels": false,
+  "ingestModel": "",
+  "ingestModelUseCustom": false,
+  "lintModel": "",
+  "lintModelUseCustom": false,
+  "queryModel": "",
+  "queryModelUseCustom": false
 }
