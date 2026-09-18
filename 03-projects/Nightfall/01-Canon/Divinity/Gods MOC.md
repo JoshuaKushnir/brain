@@ -11,7 +11,7 @@ status: canon
 
 ## Patron Gods
 
-[[Hearth]], [[Hammer]], [[Wing]], [[Lamp]], [[Kiln]], [[Spore]], [[Root]], [[Glass]], [[Hart]], [[Shell]], [[Face]], and [[Bell]] created inherited survival lineages during the first Nightfall.
+[[03-projects/Nightfall/01-Canon/Divinity/Patrons/Hearth]], [[Hammer]], [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Wing]], [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Lamp]], [[Kiln]], [[Spore]], [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Root]], [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Glass]], [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Hart]], [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Shell]], [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Face]], and [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Bell]] created inherited survival lineages during the first Nightfall.
 
 ## Common god
 

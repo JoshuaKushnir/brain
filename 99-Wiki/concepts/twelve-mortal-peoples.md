@@ -3,11 +3,11 @@ type: concept
 created: 2026-09-17
 updated: 2026-09-17
 sources:
-  - "[[sources/patron-gods_29832d]]"
+  - "[[patron-gods_29832d]]"
 tags:
 aliases:
-  - "Twelve Mortal Peoples"
-  - "12 Mortal Peoples"
+  - Twelve Mortal Peoples
+  - 12 Mortal Peoples
 generation_complete: true
 ---
 
@@ -38,18 +38,18 @@ The phrase **twelve mortal peoples** denotes the collective of human societies t
 
 ## Related Entities
 
-- [[entities/hearth|Hearth]]
+- [[99-Wiki/entities/hearth|Hearth]]
 - [[entities/hammer|Hammer]]
-- [[entities/wing|Wing]]
-- [[entities/lamp|Lamp]]
+- [[99-Wiki/entities/wing|Wing]]
+- [[99-Wiki/entities/lamp|Lamp]]
 - [[entities/kiln|Kiln]]
 - [[entities/spore|Spore]]
-- [[entities/root|Root]]
-- [[entities/glass|Glass]]
-- [[entities/hart|Hart]]
-- [[entities/shell|Shell]]
-- [[entities/face|Face]]
-- [[entities/bell|Bell]]
+- [[99-Wiki/entities/root|Root]]
+- [[99-Wiki/entities/glass|Glass]]
+- [[99-Wiki/entities/hart|Hart]]
+- [[99-Wiki/entities/shell|Shell]]
+- [[99-Wiki/entities/face|Face]]
+- [[99-Wiki/entities/bell|Bell]]
 
 ## Mentions in Source
 

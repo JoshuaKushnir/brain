@@ -5,7 +5,7 @@ status: canon
 ---
 # Moths
 
-The Moths are the people of [[Lamp]], historically rooted in [[Gloam]] and [[The Fen|the Fen]].
+The Moths are the people of [[99-Wiki/entities/lamp]], historically rooted in [[Gloam]] and [[The Fen|the Fen]].
 
 ## Inherited form
 

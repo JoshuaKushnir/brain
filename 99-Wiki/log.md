@@ -10,7 +10,7 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 ## [2026-09-17 23:01] ingest | Nightfall · 97s · openai/gpt-oss-120b · 621B
 
-**Created pages**：[[sources/readme_207c1e.md]], [[concepts/readme.md]], [[concepts/nightfall-home.md]]
+**Created pages**：[[readme_207c1e]], [[99-Wiki/concepts/readme]], [[nightfall-home]]
 
 **Updated pages**：
 
@@ -18,7 +18,7 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 ## [2026-09-17 23:15] ingest | Patron Gods · 434s · openai/gpt-oss-120b · 314B
 
-**Created pages**：[[sources/patron-gods_29832d.md]], [[entities/hearth.md]], [[entities/wing.md]], [[entities/lamp.md]], [[entities/root.md]], [[entities/hart.md]], [[entities/glass.md]], [[entities/face.md]], [[entities/shell.md]], [[entities/bell.md]], [[concepts/twelve-mortal-peoples.md]]
+**Created pages**：[[patron-gods_29832d]], [[99-Wiki/entities/hearth]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[99-Wiki/entities/root]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/face]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/bell]], [[twelve-mortal-peoples]]
 
 **Updated pages**：
 

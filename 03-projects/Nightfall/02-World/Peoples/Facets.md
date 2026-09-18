@@ -5,7 +5,7 @@ status: canon
 ---
 # Facets
 
-The Facets are the people of [[Glass]], historically rooted in [[Meridian]].
+The Facets are the people of [[99-Wiki/entities/glass]], historically rooted in [[Meridian]].
 
 ## Inherited form
 

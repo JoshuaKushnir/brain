@@ -10,7 +10,7 @@ A divine catastrophe wounded the relation between light, world, and memory. The 
 
 ## The Ring Age
 
-Refuge spread through [[Hearth]], then outward into [[Gloam]], [[Murk]], [[Night]], and [[The Rim]]. Governments numbered the rings; common people named them through lived experience.
+Refuge spread through [[03-projects/Nightfall/02-World/Regions/Hearth]], then outward into [[Gloam]], [[Murk]], [[Night]], and [[The Rim]]. Governments numbered the rings; common people named them through lived experience.
 
 ## The Present
 

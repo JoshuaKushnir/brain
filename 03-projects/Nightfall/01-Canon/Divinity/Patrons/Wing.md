@@ -21,4 +21,4 @@ The covenant centers on migration, freedom, wind routes, promises measured by la
 
 ## Divine relations
 
-Wing may cooperate or feud with the [[Crown Gods]] when Crown demands threaten the people. It also disputes with [[Last]] or [[Bell]] when death customs are violated.
+Wing may cooperate or feud with the [[Crown Gods]] when Crown demands threaten the people. It also disputes with [[Last]] or [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Bell]] when death customs are violated.

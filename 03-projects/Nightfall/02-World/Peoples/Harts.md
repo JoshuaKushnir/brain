@@ -5,7 +5,7 @@ status: canon
 ---
 # Harts
 
-The Harts are the people of [[Hart]], historically rooted in [[Redstep]].
+The Harts are the people of [[99-Wiki/entities/hart]], historically rooted in [[Redstep]].
 
 ## Inherited form
 

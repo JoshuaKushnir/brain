@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-projects/Nightfall/99-Wiki/sources/patron-gods_29832d.md",
+                "file": "99-Wiki/sources/patron-gods_29832d.md",
                 "mode": "preview",
                 "source": false
               },
@@ -53,15 +53,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
+                "file": "03-projects/Nightfall/02-World/Factions/Factions MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attunement"
+              "title": "Factions MOC"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:factions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +112,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -230,43 +234,44 @@
       "karpathywiki:Query wiki": false
     }
   },
-  "active": "14f580cc018b05ea",
+  "active": "d709e0a90b8b1815",
   "lastOpenFiles": [
-    "03-projects/Nightfall/01-Canon/Cosmology/Eidolon.md",
-    "03-projects/Nightfall/99-Wiki/concepts/readme.md",
+    "03-projects/Nightfall/02-World/Factions/Faction Fault Lines.md",
+    "03-projects/Nightfall/02-World/Planning/POI Map Plan.md",
+    "03-projects/Nightfall/02-World/Cultures/Cultures MOC.md",
+    "03-projects/Nightfall/02-World/Factions/Witnesses.md",
+    "03-projects/Nightfall/02-World/Factions/The Watch.md",
+    "03-projects/Nightfall/02-World/Factions/The Split.md",
+    "03-projects/Nightfall/02-World/Factions/The Pact.md",
+    "03-projects/Nightfall/02-World/Factions/The Lamps.md",
+    "03-projects/Nightfall/02-World/Factions/The Five.md",
+    "03-projects/Nightfall/02-World/Factions/Factions MOC.md",
+    "03-projects/Nightfall/02-World/Factions/Marrow House.md",
+    "03-projects/Nightfall/02-World/Factions/Sounders.md",
+    "03-projects/Nightfall/02-World/Factions/The Choir.md",
+    "03-projects/Nightfall/02-World/Factions/Blackwake.md",
+    "03-projects/Nightfall/02-World/History/Timeline Expansion (Fracture Era).md",
+    "03-projects/Nightfall/02-World/History/Timeline.md",
+    "03-projects/Nightfall/00-MOC/Nightfall Home.md",
+    "03-projects/Nightfall/README.md",
     "03-projects/Nightfall/99-Wiki/schema/config.md",
-    "03-projects/Nightfall/99-Wiki/sources/readme_132946.md",
-    "03-projects/Nightfall/99-Wiki/concepts/twelve-mortal-peoples.md",
-    "03-projects/Nightfall/99-Wiki/sources/patron-gods_29832d.md",
-    "03-projects/Nightfall/99-Wiki/entities/root.md",
-    "03-projects/Nightfall/99-Wiki/entities/bell.md",
-    "03-projects/Nightfall/03-Systems/Magic/Aspects.md",
-    "03-projects/Nightfall/99-Wiki/entities/shell.md",
-    "03-projects/Nightfall/99-Wiki/entities/face.md",
-    "03-projects/Nightfall/99-Wiki/entities/glass.md",
-    "03-projects/Nightfall/99-Wiki/entities/hart.md",
     "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
-    "03-projects/Nightfall/99-Wiki/entities/lamp.md",
-    "03-projects/Nightfall/99-Wiki/entities/wing.md",
-    "03-projects/Nightfall/03-Systems/Magic/Ash.md",
-    "03-projects/Nightfall/99-Wiki/entities/hearth.md",
-    "03-projects/Nightfall/99-Wiki/Welcome to Karpathy LLM Wiki.md",
-    "03-projects/Nightfall/99-Wiki/concepts/nightfall-home.md",
-    "03-projects/Nightfall/99-Wiki/log.md",
-    "03-projects/Nightfall/99-Wiki/index.md",
-    "03-projects/Nightfall/99-Wiki/sources/readme_207c1e.md",
+    "Untitled.canvas",
+    "03-projects/Nightfall/01-Canon/Divinity/Gods MOC.md",
     "03-projects/Nightfall/99-Wiki/schema",
     "03-projects/Nightfall/99-Wiki/sources",
     "03-projects/Nightfall/99-Wiki/concepts",
     "03-projects/Nightfall/99-Wiki/entities",
-    "wiki/schema/config.md",
     "03-projects/Nightfall/99-Wiki",
-    "03-projects/Nightfall/01-Canon/Cosmology/Darkness.md",
-    "wiki/schema",
-    "wiki/sources",
-    "wiki/concepts",
-    "wiki/entities",
-    "wiki/Welcome to Karpathy LLM Wiki.md",
-    "wiki"
+    "03-projects/Nightfall/01-Canon/Cosmology/Eidolon.md",
+    "99-Wiki/concepts/readme.md",
+    "99-Wiki/schema/config.md",
+    "03-projects/Nightfall/99-Wiki/sources/readme_132946.md",
+    "99-Wiki/concepts/twelve-mortal-peoples.md",
+    "99-Wiki/schema",
+    "99-Wiki/sources",
+    "99-Wiki/concepts",
+    "99-Wiki/entities",
+    "99-Wiki"
   ]
 }

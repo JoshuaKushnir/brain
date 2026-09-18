@@ -10,7 +10,7 @@ The world is arranged around [[Vigil]] atop [[The Rise]]. The ring boundaries ar
 | Order | Common name | General condition |
 |---|---|---|
 | Center | [[Vigil]] and [[The Rise]] | Most stable sunlight and law |
-| First | [[Hearth]] | Farms, roads, estates, early ruins |
+| First | [[03-projects/Nightfall/02-World/Geography/Hearth]] | Farms, roads, estates, early ruins |
 | Second | [[Gloam]] | Last reliable ground-level sunlight |
 | Third | [[Murk]] | Lost horizons, dangerous expeditions |
 | Fourth | [[Night]] | Sun visible mainly from peaks |

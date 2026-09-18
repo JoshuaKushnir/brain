@@ -21,4 +21,4 @@ The covenant centers on questions, expeditions, shared dangerous knowledge. Its 
 
 ## Divine relations
 
-Lamp may cooperate or feud with the [[Crown Gods]] when Crown demands threaten the people. It also disputes with [[Last]] or [[Bell]] when death customs are violated.
+Lamp may cooperate or feud with the [[Crown Gods]] when Crown demands threaten the people. It also disputes with [[Last]] or [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Bell]] when death customs are violated.

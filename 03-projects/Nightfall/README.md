@@ -1,4 +1,4 @@
-﻿# Nightfall
+# Nightfall
 
 ## Vault structure
 

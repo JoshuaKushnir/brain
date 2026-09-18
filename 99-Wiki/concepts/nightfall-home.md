@@ -3,12 +3,12 @@ type: concept
 created: 2026-09-17
 updated: 2026-09-17
 sources:
-  - "[[sources/readme_207c1e]]"
+  - "[[readme_207c1e]]"
 tags:
 aliases:
-  - "Nightfall Home page"
-  - "Nightfall Home entry"
-  - "Nightfall Home (entry)"
+  - Nightfall Home page
+  - Nightfall Home entry
+  - Nightfall Home (entry)
 generation_complete: true
 ---
 
@@ -34,7 +34,7 @@ Nightfall Home is the designated entry page located within the **00‑MOC** fold
 
 ## Related Concepts
 
-- [[concepts/readme|README]]
+- [[99-Wiki/concepts/readme|README]]
 
 ## Related Entities
 

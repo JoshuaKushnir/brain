@@ -1,6 +1,8 @@
 ---
-title: "Factions MOC"
-tags: [moc, factions]
+title: Factions MOC
+tags:
+  - moc
+  - faction
 status: canon
 ---
 # Factions MOC

@@ -5,7 +5,7 @@ status: canon
 ---
 # Masks
 
-The Masks are the people of [[Face]], historically rooted in [[The Quays]].
+The Masks are the people of [[99-Wiki/entities/face]], historically rooted in [[The Quays]].
 
 ## Inherited form
 

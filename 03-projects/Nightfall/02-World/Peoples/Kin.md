@@ -5,7 +5,7 @@ status: canon
 ---
 # Kin
 
-The Kin are the people of [[Hearth]], historically rooted in [[Vigil]] and [[Hearth]].
+The Kin are the people of [[03-projects/Nightfall/02-World/Regions/Hearth]], historically rooted in [[Vigil]] and [[03-projects/Nightfall/02-World/Regions/Hearth]].
 
 ## Inherited form
 

@@ -7,17 +7,17 @@ status: canon
 
 The twelve peoples descend from communities changed by [[Patron Gods]] during Nightfall.
 
-- [[Kin]] — [[Hearth]]
+- [[Kin]] — [[03-projects/Nightfall/02-World/Regions/Hearth]]
 - [[Irons]] — [[Hammer]]
-- [[Kest]] — [[Wing]]
-- [[Moths]] — [[Lamp]]
+- [[Kest]] — [[99-Wiki/entities/wing]]
+- [[Moths]] — [[99-Wiki/entities/lamp]]
 - [[Cinders]] — [[Kiln]]
 - [[Mourn]] — [[Spore]]
-- [[Groves]] — [[Root]]
-- [[Facets]] — [[Glass]]
-- [[Harts]] — [[Hart]]
-- [[Nacre People]] — [[Shell]]
-- [[Masks]] — [[Face]]
-- [[Returned]] — [[Bell]]
+- [[Groves]] — [[99-Wiki/entities/root]]
+- [[Facets]] — [[99-Wiki/entities/glass]]
+- [[Harts]] — [[99-Wiki/entities/hart]]
+- [[Nacre People]] — [[99-Wiki/entities/shell]]
+- [[Masks]] — [[99-Wiki/entities/face]]
+- [[Returned]] — [[99-Wiki/entities/bell]]
 
 See [[Mixed Lineages]], [[The Quiet]], and [[Character Identity]].

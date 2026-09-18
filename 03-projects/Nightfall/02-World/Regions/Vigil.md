@@ -8,4 +8,4 @@ Vigil is safer than the rings, but not morally pure. Elevation determines wealth
 
 Vigil claims to protect civilization. Its enemies claim it monopolizes light.
 
-See [[The Rise]], [[Hearth]], [[Crown Gods]], and [[Naming Canon]].
+See [[The Rise]], [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Crown Gods]], and [[Naming Canon]].

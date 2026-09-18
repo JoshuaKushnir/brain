@@ -3,7 +3,7 @@ type: entity
 created: 2026-09-17
 updated: 2026-09-17
 sources:
-  - "[[sources/patron-gods_29832d]]"
+  - "[[patron-gods_29832d]]"
 tags:
 generation_complete: true
 ---
@@ -16,24 +16,24 @@ Lamp is one of the twelve **Patron Gods** who participated in the survival coven
 
 ## Related Entities
 
-- [[entities/hearth|Hearth]]
+- [[99-Wiki/entities/hearth|Hearth]]
 - [[entities/hammer|Hammer]]
-- [[entities/wing|Wing]]
+- [[99-Wiki/entities/wing|Wing]]
 - [[entities/kiln|Kiln]]
 - [[entities/spore|Spore]]
-- [[entities/root|Root]]
-- [[entities/glass|Glass]]
-- [[entities/hart|Hart]]
-- [[entities/shell|Shell]]
-- [[entities/face|Face]]
-- [[entities/bell|Bell]]
+- [[99-Wiki/entities/root|Root]]
+- [[99-Wiki/entities/glass|Glass]]
+- [[99-Wiki/entities/hart|Hart]]
+- [[99-Wiki/entities/shell|Shell]]
+- [[99-Wiki/entities/face|Face]]
+- [[99-Wiki/entities/bell|Bell]]
 
 ## Related Concepts
 
 - [[concepts/patron-gods|Patron Gods]]
 - [[concepts/survival-covenants|survival covenants]]
-- [[concepts/twelve-mortal-peoples|twelve mortal peoples]]
+- [[twelve-mortal-peoples|twelve mortal peoples]]
 
 ## Mentions in Source
 
-- "The Patron Gods are [[Hearth]], [[Hammer]], [[Wing]], [[Lamp]], [[Kiln]], [[Spore]], [[Root]], [[Glass]], [[Hart]], [[Shell]], [[Face]], and [[Bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
+- "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]

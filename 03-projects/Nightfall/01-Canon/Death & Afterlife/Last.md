@@ -9,4 +9,4 @@ Last is the common god of death, burials, final words, inheritance, mercy, and t
 
 Last is neither a Crown nor a racial Patron. Every people eventually meets Last. Most funerals leave an empty seat for the god.
 
-Last opposes false resurrection because a replacement wearing a dead person’s history is not mercy. [[Bell]] sees this caution as surrender.
+Last opposes false resurrection because a replacement wearing a dead person’s history is not mercy. [[99-Wiki/entities/bell]] sees this caution as surrender.

@@ -5,7 +5,7 @@ status: canon
 ---
 # Groves
 
-The Groves are the people of [[Root]], historically rooted in [[The Gardens]].
+The Groves are the people of [[99-Wiki/entities/root]], historically rooted in [[The Gardens]].
 
 ## Inherited form
 

@@ -5,7 +5,7 @@ status: draft
 ---
 # POI Map Plan (Organic Boundaries)
 
-Builds on the confirmed Ring order (Timeline.md, Naming Canon): Center = [[Vigil]]/[[The Rise]], First = [[Hearth]], Second = [[Gloam]], Third = [[Murk]], Fourth = [[Night]], Fifth = [[The Rim]], Beyond = [[The Dark]].
+Builds on the confirmed Ring order (Timeline.md, Naming Canon): Center = [[Vigil]]/[[The Rise]], First = [[03-projects/Nightfall/02-World/Regions/Hearth]], Second = [[Gloam]], Third = [[Murk]], Fourth = [[Night]], Fifth = [[The Rim]], Beyond = [[The Dark]].
 
 **Flag for game repo:** the shipped Nightfall codebase currently labels Ring 4 "Gloam" — this contradicts the vault, where Gloam is Ring 2 and Night is Ring 4. Needs correcting in `HUDThemeV2.ZoneNames` / `DebugInput.lua` before those rings are built further.
 

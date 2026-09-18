@@ -3,11 +3,11 @@ type: concept
 created: 2026-09-17
 updated: 2026-09-17
 sources:
-  - "[[sources/readme_207c1e]]"
+  - "[[readme_207c1e]]"
 tags:
 aliases:
-  - "README file"
-  - "README.md"
+  - README file
+  - README.md
 generation_complete: true
 ---
 
@@ -34,6 +34,6 @@ A **README** is a foundational documentation file that describes the organizatio
 
 ## Related Concepts
 
-- [[concepts/nightfall-home|Nightfall Home]]
+- [[nightfall-home|Nightfall Home]]
 
 ## Related Entities

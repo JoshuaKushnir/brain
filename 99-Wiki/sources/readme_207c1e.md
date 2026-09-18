@@ -26,8 +26,8 @@ The **Nightfall** repository includes a README that defines a structured vault f
 
 ## Key Concepts
 
-- [[concepts/nightfall-home|Nightfall Home]]
-- [[concepts/readme|README]]
+- [[nightfall-home|Nightfall Home]]
+- [[99-Wiki/concepts/readme|README]]
 
 ## Main Points
 

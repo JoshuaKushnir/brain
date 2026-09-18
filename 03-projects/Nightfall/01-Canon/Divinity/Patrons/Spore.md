@@ -21,4 +21,4 @@ The covenant centers on memory gardens, ancestral testimony, chosen forgetting. 
 
 ## Divine relations
 
-Spore may cooperate or feud with the [[Crown Gods]] when Crown demands threaten the people. It also disputes with [[Last]] or [[Bell]] when death customs are violated.
+Spore may cooperate or feud with the [[Crown Gods]] when Crown demands threaten the people. It also disputes with [[Last]] or [[03-projects/Nightfall/01-Canon/Divinity/Patrons/Bell]] when death customs are violated.

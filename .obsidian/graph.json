@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
-  "search": "path:03-projects/Nightfall  ",
-  "showTags": false,
-  "showAttachments": false,
+  "search": "path:03-projects/Nightfall path:03-projects/Nightfall  ",
+  "showTags": true,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,

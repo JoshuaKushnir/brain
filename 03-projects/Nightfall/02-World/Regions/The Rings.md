@@ -5,7 +5,7 @@ The rings are broad, irregular belts around [[The Rise]], shaped by terrain rath
 | Ring | Common name | General condition |
 |---|---|---|
 | Center | [[Vigil]] and [[The Rise]] | Reliable light and low Darkness |
-| First | [[Hearth]] | Farms, refuge, roads, early danger |
+| First | [[03-projects/Nightfall/02-World/Regions/Hearth]] | Farms, refuge, roads, early danger |
 | Second | [[Gloam]] | Last belt of dependable ground-level sunlight |
 | Third | [[Murk]] | Permanent horizon-loss and serious expeditions |
 | Fourth | [[Night]] | Sun visible mainly from peaks or towers |

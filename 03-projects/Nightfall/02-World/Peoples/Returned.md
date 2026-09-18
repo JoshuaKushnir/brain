@@ -5,7 +5,7 @@ status: canon
 ---
 # Returned
 
-The Returned are the people of [[Bell]], historically rooted in scattered enclaves.
+The Returned are the people of [[99-Wiki/entities/bell]], historically rooted in scattered enclaves.
 
 ## Inherited form
 

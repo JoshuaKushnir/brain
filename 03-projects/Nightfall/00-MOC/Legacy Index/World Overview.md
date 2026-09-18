@@ -9,7 +9,7 @@ Reality lies between [[Radiance]], the ordering light, and [[The Unlit]], the co
 
 The central land surged upward into [[The Rise]]. Survivors founded [[Vigil]] near the sun while the surrounding lands collapsed into [[Map of the Rings|the Rings]]. Beneath all mapped lands flows [[Undertide]], where the dead descend as [[Echoes]].
 
-The [[Crown Gods]] divided magic into five jealous [[Aspects]]. The [[Patron Gods]] changed mortal communities so they could survive the broken world. [[Last]] protects truthful endings, while [[Bell]] resists nearly every ending.
+The [[Crown Gods]] divided magic into five jealous [[Aspects]]. The [[Patron Gods]] changed mortal communities so they could survive the broken world. [[Last]] protects truthful endings, while [[99-Wiki/entities/bell]] resists nearly every ending.
 
 ## Core truths
 

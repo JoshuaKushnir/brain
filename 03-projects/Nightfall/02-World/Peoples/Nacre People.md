@@ -5,7 +5,7 @@ status: canon
 ---
 # Nacre People
 
-The Nacre People are the people of [[Shell]], historically rooted in [[Nacre]].
+The Nacre People are the people of [[99-Wiki/entities/shell]], historically rooted in [[Nacre]].
 
 ## Inherited form
 
