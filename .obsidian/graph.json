@@ -5,8 +5,15 @@
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
+    {
+      "query": "tag:#cosmology  ",
+      "color": {
+        "a": 1,
+        "rgb": 65471
+      }
+    },
     {
       "query": "path:03-projects/Nightfall  ",
       "color": {
@@ -22,16 +29,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.95347172512527,
-  "lineSizeMultiplier": 1.08761632068719,
+  "textFadeMultiplier": -2.4,
+  "nodeSizeMultiplier": 1.59276571671028,
+  "lineSizeMultiplier": 1.83670886075949,
   "collapse-forces": false,
-  "centerStrength": 0.421875,
-  "repelStrength": 13.5172413793103,
-  "linkStrength": 0.705491359034666,
-  "linkDistance": 272,
-  "scale": 0.1846232622585802,
+  "centerStrength": 0.422318082172406,
+  "repelStrength": 10.0756665016618,
+  "linkStrength": 0,
+  "linkDistance": 30,
+  "scale": 0.29518598917428995,
   "close": false
 }
