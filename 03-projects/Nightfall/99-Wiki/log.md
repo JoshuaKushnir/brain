@@ -14,3 +14,11 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Updated pages**：
 
+
+
+## [2026-09-17 23:15] ingest | Patron Gods · 434s · openai/gpt-oss-120b · 314B
+
+**Created pages**：[[sources/patron-gods_29832d.md]], [[entities/hearth.md]], [[entities/wing.md]], [[entities/lamp.md]], [[entities/root.md]], [[entities/hart.md]], [[entities/glass.md]], [[entities/face.md]], [[entities/shell.md]], [[entities/bell.md]], [[concepts/twelve-mortal-peoples.md]]
+
+**Updated pages**：
+

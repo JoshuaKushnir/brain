@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-projects/Nightfall/03-Systems/Magic/Aspects.md",
+                "file": "03-projects/Nightfall/99-Wiki/schema/config.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aspects"
+              "title": "config"
             }
           },
           {
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -231,14 +231,21 @@
       "karpathywiki:Query wiki": false
     }
   },
-  "active": "d709e0a90b8b1815",
+  "active": "2f58f3fb25abab39",
   "lastOpenFiles": [
+    "03-projects/Nightfall/99-Wiki/concepts/twelve-mortal-peoples.md",
+    "03-projects/Nightfall/99-Wiki/sources/patron-gods_29832d.md",
+    "03-projects/Nightfall/99-Wiki/entities/root.md",
+    "03-projects/Nightfall/99-Wiki/entities/bell.md",
+    "03-projects/Nightfall/03-Systems/Magic/Aspects.md",
+    "03-projects/Nightfall/99-Wiki/entities/shell.md",
+    "03-projects/Nightfall/99-Wiki/entities/face.md",
+    "03-projects/Nightfall/99-Wiki/entities/glass.md",
+    "03-projects/Nightfall/99-Wiki/entities/hart.md",
+    "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
     "03-projects/Nightfall/99-Wiki/entities/lamp.md",
     "03-projects/Nightfall/99-Wiki/entities/wing.md",
     "03-projects/Nightfall/03-Systems/Magic/Ash.md",
-    "03-projects/Nightfall/03-Systems/Magic/Aspects.md",
-    "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
-    "03-projects/Nightfall/99-Wiki/sources/patron-gods_29832d.md",
     "03-projects/Nightfall/99-Wiki/entities/hearth.md",
     "03-projects/Nightfall/99-Wiki/Welcome to Karpathy LLM Wiki.md",
     "03-projects/Nightfall/99-Wiki/concepts/readme.md",
@@ -261,13 +268,6 @@
     "wiki/Welcome to Karpathy LLM Wiki.md",
     "wiki",
     "03-projects/Nightfall/90-Archive/Legacy Structure/README.md",
-    "03-projects/Nightfall/90-Archive/Legacy Structure/10-Reference/Session Notes 2026-09-17.md",
-    "03-projects/Nightfall/06-Reference/Session Notes 2026-09-17.md",
-    "03-projects/Nightfall/06-Reference/Link Report.md",
-    "03-projects/Nightfall/06-Reference/Implementation Notes.md",
-    "03-projects/Nightfall/06-Reference/Canon Glossary.md",
-    "03-projects/Nightfall/06-Reference/Canon Decisions.md",
-    "03-projects/Nightfall/05-Design/Templates/New Note Template.md",
-    "03-projects/Nightfall/05-Design/Templates/Faction Template.md"
+    "03-projects/Nightfall/90-Archive/Legacy Structure/10-Reference/Session Notes 2026-09-17.md"
   ]
 }
