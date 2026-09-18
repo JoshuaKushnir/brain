@@ -9,7 +9,7 @@ Aeral is the Crown God of [[Gale]]. Aeral is playful, liberating, unreliable, an
 
 ## Worship
 
-Disciples pursue the emotional discipline of Gale. Their first [[Attunement]] places [[Crownlight]] in the soul and grants protection against [[Darkness]].
+Disciples pursue the emotional discipline of Gale. Their first [[Attunement]] places [[Crownlight]] in the soul and grants protection against [[99-Wiki/concepts/darkness]].
 
 ## Divided worship
 

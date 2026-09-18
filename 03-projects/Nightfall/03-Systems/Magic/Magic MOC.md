@@ -21,4 +21,4 @@ status: canon
 - [[Tide]]
 - [[Ember]]
 - [[Gale]]
-- [[Void]]
+- [[03-projects/Nightfall/03-Systems/Magic/Void]]

@@ -6,7 +6,7 @@ status: log
 # Session Notes — 2026-09-17
 
 ## Cosmology consolidation
-- Cut from five cosmology proper nouns to three: [[Eidolon]], [[Pale Wound]], [[Darkness]].
+- Cut from five cosmology proper nouns to three: [[Eidolon]], [[Pale Wound]], [[99-Wiki/concepts/darkness]].
 - Radiance folded into Eidolon; The Unlit folded into Darkness as a heresy line. Both standalone notes deleted.
 - Corrected causality: imprisonment → severed wholeness → Darkness as reaction (not the reverse, as an earlier draft mistakenly had it).
 - The "Crowns are Eidolon's divided pieces" idea survives only as a rare heresy inside Eidolon.md, not as core canon.
@@ -29,4 +29,4 @@ The shipped Roblox codebase labels Ring 4 as "Gloam"; vault canon says Gloam is 
 - Full spaced-to-hyphenated folder migration for 02 Geography and 10 Reference still outstanding.
 - Target map scale: BOTW-or-bigger (~40,000+ studs across) vs current shipped Ring radii (0–1,100 studs).
 
-See also [[Eidolon]], [[Darkness]], [[World Naming Ideas]], [[POI Map Plan]], [[Timeline Expansion (Fracture Era)]].
+See also [[Eidolon]], [[99-Wiki/concepts/darkness]], [[World Naming Ideas]], [[POI Map Plan]], [[Timeline Expansion (Fracture Era)]].

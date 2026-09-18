@@ -9,7 +9,7 @@ When one defender is knocked, they enter [[Downed and Holdfast|Downed]] rather t
 - Pressure the standing teammate
 - Guard the Downed body
 - Begin an interruptible [[Execution]]
-- Carry the victim away or toward deeper [[Darkness]]
+- Carry the victim away or toward deeper [[99-Wiki/concepts/darkness]]
 - Capture the victim for a bounty or faction objective
 - Take permitted loose loot and leave
 

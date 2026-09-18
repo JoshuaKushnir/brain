@@ -5,7 +5,7 @@
 3. [[Luminance]] regenerates in familiar conditions and drains when a character enters Darkness beyond their [[Dark Tolerance]].
 4. Each Aspect has a jealous [[Crown Gods|Crown God]] who desires exclusive worship.
 5. [[Multi-Aspect Attunement]] is rare, difficult, politically dangerous, and spiritually unstable.
-6. [[Death]] and [[Darkness]] are distinct: death keeps the truth of a life; Darkness disputes it.
+6. [[Death]] and [[03-projects/Nightfall/01-Canon/Cosmology/Darkness]] are distinct: death keeps the truth of a life; Darkness disputes it.
 7. Names must grow from observable features, historic events, or the vocabulary of the people using them.
 8. Gods are powerful personalities, not a rigid cosmic bureaucracy.
 9. Lower-ranked beings can defeat stronger beings through authority, domain, preparation, Oaths, terrain, or circumstance.

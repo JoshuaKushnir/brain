@@ -13,7 +13,7 @@ The [[Crown Gods]] divided magic into five jealous [[Aspects]]. The [[Patron God
 
 ## Core truths
 
-- Height tends toward [[Radiance]]; distance and depth tend toward [[Darkness]].
+- Height tends toward [[Radiance]]; distance and depth tend toward [[99-Wiki/concepts/darkness]].
 - [[Luminance]] is a regenerating resistance to Darkness, not mana.
 - A single [[Attunement]] earns divine protection; [[Multi-Attunement]] divides that protection.
 - A body can die while an identity persists, but Darkness can rewrite both.

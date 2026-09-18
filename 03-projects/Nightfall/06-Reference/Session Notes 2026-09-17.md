@@ -6,7 +6,7 @@ status: log
 # Session Notes — 2026-09-17
 
 ## Cosmology consolidation
-- Cut from five cosmology proper nouns to three: [[Eidolon]], [[Pale Wound]], [[Darkness]].
+- Cut from five cosmology proper nouns to three: [[Eidolon]], [[Pale Wound]], [[99-Wiki/concepts/darkness]].
 - Radiance folded into Eidolon (Eidolon *was* the ordering condition before the Wound; Luminance is a share of Eidolon's former wholeness, not a separate "Radiance").
 - The Unlit folded into Darkness as a single heresy line ("existence itself is the wound") rather than its own page.
 - Radiance.md and The Unlit.md deleted from `01 Cosmology`.
@@ -28,4 +28,4 @@ The vault has two parallel numbering trees that were never merged: a spaced tree
 - Whether proposed new small POIs (farmland-gradient hamlet, Blackwake waystation, Watch checkpoint ruins, drifting boundary cairns) become canon.
 - Target map scale discussed: BOTW-or-bigger (~12km+ bounding box, ~40,000+ studs across in the Roblox implementation) — current shipped Ring radii (0–1,100 studs) are roughly 20–40x smaller than that target.
 
-See also [[Eidolon]], [[Darkness]], [[World Naming Ideas]], [[POI Map Plan]], [[Timeline Expansion (Fracture Era)]].
+See also [[Eidolon]], [[99-Wiki/concepts/darkness]], [[World Naming Ideas]], [[POI Map Plan]], [[Timeline Expansion (Fracture Era)]].

@@ -6,4 +6,4 @@ Public doctrine says the land reached toward the sun. Older records suggest some
 
 Waterfalls, lifts, hanging roads, stairs, and aqueducts connect the summit to [[03-projects/Nightfall/02-World/Regions/Hearth]]. The plateau's interior contains sealed machinery, old foundations, and routes descending much deeper than its apparent base.
 
-The highest point is not merely symbolic: altitude measurably weakens ambient [[Darkness]].
+The highest point is not merely symbolic: altitude measurably weakens ambient [[99-Wiki/concepts/darkness]].

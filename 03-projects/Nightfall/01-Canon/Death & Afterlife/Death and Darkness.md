@@ -5,7 +5,7 @@ status: canon
 ---
 # Death and Darkness
 
-Death concludes a life while preserving that it happened. [[Darkness]] disputes the life’s identity, memory, and history.
+Death concludes a life while preserving that it happened. [[99-Wiki/concepts/darkness]] disputes the life’s identity, memory, and history.
 
 - Death keeps the name.
 - Darkness changes it.

@@ -8,6 +8,6 @@ The five Crowns are individual gods, not replaceable civil-service offices. Each
 | Aeral | [[Gale]] | Freedom, motion, defiance | Preaches freedom yet becomes personally jealous |
 | Mareth | [[Tide]] | Grief, continuity, obligation | Treats the second bond as unpaid divine debt |
 | Soryn | [[Ember]] | Desire, anger, decisive change | Demands the disciple prove they can survive both powers |
-| Orr | [[Void]] | Restraint, separation, acceptance of absence | Withdraws protection without explaining whether it is punishment |
+| Orr | [[99-Wiki/concepts/void]] | Restraint, separation, acceptance of absence | Withdraws protection without explaining whether it is punishment |
 
 They grant [[Crownlight]] through [[Attunement]]. A second Aspect is therefore spiritual betrayal, not ordinary skill acquisition.

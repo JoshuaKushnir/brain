@@ -4,4 +4,4 @@ Gale is the Aspect of movement, freedom, direction, distance, and refusal to rem
 
 Its Crown is Aeral. Gale techniques emphasize mobility, displacement, air pressure, aerial control, knockback, and changing the geometry of combat.
 
-Gale joins [[Tide]] as Stormfront and [[Void]] as Riftwind through [[Confluences]].
+Gale joins [[Tide]] as Stormfront and [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] as Riftwind through [[Confluences]].

@@ -29,14 +29,14 @@
 - [[Gale]]
 - [[Tide]]
 - [[Ember]]
-- [[Void]]
+- [[99-Wiki/concepts/void]]
 - [[Marrow]]
 - [[Confluences]]
 
 ## Systems
 
 - [[Luminance]]
-- [[Darkness]]
+- [[99-Wiki/concepts/darkness]]
 - [[Dark Tolerance]]
 - [[Attunement]]
 - [[Multi-Aspect Attunement]]

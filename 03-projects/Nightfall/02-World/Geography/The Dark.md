@@ -7,4 +7,4 @@ status: canon
 
 The territory beyond the Rim. Governments cannot survey it reliably. Names, landmarks, and histories may change between visits. Eidolon’s alternate possibilities press close to lived reality.
 
-See also [[Map of the Rings]], [[Darkness]], and [[Luminance]].
+See also [[Map of the Rings]], [[99-Wiki/concepts/darkness]], and [[Luminance]].

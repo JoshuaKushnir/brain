@@ -7,4 +7,4 @@ status: canon
 
 Metallic roots emerge from the northwestern cliffs of the Rise. [[Irons]] and the cult of [[Hammer]] built forges, bridges, and fortresses around them.
 
-See also [[Map of the Rings]], [[Darkness]], and [[Luminance]].
+See also [[Map of the Rings]], [[99-Wiki/concepts/darkness]], and [[Luminance]].

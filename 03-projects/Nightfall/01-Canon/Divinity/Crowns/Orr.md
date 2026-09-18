@@ -5,11 +5,11 @@ status: canon
 ---
 # Orr
 
-Orr is the Crown God of [[Void]]. Orr is silent, restrained, observant, and difficult to read.
+Orr is the Crown God of [[99-Wiki/concepts/void]]. Orr is silent, restrained, observant, and difficult to read.
 
 ## Worship
 
-Disciples pursue the emotional discipline of Void. Their first [[Attunement]] places [[Crownlight]] in the soul and grants protection against [[Darkness]].
+Disciples pursue the emotional discipline of Void. Their first [[Attunement]] places [[Crownlight]] in the soul and grants protection against [[99-Wiki/concepts/darkness]].
 
 ## Divided worship
 

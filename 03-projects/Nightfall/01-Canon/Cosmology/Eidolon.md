@@ -13,4 +13,4 @@ The orthodox faith calls Eidolon the cause of Nightfall. [[The Choir]] argues th
 
 Eidolon rarely speaks as one voice. Its influence appears as memories of events that never happened, roads leading toward alternate lives, and strangers who remember one another incorrectly.
 
-See also [[Crown Gods]], [[Pale Wound]], [[Darkness]], [[Luminance]], [[The Choir]].
+See also [[Crown Gods]], [[Pale Wound]], [[03-projects/Nightfall/01-Canon/Cosmology/Darkness]], [[Luminance]], [[The Choir]].

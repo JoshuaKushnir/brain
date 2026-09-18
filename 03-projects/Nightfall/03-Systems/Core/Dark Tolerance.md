@@ -1,6 +1,6 @@
 # Dark Tolerance
 
-Dark Tolerance measures how much [[Darkness]] a soul has learned to treat as familiar before [[Luminance]] begins draining.
+Dark Tolerance measures how much [[03-projects/Nightfall/03-Systems/Core/Darkness]] a soul has learned to treat as familiar before [[Luminance]] begins draining.
 
 Tolerance grows through controlled survival slightly beyond the current limit, not by being thrown into overwhelming exposure. Adaptation carries costs because familiarity with Darkness means allowing some of it into the self.
 

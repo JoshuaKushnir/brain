@@ -12,4 +12,4 @@ The rings are broad, irregular belts around [[The Rise]], shaped by terrain rath
 | Fifth | [[The Rim]] | Last geography governments can map consistently |
 | Beyond | [[The Dark]] | Unmeasured and unstable |
 
-Numbered rings are administrative geography, not fixed difficulty tiers. Local depth, weather, broken Anchors, moon conditions, and divine activity modify [[Darkness]].
+Numbered rings are administrative geography, not fixed difficulty tiers. Local depth, weather, broken Anchors, moon conditions, and divine activity modify [[99-Wiki/concepts/darkness]].

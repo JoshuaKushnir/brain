@@ -9,4 +9,4 @@ At zero Health, a character normally becomes Downed rather than dying immediatel
 
 A Downed character can crawl slowly, communicate, and signal distress but cannot use normal attacks, Aspect abilities, or unrestricted movement. Allies may revive or [[Carry]] them. Enemies may guard, capture, carry, or [[Grip]] them.
 
-Ambient [[Darkness]] still affects Luminance while the character is helpless.
+Ambient [[99-Wiki/concepts/darkness]] still affects Luminance while the character is helpless.

@@ -7,4 +7,4 @@ status: canon
 
 Floating reefs and high routes above Gloam and Murk. [[Kest]] communities follow wind paths here under [[99-Wiki/entities/wing]].
 
-See also [[Map of the Rings]], [[Darkness]], and [[Luminance]].
+See also [[Map of the Rings]], [[99-Wiki/concepts/darkness]], and [[Luminance]].

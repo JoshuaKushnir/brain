@@ -1,6 +1,6 @@
 # Death
 
-Death concludes a life while preserving that it happened. [[Darkness]] instead disputes the person's identity, memory, and history.
+Death concludes a life while preserving that it happened. [[99-Wiki/concepts/darkness]] instead disputes the person's identity, memory, and history.
 
 The common teaching of [[Last]] is:
 

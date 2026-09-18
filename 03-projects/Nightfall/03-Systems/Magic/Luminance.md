@@ -5,7 +5,7 @@ status: canon
 ---
 # Luminance
 
-Luminance is the soul’s regenerating resistance to unfamiliar [[Darkness]]. It is not Mana. It falls when local Darkness exceeds [[Dark Tolerance]] and recovers in familiar conditions, trusted company, ritual rest, or the range of healthy [[Dawn Anchors]].
+Luminance is the soul’s regenerating resistance to unfamiliar [[99-Wiki/concepts/darkness]]. It is not Mana. It falls when local Darkness exceeds [[Dark Tolerance]] and recovers in familiar conditions, trusted company, ritual rest, or the range of healthy [[Dawn Anchors]].
 
 ## States
 

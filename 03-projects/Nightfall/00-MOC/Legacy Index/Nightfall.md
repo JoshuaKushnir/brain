@@ -5,7 +5,7 @@ status: canon
 ---
 # Nightfall
 
-Nightfall is a wounded radial world built around [[Vigil]] atop [[The Rise]]. Distance from the center usually means greater [[Darkness]], while depth leads toward [[Undertide]].
+Nightfall is a wounded radial world built around [[Vigil]] atop [[The Rise]]. Distance from the center usually means greater [[99-Wiki/concepts/darkness]], while depth leads toward [[Undertide]].
 
 ## Enter the vault
 

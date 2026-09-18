@@ -6,4 +6,4 @@ Its geography reflects memory, obligation, and manner of death more than surface
 
 Common destinations are the Steps, Shore, Shallows, Drowned Roads, Deep, and Nameless Deep. These are survivor names, not proven universal regions.
 
-Undertide is not identical to [[Darkness]]. It receives identities; Darkness attempts to revise them.
+Undertide is not identical to [[99-Wiki/concepts/darkness]]. It receives identities; Darkness attempts to revise them.

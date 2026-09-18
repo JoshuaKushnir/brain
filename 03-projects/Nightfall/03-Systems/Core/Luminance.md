@@ -1,6 +1,6 @@
 # Luminance
 
-Luminance is a regenerating player resource representing the soul's resistance to unfamiliar [[Darkness]]. It is not mana, faith, visibility, or generic life energy.
+Luminance is a regenerating player resource representing the soul's resistance to unfamiliar [[03-projects/Nightfall/03-Systems/Core/Darkness]]. It is not mana, faith, visibility, or generic life energy.
 
 A character has current Luminance, maximum Luminance, regeneration, and [[Dark Tolerance]]. Luminance regenerates when conditions fall within what the soul is accustomed to. It drains when the character plunges into Darkness deeper than that accustomed range.
 

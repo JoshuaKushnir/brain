@@ -46,3 +46,11 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Updated pages**：[[entities/crown-gods.md]]
 
+
+
+## [2026-09-18 00:22] ingest | Session Notes — 2026-09-17 · 566s · gemini-3.1-flash-lite · 2.3KB
+
+**Created pages**：[[sources/session-notes-2026-09-17_f672fb.md]], [[entities/eidolon.md]], [[99-Wiki/concepts/darkness]], [[entities/pale-wound.md]], [[entities/roblox.md]], [[entities/session-notes-2026-09-17.md]], [[concepts/ring-order.md]], [[concepts/undertide.md]], [[concepts/cosmology.md]]
+
+**Updated pages**：[[entities/nightfall.md]], [[entities/crown-gods.md]]
+

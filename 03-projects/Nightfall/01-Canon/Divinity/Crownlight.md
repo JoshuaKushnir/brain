@@ -1,6 +1,6 @@
 # Crownlight
 
-Crownlight is the divine protection placed within a mortal during [[Attunement]]. It stabilizes an [[Aspects|Aspect]], strengthens resistance to [[Darkness]], and joins the disciple to a [[Crown Gods|Crown God]].
+Crownlight is the divine protection placed within a mortal during [[Attunement]]. It stabilizes an [[Aspects|Aspect]], strengthens resistance to [[99-Wiki/concepts/darkness]], and joins the disciple to a [[Crown Gods|Crown God]].
 
 A faithful single-Aspect disciple receives the strongest Crownlight:
 

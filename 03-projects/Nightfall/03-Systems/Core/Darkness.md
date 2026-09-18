@@ -6,4 +6,4 @@ Darkness does more than reduce visibility. It alters sound, paths, wildlife, mem
 
 A character within familiar exposure regenerates [[Luminance]]. Exposure beyond [[Dark Tolerance]] drains it. Depth, weather, broken Anchors, divine activity, and local wounds can make a place darker than its ring suggests.
 
-Darkness is not [[Void]] and not [[Death]]. Void separates; death concludes; Darkness revises.
+Darkness is not [[99-Wiki/concepts/void]] and not [[Death]]. Void separates; death concludes; Darkness revises.
