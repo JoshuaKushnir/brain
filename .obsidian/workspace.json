@@ -25,16 +25,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-projects/Nightfall/99-Wiki/Welcome to Karpathy LLM Wiki.md",
+                "file": "03-projects/Nightfall/99-Wiki/sources/patron-gods_29832d.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome to Karpathy LLM Wiki"
+              "title": "patron-gods_29832d"
+            }
+          },
+          {
+            "id": "2f58f3fb25abab39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/03-Systems/Magic/Aspects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aspects"
+            }
+          },
+          {
+            "id": "d709e0a90b8b1815",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Attunement"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,8 +231,20 @@
       "karpathywiki:Query wiki": false
     }
   },
-  "active": "6f403e6e8e4e4ffa",
+  "active": "d709e0a90b8b1815",
   "lastOpenFiles": [
+    "03-projects/Nightfall/99-Wiki/entities/lamp.md",
+    "03-projects/Nightfall/99-Wiki/entities/wing.md",
+    "03-projects/Nightfall/03-Systems/Magic/Ash.md",
+    "03-projects/Nightfall/03-Systems/Magic/Aspects.md",
+    "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
+    "03-projects/Nightfall/99-Wiki/sources/patron-gods_29832d.md",
+    "03-projects/Nightfall/99-Wiki/entities/hearth.md",
+    "03-projects/Nightfall/99-Wiki/Welcome to Karpathy LLM Wiki.md",
+    "03-projects/Nightfall/99-Wiki/concepts/readme.md",
+    "03-projects/Nightfall/99-Wiki/concepts/nightfall-home.md",
+    "03-projects/Nightfall/99-Wiki/log.md",
+    "03-projects/Nightfall/99-Wiki/index.md",
     "03-projects/Nightfall/99-Wiki/sources/readme_207c1e.md",
     "03-projects/Nightfall/99-Wiki/schema/config.md",
     "03-projects/Nightfall/99-Wiki/schema",
@@ -212,7 +252,6 @@
     "03-projects/Nightfall/99-Wiki/concepts",
     "03-projects/Nightfall/99-Wiki/entities",
     "wiki/schema/config.md",
-    "03-projects/Nightfall/99-Wiki/Welcome to Karpathy LLM Wiki.md",
     "03-projects/Nightfall/99-Wiki",
     "03-projects/Nightfall/01-Canon/Cosmology/Darkness.md",
     "wiki/schema",
@@ -229,17 +268,6 @@
     "03-projects/Nightfall/06-Reference/Canon Glossary.md",
     "03-projects/Nightfall/06-Reference/Canon Decisions.md",
     "03-projects/Nightfall/05-Design/Templates/New Note Template.md",
-    "03-projects/Nightfall/05-Design/Templates/Faction Template.md",
-    "03-projects/Nightfall/05-Design/Templates/Entity Template.md",
-    "03-projects/Nightfall/05-Design/Implementation Matrix.md",
-    "03-projects/Nightfall/04-Gameplay/Core Loops/Power Tiers.md",
-    "03-projects/Nightfall/04-Gameplay/Core Loops/Gameplay MOC.md",
-    "03-projects/Nightfall/04-Gameplay/Core Loops/Faction Reputation.md",
-    "03-projects/Nightfall/04-Gameplay/Core Loops/Exploration Loop.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/The Fall.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Return.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/PvP Knock Flow.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Multi-Aspect Death.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Last.md"
+    "03-projects/Nightfall/05-Design/Templates/Faction Template.md"
   ]
 }
