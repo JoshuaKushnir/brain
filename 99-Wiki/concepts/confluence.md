@@ -10,6 +10,7 @@ sources:
   - "[[sources/gale_4a056b]]"
   - "[[sources/ember_ee3752]]"
   - "[[sources/aspects_a227dd]]"
+  - "[[sources/ash_0a8a6a]]"
 tags:
   - "method"
   - "term"
@@ -62,10 +63,11 @@ A Confluence is a metaphysical phenomenon representing an immutable truth shared
 
 ## Mentions in Source
 
+- "Combining Aspects creates [[Divine Friction]], while rare reconciliations produce [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]
 - "A Confluence is not two damage types used together." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
 - "A Confluence is not two damage types used together. It is a truth shared by two jealous [[Crown Gods]] that a divided mortal forces both to acknowledge." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
 - "Ember joins [[Tide]] as Crucible and [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] as Blackflame through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ember|Ember]]
 - "Gale joins [[Tide]] as Stormfront and [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] as Riftwind through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Gale|Gale]]
 - "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[Ember]] as Crucible through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide|Tide]]
 - "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[Ember]] as Blackflame through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void|Void]]
-- "Combining Aspects creates [[Divine Friction]], while rare reconciliations produce [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]
+- "Ash joins [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] as Deepghost and [[Tide]] as Mistveil through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ash|Ash]]

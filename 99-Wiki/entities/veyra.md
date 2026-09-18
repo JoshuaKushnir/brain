@@ -2,12 +2,13 @@
 type: entity
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/crown-gods_1fbc2d]]"
+  - "[[sources/ash_0a8a6a]]"
 tags:
 aliases:
   - "Veyra the Crown God"
-generation_complete: true
 ---
 
 # Veyra

@@ -2,13 +2,16 @@
 type: concept
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/patron-gods_29832d]]"
+  - "[[sources/canon-glossary_8c2f1a]]"
 tags:
+  - "term"
 aliases:
   - "Patron Gods"
   - "Twelve Patron Gods"
-generation_complete: true
+  - "Patron"
 ---
 
 # Patron Gods
@@ -17,6 +20,7 @@ generation_complete: true
 
 The Patron Gods are a collective of twelve divine entities who rose to prominence during the global catastrophe known as [[Nightfall]]. They are recognized for ensuring the survival of the human race by enacting [[survival covenants]] with twelve distinct mortal peoples.
 
+A Patron serves as a deity specifically aligned with a group of people and their survival covenant, providing divine favor and protection while remaining deeply linked to their communal identity and safety.
 ## Key Characteristics
 
 - **Numerical Significance**: Comprised of exactly twelve divine members.
@@ -32,6 +36,7 @@ The Patron Gods function as protectors and foundational figures in the cultural 
 
 - [[concepts/survival-covenants|survival covenants]]
 - [[concepts/nightfall|Nightfall]]
+- [[concepts/aspects|Aspect]]
 
 ## Related Entities
 
@@ -43,3 +48,4 @@ The Patron Gods function as protectors and foundational figures in the cultural 
 ## Mentions in Source
 
 - "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
+- "- **Patron:** god of a people and survival covenant." — [[03-projects/Nightfall/06-Reference/Canon Glossary|Canon Glossary]]

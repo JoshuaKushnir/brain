@@ -7,10 +7,12 @@
 
 ## Entities
 
+- [[entities/health|health]] `aliases: HP, Vitality` - Health is a primary resource tracked within the game system to measure a player's physical well-bein
+- [[entities/link-report|link-report]] `aliases: Link Report, Vault Audit, Knowledge Integrity Report, Unresolved targets` - The Link Report document functions as a concise quantitative summary of the internal structure and o
 - [[entities/session-notes-2026-09-17|session-notes-2026-09-17]] `aliases: Session Notes 2026-09-17, 2026-09-17 Project Logs` - This document serves as a record of structural and narrative maintenance tasks conducted on the proj
 - [[entities/roblox|roblox]] `aliases: Roblox Engine, Roblox Corporation` - Roblox is a global gaming platform and game creation system that enables users to develop and play a
 - [[entities/pale-wound|pale-wound]] `aliases: The Pale Wound` - The Pale Wound is one of the three finalized cosmological proper nouns that define the setting's met
-- [[entities/eidolon|eidolon]] `aliases: The Eidolon, Radiance-Holder` - Eidolon is a primary cosmological entity that serves as a central pillar in the project's world-buil
+- [[entities/eidolon|eidolon]] `aliases: The Eidolon, Radiance-Holder` - Eidolon represents the original ordering condition of the universe, serving as a foundational pillar
 - [[entities/orr|orr]] `aliases: The Aspect Governor` - Orr is a prominent member of the [[entities/crown-gods|Crown Gods]], specifically tasked with the go
 - [[entities/aeral|aeral]] `aliases: The Crown God Aeral, Aeral of the Aspects` - Aeral is one of the five [[entities/crown-gods|Crown Gods]] tasked with maintaining order in the kno
 - [[entities/soryn|soryn]] `aliases: The Crown God Soryn, Soryn of the Aspects` - Soryn is recognized as one of the [[entities/crown-gods|Crown Gods]], serving as a primary deity wit
@@ -35,9 +37,19 @@
 
 ## Concepts
 
+- [[concepts/posture|posture]] `aliases: Balance, Stance, Defensive Integrity` - Posture is a core resource system representing a character's physical balance or defensive integrity
+- [[concepts/implementation-notes|implementation-notes]] `aliases: Implementation Notes, Technical Design Notes, System Implementation Guide` - Implementation Notes serve as the technical bridge between high-level narrative design and underlyin
+- [[concepts/darkness-tier|darkness-tier]] `aliases: Darkness tier, Exposure level` - Darkness tier is a data metric used to categorize the intensity and severity of environmental darkne
+- [[concepts/luminance|luminance]] `aliases: Light level` - Luminance is a foundational game resource representing the player's exposure to light or their innat
+- [[concepts/aspect-kits|aspect-kits]] `aliases: Aspects, Kit systems` - Aspect kits are specialized character customization bundles that define a player's mechanical identi
+- [[concepts/markdown-notes|markdown-notes]] `aliases: Notes, Document count` - Markdown notes are the fundamental units of text-based documentation within the digital architecture
+- [[concepts/round-of-extraction|round-of-extraction]] `aliases: Extraction cycle, Extraction round` - A round of extraction is a systematic iteration performed on a source file to identify, isolate, and
+- [[concepts/wikilinks|wikilinks]] `aliases: Internal Links, Wiki-links` - Wikilinks are the primary mechanism used within the [[Nightfall]] project to create connections betw
+- [[concepts/multi-aspect-attunement|multi-aspect-attunement]] `aliases: Multi-Attunement, Aspect Synthesis` - Multi-Aspect Attunement is an advanced theoretical field focused on the integration of multiple magi
+- [[concepts/ash-techniques|ash-techniques]] `aliases: Ash magic, Tactics of Ash` - Ash techniques are a specialized magical discipline that prioritizes the subtle manipulation of envi
 - [[concepts/marrow|marrow]] `aliases: Forbidden Bodily Aspect` - Marrow is a forbidden [[Aspect]] associated with the concept of bodily authorship. It is defined by 
 - [[concepts/gale|gale]] `aliases: The Wind, Wind` - Gale represents the fundamental force of wind and atmospheric motion, serving as an Aspect defined b
-- [[concepts/ash|ash]] `aliases: The Ash Aspect` - Ash is an elemental aspect that engages in a [[concepts/confluence|Confluence]] with the Void, resul
+- [[concepts/ash|ash]] `aliases: The Ash Aspect` - Ash is the elemental Aspect representing what remains: memory, traces, regret, concealment, and the 
 - [[concepts/escalation|escalation]] `aliases: Magical Escalation, Intensity Amplification` - Escalation is a core methodological component of Ember-based magic, representing the process of incr
 - [[concepts/ember|ember]] `aliases: Aspect of Desire, Aspect of Anger` - Ember is a fundamental aspect governing desire, anger, transformation, and appetite. It represents t
 - [[concepts/ignition|ignition]] `aliases: Ignition technique, Ember Spark` - Ignition is a foundational technique associated with the Ember aspect, representing the initial spar
@@ -55,7 +67,7 @@
 - [[concepts/cosmology|cosmology]] `aliases: World Cosmology, Metaphysical Structure` - The field of cosmology defines the metaphysical, historical, and structural framework of the game's 
 - [[concepts/undertide|undertide]] `aliases: The Undertide, Under-tide` - Undertide is a term for a geographical or metaphysical reflection of the rings of the world, consist
 - [[concepts/ring-order|ring-order]] `aliases: Ring order, World Progression Sequence, The Rings` - Ring order is a foundational architectural and geographical standard used to define the spatial orga
-- [[concepts/attunement|attunement]] `aliases: Divine Attunement, Attunement Rite` - Attunement is a procedural method of magical practice required by the [[Crown Gods]]. It functions a
+- [[concepts/attunement|attunement]] `aliases: Divine Attunement, Attunement Rite` - Attunement is a foundational method of magical practice and a state of alignment required by the [[C
 - [[concepts/aspects|aspects]] `aliases: The Five Aspects, Fundamental Domains` - The Aspects represent the five fundamental domains and cosmic forces that underpin reality, serving 
 - [[concepts/confluence|confluence]] `aliases: Shared truth, Confluences` - A Confluence is a metaphysical phenomenon representing an immutable truth shared between two [[Crown
 - [[concepts/survival-covenants|survival-covenants]] `aliases: survival covenants, mortal covenants` - Survival covenants are foundational agreements or bonds established between the [[Patron Gods]] and 
@@ -70,6 +82,10 @@
 
 ## Sources
 
+- [[sources/implementation-notes_1c2a2e|implementation-notes_1c2a2e]] `aliases: Nightfall Implementation Requirements, System Integration Specs`
+- [[sources/link-report_1645ad|link-report_1645ad]] `aliases: Vault Health Report, Nightfall Metrics`
+- [[sources/session-notes-2026-09-17_62c37f|session-notes-2026-09-17_62c37f]] `aliases: Nightfall Session Log 2026-09-17, Cosmology Consolidation Notes`
+- [[sources/ash_0a8a6a|ash_0a8a6a]] `aliases: Aspect of Ash, The Ash Aspect Documentation`
 - [[sources/aspects_a227dd|aspects_a227dd]] `aliases: Magic Aspects, The Aspects Framework`
 - [[sources/ember_ee3752|ember_ee3752]] `aliases: Aspect of Ember, The Ember Foundation`
 - [[sources/confluences_d137ad|confluences_d137ad]] `aliases: The Confluence Theory, Crown God Harmonics`

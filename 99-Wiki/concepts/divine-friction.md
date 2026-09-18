@@ -6,6 +6,7 @@ generation_complete: true
 sources:
   - "[[sources/confluences_d137ad]]"
   - "[[sources/aspects_a227dd]]"
+  - "[[sources/implementation-notes_1c2a2e]]"
 tags:
   - "phenomenon"
 aliases:

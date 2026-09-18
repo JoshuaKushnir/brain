@@ -102,3 +102,35 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Updated pages**：[[entities/crown-gods.md]], [[concepts/aspects.md]], [[concepts/ash.md]], [[concepts/tide.md]], [[concepts/gale.md]], [[concepts/ember.md]], [[concepts/void.md]], [[concepts/attunement.md]], [[concepts/confluence.md]], [[concepts/divine-friction.md]], [[entities/tide.md]], [[entities/ember.md]]
 
+
+
+## [2026-09-18 00:50] ingest | Ash · 790s · gemini-3.1-flash-lite · 498B
+
+**Created pages**：[[sources/ash_0a8a6a.md]], [[concepts/ash-techniques.md]], [[concepts/multi-aspect-attunement.md]]
+
+**Updated pages**：[[concepts/ash.md]], [[concepts/void.md]], [[entities/tide.md]], [[concepts/confluence.md]], [[entities/crown-gods.md]], [[concepts/attunement.md]], [[entities/veyra.md]]
+
+
+
+## [2026-09-18 00:51] ingest | Session Notes — 2026-09-17 · 50s · gemini-3.1-flash-lite · 2.9KB
+
+**Created pages**：[[sources/session-notes-2026-09-17_62c37f.md]]
+
+**Updated pages**：[[entities/pale-wound.md]], [[entities/nightfall.md]], [[entities/eidolon.md]], [[concepts/undertide.md]], [[concepts/darkness.md]], [[concepts/ring-order.md]]
+
+
+
+## [2026-09-18 00:52] ingest | Link Report · 62s · gemini-3.1-flash-lite · 79B
+
+**Created pages**：[[sources/link-report_1645ad.md]], [[concepts/wikilinks.md]], [[entities/link-report.md]], [[concepts/round-of-extraction.md]], [[concepts/markdown-notes.md]]
+
+**Updated pages**：[[entities/nightfall.md]], [[entities/link-report.md]]
+
+
+
+## [2026-09-18 00:53] ingest | Implementation Notes · 58s · gemini-3.1-flash-lite · 729B
+
+**Created pages**：[[sources/implementation-notes_1c2a2e.md]], [[entities/health.md]], [[concepts/aspect-kits.md]], [[concepts/luminance.md]], [[concepts/darkness-tier.md]], [[concepts/implementation-notes.md]], [[concepts/posture.md]]
+
+**Updated pages**：[[concepts/divine-friction.md]]
+

@@ -2,13 +2,15 @@
 type: concept
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/session-notes-2026-09-17_f672fb]]"
+  - "[[sources/session-notes-2026-09-17_62c37f]]"
 tags:
+  - "phenomenon"
 aliases:
   - "The Undertide"
   - "Under-tide"
-generation_complete: true
 ---
 
 # Undertide
