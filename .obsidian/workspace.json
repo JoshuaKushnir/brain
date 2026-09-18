@@ -188,6 +188,8 @@
   },
   "active": "14f580cc018b05ea",
   "lastOpenFiles": [
+    "migrate-nightfall-brain.ps1",
+    "migrate-nightfall-brain.sh",
     "03-projects/Nightfall/05-Systems/Darkness.md",
     "03-projects/Nightfall/99-Design/Implementation Matrix.md",
     "03-projects/Nightfall/99-Design/Templates/Faction Template.md",
@@ -216,13 +218,11 @@
     "03-projects/Nightfall/02-World/The Rings.md",
     "03-projects/Nightfall/02-World/The Dark.md",
     "03-projects/Nightfall/02-World/The Rim.md",
-    "03-projects/Nightfall/02-World/World Shape.md",
     "03-projects/Nightfall/99-Design/Templates",
     "03-projects/Nightfall/99-Design",
     "03-projects/Nightfall/07-History",
     "03-projects/Nightfall/06-Death",
     "03-projects/Nightfall/05-Systems",
-    "03-projects/Nightfall/04-Magic",
-    "03-projects/Nightfall/02-World"
+    "03-projects/Nightfall/04-Magic"
   ]
 }
