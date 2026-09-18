@@ -5,8 +5,8 @@ updated: 2026-09-18
 sources: 
   - [[entities/crown-gods|crown-gods]]
   - [[concepts/aspects|aspects]]
-  - [[entities/ash|ash]]
-  - [[entities/gale|gale]]
+  - [[concepts/ash|ash]]
+  - [[concepts/gale|gale]]
   - [[concepts/tide|tide]]
   - [[concepts/ember|ember]]
   - [[concepts/void|void]]

@@ -7,7 +7,6 @@
 
 ## Entities
 
-- [[99-Wiki/concepts/ash|ash]] `aliases: The Ash Aspect` - Ash is an elemental aspect that engages in a [[concepts/confluence|Confluence]] with the Void. This 
 - [[entities/session-notes-2026-09-17|session-notes-2026-09-17]] `aliases: Session Notes 2026-09-17, 2026-09-17 Project Logs` - This document serves as a record of structural and narrative maintenance tasks conducted on the proj
 - [[entities/roblox|roblox]] `aliases: Roblox Engine, Roblox Corporation` - Roblox is a global gaming platform and game creation system that enables users to develop and play a
 - [[entities/pale-wound|pale-wound]] `aliases: The Pale Wound` - The Pale Wound is one of the three finalized cosmological proper nouns that define the setting's met
@@ -18,7 +17,6 @@
 - [[entities/mareth|mareth]] `aliases: The Crown God Mareth` - Mareth is a divine figure serving as a member of the [[entities/crown-gods|Crown Gods]] pantheon. Li
 - [[entities/veyra|veyra]] `aliases: Veyra the Crown God` - Veyra is one of the five [[entities/mareth|Crown Gods]] who serve as the primary deities within the 
 - [[entities/ember|ember]] `aliases: Flame, Spark` - Ember represents the fundamental aspect of heat, transformation, and the act of consuming energy. It
-- [[99-Wiki/concepts/gale|gale]] `aliases: The Wind, Wind` - Gale represents the fundamental force of wind and atmospheric motion, serving as an Aspect defined b
 - [[entities/crown-gods|crown-gods]] `aliases: The Crowns, Crown Gods, Crowns` - The Crown Gods are powerful, jealous divine entities who govern the fundamental aspects of reality. 
 - [[entities/tide|tide]] `aliases: Flow, The Current` - Tide is an aspect representing fluid, cyclical, or directional forces, often associated with water o
 - [[entities/spore|spore]] `aliases: The Spore, God of Spores` - Spore is recognized as one of the twelve Patron Gods within the established pantheon. Its domain sug
@@ -37,6 +35,9 @@
 
 ## Concepts
 
+- [[concepts/marrow|marrow]] `aliases: Forbidden Bodily Aspect` - Marrow is a forbidden [[Aspect]] associated with the concept of bodily authorship. It is defined by 
+- [[concepts/gale|gale]] `aliases: The Wind, Wind` - Gale represents the fundamental force of wind and atmospheric motion, serving as an Aspect defined b
+- [[concepts/ash|ash]] `aliases: The Ash Aspect` - Ash is an elemental aspect that engages in a [[concepts/confluence|Confluence]] with the Void, resul
 - [[concepts/escalation|escalation]] `aliases: Magical Escalation, Intensity Amplification` - Escalation is a core methodological component of Ember-based magic, representing the process of incr
 - [[concepts/ember|ember]] `aliases: Aspect of Desire, Aspect of Anger` - Ember is a fundamental aspect governing desire, anger, transformation, and appetite. It represents t
 - [[concepts/ignition|ignition]] `aliases: Ignition technique, Ember Spark` - Ignition is a foundational technique associated with the Ember aspect, representing the initial spar
@@ -55,7 +56,7 @@
 - [[concepts/undertide|undertide]] `aliases: The Undertide, Under-tide` - Undertide is a term for a geographical or metaphysical reflection of the rings of the world, consist
 - [[concepts/ring-order|ring-order]] `aliases: Ring order, World Progression Sequence, The Rings` - Ring order is a foundational architectural and geographical standard used to define the spatial orga
 - [[concepts/attunement|attunement]] `aliases: Divine Attunement, Attunement Rite` - Attunement is a procedural method of magical practice required by the [[Crown Gods]]. It functions a
-- [[concepts/aspects|aspects]] `aliases: The Five Aspects, Fundamental Domains` - The Aspects refer to the five fundamental domains or cosmic forces that underpin the reality of the 
+- [[concepts/aspects|aspects]] `aliases: The Five Aspects, Fundamental Domains` - The Aspects represent the five fundamental domains and cosmic forces that underpin reality, serving 
 - [[concepts/confluence|confluence]] `aliases: Shared truth, Confluences` - A Confluence is a metaphysical phenomenon representing an immutable truth shared between two [[Crown
 - [[concepts/survival-covenants|survival-covenants]] `aliases: survival covenants, mortal covenants` - Survival covenants are foundational agreements or bonds established between the [[Patron Gods]] and 
 - [[concepts/patron-gods|patron-gods]] `aliases: Patron Gods, Twelve Patron Gods` - The Patron Gods are a collective of twelve divine entities who rose to prominence during the global 
@@ -69,6 +70,7 @@
 
 ## Sources
 
+- [[sources/aspects_a227dd|aspects_a227dd]] `aliases: Magic Aspects, The Aspects Framework`
 - [[sources/ember_ee3752|ember_ee3752]] `aliases: Aspect of Ember, The Ember Foundation`
 - [[sources/confluences_d137ad|confluences_d137ad]] `aliases: The Confluence Theory, Crown God Harmonics`
 - [[sources/gale_4a056b|gale_4a056b]] `aliases: The Aspect of Movement, Gale Magic Principles`

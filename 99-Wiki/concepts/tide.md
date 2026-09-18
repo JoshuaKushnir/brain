@@ -41,7 +41,7 @@ Tide is regulated by the relevant Crown God, functioning as a formal, divine int
 ## Related Entities
 
 - [[entities/mareth|Mareth]]
-- [[entities/gale|Gale]]
+- [[concepts/gale|Gale]]
 - [[99-Wiki/concepts/ash|Ash]]
 - [[entities/ember|Ember]]
 
