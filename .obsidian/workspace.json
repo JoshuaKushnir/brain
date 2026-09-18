@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-projects/Nightfall/01-Canon/Cosmology/Darkness.md",
+                "file": "03-projects/Nightfall/99-Wiki/Welcome to Karpathy LLM Wiki.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Darkness"
+              "title": "Welcome to Karpathy LLM Wiki"
             }
           }
         ],
@@ -205,11 +205,24 @@
   },
   "active": "6f403e6e8e4e4ffa",
   "lastOpenFiles": [
+    "03-projects/Nightfall/99-Wiki/sources/readme_207c1e.md",
+    "03-projects/Nightfall/99-Wiki/schema/config.md",
+    "03-projects/Nightfall/99-Wiki/schema",
+    "03-projects/Nightfall/99-Wiki/sources",
+    "03-projects/Nightfall/99-Wiki/concepts",
+    "03-projects/Nightfall/99-Wiki/entities",
+    "wiki/schema/config.md",
+    "03-projects/Nightfall/99-Wiki/Welcome to Karpathy LLM Wiki.md",
+    "03-projects/Nightfall/99-Wiki",
+    "03-projects/Nightfall/01-Canon/Cosmology/Darkness.md",
+    "wiki/schema",
+    "wiki/sources",
+    "wiki/concepts",
+    "wiki/entities",
     "wiki/Welcome to Karpathy LLM Wiki.md",
     "wiki",
     "03-projects/Nightfall/90-Archive/Legacy Structure/README.md",
     "03-projects/Nightfall/90-Archive/Legacy Structure/10-Reference/Session Notes 2026-09-17.md",
-    "03-projects/Nightfall/90-Archive/Legacy Structure/10-Reference",
     "03-projects/Nightfall/06-Reference/Session Notes 2026-09-17.md",
     "03-projects/Nightfall/06-Reference/Link Report.md",
     "03-projects/Nightfall/06-Reference/Implementation Notes.md",
@@ -227,19 +240,6 @@
     "03-projects/Nightfall/01-Canon/Death & Afterlife/Return.md",
     "03-projects/Nightfall/01-Canon/Death & Afterlife/PvP Knock Flow.md",
     "03-projects/Nightfall/01-Canon/Death & Afterlife/Multi-Aspect Death.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Last.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Holdfast.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Grip.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Echoes.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Downed.md",
-    "03-projects/Nightfall/01-Canon/Death & Afterlife/Death MOC.md",
-    "03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic",
-    "03-projects/Nightfall/01-Canon/Divinity/Patrons",
-    "03-projects/Nightfall/01-Canon/Divinity/Crowns",
-    "03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods",
-    "03-projects/Nightfall/00-MOC/Legacy Index",
-    "03-projects/Nightfall/90-Archive/Legacy Structure",
-    "03-projects/Nightfall/90-Archive",
-    "03-projects/Nightfall/06-Reference/Session Notes"
+    "03-projects/Nightfall/01-Canon/Death & Afterlife/Last.md"
   ]
 }
