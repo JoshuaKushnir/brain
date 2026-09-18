@@ -90,6 +90,32 @@
             }
           },
           {
+            "id": "9606212d6ff8733b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/03-Systems/Death/Execution.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Execution"
+            }
+          },
+          {
+            "id": "e44d7bebdbe417e3",
+            "type": "leaf",
+            "state": {
+              "type": "card-browser-view",
+              "state": {
+                "path": "03-projects/Nightfall"
+              },
+              "icon": "align-vertical-justify-start",
+              "title": "Browse"
+            }
+          },
+          {
             "id": "d709e0a90b8b1815",
             "type": "leaf",
             "state": {
@@ -104,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -251,14 +277,23 @@
               "icon": "lucide-list",
               "title": "Outline of YouTubeChannel Analytics — 2026-04-24"
             }
+          },
+          {
+            "id": "e205275223accb59",
+            "type": "leaf",
+            "state": {
+              "type": "llm-wiki-query-view",
+              "state": {},
+              "icon": "message-circle",
+              "title": "Query Wiki - Conversational Query"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,11 +311,17 @@
       "karpathywiki:Query wiki": false
     }
   },
-  "active": "f11a86d7cc52f582",
+  "active": "e205275223accb59",
   "lastOpenFiles": [
+    "03-projects/Nightfall/03-Systems/Death/Return.md",
+    "03-projects/Nightfall/03-Systems/Death/PvP Knock Flow.md",
+    "03-projects/Nightfall/02-World/Regions/Undertide.md",
+    "03-projects/Nightfall/03-Systems/Death/Execution.md",
+    "03-projects/Nightfall/03-Systems/Death/Downed and Holdfast.md",
+    "03-projects/Nightfall/03-Systems/Death/Death.md",
+    "03-projects/Nightfall/03-Systems/Core/Multi-Aspect Attunement.md",
     "03-projects/Nightfall/02-World/Factions/Factions MOC.md",
     "03-projects/Nightfall/03-Systems/Magic/Marrow.md",
-    "03-projects/Nightfall/03-Systems/Core/Multi-Aspect Attunement.md",
     "03-projects/Nightfall/02-World/Factions/The Split.md",
     "03-projects/Nightfall/02-World/Factions/Faction Fault Lines.md",
     "03-projects/Nightfall/02-World/Geography/Map of the Rings.md",
@@ -298,12 +339,6 @@
     "03-projects/Nightfall/02-World/Factions/Sounders.md",
     "03-projects/Nightfall/02-World/Factions/The Choir.md",
     "03-projects/Nightfall/02-World/Factions/Blackwake.md",
-    "03-projects/Nightfall/02-World/History/Timeline Expansion (Fracture Era).md",
-    "03-projects/Nightfall/02-World/History/Timeline.md",
-    "03-projects/Nightfall/00-MOC/Nightfall Home.md",
-    "03-projects/Nightfall/README.md",
-    "03-projects/Nightfall/99-Wiki/schema/config.md",
-    "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
     "Untitled.canvas",
     "03-projects/Nightfall/99-Wiki/schema",
     "03-projects/Nightfall/99-Wiki/sources",
