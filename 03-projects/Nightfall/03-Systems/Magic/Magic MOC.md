@@ -17,8 +17,8 @@ status: canon
 
 ## Aspects
 
-- [[Ash]]
+- [[03-projects/Nightfall/03-Systems/Magic/Ash]]
 - [[Tide]]
 - [[Ember]]
-- [[Gale]]
+- [[03-projects/Nightfall/03-Systems/Magic/Gale]]
 - [[03-projects/Nightfall/03-Systems/Magic/Void]]

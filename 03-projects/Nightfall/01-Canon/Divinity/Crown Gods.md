@@ -4,8 +4,8 @@ The five Crowns are individual gods, not replaceable civil-service offices. Each
 
 | Crown | Aspect | Seeks in followers | Response to divided worship |
 |---|---|---|---|
-| Veyra | [[Ash]] | Patience, regret, concealed truth | Records every betrayal and withholds secret teachings |
-| Aeral | [[Gale]] | Freedom, motion, defiance | Preaches freedom yet becomes personally jealous |
+| Veyra | [[99-Wiki/concepts/ash]] | Patience, regret, concealed truth | Records every betrayal and withholds secret teachings |
+| Aeral | [[99-Wiki/concepts/gale]] | Freedom, motion, defiance | Preaches freedom yet becomes personally jealous |
 | Mareth | [[Tide]] | Grief, continuity, obligation | Treats the second bond as unpaid divine debt |
 | Soryn | [[Ember]] | Desire, anger, decisive change | Demands the disciple prove they can survive both powers |
 | Orr | [[99-Wiki/concepts/void]] | Restraint, separation, acceptance of absence | Withdraws protection without explaining whether it is punishment |

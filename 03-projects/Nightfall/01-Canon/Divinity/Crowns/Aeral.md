@@ -5,7 +5,7 @@ status: canon
 ---
 # Aeral
 
-Aeral is the Crown God of [[Gale]]. Aeral is playful, liberating, unreliable, and secretly jealous.
+Aeral is the Crown God of [[99-Wiki/concepts/gale]]. Aeral is playful, liberating, unreliable, and secretly jealous.
 
 ## Worship
 

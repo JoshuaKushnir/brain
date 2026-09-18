@@ -2,16 +2,37 @@
 type: concept
 created: 2026-09-18
 updated: 2026-09-18
+generation_complete: true
 sources:
   - "[[sources/crown-gods_1fbc2d]]"
+  - "[[sources/aspects_a227dd]]"
 tags:
+  - "term"
 aliases:
   - "The Five Aspects"
   - "Fundamental Domains"
-generation_complete: true
 ---
 
 # Aspects
+
+## Description
+
+The Aspects represent the five fundamental domains and cosmic forces that underpin reality, serving as divine interpretations of magic rather than mere elemental states. Each Aspect is governed by one of the [[Crown Gods]], providing a moral and thematic structure through which magical energy permeates the physical realm. Practitioners must engage in specific protocols, such as [[Attunement]], to access these forces, which range from themes like Ash and Gale to Ember and Void. Beyond simple utility, these forces act as lenses for interpreting fundamental magic, where the combination of multiple Aspects leads to [[Divine Friction]] or, more rarely, [[Confluences]]. While these five comprise the lawful order, there exist outliers like [[Marrow]], which represents forbidden bodily authorship and is not recognized by the pantheon.
+
+## Related Concepts
+
+- [[concepts/attunement|Attunement]]
+- [[concepts/divine-friction|Divine Friction]]
+- [[concepts/confluence|Confluences]]
+
+## Related Entities
+
+- [[entities/veyra|Veyra]]
+- [[entities/mareth|Mareth]]
+- [[entities/soryn|Soryn]]
+- [[entities/aeral|Aeral]]
+- [[entities/orr|Orr]]
+- [[entities/crown-gods|Crown Gods]]
 
 ## Definition
 
@@ -29,18 +50,7 @@ The Aspects refer to the five fundamental domains or cosmic forces that underpin
 - **Magical Theory**: Provides the framework for understanding and channeling power, often requiring [[Attunement]] to bridge the gap between the mortal practitioner and the divine source.
 - **Cosmological Order**: Defines the boundaries of influence for each deity, maintaining the balance of the world.
 
-## Related Concepts
-
-- [[concepts/attunement|Attunement]]
-
-## Related Entities
-
-- [[entities/veyra|Veyra]]
-- [[entities/mareth|Mareth]]
-- [[entities/soryn|Soryn]]
-- [[entities/aeral|Aeral]]
-- [[entities/orr|Orr]]
-
 ## Mentions in Source
 
 - "Each governs one of the five [[Aspects]] and demands exclusive magical devotion through [[Attunement]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Crown Gods|Crown Gods]]
+- "Aspects are divine interpretations of magic rather than interchangeable elements." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]

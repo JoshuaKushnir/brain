@@ -5,7 +5,7 @@ status: canon
 ---
 # Veyra
 
-Veyra is the Crown God of [[Ash]]. Veyra is patient, intimate, and quietly possessive.
+Veyra is the Crown God of [[99-Wiki/concepts/ash]]. Veyra is patient, intimate, and quietly possessive.
 
 ## Worship
 

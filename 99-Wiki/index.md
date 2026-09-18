@@ -7,10 +7,10 @@
 
 ## Entities
 
+- [[99-Wiki/concepts/ash|ash]] `aliases: The Ash Aspect` - Ash is an elemental aspect that engages in a [[concepts/confluence|Confluence]] with the Void. This 
 - [[entities/session-notes-2026-09-17|session-notes-2026-09-17]] `aliases: Session Notes 2026-09-17, 2026-09-17 Project Logs` - This document serves as a record of structural and narrative maintenance tasks conducted on the proj
 - [[entities/roblox|roblox]] `aliases: Roblox Engine, Roblox Corporation` - Roblox is a global gaming platform and game creation system that enables users to develop and play a
 - [[entities/pale-wound|pale-wound]] `aliases: The Pale Wound` - The Pale Wound is one of the three finalized cosmological proper nouns that define the setting's met
-- [[99-Wiki/concepts/darkness|darkness]] `aliases: The Unlit` - Darkness is one of the three core pillars of the project's cosmology. Following recent structural co
 - [[entities/eidolon|eidolon]] `aliases: The Eidolon, Radiance-Holder` - Eidolon is a primary cosmological entity that serves as a central pillar in the project's world-buil
 - [[entities/orr|orr]] `aliases: The Aspect Governor` - Orr is a prominent member of the [[entities/crown-gods|Crown Gods]], specifically tasked with the go
 - [[entities/aeral|aeral]] `aliases: The Crown God Aeral, Aeral of the Aspects` - Aeral is one of the five [[entities/crown-gods|Crown Gods]] tasked with maintaining order in the kno
@@ -18,10 +18,9 @@
 - [[entities/mareth|mareth]] `aliases: The Crown God Mareth` - Mareth is a divine figure serving as a member of the [[entities/crown-gods|Crown Gods]] pantheon. Li
 - [[entities/veyra|veyra]] `aliases: Veyra the Crown God` - Veyra is one of the five [[entities/mareth|Crown Gods]] who serve as the primary deities within the 
 - [[entities/ember|ember]] `aliases: Flame, Spark` - Ember represents the fundamental aspect of heat, transformation, and the act of consuming energy. It
-- [[entities/gale|gale]] `aliases: The Wind, Wind` - Gale represents the fundamental force of wind and atmospheric motion. It serves as a core element th
+- [[99-Wiki/concepts/gale|gale]] `aliases: The Wind, Wind` - Gale represents the fundamental force of wind and atmospheric motion, serving as an Aspect defined b
 - [[entities/crown-gods|crown-gods]] `aliases: The Crowns, Crown Gods, Crowns` - The Crown Gods are powerful, jealous divine entities who govern the fundamental aspects of reality. 
 - [[entities/tide|tide]] `aliases: Flow, The Current` - Tide is an aspect representing fluid, cyclical, or directional forces, often associated with water o
-- [[99-Wiki/concepts/void|void]] `aliases: The Empty, The Null` - Void is a fundamental aspect associated with absence, emptiness, and the cessation of things. It is 
 - [[entities/spore|spore]] `aliases: The Spore, God of Spores` - Spore is recognized as one of the twelve Patron Gods within the established pantheon. Its domain sug
 - [[entities/kiln|kiln]] `aliases: The Kiln, God of Creation` - Kiln is identified as one of the twelve [[concepts/patron-gods|Patron Gods]] within the lore of Nigh
 - [[entities/hammer|hammer]] `aliases: The Hammer, God of Industry, Craft-Bearer` - Hammer is one of the twelve Patron Gods identified as central to the survival of the mortal peoples.
@@ -38,6 +37,20 @@
 
 ## Concepts
 
+- [[concepts/escalation|escalation]] `aliases: Magical Escalation, Intensity Amplification` - Escalation is a core methodological component of Ember-based magic, representing the process of incr
+- [[concepts/ember|ember]] `aliases: Aspect of Desire, Aspect of Anger` - Ember is a fundamental aspect governing desire, anger, transformation, and appetite. It represents t
+- [[concepts/ignition|ignition]] `aliases: Ignition technique, Ember Spark` - Ignition is a foundational technique associated with the Ember aspect, representing the initial spar
+- [[concepts/divine-friction|divine-friction]] `aliases: Metaphysical Resistance, The Divine Barrier` - Divine Friction is a challenging metaphysical state encountered by mortals when attempting to access
+- [[concepts/mobility|mobility]] `aliases: movement control, positional manipulation, displacement` - Mobility is a core combat concept defined by the capacity for displacement and spatial control. With
+- [[concepts/tide-techniques|tide-techniques]] `aliases: Tide techniques, Tide shaping, Tide flow` - Tide techniques are a specialized methodology characterized by the manipulation of flow and pressure
+- [[concepts/tide|tide]] `aliases: Aspect of Continuity, The Pressure Aspect` - Tide is a foundational aspect characterized by themes of continuity, pressure, grief, and the weight
+- [[concepts/silence|silence]] `aliases: Stillness` - Silence is an inherent characteristic and a weaponized manifestation of the Void aspect. It represen
+- [[concepts/accepted-absence|accepted-absence]] `aliases: Accepted Absence, Void State` - Accepted Absence is a philosophical and elemental state in which an entity or phenomenon is consciou
+- [[concepts/boundaries|boundaries]] `aliases: Limits, Perimeters` - Boundaries represent the spatial and metaphysical limits enforced by the Void aspect. They serve as 
+- [[concepts/separation|separation]] `aliases: Isolation, Decoupling` - Separation is a functional property of the Void that enables the decoupling of entities or connectio
+- [[concepts/restraint|restraint]] `aliases: Constraint, Limitation` - Restraint is a foundational attribute of the Void aspect, serving as the governing principle that en
+- [[concepts/darkness|darkness]] `aliases: The Unlit` - Darkness is one of the three core pillars of the project's cosmology. Following recent structural co
+- [[concepts/void|void]] `aliases: The Empty, The Null` - Void is a fundamental metaphysical Aspect characterized by restraint, separation, silence, boundarie
 - [[concepts/cosmology|cosmology]] `aliases: World Cosmology, Metaphysical Structure` - The field of cosmology defines the metaphysical, historical, and structural framework of the game's 
 - [[concepts/undertide|undertide]] `aliases: The Undertide, Under-tide` - Undertide is a term for a geographical or metaphysical reflection of the rings of the world, consist
 - [[concepts/ring-order|ring-order]] `aliases: Ring order, World Progression Sequence, The Rings` - Ring order is a foundational architectural and geographical standard used to define the spatial orga
@@ -56,6 +69,11 @@
 
 ## Sources
 
+- [[sources/ember_ee3752|ember_ee3752]] `aliases: Aspect of Ember, The Ember Foundation`
+- [[sources/confluences_d137ad|confluences_d137ad]] `aliases: The Confluence Theory, Crown God Harmonics`
+- [[sources/gale_4a056b|gale_4a056b]] `aliases: The Aspect of Movement, Gale Magic Principles`
+- [[sources/tide_be81fb|tide_be81fb]] `aliases: The Tide Aspect Definition`
+- [[sources/void_be7f52|void_be7f52]] `aliases: The Void Aspect, Void Magic Foundations`
 - [[sources/session-notes-2026-09-17_f672fb|session-notes-2026-09-17_f672fb]] `aliases: September 17 2026 Project Update, Nightfall Session Log 2026-09-17`
 - [[sources/crown-gods_1fbc2d|crown-gods_1fbc2d]] `aliases: The Crown Pantheon, Crown Gods Overview`
 - [[sources/readme_132946|readme_132946]] `aliases: Nightfall Archive Index, Legacy Structure README`

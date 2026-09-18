@@ -25,8 +25,8 @@
 ## Magic
 
 - [[Aspects]]
-- [[Ash]]
-- [[Gale]]
+- [[99-Wiki/concepts/ash]]
+- [[99-Wiki/concepts/gale]]
 - [[Tide]]
 - [[Ember]]
 - [[99-Wiki/concepts/void]]

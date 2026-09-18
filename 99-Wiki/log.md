@@ -54,3 +54,43 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Updated pages**：[[entities/nightfall.md]], [[entities/crown-gods.md]]
 
+
+
+## [2026-09-18 00:24] ingest | Void · 127s · gemini-3.1-flash-lite · 383B
+
+**Created pages**：[[sources/void_be7f52.md]], [[99-Wiki/concepts/ash]], [[concepts/restraint.md]], [[concepts/separation.md]], [[concepts/boundaries.md]], [[concepts/accepted-absence.md]], [[concepts/silence.md]]
+
+**Updated pages**：[[99-Wiki/concepts/gale]], [[entities/orr.md]], [[entities/ember.md]], [[concepts/confluence.md]], [[concepts/void.md]], [[concepts/darkness.md]]
+
+
+
+## [2026-09-18 00:26] ingest | Tide · 107s · gemini-3.1-flash-lite · 355B
+
+**Created pages**：[[sources/tide_be81fb.md]], [[concepts/tide.md]], [[concepts/tide-techniques.md]]
+
+**Updated pages**：[[99-Wiki/concepts/gale]], [[99-Wiki/concepts/ash]], [[entities/mareth.md]], [[entities/ember.md]], [[concepts/confluence.md]], [[entities/tide.md]]
+
+
+
+## [2026-09-18 00:28] ingest | Gale · 90s · gemini-3.1-flash-lite · 395B
+
+**Created pages**：[[sources/gale_4a056b.md]], [[concepts/mobility.md]]
+
+**Updated pages**：[[entities/aeral.md]], [[entities/tide.md]], [[99-Wiki/concepts/gale]], [[concepts/confluence.md]], [[concepts/void.md]], [[concepts/mobility.md]]
+
+
+
+## [2026-09-18 00:29] ingest | Confluences · 86s · gemini-3.1-flash-lite · 996B
+
+**Created pages**：[[sources/confluences_d137ad.md]], [[concepts/divine-friction.md]]
+
+**Updated pages**：[[entities/crown-gods.md]], [[entities/tide.md]], [[99-Wiki/concepts/ash]], [[99-Wiki/concepts/gale]], [[entities/ember.md]], [[concepts/confluence.md]]
+
+
+
+## [2026-09-18 00:31] ingest | Ember · 102s · gemini-3.1-flash-lite · 423B
+
+**Created pages**：[[sources/ember_ee3752.md]], [[concepts/ignition.md]], [[concepts/ember.md]], [[concepts/escalation.md]]
+
+**Updated pages**：[[concepts/void.md]], [[entities/tide.md]], [[entities/soryn.md]], [[concepts/confluence.md]], [[entities/ember.md]]
+
