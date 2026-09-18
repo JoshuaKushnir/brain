@@ -5,7 +5,7 @@ status: canon
 ---
 # The Split
 
-The Split is hidden network for multi-Attuned people, operating mainly in small concealed cells.
+The Split is hidden network for [[Multi-Attunement]] people, operating mainly in small concealed cells.
 
 ## Public role
 

@@ -9,7 +9,7 @@ status: canon
 # Faction Fault Lines
 
 - [[The Watch]] needs [[The Lamps]] but wants to control them.
-- The Lamps need protection but resent light rationing.
+- [[The Lamps]] need protection but resent light rationing.
 - [[The Five]] condemns [[The Split]] while secretly studying Confluences.
 - [[Witnesses]] oppose [[99-Wiki/entities/bell]]’s theology but protect [[Returned]] from persecution.
 - [[The Pact]] hires [[Blackwake]] while condemning raiding.

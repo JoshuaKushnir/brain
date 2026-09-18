@@ -48,6 +48,48 @@
             }
           },
           {
+            "id": "0e0c8aae1988002d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/01-Canon/Cosmology/Darkness.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Darkness"
+            }
+          },
+          {
+            "id": "0fb45018c8d78edf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/02-World/Factions/Faction Fault Lines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Faction Fault Lines"
+            }
+          },
+          {
+            "id": "f11a86d7cc52f582",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-projects/Nightfall/03-Systems/Core/Multi-Aspect Attunement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multi-Aspect Attunement"
+            }
+          },
+          {
             "id": "d709e0a90b8b1815",
             "type": "leaf",
             "state": {
@@ -62,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -234,18 +276,24 @@
       "karpathywiki:Query wiki": false
     }
   },
-  "active": "d709e0a90b8b1815",
+  "active": "f11a86d7cc52f582",
   "lastOpenFiles": [
+    "03-projects/Nightfall/02-World/Factions/Factions MOC.md",
+    "03-projects/Nightfall/03-Systems/Magic/Marrow.md",
+    "03-projects/Nightfall/03-Systems/Core/Multi-Aspect Attunement.md",
+    "03-projects/Nightfall/02-World/Factions/The Split.md",
     "03-projects/Nightfall/02-World/Factions/Faction Fault Lines.md",
+    "03-projects/Nightfall/02-World/Geography/Map of the Rings.md",
+    "03-projects/Nightfall/01-Canon/Cosmology/Darkness.md",
+    "03-projects/Nightfall/03-Systems/Core/Dark Tolerance.md",
+    "03-projects/Nightfall/01-Canon/Cosmology/Eidolon.md",
     "03-projects/Nightfall/02-World/Planning/POI Map Plan.md",
     "03-projects/Nightfall/02-World/Cultures/Cultures MOC.md",
     "03-projects/Nightfall/02-World/Factions/Witnesses.md",
     "03-projects/Nightfall/02-World/Factions/The Watch.md",
-    "03-projects/Nightfall/02-World/Factions/The Split.md",
     "03-projects/Nightfall/02-World/Factions/The Pact.md",
     "03-projects/Nightfall/02-World/Factions/The Lamps.md",
     "03-projects/Nightfall/02-World/Factions/The Five.md",
-    "03-projects/Nightfall/02-World/Factions/Factions MOC.md",
     "03-projects/Nightfall/02-World/Factions/Marrow House.md",
     "03-projects/Nightfall/02-World/Factions/Sounders.md",
     "03-projects/Nightfall/02-World/Factions/The Choir.md",
@@ -257,17 +305,11 @@
     "03-projects/Nightfall/99-Wiki/schema/config.md",
     "03-projects/Nightfall/03-Systems/Magic/Attunement.md",
     "Untitled.canvas",
-    "03-projects/Nightfall/01-Canon/Divinity/Gods MOC.md",
     "03-projects/Nightfall/99-Wiki/schema",
     "03-projects/Nightfall/99-Wiki/sources",
     "03-projects/Nightfall/99-Wiki/concepts",
     "03-projects/Nightfall/99-Wiki/entities",
     "03-projects/Nightfall/99-Wiki",
-    "03-projects/Nightfall/01-Canon/Cosmology/Eidolon.md",
-    "99-Wiki/concepts/readme.md",
-    "99-Wiki/schema/config.md",
-    "03-projects/Nightfall/99-Wiki/sources/readme_132946.md",
-    "99-Wiki/concepts/twelve-mortal-peoples.md",
     "99-Wiki/schema",
     "99-Wiki/sources",
     "99-Wiki/concepts",
