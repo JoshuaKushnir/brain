@@ -14,7 +14,7 @@ generation_complete: true
 
 ## Definition
 
-Marrow is a forbidden [[Aspect]] associated with the concept of bodily authorship. It is defined by its exclusion from the official magical doctrine established by the [[Crown Gods]], marking it as a transgressive or heretical force within the metaphysical framework of the world.
+Marrow is a forbidden [[concepts/aspects|aspects]] associated with the concept of bodily authorship. It is defined by its exclusion from the official magical doctrine established by the [[Crown Gods]], marking it as a transgressive or heretical force within the metaphysical framework of the world.
 
 ## Key Characteristics
 

@@ -5,7 +5,7 @@ updated: 2026-09-18
 sources: 
   - [[entities/eidolon|Eidolon]]
   - [[entities/pale-wound|Pale Wound]]
-  - [[entities/darkness|Darkness]]
+  - [[concepts/darkness|darkness]]
   - [[entities/nightfall|Nightfall]]
   - [[entities/roblox|Roblox]]
   - [[entities/session-notes-2026-09-17|Session Notes 2026-09-17]]

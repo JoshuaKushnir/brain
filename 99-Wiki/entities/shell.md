@@ -7,7 +7,12 @@ sources:
   - "[[sources/patron-gods_29832d]]"
 tags:
   - "other"
+aliases:
+  - "The Shell"
+  - "Patron God Shell"
+  - "Deity of the Shell"
 ---
+
 
 # Shell
 

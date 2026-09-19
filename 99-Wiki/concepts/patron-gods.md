@@ -20,7 +20,7 @@ aliases:
 
 ## Definition
 
-The Patron Gods are a collective of twelve divine entities who rose to prominence during the global catastrophe known as [[Nightfall]]. They are recognized for ensuring the survival of the human race by enacting [[survival covenants]] with twelve distinct mortal peoples.
+The Patron Gods are a collective of twelve divine entities who rose to prominence during the global catastrophe known as [[entities/nightfall]]. They are recognized for ensuring the survival of the human race by enacting [[survival covenants]] with twelve distinct mortal peoples.
 
 A Patron serves as a deity specifically aligned with a group of people and their survival covenant, providing divine favor and protection while remaining deeply linked to their communal identity and safety.
 ## Key Characteristics
@@ -28,7 +28,7 @@ A Patron serves as a deity specifically aligned with a group of people and their
 - **Numerical Significance**: Comprised of exactly twelve divine members.
 - **Divine Covenants**: Each deity is bound to a specific mortal group through a formal [[survival covenant]].
 - **Symbolic Domains**: Each god is represented by a unique object or elemental realm that defines their influence and power.
-- **Cataclysmic Origin**: Their significance is inextricably linked to the survival efforts during the [[Nightfall]] event.
+- **Cataclysmic Origin**: Their significance is inextricably linked to the survival efforts during the [[entities/nightfall]] event.
 
 ## Applications
 
@@ -37,7 +37,7 @@ The Patron Gods function as protectors and foundational figures in the cultural 
 ## Related Concepts
 
 - [[concepts/survival-covenants|survival covenants]]
-- [[concepts/nightfall|Nightfall]]
+- [[entities/nightfall|Nightfall]]
 - [[concepts/aspects|Aspect]]
 - [[concepts/luminance|Luminance]]
 

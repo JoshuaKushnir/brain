@@ -19,7 +19,7 @@ A canonical destination file is the officially designated, active version of a d
 
 ## Key Characteristics
 
-- **Official Status**: Serves as the primary reference point within the [[Nightfall]] project.
+- **Official Status**: Serves as the primary reference point within the [[entities/nightfall]] project.
 - **Integrity Protection**: Acts as a safeguard during file migrations; if a canonical version is detected, the system forces incoming files to be diverted to a legacy archive.
 - **Reference Target**: Represents the intended destination for all finalized assets to maintain a clean project structure.
 - **Anti-Overwrite**: Prevents accidental data corruption by ensuring that conflicting versions are isolated rather than overwritten.

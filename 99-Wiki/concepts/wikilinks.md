@@ -15,7 +15,7 @@ generation_complete: true
 
 ## Definition
 
-Wikilinks are the primary mechanism used within the [[Nightfall]] project to create connections between discrete markdown notes, serving as bidirectional pointers that define the navigational path and contextual relevance between different pages.
+Wikilinks are the primary mechanism used within the [[entities/nightfall]] project to create connections between discrete markdown notes, serving as bidirectional pointers that define the navigational path and contextual relevance between different pages.
 
 ## Key Characteristics
 

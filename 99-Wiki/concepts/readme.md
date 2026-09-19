@@ -21,7 +21,7 @@ A **README** is a foundational documentation file that describes the organizatio
 
 ## Related Concepts
 
-- [[concepts/nightfall-home|Nightfall Home]]
+- [[entities/nightfall|Nightfall Home]]
 - [[concepts/legacy-structure|Legacy Structure]]
 - [[concepts/one-shot-migration|one-shot migration]]
 

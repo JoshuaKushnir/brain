@@ -38,7 +38,7 @@ Within the Nightfall project, gameplay is further defined as the functional impa
 
 ## Related Concepts
 
-- [[concepts/nightfall-home|Nightfall Home]]
+- [[entities/nightfall|Nightfall Home]]
 - [[concepts/canon-glossary|Canon]]
 - [[concepts/new-note-template|Entity Template]]
 - [[concepts/identity|Identity]]

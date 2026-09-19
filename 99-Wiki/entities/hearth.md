@@ -7,7 +7,15 @@ sources:
   - "[[sources/patron-gods_29832d]]"
 tags:
   - "place"
+aliases:
+  - "Hearth Region"
+  - "The Hearth God"
+  - "God of Hearth"
+  - "Hearthland"
+  - "Origin of the Covenants"
+  - "The Hearth Pantheon"
 ---
+
 
 # Hearth
 

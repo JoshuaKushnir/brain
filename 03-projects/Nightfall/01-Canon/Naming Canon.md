@@ -6,7 +6,7 @@ Names should be short enough for natural dialogue and meaningful enough to imply
 
 - **Common:** Vigil, Rise, Hearth, Gloam, Murk, Night, Rim, Dark.
 - **Official:** First Ring, Second Ring, Third Ring, Fourth Ring, Fifth Ring.
-- **Old:** Pre-[[Nightfall]] names preserved in ruins and divine records.
+- **Old:** Pre-[[entities/nightfall]] names preserved in ruins and divine records.
 
 ## Political language
 

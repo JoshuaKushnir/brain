@@ -29,7 +29,7 @@ Combining these Aspects generates Divine Friction, manifesting as the interferen
 - **Cognitive Dissonance:** Requires the subject to synthesize contradictory metaphysical axioms, often leading to potential mental or physical collapse.
 - **Rite of Passage:** Surviving the duration of Divine Friction is an essential, involuntary hurdle that acts as a filter for those seeking to unlock or master a [[Confluence]].
 - **Attunement Prerequisite:** A first Aspect must be acquired through Attunement, establishing the necessary capacity for magic interaction that serves as the foundation before Divine Friction manifests.
-- **Mechanical Representation:** Divine Friction manifests as a dynamic switching pressure mechanic and an instability meter, requiring subjects to actively balance the influence of competing [[concepts/crownlights|Crownlights]].
+- **Mechanical Representation:** Divine Friction manifests as a dynamic switching pressure mechanic and an instability meter, requiring subjects to actively balance the influence of competing [[concepts/ash|Crownlights]].
 ## Applications
 
 - **Gateway Security:** Acts as a natural defense mechanism for [[Confluence]] sites, ensuring that only those with sufficient resilience can interact with higher-order divine structures.

@@ -15,7 +15,7 @@ generation_complete: true
 
 ## Definition
 
-Proposal identifies content within the [[Nightfall]] project that has not yet been verified or integrated as established canon. It serves as a formal designation for speculative or work-in-progress material.
+Proposal identifies content within the [[entities/nightfall]] project that has not yet been verified or integrated as established canon. It serves as a formal designation for speculative or work-in-progress material.
 
 ## Key Characteristics
 
@@ -26,7 +26,7 @@ Proposal identifies content within the [[Nightfall]] project that has not yet be
 
 ## Applications
 
-- Documenting early-stage brainstormed ideas or world-building elements in the [[Nightfall]] project.
+- Documenting early-stage brainstormed ideas or world-building elements in the [[entities/nightfall]] project.
 - Providing a workspace for contributors to test narrative directions before formal approval.
 - Preventing the inadvertent use of unverified or contradictory information in official documentation.
 

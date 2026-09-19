@@ -7,7 +7,14 @@ sources:
   - "[[sources/patron-gods_29832d]]"
 tags:
   - "other"
+aliases:
+  - "The Root"
+  - "Patron God Root"
+  - "God of Roots"
+  - "The Grounding Deity"
+  - "Primordial Root"
 ---
+
 
 # Root
 

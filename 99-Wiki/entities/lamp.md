@@ -7,7 +7,14 @@ sources:
   - "[[sources/patron-gods_29832d]]"
 tags:
   - "other"
+aliases:
+  - "The Lamp"
+  - "Patron God Lamp"
+  - "Deity of Illumination"
+  - "Covenantal Lamp"
+  - "Lamp of the Nightfall"
 ---
+
 
 # Lamp
 

@@ -32,7 +32,7 @@ Boundaries represent the spatial and metaphysical limits enforced by the Void as
 
 ## Related Concepts
 
-- [[concepts/restraint|Restraint]]
+- [[concepts/separation|Restraint]]
 - [[concepts/separation|Separation]]
 - [[concepts/silence|Silence]]
 

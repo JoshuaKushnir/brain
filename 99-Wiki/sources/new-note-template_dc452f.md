@@ -21,12 +21,12 @@ generation_complete: true
 
 The "New Note Template" serves as the standardized framework for all documentation within the [[entities/nightfall|Nightfall]] project. It is specifically designed to enforce consistency in lore development and technical implementation. By mandating a rigorous structure—including a definition of [[concepts/canon-glossary|canon]], historical context, world-building connections, and [[concepts/gameplay-expression|gameplay-expression]]—the template ensures that all entries are cohesive and actionable. 
 
-The template serves as the primary gateway for contributors to integrate new information into the central [[concepts/nightfall-home|Nightfall Home]] repository. By requiring a distinction between established facts and tentative ideas—marked explicitly as a [[concepts/proposal|proposal]]—the system reduces ambiguity and streamlines the transition from creative concepts to final game assets.
+The template serves as the primary gateway for contributors to integrate new information into the central [[entities/nightfall|Nightfall Home]] repository. By requiring a distinction between established facts and tentative ideas—marked explicitly as a [[concepts/proposal|proposal]]—the system reduces ambiguity and streamlines the transition from creative concepts to final game assets.
 
 ## Key Entities
 
 - [[entities/nightfall|Nightfall]]
-- [[concepts/nightfall-home|Nightfall Home]]
+- [[entities/nightfall|Nightfall Home]]
 
 ## Key Concepts
 

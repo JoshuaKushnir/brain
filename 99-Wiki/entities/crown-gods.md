@@ -13,7 +13,6 @@ sources:
   - "[[sources/canon-decisions_57b8f6]]"
 tags:
   - "person"
-  - "term"
   - "other"
 aliases:
   - "The Crowns"

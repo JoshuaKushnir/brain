@@ -7,7 +7,12 @@ sources:
   - "[[sources/patron-gods_29832d]]"
 tags:
   - "other"
+aliases:
+  - "The Glass"
+  - "Patron God Glass"
+  - "Divine Glass"
 ---
+
 
 # Glass
 

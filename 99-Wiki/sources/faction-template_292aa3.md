@@ -23,7 +23,7 @@ generation_complete: true
 
 The "Faction Template" is a standardized design artifact developed for the Nightfall project to streamline the documentation of in-game organizations. By providing a consistent framework, it ensures that every [[concepts/faction|faction]] is thoroughly conceptualized before implementation, promoting narrative and mechanical coherence. 
 
-The template requires authors to define critical attributes such as geographic territory, public-facing societal roles, and internal organizational structures. Furthermore, it incorporates specific sections to address complex dynamics, including external relations and internal contradictions. This structured approach helps maintain a uniform standard for world-building, ensuring that gameplay mechanics and lore are effectively integrated across the project’s design documentation. The [[concepts/faction-template|faction-template]] acts as an essential tool for collaborative development, enabling creators to map out the complexities of various groups within the game world systematically.
+The template requires authors to define critical attributes such as geographic territory, public-facing societal roles, and internal organizational structures. Furthermore, it incorporates specific sections to address complex dynamics, including external relations and internal contradictions. This structured approach helps maintain a uniform standard for world-building, ensuring that gameplay mechanics and lore are effectively integrated across the project’s design documentation. The [[concepts/faction|faction-template]] acts as an essential tool for collaborative development, enabling creators to map out the complexities of various groups within the game world systematically.
 
 ## Key Entities
 
@@ -31,12 +31,12 @@ The template requires authors to define critical attributes such as geographic t
 
 ## Key Concepts
 
-- [[concepts/faction-template|Faction Template]]
+- [[concepts/faction|Faction Template]]
 - [[concepts/faction|Faction]]
 
 ## Main Points
 
-- The [[concepts/faction-template|Faction Template]] provides a standardized structure for recording lore and gameplay mechanics within the Nightfall project.
+- The [[concepts/faction|Faction Template]] provides a standardized structure for recording lore and gameplay mechanics within the Nightfall project.
 - Required fields include territory, public role, internal divisions, and player-facing systems.
 - The template includes dedicated sections for relations and contradictions to help define faction dynamics.
 - It serves as a foundational design tool to facilitate consistent and collaborative world-building.

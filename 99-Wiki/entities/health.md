@@ -15,13 +15,13 @@ generation_complete: true
 
 ## Description
 
-Health is a primary resource tracked within the game system to measure a player's physical well-being. It is identified as one of the four core resources that must be implemented to support the established lore. The system tracks this alongside [[concepts/mana|Mana]], [[concepts/posture|Posture]], and [[concepts/luminance|Luminance]]. Maintaining an accurate Health state is vital for overall game balance and combat mechanics.
+Health is a primary resource tracked within the game system to measure a player's physical well-being. It is identified as one of the four core resources that must be implemented to support the established lore. The system tracks this alongside [[concepts/mana|mana]], [[concepts/posture|Posture]], and [[concepts/luminance|Luminance]]. Maintaining an accurate Health state is vital for overall game balance and combat mechanics.
 
 ## Related Entities
 
 ## Related Concepts
 
-- [[concepts/mana|Mana]]
+- [[concepts/mana|mana]]
 - [[concepts/posture|Posture]]
 - [[concepts/luminance|Luminance]]
 

@@ -18,11 +18,11 @@ aliases:
 
 ## Description
 
-The New Note Template is a standardized documentation framework developed for the [[Nightfall]] project to ensure consistency, clarity, and structural integrity across its lore and technical knowledge base. This system now incorporates the Entity Template, a specialized schema designed to record the identity, history, relationships, and gameplay impact of specific subjects. By providing a uniform structure, the template helps creators document how an entity arose from [[Nightfall]], its role in the narrative, and the subsequent changes it introduces for players. It serves as a methodological tool for content organization, bridging the gap between narrative design and functional implementation.
+The New Note Template is a standardized documentation framework developed for the [[entities/nightfall]] project to ensure consistency, clarity, and structural integrity across its lore and technical knowledge base. This system now incorporates the Entity Template, a specialized schema designed to record the identity, history, relationships, and gameplay impact of specific subjects. By providing a uniform structure, the template helps creators document how an entity arose from [[entities/nightfall]], its role in the narrative, and the subsequent changes it introduces for players. It serves as a methodological tool for content organization, bridging the gap between narrative design and functional implementation.
 
 ## Related Concepts
 
-- [[concepts/nightfall-home|Nightfall Home]]
+- [[entities/nightfall|Nightfall Home]]
 - [[concepts/canon-glossary|Canon]]
 
 ## Related Entities
@@ -31,7 +31,7 @@ The New Note Template is a standardized documentation framework developed for th
 
 ## Definition
 
-The New Note Template is a standardized documentation framework developed for the [[Nightfall]] project to ensure consistency, clarity, and structural integrity across its lore and technical knowledge base.
+The New Note Template is a standardized documentation framework developed for the [[entities/nightfall]] project to ensure consistency, clarity, and structural integrity across its lore and technical knowledge base.
 
 ## Key Characteristics
 
@@ -43,7 +43,7 @@ The New Note Template is a standardized documentation framework developed for th
 
 ## Applications
 
-- Recording new lore entries for [[Nightfall]].
+- Recording new lore entries for [[entities/nightfall]].
 - Bridging communication gaps between narrative designers and technical implementation teams.
 - Maintaining documentation consistency within the [[Nightfall Home]] workspace.
 - Managing and resolving inconsistencies in project history and world-building.

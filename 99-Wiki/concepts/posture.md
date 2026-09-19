@@ -23,7 +23,7 @@ Posture is a core resource system representing a character's physical balance or
 - **Dynamic Stability**: Represents the capacity to maintain footing and defensive form under duress.
 - **Resource Management**: Unlike static attributes, it fluctuates based on combat interaction, requiring active player attention to recover or prevent depletion.
 - **Vulnerability Trigger**: Depletion of posture typically leads to a "broken" or "staggered" state, exposing the character to critical damage.
-- **Resource Differentiation**: Operates independently from [[Health]] and [[Mana]], requiring a specific tactical approach to maximize efficiency.
+- **Resource Differentiation**: Operates independently from [[Health]] and [[concepts/mana|mana]], requiring a specific tactical approach to maximize efficiency.
 
 ## Applications
 
@@ -33,7 +33,7 @@ Posture is a core resource system representing a character's physical balance or
 
 ## Related Concepts
 
-- [[concepts/mana|Mana]]
+- [[concepts/mana|mana]]
 - [[concepts/luminance|Luminance]]
 
 ## Related Entities

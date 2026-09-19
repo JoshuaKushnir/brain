@@ -24,7 +24,7 @@ Furthermore, it functions as a tool for exploration and a marker of personal ide
 Additionally, Luminance serves as a critical resistance metric against unfamiliar Darkness, establishing it as a primary defense mechanism for survival within obscured environments. This definition clarifies its specific narrative purpose and mechanical function as a safeguard against hostile atmospheric conditions.
 ## Key Characteristics
 
-- Functions as a core resource alongside [[Health]], [[Mana]], and [[Posture]].
+- Functions as a core resource alongside [[Health]], [[concepts/mana|mana]], and [[Posture]].
 - Determines the player's interaction state within darkness-based game systems.
 - Requires constant monitoring in relation to [[Dark Tolerance]].
 - Impacts the severity of environmental effects based on current light exposure levels.

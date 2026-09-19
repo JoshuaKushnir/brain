@@ -7,7 +7,13 @@ sources:
   - "[[sources/patron-gods_29832d]]"
 tags:
   - "other"
+aliases:
+  - "The Wing"
+  - "Patron God Wing"
+  - "Deity of the Wing"
+  - "Wing the Patron God"
 ---
+
 
 # Wing
 

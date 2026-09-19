@@ -10,7 +10,7 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 ## [2026-09-17 23:01] ingest | Nightfall · 97s · openai/gpt-oss-120b · 621B
 
-**Created pages**：[[readme_207c1e]], [[99-Wiki/concepts/readme]], [[nightfall-home]]
+**Created pages**：[[readme_207c1e]], [[99-Wiki/concepts/readme]], [[entities/nightfall]]
 
 **Updated pages**：
 
@@ -34,7 +34,7 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 ## [2026-09-18 00:10] ingest | Patron Gods · 136s · gemini-3.1-flash-lite · 489B
 
-**Created pages**：[[sources/patron-gods_29832d.md]], [[entities/hammer.md]], [[entities/kiln.md]], [[entities/spore.md]], [[concepts/nightfall.md]], [[concepts/patron-gods.md]], [[concepts/survival-covenants.md]]
+**Created pages**：[[sources/patron-gods_29832d.md]], [[entities/hammer.md]], [[entities/kiln.md]], [[entities/spore.md]], [[entities/nightfall]], [[concepts/patron-gods.md]], [[concepts/survival-covenants.md]]
 
 **Updated pages**：[[entities/hearth.md]], [[entities/wing.md]], [[entities/lamp.md]], [[entities/glass.md]], [[entities/root.md]], [[entities/hart.md]], [[entities/bell.md]], [[entities/shell.md]], [[entities/face.md]], [[entities/nightfall.md]]
 
@@ -58,7 +58,7 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 ## [2026-09-18 00:24] ingest | Void · 127s · gemini-3.1-flash-lite · 383B
 
-**Created pages**：[[sources/void_be7f52.md]], [[99-Wiki/concepts/ash]], [[concepts/restraint.md]], [[concepts/separation.md]], [[concepts/boundaries.md]], [[concepts/accepted-absence.md]], [[concepts/silence.md]]
+**Created pages**：[[sources/void_be7f52.md]], [[99-Wiki/concepts/ash]], [[concepts/separation]], [[concepts/separation.md]], [[concepts/boundaries.md]], [[concepts/silence]], [[concepts/silence.md]]
 
 **Updated pages**：[[99-Wiki/concepts/gale]], [[entities/orr.md]], [[entities/ember.md]], [[concepts/confluence.md]], [[concepts/void.md]], [[concepts/darkness.md]]
 
@@ -156,13 +156,13 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Created pages**：[[sources/new-note-template_dc452f.md]], [[concepts/proposal.md]], [[concepts/new-note-template.md]], [[concepts/gameplay-expression.md]]
 
-**Updated pages**：[[concepts/nightfall-home.md]], [[concepts/canon-glossary.md]], [[entities/nightfall.md]]
+**Updated pages**：[[entities/nightfall]], [[concepts/canon-glossary.md]], [[entities/nightfall.md]]
 
 
 
 ## [2026-09-18 01:07] ingest | Faction Template · 104s · gemini-3.1-flash-lite · 207B
 
-**Created pages**：[[sources/faction-template_292aa3.md]], [[concepts/faction-template.md]], [[concepts/faction.md]]
+**Created pages**：[[sources/faction-template_292aa3.md]], [[concepts/faction]], [[concepts/faction.md]]
 
 **Updated pages**：
 
@@ -184,3 +184,213 @@ Every ingest, lint run, and maintenance operation is recorded here automatically
 
 **Contradictions found**：
 - Do not make the ring number a perfectly fixed difficulty metric; use a more fluid approach to scaling. vs [[concepts/ring-order]]
+
+
+## [2026-09-19 18:10] Wiki lint report
+
+
+> Wiki status overview: 109 pages total, 6 pages missing aliases, 5 duplicate pages, 33 dead links (0 involve duplicates), 0 orphan pages (0 are duplicates), 0 empty pages, 48 ungrounded quotes, 14 out-of-vocabulary tags. Lint elapsed: 11187s
+
+> Aliases missing: 6 page(s) without aliases
+
+### Pages missing aliases [6]
+
+- [[entities/wing]]
+- [[entities/shell]]
+- [[entities/root]]
+- [[entities/lamp]]
+- [[entities/hearth]]
+- [[entities/glass]]
+
+### Duplicate pages (detected)
+
+- [[entities/nightfall]] and [[entities/nightfall]] — Same concept: 'nightfall-home' refers to the landing page/root concept of 'nightfall'.
+- [[entities/nightfall]] and [[entities/nightfall]] — Same concept: redundant naming of the same entity/concept across namespace directories.
+- [[concepts/silence]] and [[concepts/silence]] — High semantic overlap in conceptual domain regarding the absence of sound or presence; verified as synonyms in this context.
+- [[concepts/separation]] and [[concepts/separation]] — High link overlap indicates these refer to the same thematic mechanism of boundary enforcement.
+- [[concepts/faction]] and [[concepts/faction]] — The template page is a metadata/structure page for the core faction concept.
+
+### Dead links (detected) [33]
+
+- [[sources/tide_be81fb]] → **entities/gale** (page does not exist)
+- [[sources/tide_be81fb]] → **entities/ash** (page does not exist)
+- [[sources/void_be7f52]] → **entities/ash** (page does not exist)
+- [[sources/void_be7f52]] → **entities/gale** (page does not exist)
+- [[sources/session-notes-2026-09-17_f672fb]] → **entities/darkness** (page does not exist)
+- [[sources/implementation-notes_1c2a2e]] → **concepts/mana** (page does not exist)
+- [[sources/implementation-matrix_6cbd3c]] → **concepts/implementation-matrix** (page does not exist)
+- [[sources/gale_4a056b]] → **entities/gale** (page does not exist)
+- [[entities/session-notes-2026-09-17]] → **entities/roblox-codebase** (page does not exist)
+- [[entities/health]] → **concepts/mana** (page does not exist)
+- [[entities/ember]] → **entities/crucible** (page does not exist)
+- [[entities/ember]] → **entities/blackflame** (page does not exist)
+- [[entities/ember]] → **concepts/crucible** (page does not exist)
+- [[concepts/ring]] → **Rise** (page does not exist)
+- [[concepts/posture]] → **Mana** (page does not exist)
+- [[concepts/posture]] → **concepts/mana** (page does not exist)
+- [[concepts/patron-gods]] → **survival covenant** (page does not exist)
+- [[concepts/marrow]] → **Aspect** (page does not exist)
+- [[concepts/luminance]] → **Mana** (page does not exist)
+- [[concepts/gale]] → **Stormfront** (page does not exist)
+- [[concepts/gale]] → **Riftwind** (page does not exist)
+- [[concepts/divine-friction]] → **concepts/crownlights** (page does not exist)
+- [[concepts/darkness-tier]] → **concepts/environmental-exposure-rate** (page does not exist)
+- [[concepts/crownlight]] → **Aspect** (page does not exist)
+- [[concepts/confluence]] → **Deepghost** (page does not exist)
+- [[concepts/confluence]] → **Stormfront** (page does not exist)
+- [[concepts/confluence]] → **Mistveil** (page does not exist)
+- [[concepts/confluence]] → **Crucible** (page does not exist)
+- [[concepts/confluence]] → **Riftwind** (page does not exist)
+- [[concepts/confluence]] → **Blackflame** (page does not exist)
+- [[concepts/ash]] → **Crown God** (page does not exist)
+- [[concepts/aspect-kits]] → **homeland** (page does not exist)
+- [[concepts/aspect-kits]] → **Oath** (page does not exist)
+
+### Ungrounded quotes (detected) [48]
+
+- [[concepts/ash]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "[[99-Wiki/concepts/ash]] + [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] | Deepghost | What is forgotten approaches absence"
+- [[concepts/ash]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide]]: "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[99-Wiki/entities/ember]] as Crucible through [[Confluences]]."
+- [[concepts/ash]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]]: "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[99-Wiki/entities/ember]] as Blackflame through [[Confluences]]."
+- [[concepts/confluence]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide]]: "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[Ember]] as Crucible through [[Confluences]]."
+- [[concepts/confluence]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]]: "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[Ember]] as Blackflame through [[Confluences]]."
+- [[concepts/darkness]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]]: "It is not the same as [[Darkness]]."
+- [[concepts/gale]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "[[99-Wiki/concepts/gale]] + [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] | Riftwind | Movement requires empty space"
+- [[concepts/gale]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "| [[99-Wiki/concepts/gale]] + [[99-Wiki/concepts/void]] | Riftwind | Movement requires empty space |"
+- [[concepts/gale]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "| [[99-Wiki/entities/tide]] + [[99-Wiki/concepts/gale]] | Stormfront | Sea and sky meet across a moving horizon |"
+- [[concepts/gale]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Gale]]: "Gale joins [[99-Wiki/entities/tide]] as Stormfront and [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] as Riftwind through [[Confluences]]."
+- [[concepts/gale]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide]]: "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[99-Wiki/entities/ember]] as Crucible through [[Confluences]]."
+- [[concepts/gale]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]]: "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[99-Wiki/entities/ember]] as Blackflame through [[Confluences]]."
+- [[concepts/round-of-extraction]] → [[03-projects/Nightfall/06-Reference/Link Report]]: "This is round 3 of extraction."
+- [[concepts/void]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "| [[99-Wiki/concepts/ash]] + [[99-Wiki/concepts/void]] | Deepghost | What is forgotten approaches absence |"
+- [[concepts/void]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "| [[99-Wiki/concepts/gale]] + [[99-Wiki/concepts/void]] | Riftwind | Movement requires empty space |"
+- [[entities/bell]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/ember]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "| [[Ember]] + [[Void]] | Blackflame | Hunger can consume even connection |"
+- [[entities/ember]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide]]: "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[Ember]] as Crucible through [[Confluences]]."
+- [[entities/ember]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]]: "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[Ember]] as Blackflame through [[Confluences]]."
+- [[entities/face]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/glass]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/hart]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/hearth]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/lamp]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/nightfall]] → [[03-projects/Nightfall/06-Reference/Link Report]]: "03-projects/Nightfall/06-Reference/Link Report.md"
+- [[entities/root]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/shell]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[entities/tide]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "[[Tide]] + [[99-Wiki/concepts/gale]] | Stormfront | Sea and sky meet across a moving horizon"
+- [[entities/tide]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "| [[Tide]] + [[99-Wiki/concepts/gale]] | Stormfront | Sea and sky meet across a moving horizon |"
+- [[entities/wing]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods]]: "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]."
+- [[sources/aspects_a227dd]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects]]: "- [[99-Wiki/concepts/ash]]: memory, residue, deception, regret"
+- [[sources/aspects_a227dd]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects]]: "- [[99-Wiki/concepts/gale]]: movement, freedom, defiance, direction"
+- [[sources/confluences_d137ad]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "[[99-Wiki/concepts/ash]] + [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] | Deepghost | What is forgotten approaches absence"
+- [[sources/confluences_d137ad]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "[[99-Wiki/concepts/ash]] + [[Tide]] | Mistveil | Water preserves traces while mist conceals them"
+- [[sources/confluences_d137ad]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "[[99-Wiki/concepts/gale]] + [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] | Riftwind | Movement requires empty space"
+- [[sources/confluences_d137ad]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]]: "[[Tide]] + [[99-Wiki/concepts/gale]] | Stormfront | Sea and sky meet across a moving horizon"
+- [[sources/link-report_1645ad]] → [[03-projects/Nightfall/06-Reference/Link Report]]: "03-projects/Nightfall/06-Reference/Link Report.md"
+- [[sources/link-report_1645ad]] → [[03-projects/Nightfall/06-Reference/Link Report]]: "This is round 3 of extraction."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`00-MOC` — entry points, maps of content, and navigation."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`01-Canon` — setting truths, cosmology, divinity, and death lore."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`02-World` — geography, regions, peoples, cultures, factions, and history."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`03-Systems` — magic, progression, combat, and death mechanics."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`04-Gameplay` — player-facing loops and gameplay design."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`05-Design` — implementation plans, specs, and templates."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`06-Reference` — glossary, decisions, implementation notes, and sessions."
+- [[sources/readme_207c1e]] → [[03-projects/Nightfall/README]]: "`90-Archive` — legacy copies retained when a migration conflict occurred."
+- [[sources/tide_be81fb]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide]]: "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[Ember]] as Crucible through [[Confluences]]."
+- [[sources/void_be7f52]] → [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]]: "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[Ember]] as Blackflame through [[Confluences]]."
+
+### Pages with out-of-vocabulary tags [14]
+
+- [[entities/nightfall]] — invalid: place
+- [[entities/crown-gods]] — invalid: term
+- [[entities/link-report]] — invalid: term
+- [[sources/ash_0a8a6a]] — invalid: document
+- [[sources/crown-gods_1fbc2d]] — invalid: gods, crown
+- [[sources/ember_ee3752]] — invalid: document
+- [[sources/implementation-matrix_6cbd3c]] — invalid: document
+- [[sources/implementation-notes_1c2a2e]] — invalid: implementation
+- [[sources/link-report_1645ad]] — invalid: document
+- [[sources/new-note-template_dc452f]] — invalid: document
+- [[sources/patron-gods_29832d]] — invalid: gods, patron
+- [[sources/session-notes-2026-09-17_62c37f]] — invalid: reference, session-log
+- [[sources/tide_be81fb]] — invalid: document
+- [[sources/void_be7f52]] — invalid: document
+
+### Source notes changed since ingest [5]
+
+- [[sources/tide_be81fb]] — origin note [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide]] was edited after ingest; the page may be stale
+- [[sources/void_be7f52]] — origin note [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] was edited after ingest; the page may be stale
+- [[sources/session-notes-2026-09-17_f672fb]] — origin note [[03-projects/Nightfall/90-Archive/Legacy Structure/10-Reference/Session Notes 2026-09-17]] was edited after ingest; the page may be stale
+- [[sources/confluences_d137ad]] — origin note [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences]] was edited after ingest; the page may be stale
+- [[sources/aspects_a227dd]] — origin note [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects]] was edited after ingest; the page may be stale
+
+### Pages flagged with contradictions (merge triage) [1]
+
+- [[concepts/ring-order]] — conflicting source(s): [[03-projects/Nightfall/05-Design/Implementation Matrix]]; review and remove the contradictions: marker when settled
+
+### Contradictions (detected)
+
+- Open contradictions: 1
+
+- [Detected] [[contradictions/do-not-make-the-ring-number-a-perfectly-fixed-diff-2026-09-18]] — Do not make the ring number a perfectly fixed difficulty metric; use a more flui
+
+
+
+## [2026-09-19 18:11] Smart Fix All (Causality-Aware with Aliases)
+
+## Complete Aliases
+- [[entities/shell]]: added 3 aliases (total 3)
+- [[entities/root]]: added 5 aliases (total 5)
+- [[entities/wing]]: added 4 aliases (total 4)
+- [[entities/lamp]]: added 5 aliases (total 5)
+- [[entities/hearth]]: added 6 aliases (total 6)
+- [[entities/glass]]: added 3 aliases (total 3)
+
+## Merge Duplicate Pages
+- 99-Wiki/concepts/nightfall-home.md → 99-Wiki/concepts/nightfall.md: merged concepts/nightfall-home → concepts/nightfall (12 links retargeted in 8 files)
+- 99-Wiki/concepts/nightfall.md → 99-Wiki/entities/nightfall.md: merged concepts/nightfall → entities/nightfall (41 links retargeted in 18 files)
+- 99-Wiki/concepts/accepted-absence.md → 99-Wiki/concepts/silence.md: merged concepts/accepted-absence → concepts/silence (6 links retargeted in 3 files)
+- 99-Wiki/concepts/restraint.md → 99-Wiki/concepts/separation.md: merged concepts/restraint → concepts/separation (10 links retargeted in 6 files)
+- 99-Wiki/concepts/faction-template.md → 99-Wiki/concepts/faction.md: merged concepts/faction-template → concepts/faction (7 links retargeted in 4 files)
+
+## Fix Dead Links
+- [[sources/tide_be81fb]]: `[[entities/gale]]` → pre-check corrected (alias match): [[concepts/gale|gale]]
+- [[sources/tide_be81fb]]: `[[entities/ash]]` → pre-check corrected (alias match): [[concepts/ash|ash]]
+- [[sources/void_be7f52]]: `[[entities/ash]]` → pre-check corrected (alias match): [[concepts/ash|ash]]
+- [[sources/void_be7f52]]: `[[entities/gale]]` → pre-check corrected (alias match): [[concepts/gale|gale]]
+- [[sources/session-notes-2026-09-17_f672fb]]: `[[entities/darkness]]` → pre-check corrected (alias match): [[concepts/darkness|darkness]]
+- [[sources/implementation-notes_1c2a2e]]: `[[concepts/mana]]` → stub created (unfilled): 99-Wiki/concepts/mana.md — will be filled by next ingest of a real source
+- [[sources/gale_4a056b]]: `[[entities/gale]]` → pre-check corrected (alias match): [[concepts/gale|gale]]
+- [[entities/health]]: `[[concepts/mana]]` → pre-check corrected (alias match): [[concepts/mana|mana]]
+- [[concepts/posture]]: `[[Mana]]` → pre-check corrected (alias match): [[concepts/mana|mana]]
+- [[concepts/posture]]: `[[concepts/mana]]` → pre-check corrected (alias match): [[concepts/mana|mana]]
+- [[concepts/marrow]]: `[[Aspect]]` → pre-check corrected (alias match): [[concepts/aspects|aspects]]
+- [[concepts/luminance]]: `[[Mana]]` → pre-check corrected (alias match): [[concepts/mana|mana]]
+- [[concepts/gale]]: `[[Stormfront]]` → stub created (unfilled): 99-Wiki/concepts/stormfront.md — will be filled by next ingest of a real source
+- [[concepts/gale]]: `[[Riftwind]]` → stub created (unfilled): 99-Wiki/concepts/riftwind.md — will be filled by next ingest of a real source
+- [[concepts/divine-friction]]: `[[concepts/crownlights]]` → corrected: [[concepts/ash|Crownlights]]
+- [[concepts/darkness-tier]]: `[[concepts/environmental-exposure-rate]]` → stub created (unfilled): 99-Wiki/concepts/environmental-exposure-rate.md — will be filled by next ingest of a real source
+- [[concepts/crownlight]]: `[[Aspect]]` → pre-check corrected (alias match): [[concepts/aspects|aspects]]
+- [[concepts/confluence]]: `[[Deepghost]]` → stub created (unfilled): 99-Wiki/concepts/deepghost.md — will be filled by next ingest of a real source
+- [[concepts/confluence]]: `[[Stormfront]]` → pre-check corrected (alias match): [[concepts/stormfront|stormfront]]
+- [[concepts/confluence]]: `[[Mistveil]]` → stub created (unfilled): 99-Wiki/concepts/mistveil.md — will be filled by next ingest of a real source
+- [[concepts/confluence]]: `[[Crucible]]` → stub created (unfilled): 99-Wiki/concepts/crucible.md — will be filled by next ingest of a real source
+- [[concepts/confluence]]: `[[Riftwind]]` → pre-check corrected (alias match): [[concepts/riftwind|riftwind]]
+- [[concepts/confluence]]: `[[Blackflame]]` → stub created (unfilled): 99-Wiki/concepts/blackflame.md — will be filled by next ingest of a real source
+- [[concepts/ash]]: `[[Crown God]]` → corrected: [[entities/crown-gods|Crown God]]
+- [[concepts/aspect-kits]]: `[[homeland]]` → corrected: [[concepts/twelve-mortal-peoples|homeland]]
+- [[concepts/aspect-kits]]: `[[Oath]]` → stub created (unfilled): 99-Wiki/concepts/oath.md — will be filled by next ingest of a real source
+
+## Retag Tag Violations
+99-Wiki/concepts/nightfall-home.md: file not found
+99-Wiki/entities/crown-gods.md: [person, term, other] → [person, other]
+99-Wiki/entities/link-report.md: LLM kept no tags (no valid match)
+99-Wiki/sources/ash_0a8a6a.md: LLM kept no tags (no valid match)
+99-Wiki/sources/crown-gods_1fbc2d.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/ember_ee3752.md: LLM kept no tags (no valid match)
+99-Wiki/sources/implementation-matrix_6cbd3c.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/implementation-notes_1c2a2e.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/link-report_1645ad.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/new-note-template_dc452f.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/patron-gods_29832d.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/session-notes-2026-09-17_62c37f.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/tide_be81fb.md: Failed after 3 attempts. Last error: 429
+99-Wiki/sources/void_be7f52.md: Failed after 3 attempts. Last error: 429

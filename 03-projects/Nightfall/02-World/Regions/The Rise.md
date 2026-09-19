@@ -1,6 +1,6 @@
 # The Rise
 
-The Rise is the colossal plateau beneath [[Vigil]]. It formed during the first [[Nightfall]], when the central land surged upward as the surrounding world sank, fractured, or darkened.
+The Rise is the colossal plateau beneath [[Vigil]]. It formed during the first [[entities/nightfall]], when the central land surged upward as the surrounding world sank, fractured, or darkened.
 
 Public doctrine says the land reached toward the sun. Older records suggest something beneath the plateau pushed it away from [[Undertide]]. Both explanations may be true.
 

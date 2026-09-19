@@ -23,7 +23,7 @@ Aspect kits are specialized character customization bundles that define a player
 - **Mandatory Set**: Exactly five unique kits that must be fully implemented.
 - **Structural Integration**: Functions as a primary character identity marker.
 - **Systemic Dependency**: Integrates directly with game resource systems to manage balance and character state.
-- **Identity Framework**: Complements existing systems like [[homeland]], [[faction]], and [[Oath]].
+- **Identity Framework**: Complements existing systems like [[concepts/twelve-mortal-peoples|homeland]], [[faction]], and [[Oath]].
 
 ## Applications
 

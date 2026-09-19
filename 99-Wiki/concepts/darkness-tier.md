@@ -33,7 +33,7 @@ Darkness tier is a data metric used to categorize the intensity and severity of 
 
 ## Related Concepts
 
-- [[concepts/environmental-exposure-rate|environmental exposure rate]]
+- [[concepts/environmental-exposure-rate|environmental-exposure-rate]]
 - [[concepts/luminance|Luminance]]
 - [[concepts/aspect-kits|Aspect kits]]
 

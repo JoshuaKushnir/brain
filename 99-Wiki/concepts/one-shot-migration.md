@@ -28,7 +28,7 @@ The one-shot migration is a singular, comprehensive transfer process designed to
 
 - Consolidation of disparate data sources into a centralized project structure.
 - Large-scale system restructuring where minimizing downtime is prioritized over incremental syncing.
-- Migrating legacy project data into modernized architecture, such as [[Nightfall]].
+- Migrating legacy project data into modernized architecture, such as [[entities/nightfall]].
 
 ## Related Concepts
 

@@ -7,7 +7,7 @@ sources:
   - [[entities/tide|tide]]
   - [[entities/mareth]]
   - [[entities/gale]]
-  - [[entities/ash]]
+  - [[concepts/ash|ash]]
   - [[entities/ember]]
   - [[concepts/confluence|confluences]]
   - [[concepts/tide-techniques]]

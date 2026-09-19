@@ -4,8 +4,8 @@ created: 2026-09-18
 updated: 2026-09-18
 sources:
   - [[entities/orr]]
-  - [[entities/ash]]
-  - [[entities/gale]]
+  - [[concepts/ash|ash]]
+  - [[concepts/gale|gale]]
   - [[entities/ember]]
   - [[concepts/void|void]]
   - [[concepts/confluence|confluences]]
@@ -31,7 +31,7 @@ generation_complete: true
 
 ## Core Content
 
-This source document provides a foundational overview of the [[99-Wiki/concepts/void|Void]], an Aspect defined by themes of [[concepts/restraint|restraint]], [[concepts/separation|separation]], [[concepts/silence|silence]], [[concepts/boundaries|boundaries]], and [[concepts/accepted-absence|accepted absence]]. It distinguishes the [[99-Wiki/concepts/void|Void]] from [[99-Wiki/concepts/darkness|Darkness]], positioning it as a distinct metaphysical element. 
+This source document provides a foundational overview of the [[99-Wiki/concepts/void|Void]], an Aspect defined by themes of [[concepts/separation|restraint]], [[concepts/separation|separation]], [[concepts/silence|silence]], [[concepts/boundaries|boundaries]], and [[concepts/silence|accepted absence]]. It distinguishes the [[99-Wiki/concepts/void|Void]] from [[99-Wiki/concepts/darkness|Darkness]], positioning it as a distinct metaphysical element. 
 
 The text outlines the practical utility of the [[99-Wiki/concepts/void|Void]], describing techniques that allow practitioners to isolate targets, suppress effects, and interrupt connections between entities. Additionally, the document identifies the Crown of the [[99-Wiki/concepts/void|Void]] as [[entities/orr|Orr]]. Finally, the source details how the [[99-Wiki/concepts/void|Void]] integrates into larger structures known as [[concepts/confluence|Confluences]]. Through these [[concepts/confluence|Confluences]], the [[99-Wiki/concepts/void|Void]] combines with other aspects such as [[99-Wiki/concepts/ash|Ash]], [[99-Wiki/concepts/gale|Gale]], and [[entities/ember|Ember]] to form composite manifestations like Deepghost, Riftwind, and Blackflame.
 
@@ -47,15 +47,15 @@ The text outlines the practical utility of the [[99-Wiki/concepts/void|Void]], d
 - [[99-Wiki/concepts/void|Void]]
 - [[concepts/confluence|Confluences]]
 - [[99-Wiki/concepts/darkness|Darkness]]
-- [[concepts/restraint|Restraint]]
+- [[concepts/separation|Restraint]]
 - [[concepts/separation|Separation]]
 - [[concepts/silence|Silence]]
 - [[concepts/boundaries|Boundaries]]
-- [[concepts/accepted-absence|Accepted Absence]]
+- [[concepts/silence|Accepted Absence]]
 
 ## Main Points
 
-- The [[99-Wiki/concepts/void|Void]] is characterized by [[concepts/restraint|restraint]], [[concepts/separation|separation]], [[concepts/silence|silence]], and [[concepts/accepted-absence|accepted absence]].
+- The [[99-Wiki/concepts/void|Void]] is characterized by [[concepts/separation|restraint]], [[concepts/separation|separation]], [[concepts/silence|silence]], and [[concepts/silence|accepted absence]].
 - The [[99-Wiki/concepts/void|Void]] is explicitly distinct from [[99-Wiki/concepts/darkness|Darkness]].
 - The Crown of the [[99-Wiki/concepts/void|Void]] is known as [[entities/orr|Orr]].
 - [[99-Wiki/concepts/void|Void]] techniques are primarily used to isolate targets and suppress connections or effects.
