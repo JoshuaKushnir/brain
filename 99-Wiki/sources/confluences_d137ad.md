@@ -25,9 +25,9 @@ This source defines "Confluences" as metaphysical truths shared between two jeal
 
 - [[entities/crown-gods|Crown Gods]]
 - [[99-Wiki/concepts/ash|Ash]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 - [[99-Wiki/concepts/gale|Gale]]
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 
 ## Key Concepts
 
@@ -40,7 +40,7 @@ This source defines "Confluences" as metaphysical truths shared between two jeal
 - A Confluence represents a shared truth between two jealous [[entities/crown-gods|Crown Gods]] that a mortal must force them to acknowledge.
 - Unlocking these phenomena requires four distinct steps: possessing two Aspects, surviving [[concepts/divine-friction|Divine Friction]], discovering the shared principle, and performing a meaningful deed.
 - Confluences are not simply combinations of damage types; they are deeper, metaphysical intersections that reveal truths about the nature of existence.
-- The interaction between specific Aspects (such as [[99-Wiki/concepts/ash|Ash]] and Void, or [[entities/tide|Tide]] and [[99-Wiki/concepts/gale|Gale]]) creates unique manifestations, each tied to a specific principle.
+- The interaction between specific Aspects (such as [[99-Wiki/concepts/ash|Ash]] and Void, or [[concepts/tide|Tide]] and [[99-Wiki/concepts/gale|Gale]]) creates unique manifestations, each tied to a specific principle.
 
 ## Mentions in Source
 

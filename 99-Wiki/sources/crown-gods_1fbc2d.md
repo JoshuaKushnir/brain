@@ -2,20 +2,23 @@
 type: source
 created: 2026-09-18
 updated: 2026-09-18
-tags: [gods, crown]
-sources:
-  - [[entities/veyra]]
-  - [[entities/mareth]]
-  - [[entities/soryn]]
-  - [[entities/aeral]]
-  - [[entities/orr]]
-  - [[entities/crown-gods]]
-  - [[concepts/aspects]]
-  - [[concepts/attunement]]
-aliases: ["The Crown Pantheon", "Crown Gods Overview"]
 contentHash: c1-55ac097a
 source_file: "[[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Crown Gods.md]]"
 generation_complete: true
+sources:
+  - "[[entities/veyra]]"
+  - "[[entities/mareth]]"
+  - "[[entities/soryn]]"
+  - "[[entities/aeral]]"
+  - "[[entities/orr]]"
+  - "[[entities/crown-gods]]"
+  - "[[concepts/aspects]]"
+  - "[[concepts/attunement]]"
+tags:
+  - "other"
+aliases:
+  - "The Crown Pantheon"
+  - "Crown Gods Overview"
 ---
 
 # Crown Gods - Summary

@@ -1,19 +1,22 @@
 ---
 type: source
-tags: [document]
-sources:
-  - [[entities/nightfall|Nightfall]]
-  - [[entities/link-report|Link Report]]
-  - [[concepts/wikilinks|Wikilinks]]
-  - [[entities/link-report|Unresolved targets]]
-  - [[concepts/markdown-notes|Markdown notes]]
-  - [[concepts/round-of-extraction|Round of extraction]]
 created: 2026-09-18
 updated: 2026-09-18
-aliases: ["Vault Health Report", "Nightfall Metrics"]
 contentHash: 4c-61c9b325
 source_file: "[[03-projects/Nightfall/06-Reference/Link Report.md]]"
 generation_complete: true
+sources:
+  - "[[entities/nightfall|Nightfall]]"
+  - "[[entities/link-report|Link Report]]"
+  - "[[concepts/wikilinks|Wikilinks]]"
+  - "[[entities/link-report|Unresolved targets]]"
+  - "[[concepts/markdown-notes|Markdown notes]]"
+  - "[[concepts/round-of-extraction|Round of extraction]]"
+tags:
+  - "other"
+aliases:
+  - "Vault Health Report"
+  - "Nightfall Metrics"
 ---
 
 # Link Report - Summary

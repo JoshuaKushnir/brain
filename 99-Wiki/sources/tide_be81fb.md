@@ -6,7 +6,7 @@ tags: [document]
 sources:
   - [[entities/tide|tide]]
   - [[entities/mareth]]
-  - [[entities/gale]]
+  - [[concepts/gale|gale]]
   - [[concepts/ash|ash]]
   - [[entities/ember]]
   - [[concepts/confluence|confluences]]
@@ -26,27 +26,27 @@ generation_complete: true
 
 ## Core Content
 
-The source document defines [[entities/tide|Tide]] as a fundamental aspect within the system, representing continuity, pressure, and the management of intangible burdens like grief and debt. It functions as a source of distinct magical or structural techniques characterized by flow, pull, redirection, and defensive shaping. Unlike transient effects, Tide-based maneuvers focus on cumulative impact. The document also outlines the relational hierarchy of the system, identifying [[entities/mareth|Mareth]] as the Crown of Tide, and detailing how Tide enters into [[concepts/confluence|Confluences]] with other aspects to form higher-order configurations such as Stormfront, Mistveil, and Crucible.
+The source document defines [[concepts/tide|Tide]] as a fundamental aspect within the system, representing continuity, pressure, and the management of intangible burdens like grief and debt. It functions as a source of distinct magical or structural techniques characterized by flow, pull, redirection, and defensive shaping. Unlike transient effects, Tide-based maneuvers focus on cumulative impact. The document also outlines the relational hierarchy of the system, identifying [[entities/mareth|Mareth]] as the Crown of Tide, and detailing how Tide enters into [[concepts/confluence|Confluences]] with other aspects to form higher-order configurations such as Stormfront, Mistveil, and Crucible.
 
 ## Key Entities
 
 - [[entities/mareth|Mareth]]
 - [[99-Wiki/concepts/gale|Gale]]
 - [[99-Wiki/concepts/ash|Ash]]
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 
 ## Key Concepts
 
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 - [[concepts/confluence|Confluences]]
 - [[concepts/tide-techniques|Tide techniques]]
 
 ## Main Points
 
-- [[entities/tide|Tide]] is defined by themes of persistence, pressure, and the accumulation of effects over time.
+- [[concepts/tide|Tide]] is defined by themes of persistence, pressure, and the accumulation of effects over time.
 - [[concepts/tide-techniques|Tide techniques]] prioritize redirection and defensive flow rather than immediate dissipation.
-- [[entities/mareth|Mareth]] serves as the structural anchor or "Crown" for the aspect of [[entities/tide|Tide]].
-- Through [[concepts/confluence|Confluences]], [[entities/tide|Tide]] combines with other aspects—specifically [[99-Wiki/concepts/gale|Gale]], [[99-Wiki/concepts/ash|Ash]], and [[entities/ember|Ember]]—to manifest as specialized states.
+- [[entities/mareth|Mareth]] serves as the structural anchor or "Crown" for the aspect of [[concepts/tide|Tide]].
+- Through [[concepts/confluence|Confluences]], [[concepts/tide|Tide]] combines with other aspects—specifically [[99-Wiki/concepts/gale|Gale]], [[99-Wiki/concepts/ash|Ash]], and [[concepts/ember|Ember]]—to manifest as specialized states.
 
 ## Mentions in Source
 

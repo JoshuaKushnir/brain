@@ -39,7 +39,7 @@ Displacement is a specific manifestation of Gale's influence, serving as a tacti
 
 - [[99-Wiki/concepts/gale|Gale]]
 - [[entities/aeral|Aeral]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 
 ## Mentions in Source
 

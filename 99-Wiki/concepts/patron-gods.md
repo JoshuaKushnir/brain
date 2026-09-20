@@ -26,7 +26,7 @@ A Patron serves as a deity specifically aligned with a group of people and their
 ## Key Characteristics
 
 - **Numerical Significance**: Comprised of exactly twelve divine members.
-- **Divine Covenants**: Each deity is bound to a specific mortal group through a formal [[survival covenant]].
+- **Divine Covenants**: Each deity is bound to a specific mortal group through a formal [[concepts/survival-covenants|survival covenants]].
 - **Symbolic Domains**: Each god is represented by a unique object or elemental realm that defines their influence and power.
 - **Cataclysmic Origin**: Their significance is inextricably linked to the survival efforts during the [[entities/nightfall]] event.
 

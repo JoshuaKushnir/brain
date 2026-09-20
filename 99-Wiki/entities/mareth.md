@@ -25,7 +25,7 @@ Mareth is specifically identified as the 'Crown' of the Tide aspect, serving as 
 - [[entities/soryn|Soryn]]
 - [[entities/aeral|Aeral]]
 - [[entities/orr|Orr]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 
 ## Related Concepts
 
@@ -36,3 +36,7 @@ Mareth is specifically identified as the 'Crown' of the Tide aspect, serving as 
 
 - "The Crown Gods are [[Veyra]], [[Mareth]], [[Soryn]], [[Aeral]], and [[Orr]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Crown Gods|Crown Gods]]
 - "Its Crown is Mareth." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide|Tide]]
+
+## Related Pages
+
+- Divine governance under the Crown Gods often requires a binding [[oath]] from their mortal subjects. [[oath]]

@@ -26,29 +26,29 @@ generation_complete: true
 
 ## Core Content
 
-This document provides a foundational overview of [[entities/ember|Ember]], a magical aspect defined by desire, anger, transformation, and appetite. It emphasizes the willingness to expend personal resources to drive change. Practitioners utilize techniques such as [[concepts/ignition|ignition]] and [[concepts/escalation|escalation]] to create explosive effects, often increasing power by accepting personal risk or sacrifice. 
+This document provides a foundational overview of [[concepts/ember|Ember]], a magical aspect defined by desire, anger, transformation, and appetite. It emphasizes the willingness to expend personal resources to drive change. Practitioners utilize techniques such as [[concepts/ignition|ignition]] and [[concepts/escalation|escalation]] to create explosive effects, often increasing power by accepting personal risk or sacrifice. 
 
-The text highlights the role of [[entities/soryn|Soryn]], recognized as the "Crown" and primary figurehead of the aspect. Furthermore, it describes the mechanism of [[concepts/confluence|Confluences]], through which [[entities/ember|Ember]] combines with other aspects like [[entities/tide|Tide]] and [[concepts/void|Void]] to form new, potent states such as "Crucible" or "Blackflame."
+The text highlights the role of [[entities/soryn|Soryn]], recognized as the "Crown" and primary figurehead of the aspect. Furthermore, it describes the mechanism of [[concepts/confluence|Confluences]], through which [[concepts/ember|Ember]] combines with other aspects like [[concepts/tide|Tide]] and [[concepts/void|Void]] to form new, potent states such as "Crucible" or "Blackflame."
 
 ## Key Entities
 
 - [[entities/soryn|Soryn]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 - [[concepts/void|Void]]
 
 ## Key Concepts
 
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 - [[concepts/confluence|Confluences]]
 - [[concepts/ignition|Ignition]]
 - [[concepts/escalation|Escalation]]
 
 ## Main Points
 
-- [[entities/ember|Ember]] embodies volatile forces like desire and anger, requiring personal sacrifice to fuel transformation.
+- [[concepts/ember|Ember]] embodies volatile forces like desire and anger, requiring personal sacrifice to fuel transformation.
 - Techniques center on ignition and escalation, rewarding the practitioner for accepting higher levels of risk.
 - [[entities/soryn|Soryn]] serves as the governing figure or "Crown" of the aspect.
-- Through [[concepts/confluence|Confluences]], [[entities/ember|Ember]] synthesizes with other aspects to produce advanced magical forms.
+- Through [[concepts/confluence|Confluences]], [[concepts/ember|Ember]] synthesizes with other aspects to produce advanced magical forms.
 
 ## Mentions in Source
 

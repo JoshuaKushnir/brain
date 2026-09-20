@@ -40,7 +40,7 @@ Nightfall serves as the central project and fictional universe, acting as the pr
 
 ## Related Concepts
 
-- [[concepts/nightfall-home|Nightfall Home]]
+- [[concepts/canonical-destination-file|Canonical Destination File]]
 - [[concepts/darkness|Darkness]]
 - [[concepts/legacy-structure|Legacy Structure]]
 - [[concepts/wikilinks|Wikilinks]]

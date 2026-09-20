@@ -28,7 +28,7 @@ Multi-Aspect Attunement is an advanced theoretical field focused on the integrat
 
 ## Related Entities
 
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 - [[entities/vigil|Vigil]]
 
 ## Definition

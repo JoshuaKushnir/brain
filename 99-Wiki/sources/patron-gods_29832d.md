@@ -2,12 +2,14 @@
 type: source
 created: 2026-09-18
 updated: 2026-09-18
-sources: []
-tags: [gods, patron]
-aliases: ["Twelve Patron Gods", "The Patron Gods Overview"]
 contentHash: 1a6-9e16e3e0
 source_file: "[[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods.md]]"
 generation_complete: true
+tags:
+  - "other"
+aliases:
+  - "Twelve Patron Gods"
+  - "The Patron Gods Overview"
 ---
 
 # Patron Gods - Summary

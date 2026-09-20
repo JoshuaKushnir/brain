@@ -2,22 +2,25 @@
 type: source
 created: 2026-09-18
 updated: 2026-09-18
-sources: 
-  - [[concepts/luminance]]
-  - [[concepts/dark-tolerance]]
-  - [[concepts/attunement]]
-  - [[concepts/multi-aspect-attunement]]
-  - [[concepts/divine-friction]]
-  - [[concepts/holdfast|downed-and-holdfast]]
-  - [[concepts/grip|execution]]
-  - [[concepts/return]]
-  - [[concepts/ring-order|the-rings]]
-  - [[concepts/implementation-matrix]]
-tags: [document]
-aliases: ["Nightfall Design Matrix", "Canon-to-Game Mapping"]
 contentHash: 530-a93737bf
 source_file: "[[03-projects/Nightfall/05-Design/Implementation Matrix.md]]"
 generation_complete: true
+sources:
+  - "[[concepts/luminance]]"
+  - "[[concepts/dark-tolerance]]"
+  - "[[concepts/attunement]]"
+  - "[[concepts/multi-aspect-attunement]]"
+  - "[[concepts/divine-friction]]"
+  - "[[concepts/holdfast|downed-and-holdfast]]"
+  - "[[concepts/grip|execution]]"
+  - "[[concepts/return]]"
+  - "[[concepts/ring-order|the-rings]]"
+  - "[[concepts/implementation-matrix]]"
+tags:
+  - "other"
+aliases:
+  - "Nightfall Design Matrix"
+  - "Canon-to-Game Mapping"
 ---
 
 # Implementation Matrix - Summary

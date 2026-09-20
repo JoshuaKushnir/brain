@@ -27,12 +27,12 @@ generation_complete: true
 
 ## Core Content
 
-The document defines [[concepts/ash|Ash]] as the Aspect of what remains, embodying the remnants of memory, regret, traces of the past, and the strategic concealment of truth. Unlike traditional elemental magic, the practice of [[concepts/ash-techniques|Ash techniques]] prioritizes subtle manipulation, such as the use of decoys, residues, and delayed effects, to influence the battlefield. The Aspect is governed by the Crown God Veyra. Furthermore, the text details the metaphysical integration of [[concepts/ash|Ash]] with other powers, specifically [[concepts/void|Void]] (manifesting as Deepghost) and [[entities/tide|Tide]] (manifesting as Mistveil), through the mechanism of [[concepts/confluence|Confluences]]. This foundational text highlights the importance of [[concepts/attunement|Attunement]] and [[concepts/multi-aspect-attunement|Multi-Aspect Attunement]] in effectively wielding these forces.
+The document defines [[concepts/ash|Ash]] as the Aspect of what remains, embodying the remnants of memory, regret, traces of the past, and the strategic concealment of truth. Unlike traditional elemental magic, the practice of [[concepts/ash-techniques|Ash techniques]] prioritizes subtle manipulation, such as the use of decoys, residues, and delayed effects, to influence the battlefield. The Aspect is governed by the Crown God Veyra. Furthermore, the text details the metaphysical integration of [[concepts/ash|Ash]] with other powers, specifically [[concepts/void|Void]] (manifesting as Deepghost) and [[concepts/tide|Tide]] (manifesting as Mistveil), through the mechanism of [[concepts/confluence|Confluences]]. This foundational text highlights the importance of [[concepts/attunement|Attunement]] and [[concepts/multi-aspect-attunement|Multi-Aspect Attunement]] in effectively wielding these forces.
 
 ## Key Entities
 
 - [[concepts/void|Void]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 
 ## Key Concepts
 
@@ -48,7 +48,7 @@ The document defines [[concepts/ash|Ash]] as the Aspect of what remains, embodyi
 - [[concepts/ash|Ash]] represents the embodiment of what remains, including memories, traces, and survival-driven lies.
 - Practitioners should favor tactical elements like marks, delayed effects, and false trails over direct fire-based damage.
 - Veyra is identified as the Crown God governing the Aspect.
-- Through [[concepts/confluence|Confluences]], [[concepts/ash|Ash]] integrates with [[concepts/void|Void]] and [[entities/tide|Tide]] to form unique manifestations.
+- Through [[concepts/confluence|Confluences]], [[concepts/ash|Ash]] integrates with [[concepts/void|Void]] and [[concepts/tide|Tide]] to form unique manifestations.
 
 ## Mentions in Source
 

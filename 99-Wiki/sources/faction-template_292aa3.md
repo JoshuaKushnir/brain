@@ -3,7 +3,7 @@ type: source
 created: 2026-09-18
 updated: 2026-09-18
 sources:
-  - [[concepts/faction-template]]
+  - [[concepts/faction|faction]]
   - [[concepts/faction]]
 tags: [other]
 aliases: ["Faction Design Template", "Faction Documentation Template"]

@@ -40,7 +40,7 @@ Ash is the elemental Aspect representing what remains: memory, traces, regret, c
 
 - "- [[Ash]]: memory, residue, deception, regret" — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Aspects|Aspects]]
 - "[[99-Wiki/concepts/ash]] + [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void]] | Deepghost | What is forgotten approaches absence" — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Confluences|Confluences]]
-- "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[99-Wiki/entities/ember]] as Crucible through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide|Tide]]
-- "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[99-Wiki/entities/ember]] as Blackflame through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void|Void]]
+- "Tide joins [[99-Wiki/concepts/gale]] as Stormfront, [[99-Wiki/concepts/ash]] as Mistveil, and [[99-Wiki/concepts/ember]] as Crucible through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Tide|Tide]]
+- "Void joins [[99-Wiki/concepts/ash]] as Deepghost, [[99-Wiki/concepts/gale]] as Riftwind, and [[99-Wiki/concepts/ember]] as Blackflame through [[Confluences]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Void|Void]]
 - "Ash is the Aspect of what remains: memory, traces, regret, concealment, and the lies people preserve to survive." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ash|Ash]]
 - "Ash techniques should emphasize marks, delayed effects, false trails, decoys, remembered positions, and residue rather than generic fire damage." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ash|Ash]]

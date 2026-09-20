@@ -6,7 +6,7 @@ generation_complete: true
 sources:
   - "[[sources/link-report_1645ad]]"
 tags:
-  - "term"
+  - "other"
 aliases:
   - "Link Report"
   - "Vault Audit"

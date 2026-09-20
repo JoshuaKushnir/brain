@@ -36,10 +36,10 @@ Within the context of interactions involving [[concepts/ash|Ash]], the Void is r
 ## Related Entities
 
 - [[99-Wiki/concepts/gale|Gale]]
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 - [[99-Wiki/concepts/ash|Ash]]
 - [[entities/orr|Orr]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 
 ## Mentions in Source
 

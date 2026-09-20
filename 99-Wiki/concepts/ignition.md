@@ -37,7 +37,7 @@ Ignition is a foundational technique associated with the Ember aspect, represent
 ## Related Entities
 
 - [[entities/soryn|Soryn]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 
 ## Mentions in Source
 

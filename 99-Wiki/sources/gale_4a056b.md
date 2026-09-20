@@ -26,13 +26,13 @@ generation_complete: true
 
 ## Core Content
 
-This document provides a foundational overview of [[99-Wiki/concepts/gale|Gale]], an aspect defining the magical principles of movement, freedom, and spatial control. Characterized by a refusal to remain confined, [[99-Wiki/concepts/gale|Gale]] serves as a critical component in the study of combat geometry and aerial manipulation. The aspect is anchored by its crown, [[entities/aeral|Aeral]], and its techniques prioritize tactical advantages such as [[concepts/mobility|mobility]] and [[concepts/mobility|displacement]]. Through the methodology of [[concepts/confluence|Confluences]], [[99-Wiki/concepts/gale|Gale]] can merge with other foundational forces like [[entities/tide|Tide]] and [[concepts/void|Void]], resulting in the manifestation of complex phenomena such as Stormfront and Riftwind.
+This document provides a foundational overview of [[99-Wiki/concepts/gale|Gale]], an aspect defining the magical principles of movement, freedom, and spatial control. Characterized by a refusal to remain confined, [[99-Wiki/concepts/gale|Gale]] serves as a critical component in the study of combat geometry and aerial manipulation. The aspect is anchored by its crown, [[entities/aeral|Aeral]], and its techniques prioritize tactical advantages such as [[concepts/mobility|mobility]] and [[concepts/mobility|displacement]]. Through the methodology of [[concepts/confluence|Confluences]], [[99-Wiki/concepts/gale|Gale]] can merge with other foundational forces like [[concepts/tide|Tide]] and [[concepts/void|Void]], resulting in the manifestation of complex phenomena such as Stormfront and Riftwind.
 
 ## Key Entities
 
 - [[99-Wiki/concepts/gale|Gale]]: The primary aspect representing freedom and movement.
 - [[entities/aeral|Aeral]]: The identified Crown or emblem associated with [[99-Wiki/concepts/gale|Gale]].
-- [[entities/tide|Tide]]: A magical force that creates the Stormfront phenomenon when combined with [[99-Wiki/concepts/gale|Gale]].
+- [[concepts/tide|Tide]]: A magical force that creates the Stormfront phenomenon when combined with [[99-Wiki/concepts/gale|Gale]].
 - [[concepts/void|Void]]: A magical force that creates the Riftwind phenomenon when combined with [[99-Wiki/concepts/gale|Gale]].
 
 ## Key Concepts

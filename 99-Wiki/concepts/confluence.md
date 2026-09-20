@@ -36,9 +36,9 @@ These manifestations represent an advanced level of mastery over magical combina
 ## Related Entities
 
 - [[entities/crown-gods|Crown Gods]]
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 - [[99-Wiki/concepts/gale|Gale]]
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 - [[99-Wiki/concepts/ash|Ash]]
 
 ## Definition
@@ -53,8 +53,8 @@ A Confluence is a metaphysical phenomenon representing an immutable truth shared
 - **Conditionality**: Unlocking a Confluence requires surviving the ordeal of [[Divine Friction]] and performing significant moral or spiritual actions.
 - **Non-Additive Nature**: It is not a simple combination of damage types, but a singular, higher-order ontological reality.
 - **Composite Manifestations**: Through Confluences, Void combines with elemental aspects such as Ash, Gale, and Ember to form distinct, stable manifestations like Deepghost, Riftwind, and Blackflame.
-- **Tide Integration**: Through [[concepts/confluence|Confluences]], Tide joins [[99-Wiki/concepts/gale|Gale]] to form Stormfront, [[99-Wiki/concepts/ash|Ash]] to manifest Mistveil, and [[entities/ember|Ember]] to create the Crucible.
-- **Metaphysical Truths**: Confluences encode specific philosophical realities, such as how [[99-Wiki/concepts/ash]] combined with [[Void]] creates [[Deepghost]] (What is forgotten approaches absence), [[Tide]] and [[99-Wiki/concepts/gale]] form [[Stormfront]] (Sea and sky meet across a moving horizon), [[99-Wiki/concepts/ash]] and [[Tide]] result in [[concepts/mistveil|Mistveil]] (Water preserves traces while mist conceals them), [[Ember]] and [[Tide]] manifest the [[concepts/crucible|/crucible]] (Opposition creates transformation), [[99-Wiki/concepts/gale]] and [[Void]] yield [[Riftwind]] (Movement requires empty space), and [[Ember]] and [[Void]] produce [[Blackflame]] (Hunger can consume even connection).
+- **Tide Integration**: Through [[concepts/confluence|Confluences]], Tide joins [[99-Wiki/concepts/gale|Gale]] to form Stormfront, [[99-Wiki/concepts/ash|Ash]] to manifest Mistveil, and [[concepts/ember|Ember]] to create the Crucible.
+- **Metaphysical Truths**: Confluences encode specific philosophical realities, such as how [[99-Wiki/concepts/ash]] combined with [[Void]] creates [[crucible]] (What is forgotten approaches absence), [[Tide]] and [[99-Wiki/concepts/gale]] form [[Stormfront]] (Sea and sky meet across a moving horizon), [[99-Wiki/concepts/ash]] and [[Tide]] result in [[concepts/crucible|Mistveil]] (Water preserves traces while mist conceals them), [[Ember]] and [[Tide]] manifest the [[concepts/crucible|/crucible]] (Opposition creates transformation), [[99-Wiki/concepts/gale]] and [[Void]] yield [[stormfront]] (Movement requires empty space), and [[Ember]] and [[Void]] produce [[Blackflame]] (Hunger can consume even connection).
 ## Applications
 
 - Used by individuals to anchor divine power within a mortal framework.

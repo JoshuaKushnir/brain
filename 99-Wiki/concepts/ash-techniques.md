@@ -37,7 +37,7 @@ Ash techniques are a specialized magical discipline that prioritizes the subtle 
 
 ## Related Entities
 
-- [[entities/tide|Tide]]
+- [[concepts/tide|Tide]]
 
 ## Mentions in Source
 

@@ -26,7 +26,7 @@ Soryn represents the Crown of the aspect of Ember, which embodies the core force
 - [[entities/mareth|Mareth]]
 - [[entities/aeral|Aeral]]
 - [[entities/orr|Orr]]
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 
 ## Related Concepts
 
@@ -37,3 +37,7 @@ Soryn represents the Crown of the aspect of Ember, which embodies the core force
 
 - "The Crown Gods are [[Veyra]], [[Mareth]], [[Soryn]], [[Aeral]], and [[Orr]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Crown Gods|Crown Gods]]
 - "Its Crown is Soryn." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04-Magic/Ember|Ember]]
+
+## Related Pages
+
+- Soryn of the Aspects is frequently invoked by those making a solemn [[oath]] to uphold the celestial order. [[oath]]
