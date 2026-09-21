@@ -6,12 +6,11 @@ contentHash: 4c-61c9b325
 source_file: "[[03-projects/Nightfall/06-Reference/Link Report.md]]"
 generation_complete: true
 sources:
-  - "[[entities/nightfall|Nightfall]]"
-  - "[[entities/link-report|Link Report]]"
-  - "[[concepts/wikilinks|Wikilinks]]"
-  - "[[entities/link-report|Unresolved targets]]"
-  - "[[concepts/markdown-notes|Markdown notes]]"
-  - "[[concepts/round-of-extraction|Round of extraction]]"
+  - "[[entities/nightfall]]"
+  - "[[entities/link-report]]"
+  - "[[concepts/wikilinks]]"
+  - "[[concepts/markdown-notes]]"
+  - "[[concepts/round-of-extraction]]"
 tags:
   - "other"
 aliases:

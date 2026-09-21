@@ -11,10 +11,10 @@ sources:
   - "[[concepts/attunement]]"
   - "[[concepts/multi-aspect-attunement]]"
   - "[[concepts/divine-friction]]"
-  - "[[concepts/holdfast|downed-and-holdfast]]"
-  - "[[concepts/grip|execution]]"
+  - "[[concepts/holdfast]]"
+  - "[[concepts/grip]]"
   - "[[concepts/return]]"
-  - "[[concepts/ring-order|the-rings]]"
+  - "[[concepts/ring-order]]"
   - "[[concepts/implementation-matrix]]"
 tags:
   - "other"
