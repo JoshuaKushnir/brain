@@ -5,7 +5,6 @@ updated: 2026-09-18
 generation_complete: true
 sources:
   - "[[sources/session-notes-2026-09-17_f672fb]]"
-  - "[[sources/session-notes-2026-09-17_62c37f]]"
   - "[[sources/canon-glossary_8c2f1a]]"
 tags:
   - "phenomenon"
@@ -40,7 +39,7 @@ Undertide is a term for a geographical or metaphysical reflection of the rings o
 
 ## Related Concepts
 
-- [[concepts/ring-order|Ring order]]
+- [[concepts/ring|Ring order]]
 
 ## Related Entities
 

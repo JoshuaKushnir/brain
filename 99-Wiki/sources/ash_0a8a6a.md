@@ -6,7 +6,7 @@ tags: [document]
 sources:
   - [[concepts/ash]]
   - [[concepts/void|void]]
-  - [[entities/tide]]
+  - [[concepts/tide|tide]]
   - [[concepts/confluence|confluences]]
   - [[entities/crown-gods|crown-gods]]
   - [[concepts/ash-techniques]]

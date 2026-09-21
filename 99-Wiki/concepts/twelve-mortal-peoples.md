@@ -40,7 +40,7 @@ The phrase **twelve mortal peoples** denotes the collective of human societies t
 
 - [[99-Wiki/entities/hearth|Hearth]]
 - [[entities/hammer|Hammer]]
-- [[99-Wiki/entities/wing|Wing]]
+- [[99-Wiki/entities/shell|Wing]]
 - [[99-Wiki/entities/lamp|Lamp]]
 - [[entities/kiln|Kiln]]
 - [[entities/spore|Spore]]

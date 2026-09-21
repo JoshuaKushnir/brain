@@ -46,7 +46,7 @@ Silence is an inherent characteristic and a weaponized manifestation of the Void
 
 - [[concepts/separation|Restraint]]
 - [[concepts/separation|Separation]]
-- [[concepts/boundaries|Boundaries]]
+- [[concepts/aspects|Aspects]]
 
 ## Related Entities
 
@@ -86,7 +86,7 @@ Separation is a functional property of the Void that enables the decoupling of e
 
 - [[concepts/separation|Restraint]]
 - [[concepts/silence|Silence]]
-- [[concepts/boundaries|Boundaries]]
+- [[concepts/aspects|Aspects]]
 
 ## Related Entities
 

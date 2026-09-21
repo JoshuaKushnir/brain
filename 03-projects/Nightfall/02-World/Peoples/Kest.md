@@ -5,7 +5,7 @@ status: canon
 ---
 # Kest
 
-The Kest are the people of [[99-Wiki/entities/wing]], historically rooted in [[The Reaches]].
+The Kest are the people of [[99-Wiki/entities/shell]], historically rooted in [[The Reaches]].
 
 ## Inherited form
 

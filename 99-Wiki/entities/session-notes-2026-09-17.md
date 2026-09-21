@@ -15,7 +15,7 @@ generation_complete: true
 
 ## Description
 
-This document serves as a record of structural and narrative maintenance tasks conducted on the project's knowledge base. It details significant cosmological updates, including the consolidation of entities and the refinement of causal relationships within the setting's history. The author outlines a standardization effort for the vault's file structure, emphasizing the migration of documents into a new hyphenated hierarchy while maintaining legacy data for verification. Additionally, the notes finalize specific world-building configurations regarding rings and tides while identifying a critical discrepancy between existing documentation and the [[entities/roblox-codebase|Roblox codebase]].
+This document serves as a record of structural and narrative maintenance tasks conducted on the project's knowledge base. It details significant cosmological updates, including the consolidation of entities and the refinement of causal relationships within the setting's history. The author outlines a standardization effort for the vault's file structure, emphasizing the migration of documents into a new hyphenated hierarchy while maintaining legacy data for verification. Additionally, the notes finalize specific world-building configurations regarding rings and tides while identifying a critical discrepancy between existing documentation and the [[sources/implementation-matrix_6cbd3c|Implementation Matrix]].
 
 ## Related Entities
 

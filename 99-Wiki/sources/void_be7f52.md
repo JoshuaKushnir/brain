@@ -11,9 +11,9 @@ sources:
   - [[concepts/confluence|confluences]]
   - [[concepts/darkness|darkness]]
   - [[concepts/restraint]]
-  - [[concepts/separation]]
+  - [[concepts/silence|silence]]
   - [[concepts/silence]]
-  - [[concepts/boundaries]]
+  - [[concepts/divine-friction|boundaries]]
   - [[concepts/silence|silence]]
 tags: [document]
 aliases: ["The Void Aspect", "Void Magic Foundations"]
@@ -31,7 +31,7 @@ generation_complete: true
 
 ## Core Content
 
-This source document provides a foundational overview of the [[99-Wiki/concepts/void|Void]], an Aspect defined by themes of [[concepts/silence|restraint]], [[concepts/silence|separation]], [[concepts/silence|silence]], [[concepts/separation|boundaries]], and [[concepts/silence|accepted absence]]. It distinguishes the [[99-Wiki/concepts/void|Void]] from [[99-Wiki/concepts/darkness|Darkness]], positioning it as a distinct metaphysical element. 
+This source document provides a foundational overview of the [[99-Wiki/concepts/void|Void]], an Aspect defined by themes of [[concepts/silence|restraint]], [[concepts/silence|separation]], [[concepts/silence|silence]], [[concepts/silence|silence]], and [[concepts/silence|accepted absence]]. It distinguishes the [[99-Wiki/concepts/void|Void]] from [[99-Wiki/concepts/darkness|Darkness]], positioning it as a distinct metaphysical element. 
 
 The text outlines the practical utility of the [[99-Wiki/concepts/void|Void]], describing techniques that allow practitioners to isolate targets, suppress effects, and interrupt connections between entities. Additionally, the document identifies the Crown of the [[99-Wiki/concepts/void|Void]] as [[entities/orr|Orr]]. Finally, the source details how the [[99-Wiki/concepts/void|Void]] integrates into larger structures known as [[concepts/confluence|Confluences]]. Through these [[concepts/confluence|Confluences]], the [[99-Wiki/concepts/void|Void]] combines with other aspects such as [[99-Wiki/concepts/ash|Ash]], [[99-Wiki/concepts/gale|Gale]], and [[concepts/ember|Ember]] to form composite manifestations like Deepghost, Riftwind, and Blackflame.
 
@@ -50,7 +50,7 @@ The text outlines the practical utility of the [[99-Wiki/concepts/void|Void]], d
 - [[concepts/silence|Restraint]]
 - [[concepts/silence|Separation]]
 - [[concepts/silence|Silence]]
-- [[concepts/separation|Boundaries]]
+- [[concepts/silence|silence]]
 - [[concepts/silence|Accepted Absence]]
 
 ## Main Points

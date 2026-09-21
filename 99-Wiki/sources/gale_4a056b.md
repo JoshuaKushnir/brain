@@ -6,7 +6,7 @@ tags: [other]
 sources:
   - [[concepts/gale|gale]]
   - [[entities/aeral]]
-  - [[entities/tide]]
+  - [[concepts/tide|tide]]
   - [[concepts/void|void]]
   - [[concepts/confluence|confluences]]
   - [[concepts/mobility]]

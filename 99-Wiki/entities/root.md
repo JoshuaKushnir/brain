@@ -29,7 +29,7 @@ The Root is recognized as a critical figure in the genealogy of the twelve morta
 
 - [[entities/hearth|Hearth]]
 - [[entities/hammer|Hammer]]
-- [[entities/wing|Wing]]
+- [[entities/shell|Wing]]
 - [[entities/lamp|Lamp]]
 - [[entities/kiln|Kiln]]
 - [[entities/spore|Spore]]
@@ -47,8 +47,8 @@ The Root is recognized as a critical figure in the genealogy of the twelve morta
 
 ## Mentions in Source
 
-- "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
-- "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
+- "The Patron Gods are [[99-Wiki/entities/hearth]], [[Hammer]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
+- "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
 
 ## Related Pages
 

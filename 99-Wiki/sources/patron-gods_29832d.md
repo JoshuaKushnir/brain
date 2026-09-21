@@ -29,7 +29,7 @@ This source outlines the divine entities known as the [[concepts/patron-gods|Pat
 - [[entities/hammer|Hammer]]
 - [[entities/kiln|Kiln]]
 - [[entities/spore|Spore]]
-- [[entities/wing|wing]]
+- [[entities/shell|wing]]
 - [[entities/lamp|lamp]]
 - [[entities/root|root]]
 - [[entities/glass|glass]]
@@ -52,5 +52,5 @@ This source outlines the divine entities known as the [[concepts/patron-gods|Pat
 
 ## Mentions in Source
 
-- "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/wing]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
+- "The Patron Gods are [[03-projects/Nightfall/02-World/Regions/Hearth]], [[Hammer]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/lamp]], [[Kiln]], [[Spore]], [[99-Wiki/entities/root]], [[99-Wiki/entities/glass]], [[99-Wiki/entities/hart]], [[99-Wiki/entities/shell]], [[99-Wiki/entities/face]], and [[99-Wiki/entities/bell]]." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]
 - "They formed the twelve mortal peoples through survival covenants during Nightfall." — [[03-projects/Nightfall/90-Archive/Legacy Structure/04_Gods/Patron Gods|Patron Gods]]

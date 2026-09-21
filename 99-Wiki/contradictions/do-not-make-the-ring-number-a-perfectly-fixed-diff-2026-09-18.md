@@ -17,7 +17,7 @@ Defines the difficulty curve and zones for player advancement.
 
 
 ## Source Page
-[[concepts/ring-order]]
+[[concepts/ring]]
 
 ---
 *Auto-detected on 2026-09-18*

@@ -7,7 +7,6 @@ type_confirmed: true
 sources:
   - "[[sources/session-notes-2026-09-17_f672fb]]"
   - "[[sources/void_be7f52]]"
-  - "[[sources/session-notes-2026-09-17_62c37f]]"
   - "[[sources/canon-glossary_8c2f1a]]"
 tags:
   - "other"

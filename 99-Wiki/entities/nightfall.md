@@ -7,7 +7,6 @@ sources:
   - "[[sources/readme_132946]]"
   - "[[sources/patron-gods_29832d]]"
   - "[[sources/session-notes-2026-09-17_f672fb]]"
-  - "[[sources/session-notes-2026-09-17_62c37f]]"
   - "[[sources/link-report_1645ad]]"
   - "[[sources/new-note-template_dc452f]]"
   - "[[sources/entity-template_adefe5]]"

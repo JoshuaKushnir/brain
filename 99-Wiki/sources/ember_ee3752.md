@@ -4,7 +4,7 @@ created: 2026-09-18
 updated: 2026-09-18
 sources:
   - "[[entities/soryn]]"
-  - "[[entities/tide]]"
+  - "[[concepts/tide]]"
   - "[[concepts/void]]"
   - "[[entities/ember]]"
   - "[[concepts/confluence]]"

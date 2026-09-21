@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-09-18
-updated: 2026-09-20
+updated: 2026-09-21
 generation_complete: true
 sources:
   - "[[sources/ember_ee3752]]"
@@ -9,12 +9,16 @@ sources:
   - "[[sources/confluences_d137ad]]"
   - "[[sources/void_be7f52]]"
   - "[[sources/tide_be81fb]]"
-tags:
 aliases:
   - "Aspect of Desire"
   - "Aspect of Anger"
   - "Flame"
   - "Spark"
+  - "ember.js"
+  - "EmberJS"
+  - "Ember.js framework"
+  - "Ember JavaScript framework"
+  - "Aspect of Change"
 ---
 
 # Ember
@@ -36,7 +40,7 @@ Additionally, Ember serves as an interpretive lens for magical energy, functioni
 ## Applications
 
 - **Magical Amplification**: Used by practitioners to strengthen the potency of spells through calculated risk-taking.
-- **Catalysis of Change**: Employed in situations requiring an explosive or immediate shift in circumstances. Ember interacts with [[concepts/tide|Tide]] and [[concepts/void|Void]] to manifest powerful confluences, such as the [[entities/crucible|Crucible]] and [[entities/blackflame|Blackflame]].
+- **Catalysis of Change**: Employed in situations requiring an explosive or immediate shift in circumstances. Ember interacts with [[concepts/tide|Tide]] and [[concepts/void|Void]] to manifest powerful confluences, such as the [[entities/crucible|Crucible]] and [[concepts/crucible|crucible]].
 - **Personal Motivation**: Serves as a framework for managing appetite, desire, and emotional drive to channel them into productive or destructive ends.
 
 ## Related Concepts

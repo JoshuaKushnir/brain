@@ -4,7 +4,7 @@ created: 2026-09-18
 updated: 2026-09-18
 tags: [document]
 sources:
-  - [[entities/tide|tide]]
+  - [[concepts/tide|tide]]
   - [[entities/mareth]]
   - [[concepts/gale|gale]]
   - [[concepts/ash|ash]]

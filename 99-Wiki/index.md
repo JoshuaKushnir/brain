@@ -7,14 +7,12 @@
 
 ## Entities
 
-- [[entities/ember|ember]] - (empty)
-- [[entities/wing|wing]] `aliases: The Wing, Patron God Wing, Deity of the Wing, Wing the Patron God` - Wing is listed as one of the twelve **Patron Gods** who are credited with establishing the twelve mo
 - [[entities/vigil|vigil]] `aliases: The Vigil, Vigil Hub` - Vigil is a primary geographical anchor point for the Nightfall world. It serves as one of the two ce
 - [[entities/veyra|veyra]] `aliases: Veyra the Crown God` - Veyra is one of the five [[entities/mareth|Crown Gods]] who serve as the primary deities within the 
 - [[entities/soryn|soryn]] `aliases: The Crown God Soryn, Soryn of the Aspects` - Soryn is recognized as one of the [[entities/crown-gods|Crown Gods]], serving as a primary deity wit
 - [[entities/spore|spore]] `aliases: The Spore, God of Spores` - Spore is recognized as one of the twelve Patron Gods within the established pantheon. Its domain sug
 - [[entities/the-rise|the-rise]] `aliases: The Rise, The Core Focal Point` - The Rise is a core geographic focal point in the [[Nightfall]] setting. Together with [[Vigil]], it 
-- [[entities/shell|shell]] `aliases: The Shell, Patron God Shell, Deity of the Shell` - Shell is listed among the twelve **Patron Gods** who together forged the twelve mortal peoples durin
+- [[entities/shell|shell]] `aliases: The Shell, Patron God Shell, Deity of the Shell, wing, The Wing, Patron God Wing, Deity of the Wing, Wing the Patron God` - Shell is listed among the twelve **Patron Gods** who together forged the twelve mortal peoples durin
 - [[entities/session-notes-2026-09-17|session-notes-2026-09-17]] `aliases: Session Notes 2026-09-17, 2026-09-17 Project Logs` - This document serves as a record of structural and narrative maintenance tasks conducted on the proj
 - [[entities/roblox|roblox]] `aliases: Roblox Engine, Roblox Corporation` - Roblox is a global gaming platform and game creation system that enables users to develop and play a
 - [[entities/root|root]] `aliases: The Root, Patron God Root, God of Roots, The Grounding Deity, Primordial Root` - Root is one of the twelve **Patron Gods** who are said to have forged the mythic origins of the twel
@@ -38,6 +36,7 @@
 
 ## Concepts
 
+- [[concepts/ring-order|ring-order]] - (empty)
 - [[concepts/oath|oath]] `aliases: Vow, Swear, Pledge, Solemn promise, Affirmation, Oath of office, Legal oath` - > Stub created by Fix Dead Links — referenced by [[concepts/aspect-kits]]. Will be filled by next in
 - [[concepts/crucible|crucible]] `aliases: /crucible, melting pot, reaction vessel, calcination pot, laboratory crucible, blackflame, black flame, black-flame, dark fire, hellfire` - > Stub created by Fix Dead Links — referenced by [[concepts/confluence]]. Will be filled by next ing
 - [[concepts/environmental-exposure-rate|environmental-exposure-rate]] `aliases: ambient exposure rate, background exposure level, environmental radiation rate, environmental dose rate, ambient dose rate` - > Stub created by Fix Dead Links — referenced by [[concepts/darkness-tier]]. Will be filled by next 
@@ -51,9 +50,8 @@
 - [[concepts/survival-covenants|survival-covenants]] `aliases: survival covenants, mortal covenants` - Survival covenants are foundational agreements or bonds established between the [[Patron Gods]] and 
 - [[concepts/tide-techniques|tide-techniques]] `aliases: Tide techniques, Tide shaping, Tide flow` - Tide techniques are a specialized methodology characterized by the manipulation of flow and pressure
 - [[concepts/silence|silence]] `aliases: Stillness, accepted-absence, Accepted Absence, Void State, separation, Isolation, Decoupling, restraint, Constraint, Limitation` - Silence is an inherent characteristic and a weaponized manifestation of the Void aspect. It represen
-- [[concepts/ring|ring]] `aliases: The Belt` - The Ring is a broad geographic belt that encapsulates the area known as the [[entities/the-rise|Rise
+- [[concepts/ring|ring]] `aliases: The Belt, ring-order, Ring order, World Progression Sequence, The Rings` - The Ring is a broad geographic belt that encapsulates the area known as the [[entities/the-rise|Rise
 - [[concepts/round-of-extraction|round-of-extraction]] `aliases: Extraction cycle, Extraction round` - A round of extraction is a systematic iteration performed on a source file to identify, isolate, and
-- [[concepts/ring-order|ring-order]] `aliases: Ring order, World Progression Sequence, The Rings` - Ring order is a foundational architectural and geographical standard used to define the spatial orga
 - [[concepts/return|return]] `aliases: Resurrection, Rebirth` - Return is the metaphysical process of transitioning from the state of 'Undertide' back into the real
 - [[concepts/relationships|relationships]] `aliases: Entity Links, Entity Connections` - Relationships represent the formal interconnectedness between different elements within the knowledg
 - [[concepts/readme|readme]] `aliases: README file, README.md` - A **README** is a foundational documentation file that describes the organization, taxonomy, and nav
@@ -78,7 +76,7 @@
 - [[concepts/gameplay-expression|gameplay-expression]] `aliases: Gameplay expression, Gameplay Integration, Mechanic Lore Representation, Gameplay` - Gameplay expression is a design methodology used to bridge the gap between abstract narrative lore a
 - [[concepts/faction|faction]] `aliases: Group, Organization, faction-template, Faction Design Document, Faction Structure, Faction Template` - A faction is a collective group within a game world that functions as a primary social or political 
 - [[concepts/echo|echo]] `aliases: Post-death Identity` - An Echo is a metaphysical phenomenon representing the remnant of an individual's identity that persi
-- [[concepts/ember|ember]] `aliases: Aspect of Desire, Aspect of Anger, Flame, Spark` - Ember is a fundamental aspect governing desire, anger, transformation, and appetite. It represents t
+- [[concepts/ember|ember]] `aliases: Aspect of Desire, Aspect of Anger, Flame, Spark, ember.js, EmberJS, Ember.js framework, Ember JavaScript framework, Aspect of Change` - Ember is a fundamental aspect governing desire, anger, transformation, and appetite. It represents t
 - [[concepts/escalation|escalation]] `aliases: Magical Escalation, Intensity Amplification` - Escalation is a core methodological component of Ember-based magic, representing the process of incr
 - [[concepts/divine-friction|divine-friction]] `aliases: Metaphysical Resistance, The Divine Barrier` - Divine Friction is a challenging metaphysical state encountered by mortals when attempting to access
 - [[concepts/death|death]] `aliases: Mortality, The Death Cycle` - Death is a structured, multi-stage transition process within the Nightfall canon, replacing traditio

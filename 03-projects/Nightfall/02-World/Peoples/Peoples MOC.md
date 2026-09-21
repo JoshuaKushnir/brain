@@ -9,7 +9,7 @@ The twelve peoples descend from communities changed by [[Patron Gods]] during Ni
 
 - [[Kin]] — [[03-projects/Nightfall/02-World/Regions/Hearth]]
 - [[Irons]] — [[Hammer]]
-- [[Kest]] — [[99-Wiki/entities/wing]]
+- [[Kest]] — [[99-Wiki/entities/shell]]
 - [[Moths]] — [[99-Wiki/entities/lamp]]
 - [[Cinders]] — [[Kiln]]
 - [[Mourn]] — [[Spore]]

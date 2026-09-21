@@ -39,7 +39,7 @@ aliases:
 
 This document records structural and narrative maintenance performed for the [[entities/nightfall|Nightfall]] project. The primary focus involved the simplification of the project's [[concepts/cosmology|cosmology]], reducing the number of core pillars to three: [[entities/eidolon|Eidolon]], [[entities/pale-wound|Pale Wound]], and [[99-Wiki/concepts/darkness|Darkness]]. Radiance and The Unlit have been folded into these primary frameworks; specifically, Radiance is now defined as a share of Eidolon's former wholeness, while The Unlit is integrated into the heresy line that existence itself is a wound. The notes clarify the causal progression of the setting, identifying [[99-Wiki/concepts/darkness|Darkness]] as a reactive force resulting from imprisonment and severed wholeness, and relegate the [[entities/crown-gods|Crowns]] construct to heresy status to reduce complexity.
 
-Beyond narrative adjustments, the document outlines technical progress, including the standardization of the vault's file structure and the finalization of the [[concepts/ring-order|Ring Order]] and [[concepts/undertide|Undertide]] geography. A critical discrepancy was identified between the vault's documentation and the [[entities/roblox|Roblox]] codebase regarding the labels of Ring 2 and Ring 4, necessitating future reconciliation. Additional technical challenges include transitioning the vault's mixed folder hierarchy to a fully hyphenated system and establishing a target map scale of 40,000+ studs for the engine implementation.
+Beyond narrative adjustments, the document outlines technical progress, including the standardization of the vault's file structure and the finalization of the [[concepts/ring|Ring Order]] and [[concepts/undertide|Undertide]] geography. A critical discrepancy was identified between the vault's documentation and the [[entities/roblox|Roblox]] codebase regarding the labels of Ring 2 and Ring 4, necessitating future reconciliation. Additional technical challenges include transitioning the vault's mixed folder hierarchy to a fully hyphenated system and establishing a target map scale of 40,000+ studs for the engine implementation.
 
 ## Key Entities
 
@@ -52,7 +52,7 @@ Beyond narrative adjustments, the document outlines technical progress, includin
 ## Key Concepts
 
 - [[concepts/cosmology|Cosmology]]
-- [[concepts/ring-order|Ring Order]]
+- [[concepts/ring|Ring Order]]
 - [[concepts/undertide|Undertide]]
 - [[entities/crown-gods|Crowns]]
 
@@ -62,7 +62,7 @@ Beyond narrative adjustments, the document outlines technical progress, includin
 - Folded "Radiance" into Eidolon and "The Unlit" into Darkness to simplify heresy lines.
 - Corrected the causal history: imprisonment leading to severed wholeness, resulting in [[99-Wiki/concepts/darkness|Darkness]] as a reactive consequence.
 - Standardized vault documentation by migrating to a hyphenated folder hierarchy.
-- Finalized canonical configuration for [[concepts/ring-order|Ring Order]] and the [[concepts/undertide|Undertide]] layers.
+- Finalized canonical configuration for [[concepts/ring|Ring Order]] and the [[concepts/undertide|Undertide]] layers.
 - Identified a technical label mismatch between current vault canon and the [[entities/roblox|Roblox]] implementation repository (JoshuaKushnir/Nightfall).
 - Defined a target map scale for the Roblox implementation of approximately 40,000+ studs.
 

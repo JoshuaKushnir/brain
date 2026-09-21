@@ -48,7 +48,7 @@ Tide is regulated by the relevant Crown God, functioning as a formal, divine int
 - [[entities/mareth|Mareth]]
 - [[concepts/gale|Gale]]
 - [[99-Wiki/concepts/ash|Ash]]
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 
 ## Mentions in Source
 
@@ -62,13 +62,13 @@ Tide is regulated by the relevant Crown God, functioning as a formal, divine int
 
 ## Description
 
-Tide is an aspect representing fluid, cyclical, or directional forces, often associated with water or natural movement. It serves as a vital component in multiple confluences, including those with [[99-Wiki/concepts/gale|Gale]], [[99-Wiki/concepts/ash|Ash]], and [[entities/ember|Ember]]. It is characterized by its capacity to preserve, transform, and influence the environment it traverses. As a foundational force, it dictates the rhythm of change within its sphere of influence.
+Tide is an aspect representing fluid, cyclical, or directional forces, often associated with water or natural movement. It serves as a vital component in multiple confluences, including those with [[99-Wiki/concepts/gale|Gale]], [[99-Wiki/concepts/ash|Ash]], and [[concepts/ember|Ember]]. It is characterized by its capacity to preserve, transform, and influence the environment it traverses. As a foundational force, it dictates the rhythm of change within its sphere of influence.
 
 When interacting with [[concepts/ash|Ash]] through Confluences, Tide takes on the specific designation of Mistveil, further illustrating its transformative interaction with surrounding elements.
 ## Related Entities
 
 - [[99-Wiki/concepts/gale|Gale]]
-- [[entities/ember|Ember]]
+- [[concepts/ember|Ember]]
 - [[99-Wiki/concepts/ash|Ash]]
 
 ## Related Concepts
