@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-projects/Nightfall/00-MOC/Legacy Index/Naming Canon.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Naming Canon"
+              "title": "README"
             }
           }
         ],
@@ -233,6 +233,8 @@
   },
   "active": "0836d4c8e399f579",
   "lastOpenFiles": [
+    "03-projects/Nightfall/00-MOC/Legacy Index/Naming Canon.md",
+    "README.md",
     "99-Wiki/concepts/ring-order.md",
     "99-Wiki/entities/ember.md",
     "99-Wiki/concepts/oath.md",
@@ -259,8 +261,6 @@
     "99-Wiki/concepts/faction.md",
     "99-Wiki/concepts/faction-template.md",
     "99-Wiki/sources/faction-template_292aa3.md",
-    "99-Wiki/concepts/gameplay-expression.md",
-    "99-Wiki/concepts/new-note-template.md",
     "Untitled.canvas",
     "03-projects/Nightfall/99-Wiki/schema",
     "03-projects/Nightfall/99-Wiki/sources",
